@@ -63,22 +63,23 @@
 #	git commit -a -m 'Initial branches'
 	
 # push branches
-  git push origin buildroot-master
-  git push origin buildroot_12.09-master
-  git push origin buildroot_14.07-master
-  git push origin packages-14.07
-  git push origin packages-master
-  git push origin pkg_management-master
-  git push origin pkg_management-14.07
-  git push origin pkg_routing-master
-  git push origin pkg_routing-14.07
-  git push origin pkg_routing-12.09.x
-  git push origin pkg_luci-master
-  git push origin pkg_luci-0.12
-  git push origin pkg_abandoned-master
-  git push origin pkg_telephony-master
-  git push origin pkg_telephony-14.07
-  git push origin pkg_old_14.07
+	git push origin buildroot-master
+	git push origin buildroot_12.09-master
+	git push origin buildroot_14.07-master
+	git push origin packages-14.07
+	git push origin packages-master
+	git push origin pkg_management-master
+	git push origin pkg_management-14.07
+	git push origin pkg_routing-master
+	git push origin pkg_routing-14.07
+	git push origin pkg_routing-12.09.x
+	git push origin pkg_luci-master
+	git push origin pkg_luci-0.12
+	git push origin pkg_abandoned-master
+	git push origin pkg_telephony-master
+	git push origin pkg_telephony-14.07
+	git push origin pkg_old_14.07
+
 # push remote repo to my own repo
 	git push -f origin buildroot/master:buildroot-master
 	git push -f origin buildroot_12.09/master:buildroot_12.09-master
@@ -96,3 +97,4 @@
 	git push -f origin pkg_telephony/master:pkg_telephony-master
 	git push -f origin pkg_telephony/for-14.07:pkg_telephony-14.07
 	git push -f origin pkg_old_14.07/master:pkg_old_14.07
+
