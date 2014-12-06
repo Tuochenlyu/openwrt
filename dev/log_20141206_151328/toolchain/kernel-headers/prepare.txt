@@ -1,0 +1,982 @@
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-11-001-MIPS-Declare-emulate_load_store_microMIPS-as-a-stati.patch using plaintext: 
+patching file arch/mips/kernel/unaligned.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-11-002-MIPS-Only-set-cpu_has_mmips-if-SYS_SUPPORTS_MICROMIP.patch using plaintext: 
+patching file arch/mips/include/asm/cpu-features.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-11-003-of-pci-Add-of_pci_get_devfn-function.patch using plaintext: 
+patching file drivers/of/of_pci.c
+patching file include/linux/of_pci.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-11-004-hso-Earlier-catch-of-error-condition.patch using plaintext: 
+patching file drivers/net/usb/hso.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-11-008-hso-Fix-stack-corruption-on-some-architectures.patch using plaintext: 
+patching file drivers/net/usb/hso.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/003-12-001-mtd-chips-Add-support-for-PMC-SPI-Flash-chips-in-m25.patch using plaintext: 
+patching file drivers/mtd/devices/m25p80.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/009-mtd_m25p80_add_support_for_esmt_f25l32pa.patch using plaintext: 
+patching file drivers/mtd/devices/m25p80.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/020-ssb_update.patch using plaintext: 
+patching file drivers/ssb/Kconfig
+patching file drivers/ssb/b43_pci_bridge.c
+patching file drivers/ssb/driver_chipcommon_sflash.c
+patching file drivers/ssb/driver_gpio.c
+patching file drivers/ssb/main.c
+patching file drivers/ssb/pci.c
+patching file drivers/ssb/pcihost_wrapper.c
+patching file drivers/ssb/sprom.c
+patching file drivers/ssb/ssb_private.h
+patching file include/linux/ssb/ssb.h
+patching file include/linux/ssb/ssb_driver_gige.h
+patching file include/linux/ssb/ssb_driver_mips.h
+patching file include/linux/ssb/ssb_regs.h
+patching file arch/mips/bcm47xx/sprom.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/025-bcma_backport.patch using plaintext: 
+patching file drivers/bcma/Kconfig
+patching file drivers/bcma/Makefile
+patching file drivers/bcma/bcma_private.h
+patching file drivers/bcma/core.c
+patching file drivers/bcma/driver_chipcommon.c
+patching file drivers/bcma/driver_chipcommon_pmu.c
+patching file drivers/bcma/driver_chipcommon_sflash.c
+patching file drivers/bcma/driver_gpio.c
+patching file drivers/bcma/driver_pci.c
+patching file drivers/bcma/driver_pci_host.c
+patching file drivers/bcma/driver_pcie2.c
+patching file drivers/bcma/host_pci.c
+patching file drivers/bcma/main.c
+patching file drivers/bcma/scan.c
+patching file drivers/bcma/sprom.c
+patching file include/linux/bcma/bcma.h
+patching file include/linux/bcma/bcma_driver_chipcommon.h
+patching file include/linux/bcma/bcma_driver_pci.h
+patching file include/linux/bcma/bcma_driver_pcie2.h
+patching file drivers/net/wireless/brcm80211/brcmsmac/aiutils.c
+patching file drivers/net/wireless/brcm80211/brcmsmac/aiutils.h
+patching file drivers/net/wireless/brcm80211/brcmsmac/main.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/040-UBI-R-O-block-driver-on-top-of-UBI-volumes.patch using plaintext: 
+patching file drivers/mtd/ubi/Kconfig
+patching file drivers/mtd/ubi/Makefile
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/build.c
+patching file drivers/mtd/ubi/cdev.c
+patching file drivers/mtd/ubi/ubi.h
+patching file include/uapi/mtd/ubi-user.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/041-UBI-block-do-not-use-term-attach.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/cdev.c
+patching file drivers/mtd/ubi/ubi.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/042-UBI-block-Mark-init-only-symbol-as-__initdata.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/043-UBI-block-Use-u64-for-the-64-bit-dividend.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/044-UBI-rename-block-device-ioctls.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/cdev.c
+patching file include/uapi/mtd/ubi-user.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/045-UBI-block-Remove-__initdata-from-ubiblock_param_ops.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/046-UBI-avoid-workqueue-format-string-leak.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/047-UBI-make-UBI_IOCVOLCRBLK-take-a-parameter-for-future.patch using plaintext: 
+patching file include/uapi/mtd/ubi-user.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/060-hso_devices.patch using plaintext: 
+patching file drivers/net/usb/hso.c
+patching file drivers/usb/storage/unusual_devs.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/061-arm_xz_decompressor_build_fix.patch using plaintext: 
+patching file arch/arm/boot/compressed/decompress.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/062-mips_decompressor_build_fix.patch using plaintext: 
+patching file arch/mips/boot/compressed/decompress.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/063-arm-fix-fiq-vivt.patch using plaintext: 
+patching file arch/arm/kernel/fiq.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/065-iio_ad799x_backport_fixes.patch using plaintext: 
+patching file drivers/staging/iio/adc/ad799x_core.c
+patching file drivers/staging/iio/adc/ad799x.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/070-net_bridge_backports.patch using plaintext: 
+patching file net/bridge/br_device.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_sysfs_br.c
+patching file net/bridge/br_mdb.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/100-overlayfs.patch using plaintext: 
+patching file Documentation/filesystems/Locking
+patching file Documentation/filesystems/overlayfs.txt
+patching file Documentation/filesystems/vfs.txt
+patching file MAINTAINERS
+patching file fs/Kconfig
+patching file fs/Makefile
+patching file fs/ecryptfs/main.c
+patching file fs/internal.h
+patching file fs/namei.c
+patching file fs/namespace.c
+patching file fs/open.c
+patching file fs/overlayfs/Kconfig
+patching file fs/overlayfs/Makefile
+patching file fs/overlayfs/copy_up.c
+patching file fs/overlayfs/dir.c
+patching file fs/overlayfs/inode.c
+patching file fs/overlayfs/overlayfs.h
+patching file fs/overlayfs/readdir.c
+patching file fs/overlayfs/super.c
+patching file fs/splice.c
+patching file include/linux/fs.h
+patching file include/linux/mount.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/102-ehci_hcd_ignore_oc.patch using plaintext: 
+patching file drivers/usb/host/ehci-hcd.c
+patching file drivers/usb/host/ehci-hub.c
+patching file drivers/usb/host/ehci-platform.c
+patching file drivers/usb/host/ehci.h
+patching file include/linux/usb/ehci_pdriver.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/120-bridge_allow_receiption_on_disabled_port.patch using plaintext: 
+patching file net/bridge/br_input.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/130-mips_remove_plat_dma_functions.patch using plaintext: 
+patching file arch/mips/include/asm/mach-cavium-octeon/dma-coherence.h
+patching file arch/mips/include/asm/mach-generic/dma-coherence.h
+patching file arch/mips/include/asm/mach-ip27/dma-coherence.h
+patching file arch/mips/include/asm/mach-ip32/dma-coherence.h
+patching file arch/mips/include/asm/mach-jazz/dma-coherence.h
+patching file arch/mips/include/asm/mach-loongson/dma-coherence.h
+patching file arch/mips/include/asm/mach-powertv/dma-coherence.h
+patching file arch/mips/mm/dma-default.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/131-improve_noncoherent_dma_checks.patch using plaintext: 
+patching file arch/mips/Kconfig
+patching file arch/mips/include/asm/dma-coherence.h
+patching file arch/mips/include/asm/mach-generic/dma-coherence.h
+patching file arch/mips/mm/dma-default.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/132-mips_inline_dma_ops.patch using plaintext: 
+patching file arch/mips/Kconfig
+patching file arch/mips/include/asm/dma-mapping.h
+patching file arch/mips/mm/dma-default.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/140-revert_usb_unbind_interfaces.patch using plaintext: 
+patching file drivers/usb/core/driver.c
+patching file drivers/usb/core/hub.c
+patching file drivers/usb/core/usb.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/200-fix_localversion.patch using plaintext: 
+patching file scripts/setlocalversion
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/201-extra_optimization.patch using plaintext: 
+patching file Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/202-reduce_module_size.patch using plaintext: 
+patching file Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/203-kallsyms_uncompressed.patch using plaintext: 
+patching file scripts/kallsyms.c
+patching file init/Kconfig
+patching file scripts/link-vmlinux.sh
+patching file kernel/kallsyms.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/204-module_strip.patch using plaintext: 
+patching file include/linux/module.h
+patching file include/linux/moduleparam.h
+patching file init/Kconfig
+patching file kernel/module.c
+patching file scripts/mod/modpost.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/210-darwin_scripts_include.patch using plaintext: 
+patching file scripts/kallsyms.c
+patching file scripts/kconfig/Makefile
+patching file scripts/mod/mk_elfconfig.c
+patching file scripts/mod/modpost.h
+patching file scripts/mod/elf.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/212-byteshift_portability.patch using plaintext: 
+patching file tools/include/tools/be_byteshift.h
+patching file tools/include/tools/le_byteshift.h
+patching file tools/include/tools/linux_types.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/220-gc_sections.patch using plaintext: 
+patching file arch/mips/Makefile
+patching file arch/mips/kernel/vmlinux.lds.S
+patching file include/asm-generic/vmlinux.lds.h
+patching file arch/arm/Makefile
+patching file arch/arm/kernel/vmlinux.lds.S
+patching file arch/arm/boot/compressed/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/221-module_exports.patch using plaintext: 
+patching file include/asm-generic/vmlinux.lds.h
+patching file scripts/Makefile.build
+patching file include/linux/export.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/230-openwrt_lzma_options.patch using plaintext: 
+patching file scripts/Makefile.lib
+patching file scripts/gen_initramfs_list.sh
+patching file lib/decompress.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/250-netfilter_depends.patch using plaintext: 
+patching file net/netfilter/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/251-sound_kconfig.patch using plaintext: 
+patching file sound/core/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/252-mv_cesa_depends.patch using plaintext: 
+patching file drivers/crypto/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/253-ssb_b43_default_on.patch using plaintext: 
+patching file drivers/ssb/Kconfig
+patching file drivers/bcma/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/254-textsearch_kconfig_hacks.patch using plaintext: 
+patching file lib/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/255-lib80211_kconfig_hacks.patch using plaintext: 
+patching file net/wireless/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/256-crypto_add_kconfig_prompts.patch using plaintext: 
+patching file crypto/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/257-wireless_ext_kconfig_hack.patch using plaintext: 
+patching file net/wireless/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/258-netfilter_netlink_kconfig_hack.patch using plaintext: 
+patching file net/netfilter/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/259-regmap_dynamic.patch using plaintext: 
+patching file drivers/base/regmap/Kconfig
+patching file include/linux/regmap.h
+patching file drivers/base/regmap/Makefile
+patching file drivers/base/regmap/regmap.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/260-crypto_test_dependencies.patch using plaintext: 
+patching file crypto/Kconfig
+patching file crypto/algboss.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/261-move_bcm963xx_tag.patch using plaintext: 
+patching file arch/mips/include/asm/mach-bcm63xx/bcm963xx_tag.h
+patching file drivers/mtd/bcm63xxpart.c
+patching file include/uapi/linux/Kbuild
+patching file include/uapi/linux/bcm963xx_tag.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/262-compressor_kconfig_hack.patch using plaintext: 
+patching file lib/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/300-mips_expose_boot_raw.patch using plaintext: 
+patching file arch/mips/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/301-mips_image_cmdline_hack.patch using plaintext: 
+patching file arch/mips/Kconfig
+patching file arch/mips/kernel/head.S
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/302-mips_no_branch_likely.patch using plaintext: 
+patching file arch/mips/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/304-mips_disable_fpu.patch using plaintext: 
+patching file arch/mips/Kconfig
+patching file arch/mips/math-emu/Makefile
+patching file arch/mips/math-emu/kernel_linkage.c
+patching file arch/mips/include/asm/fpu_emulator.h
+patching file arch/mips/kernel/traps.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/305-mips_module_reloc.patch using plaintext: 
+patching file arch/mips/Makefile
+patching file arch/mips/include/asm/module.h
+patching file arch/mips/kernel/module.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/306-mips_mem_functions_performance.patch using plaintext: 
+patching file arch/mips/include/asm/string.h
+patching file arch/mips/lib/Makefile
+patching file arch/mips/lib/memcmp.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/307-mips-Reimplement-get_cycles.patch using plaintext: 
+patching file arch/mips/include/asm/timex.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/309-mips_fuse_workaround.patch using plaintext: 
+patching file arch/mips/mm/cache.c
+patching file fs/fuse/dev.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/310-arm_module_unresolved_weak_sym.patch using plaintext: 
+patching file arch/arm/kernel/module.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/320-ppc4xx_optimization.patch using plaintext: 
+patching file arch/powerpc/Makefile
+patching file arch/powerpc/boot/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/321-powerpc_crtsavres_prereq.patch using plaintext: 
+patching file arch/powerpc/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/322-ppc4xx-crypto-compile-fix.patch using plaintext: 
+patching file drivers/crypto/amcc/crypto4xx_core.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/400-mtd-add-rootfs-split-support.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/401-mtd-add-support-for-different-partition-parser-types.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/402-mtd-use-typed-mtd-parsers-for-rootfs-and-firmware-split.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/403-mtd-hook-mtdsplit-to-Kbuild.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/404-mtd-use-mtd_get_squashfs_len-in-split_squasfh.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+patching file drivers/mtd/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/405-mtd-add-more-helper-functions.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+patching file include/linux/mtd/mtd.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/406-mtd-add-squashfs-parser.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/407-mtd-hook-mtdsplit_uimage-into-Kbuild.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/408-mtd-hook-mtdsplit_seama-into-Kbuild.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/409-mtd-hook-mtdsplit_lzma-into-Kbuild.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/410-mtd-move-forward-declaration-of-struct-mtd_info.patch using plaintext: 
+patching file include/linux/mtd/partitions.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/411-mtd-partial_eraseblock_write.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/mtd.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/412-mtd-partial_eraseblock_unlock.patch using plaintext: 
+patching file drivers/mtd/mtdpart.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/420-mtd-redboot_space.patch using plaintext: 
+patching file drivers/mtd/redboot.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/430-mtd-add-myloader-partition-parser.patch using plaintext: 
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/440-block2mtd_init.patch using plaintext: 
+patching file drivers/mtd/devices/block2mtd.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/441-block2mtd_probe.patch using plaintext: 
+patching file drivers/mtd/devices/block2mtd.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/450-mtd-nand-allow-to-use-platform-specific-chip-fixup.patch using plaintext: 
+patching file include/linux/mtd/nand.h
+patching file drivers/mtd/nand/plat_nand.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/451-mtd-nand-fix-return-code-of-nand_correct_data-function.patch using plaintext: 
+patching file drivers/mtd/nand/nand_ecc.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/460-mtd-cfi_cmdset_0002-no-erase_suspend.patch using plaintext: 
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/461-mtd-cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch using plaintext: 
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/471-mtd-m25p80-allow-to-disable-small-sector-erase.patch using plaintext: 
+patching file drivers/mtd/devices/Kconfig
+patching file drivers/mtd/devices/m25p80.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/472-mtd-m25p80-add-support-for-Winbond-W25X05-flash.patch using plaintext: 
+patching file drivers/mtd/devices/m25p80.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/473-mtd-m25p80-add-support-for-EON-EN25QH128-flash.patch using plaintext: 
+patching file drivers/mtd/devices/m25p80.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/480-mtd-set-rootfs-to-be-root-dev.patch using plaintext: 
+patching file drivers/mtd/mtdcore.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/490-mtd-ubi-add-EOF-marker-support.patch using plaintext: 
+patching file drivers/mtd/ubi/attach.c
+patching file drivers/mtd/ubi/ubi.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/490-ubi-auto-attach-mtd-device-named-ubi-or-data-on-boot.patch using plaintext: 
+patching file drivers/mtd/ubi/build.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/491-ubi-auto-create-ubiblock-device-for-rootfs.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/492-try-auto-mounting-ubi0-rootfs-in-init-do_mounts.c.patch using plaintext: 
+patching file init/do_mounts.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/493-ubi-set-ROOT_DEV-to-ubiblock-rootfs-if-unset.patch using plaintext: 
+patching file drivers/mtd/ubi/block.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/500-yaffs-Kbuild-integration.patch using plaintext: 
+patching file fs/Kconfig
+patching file fs/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/501-yaffs-3.5-convert-to-use-kuid_t-kgid_t.patch using plaintext: 
+patching file fs/yaffs2/yaffs_vfs.c
+patching file fs/yaffs2/yaffs_attribs.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/502-yaffs-3.10-disable-proc-entry.patch using plaintext: 
+patching file fs/yaffs2/yaffs_vfs.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/503-yaffs-add-tags-9bytes-mount-option.patch using plaintext: 
+patching file fs/yaffs2/yaffs_vfs.c
+patching file fs/yaffs2/yaffs_mtdif.c
+patching file fs/yaffs2/yaffs_mtdif.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/504-yaffs-fix-compat-tags-handling.patch using plaintext: 
+patching file fs/yaffs2/yaffs_tagscompat.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/520-squashfs_update_xz_comp_opts.patch using plaintext: 
+patching file fs/squashfs/xz_wrapper.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/530-jffs2_make_lzma_available.patch using plaintext: 
+patching file fs/jffs2/Kconfig
+patching file fs/jffs2/Makefile
+patching file fs/jffs2/compr.c
+patching file fs/jffs2/compr.h
+patching file fs/jffs2/compr_lzma.c
+patching file fs/jffs2/super.c
+patching file include/uapi/linux/jffs2.h
+patching file include/linux/lzma.h
+patching file include/linux/lzma/LzFind.h
+patching file include/linux/lzma/LzHash.h
+patching file include/linux/lzma/LzmaDec.h
+patching file include/linux/lzma/LzmaEnc.h
+patching file include/linux/lzma/Types.h
+patching file lib/Kconfig
+patching file lib/Makefile
+patching file lib/lzma/LzFind.c
+patching file lib/lzma/LzmaDec.c
+patching file lib/lzma/LzmaEnc.c
+patching file lib/lzma/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/531-debloat_lzma.patch using plaintext: 
+patching file include/linux/lzma/LzmaDec.h
+patching file lib/lzma/LzmaDec.c
+patching file include/linux/lzma/LzmaEnc.h
+patching file lib/lzma/LzmaEnc.c
+patching file include/linux/lzma/LzFind.h
+patching file lib/lzma/LzFind.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/532-jffs2_eofdetect.patch using plaintext: 
+patching file fs/jffs2/build.c
+patching file fs/jffs2/scan.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/540-crypto-xz-decompression-support.patch using plaintext: 
+patching file crypto/Kconfig
+patching file crypto/Makefile
+patching file crypto/xz.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/541-ubifs-xz-decompression-support.patch using plaintext: 
+patching file fs/ubifs/Kconfig
+patching file fs/ubifs/compress.c
+patching file fs/ubifs/ubifs-media.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/550-ubifs-symlink-xattr-support.patch using plaintext: 
+patching file fs/ubifs/file.c
+patching file fs/ubifs/journal.c
+patching file fs/ubifs/xattr.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/551-ubifs-fix-default-compression-selection.patch using plaintext: 
+patching file fs/ubifs/sb.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/552-ubifs-respect-silent-mount-flag.patch using plaintext: 
+patching file fs/ubifs/io.c
+patching file fs/ubifs/super.c
+patching file fs/ubifs/ubifs.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/600-netfilter_layer7_2.22.patch using plaintext: 
+patching file net/netfilter/Kconfig
+patching file net/netfilter/Makefile
+patching file net/netfilter/xt_layer7.c
+patching file net/netfilter/regexp/regexp.c
+patching file net/netfilter/regexp/regexp.h
+patching file net/netfilter/regexp/regmagic.h
+patching file net/netfilter/regexp/regsub.c
+patching file net/netfilter/nf_conntrack_core.c
+patching file net/netfilter/nf_conntrack_standalone.c
+patching file include/net/netfilter/nf_conntrack.h
+patching file include/linux/netfilter/xt_layer7.h
+patching file include/uapi/linux/netfilter/Kbuild
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/601-netfilter_layer7_pktmatch.patch using plaintext: 
+patching file include/linux/netfilter/xt_layer7.h
+patching file net/netfilter/xt_layer7.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/602-netfilter_layer7_match.patch using plaintext: 
+patching file net/netfilter/xt_layer7.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/603-netfilter_layer7_2.6.36_fix.patch using plaintext: 
+patching file net/netfilter/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/604-netfilter_conntrack_flush.patch using plaintext: 
+patching file net/netfilter/nf_conntrack_standalone.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/610-netfilter_match_bypass_default_checks.patch using plaintext: 
+patching file include/uapi/linux/netfilter_ipv4/ip_tables.h
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/611-netfilter_match_bypass_default_table.patch using plaintext: 
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/612-netfilter_match_reduce_memory_access.patch using plaintext: 
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/613-netfilter_optional_tcp_window_check.patch using plaintext: 
+patching file net/netfilter/nf_conntrack_proto_tcp.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/614-netfilter_arpt_arp_padding_fix.patch using plaintext: 
+patching file include/uapi/linux/netfilter_arp/arp_tables.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/615-netfilter_add_xt_id_match.patch using plaintext: 
+patching file include/uapi/linux/netfilter/Kbuild
+patching file include/uapi/linux/netfilter/xt_id.h
+patching file net/netfilter/Kconfig
+patching file net/netfilter/Makefile
+patching file net/netfilter/xt_id.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/616-net_optimize_xfrm_calls.patch using plaintext: 
+patching file net/netfilter/nf_nat_core.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/617-netfilter_skip_filter_sysctl.patch using plaintext: 
+patching file include/net/netns/conntrack.h
+patching file net/ipv4/netfilter/iptable_filter.c
+patching file net/ipv6/netfilter/ip6table_filter.c
+patching file net/netfilter/nf_conntrack_standalone.c
+Hunk #1 succeeded at 510 (offset 33 lines).
+Hunk #2 succeeded at 552 (offset 33 lines).
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/620-sched_esfq.patch using plaintext: 
+patching file include/uapi/linux/pkt_sched.h
+patching file net/sched/Kconfig
+patching file net/sched/Makefile
+patching file net/sched/sch_esfq.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/621-sched_act_connmark.patch using plaintext: 
+patching file net/sched/act_connmark.c
+patching file net/sched/Kconfig
+patching file net/sched/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/630-packet_socket_type.patch using plaintext: 
+patching file include/uapi/linux/if_packet.h
+patching file net/packet/af_packet.c
+patching file net/packet/internal.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/640-bridge_no_eap_forward.patch using plaintext: 
+patching file net/bridge/br_input.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/641-bridge_always_accept_eap.patch using plaintext: 
+patching file net/bridge/br_input.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/642-bridge_port_isolate.patch using plaintext: 
+patching file net/bridge/br_private.h
+patching file net/bridge/br_sysfs_if.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_forward.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/643-bridge_remove_ipv6_dependency.patch using plaintext: 
+patching file include/net/addrconf.h
+patching file net/bridge/Kconfig
+patching file net/ipv6/Makefile
+patching file net/ipv6/addrconf.c
+patching file net/ipv6/inet6_stubs.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/644-bridge_optimize_netfilter_hooks.patch using plaintext: 
+patching file net/bridge/br_forward.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_netfilter.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_stp_bpdu.c
+patching file net/bridge/netfilter/ebtables.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/645-bridge_multicast_to_unicast.patch using plaintext: 
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_mdb.c
+patching file net/bridge/br_forward.c
+patching file net/bridge/br_sysfs_if.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/650-pppoe_header_pad.patch using plaintext: 
+patching file drivers/net/ppp/pppoe.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/651-wireless_mesh_header.patch using plaintext: 
+patching file include/linux/netdevice.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/652-atm_header_changes.patch using plaintext: 
+patching file include/uapi/linux/atm.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/653-disable_netlink_trim.patch using plaintext: 
+patching file net/netlink/af_netlink.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/655-increase_skb_pad.patch using plaintext: 
+patching file include/linux/skbuff.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/656-skb_reduce_truesize-helper.patch using plaintext: 
+patching file include/linux/skbuff.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/657-qdisc_reduce_truesize.patch using plaintext: 
+patching file net/sched/sch_codel.c
+patching file net/sched/sch_fifo.c
+patching file net/sched/sch_fq_codel.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/660-fq_codel_defaults.patch using plaintext: 
+patching file net/sched/sch_fq_codel.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/661-fq_codel_keep_dropped_stats.patch using plaintext: 
+patching file net/sched/sch_fq_codel.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/662-use_fq_codel_by_default.patch using plaintext: 
+patching file net/sched/Kconfig
+patching file net/sched/sch_fq_codel.c
+patching file include/net/sch_generic.h
+patching file net/sched/sch_generic.c
+patching file net/sched/sch_mq.c
+patching file net/sched/sch_mqprio.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/663-remove_pfifo_fast.patch using plaintext: 
+patching file net/sched/sch_generic.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/666-Add-support-for-MAP-E-FMRs-mesh-mode.patch using plaintext: 
+patching file include/net/ip6_tunnel.h
+patching file include/uapi/linux/if_tunnel.h
+patching file net/ipv6/ip6_tunnel.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/670-ipv6-allow-rejecting-with-source-address-failed-policy.patch using plaintext: 
+patching file include/net/netns/ipv6.h
+patching file include/uapi/linux/fib_rules.h
+patching file include/uapi/linux/rtnetlink.h
+patching file net/ipv4/fib_rules.c
+patching file net/ipv4/fib_semantics.c
+patching file net/ipv4/fib_trie.c
+patching file net/ipv4/ipmr.c
+patching file net/ipv6/fib6_rules.c
+patching file net/ipv6/ip6mr.c
+patching file net/ipv6/route.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/686-flow_dissector-clean-up-IPIP-case.patch using plaintext: 
+patching file net/core/flow_dissector.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/687-flow_dissector-add-support-for-IPPROTO_IPV6.patch using plaintext: 
+patching file net/core/flow_dissector.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/688-net-flow_dissector-add-802.1ad-support.patch using plaintext: 
+patching file net/core/flow_dissector.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/700-swconfig.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+patching file include/uapi/linux/Kbuild
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/701-phy_extension.patch using plaintext: 
+patching file drivers/net/phy/phy.c
+patching file include/linux/phy.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/702-phy_add_aneg_done_function.patch using plaintext: 
+patching file include/linux/phy.h
+patching file drivers/net/phy/phy_device.c
+patching file drivers/net/phy/phy.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/703-phy-add-detach-callback-to-struct-phy_driver.patch using plaintext: 
+patching file drivers/net/phy/phy_device.c
+patching file include/linux/phy.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/710-phy-add-mdio_register_board_info.patch using plaintext: 
+patching file drivers/net/phy/mdio_bus.c
+patching file include/linux/phy.h
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+patching file drivers/net/phy/mdio-boardinfo.c
+patching file drivers/net/phy/mdio-boardinfo.h
+patching file drivers/net/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/720-phy_adm6996.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/721-phy_packets.patch using plaintext: 
+patching file include/linux/netdevice.h
+patching file include/uapi/linux/if.h
+patching file include/linux/skbuff.h
+patching file net/Kconfig
+patching file net/core/dev.c
+patching file net/core/skbuff.c
+patching file net/ethernet/eth.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/722-phy_mvswitch.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/723-phy_ip175c.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/724-phy_ar8216.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/725-phy_rtl8306.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/726-phy_rtl8366.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/727-phy-rtl8367.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/728-phy-micrel.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/729-phy-rtl8367b.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/729-phy-tantos.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/730-phy_b53.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/731-phy_mvswitch_3.10_compilation.patch using plaintext: 
+patching file drivers/net/phy/mvswitch.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/732-phy-ar8216-led-support.patch using plaintext: 
+patching file drivers/net/phy/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/750-hostap_txpower.patch using plaintext: 
+patching file drivers/net/wireless/hostap/hostap_ap.c
+patching file drivers/net/wireless/hostap/hostap_config.h
+patching file drivers/net/wireless/hostap/hostap.h
+patching file drivers/net/wireless/hostap/hostap_hw.c
+patching file drivers/net/wireless/hostap/hostap_info.c
+patching file drivers/net/wireless/hostap/hostap_ioctl.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/770-bgmac-backport.patch using plaintext: 
+patching file drivers/net/ethernet/broadcom/Kconfig
+patching file drivers/net/ethernet/broadcom/bgmac.c
+patching file drivers/net/ethernet/broadcom/bgmac.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/773-bgmac-add-srab-switch.patch using plaintext: 
+patching file drivers/net/ethernet/broadcom/bgmac.c
+patching file drivers/net/ethernet/broadcom/bgmac.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/775-bgmac-check-length-of-received-frame.patch using plaintext: 
+patching file drivers/net/ethernet/broadcom/bgmac.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/810-pci_disable_common_quirks.patch using plaintext: 
+patching file drivers/pci/Kconfig
+patching file drivers/pci/quirks.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/811-pci_disable_usb_common_quirks.patch using plaintext: 
+patching file drivers/usb/host/pci-quirks.c
+patching file drivers/usb/host/pci-quirks.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/820-usb_add_usb_find_device_by_name.patch using plaintext: 
+patching file drivers/usb/core/usb.c
+patching file include/linux/usb.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/830-ledtrig_morse.patch using plaintext: 
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-morse.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/831-ledtrig_netdev.patch using plaintext: 
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-netdev.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/832-ledtrig_usbdev.patch using plaintext: 
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-usbdev.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/840-rtc7301.patch using plaintext: 
+patching file drivers/rtc/Kconfig
+patching file drivers/rtc/Makefile
+patching file drivers/rtc/rtc-rtc7301.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/841-rtc_pt7c4338.patch using plaintext: 
+patching file drivers/rtc/Kconfig
+patching file drivers/rtc/Makefile
+patching file drivers/rtc/rtc-pt7c4338.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/861-04_spi_gpio_implement_spi_delay.patch using plaintext: 
+patching file drivers/spi/spi-gpio.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/862-gpio_spi_driver.patch using plaintext: 
+patching file include/linux/spi/spi_gpio_old.h
+patching file drivers/spi/spi_gpio_old.c
+patching file drivers/spi/Kconfig
+patching file drivers/spi/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/863-gpiommc.patch using plaintext: 
+patching file drivers/mmc/host/gpiommc.c
+patching file drivers/mmc/host/Kconfig
+patching file drivers/mmc/host/Makefile
+patching file include/linux/mmc/gpiommc.h
+patching file Documentation/gpiommc.txt
+patching file MAINTAINERS
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/864-gpiommc_configfs_locking.patch using plaintext: 
+patching file drivers/mmc/host/gpiommc.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/870-hifn795x_byteswap.patch using plaintext: 
+patching file drivers/crypto/hifn_795x.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/880-gateworks_system_controller.patch using plaintext: 
+patching file drivers/hwmon/Kconfig
+patching file drivers/hwmon/Makefile
+patching file drivers/hwmon/gsc.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/890-8250_optional_sysrq.patch using plaintext: 
+patching file drivers/tty/serial/8250/8250_core.c
+patching file drivers/tty/serial/8250/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/900-slab_maxsize.patch using plaintext: 
+patching file include/linux/slab.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/901-debloat_sock_diag.patch using plaintext: 
+patching file net/Kconfig
+patching file net/core/Makefile
+patching file net/ipv4/Kconfig
+patching file net/unix/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/902-debloat_proc.patch using plaintext: 
+patching file fs/locks.c
+patching file fs/proc/Kconfig
+patching file fs/proc/consoles.c
+patching file fs/proc/proc_tty.c
+patching file kernel/exec_domain.c
+patching file kernel/irq/proc.c
+patching file kernel/time/timer_list.c
+patching file mm/vmalloc.c
+patching file mm/vmstat.c
+patching file net/8021q/vlanproc.c
+patching file net/core/sock.c
+patching file net/ipv4/fib_trie.c
+patching file net/ipv4/proc.c
+patching file net/ipv4/route.c
+patching file ipc/msg.c
+patching file ipc/sem.c
+patching file ipc/shm.c
+patching file ipc/util.c
+patching file net/core/net-procfs.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/903-debloat_direct_io.patch using plaintext: 
+patching file fs/Kconfig
+patching file fs/Makefile
+patching file include/linux/fs.h
+patching file fs/fcntl.c
+patching file fs/open.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/910-kobject_uevent.patch using plaintext: 
+patching file lib/kobject_uevent.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/911-kobject_add_broadcast_uevent.patch using plaintext: 
+patching file include/linux/kobject.h
+patching file lib/kobject_uevent.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/921-use_preinit_as_init.patch using plaintext: 
+patching file init/main.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/922-always-create-console-node-in-initramfs.patch using plaintext: 
+patching file scripts/gen_initramfs_list.sh
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/930-crashlog.patch using plaintext: 
+patching file include/linux/crashlog.h
+patching file init/Kconfig
+patching file kernel/Makefile
+patching file kernel/crashlog.c
+patching file mm/bootmem.c
+patching file kernel/module.c
+patching file mm/memblock.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/940-ocf_kbuild_integration.patch using plaintext: 
+patching file crypto/Kconfig
+patching file crypto/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/941-ocf_20120127.patch using plaintext: 
+patching file drivers/char/random.c
+patching file fs/fcntl.c
+patching file include/linux/miscdevice.h
+patching file include/uapi/linux/random.h
+patching file include/linux/random.h
+patching file kernel/pid.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/950-vm_exports.patch using plaintext: 
+patching file mm/shmem.c
+patching file fs/file.c
+patching file kernel/exit.c
+patching file kernel/sched/core.c
+patching file mm/memory.c
+patching file mm/vmalloc.c
+patching file include/linux/shmem_fs.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/960-decompress_unlzo_fix.patch using plaintext: 
+patching file include/linux/decompress/unlzo_mm.h
+patching file lib/decompress_unlzo.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/970-remove-unsane-filenames-from-deps_initramfs-list.patch using plaintext: 
+patching file usr/Makefile
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/980-arm_openwrt_machtypes.patch using plaintext: 
+patching file arch/arm/tools/mach-types
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/990-gpio_wdt.patch using plaintext: 
+patching file drivers/watchdog/Kconfig
+patching file drivers/watchdog/Makefile
+patching file drivers/watchdog/gpio_wdt.c
+patching file include/linux/gpio_wdt.h
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/992-mpcore_wdt_fix_watchdog_counter_loading.patch using plaintext: 
+patching file arch/arm/include/asm/smp_twd.h
+patching file arch/arm/kernel/smp_twd.c
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/993-mpcore_wdt_fix_wdioc_setoptions_handling.patch using plaintext: 
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/994-mpcore_wdt_fix_timer_mode_setup.patch using plaintext: 
+patching file arch/arm/include/asm/smp_twd.h
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/995-mpcore_twd_calibrate_single_core.patch using plaintext: 
+patching file arch/arm/kernel/smp_twd.c
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/996-zsmalloc_allow_module_build.patch using plaintext: 
+patching file drivers/staging/zsmalloc/Kconfig
+
+Applying /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/generic/patches-3.10/997-device_tree_cmdline.patch using plaintext: 
+patching file drivers/of/fdt.c

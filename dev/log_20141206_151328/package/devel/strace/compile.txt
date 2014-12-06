@@ -1,0 +1,326 @@
+
+Applying ./patches/100-musl_fix.patch using plaintext: 
+patching file net.c
+patching file process.c
+patching file signal.c
+patching file time.c
+patching file defs.h
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal -I m4 -I . --force -I m4
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+sh: 1: ./git-version-gen: not found
+configure.ac:9: error: AC_INIT should be called with package and version arguments
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/../host/share/aclocal-1.11/init.m4:26: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:9: the top level
+autom4te: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/m4 failed with exit status: 1
+aclocal.real: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autom4te failed with exit status: 1
+autoreconf: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal failed with exit status: 1
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for supported architecture... mips
+checking for primary include directory... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include
+checking whether compiler handles -Wall... yes
+checking whether compiler handles -Wwrite-strings... yes
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking for struct stat.st_aclcnt... no
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_flags... no
+checking for struct stat.st_fstype... no
+checking for struct stat.st_gen... no
+checking for struct stat.st_level... no
+checking for struct stat.st_rdev... yes
+checking for stat64 in (asm|sys)/stat.h... yes
+checking for statfs64 in sys/vfs.h... yes
+checking return type of signal handlers... void
+checking for uid_t in sys/types.h... yes
+checking for mode_t... yes
+checking type of array argument to getgroups... gid_t
+checking whether sys/types.h defines makedev... yes
+checking for sig_atomic_t... yes
+checking for siginfo_t... yes
+checking for struct sockaddr_in6.sin6_scope_id... yes
+checking for long long... yes
+checking for little endian long long... no
+checking for long long off_t... no
+checking for struct opthdr... no
+checking for struct t_opthdr... no
+checking for fork... yes
+checking for if_indextoname... yes
+checking for inet_ntop... yes
+checking for prctl... yes
+checking for process_vm_readv... no
+checking for sendmsg... yes
+checking for sigaction... yes
+checking for stpcpy... yes
+checking for strerror... (cached) yes
+checking for strsignal... yes
+checking for _sys_siglist... no
+checking for sys_siglist... no
+checking asm/cachectl.h usability... yes
+checking asm/cachectl.h presence... yes
+checking for asm/cachectl.h... yes
+checking asm/sysmips.h usability... yes
+checking asm/sysmips.h presence... yes
+checking for asm/sysmips.h... yes
+checking elf.h usability... yes
+checking elf.h presence... yes
+checking for elf.h... yes
+checking for inttypes.h... (cached) yes
+checking ioctls.h usability... no
+checking ioctls.h presence... no
+checking for ioctls.h... no
+checking linux/capability.h usability... yes
+checking linux/capability.h presence... yes
+checking for linux/capability.h... yes
+checking linux/perf_event.h usability... yes
+checking linux/perf_event.h presence... yes
+checking for linux/perf_event.h... yes
+checking linux/ptrace.h usability... yes
+checking linux/ptrace.h presence... yes
+checking for linux/ptrace.h... yes
+checking linux/utsname.h usability... yes
+checking linux/utsname.h presence... yes
+checking for linux/utsname.h... yes
+checking mqueue.h usability... yes
+checking mqueue.h presence... yes
+checking for mqueue.h... yes
+checking for netinet/sctp.h... (cached) no
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking sys/acl.h usability... no
+checking sys/acl.h presence... no
+checking for sys/acl.h... no
+checking sys/asynch.h usability... no
+checking sys/asynch.h presence... no
+checking for sys/asynch.h... no
+checking sys/conf.h usability... no
+checking sys/conf.h presence... no
+checking for sys/conf.h... no
+checking sys/epoll.h usability... yes
+checking sys/epoll.h presence... yes
+checking for sys/epoll.h... yes
+checking sys/filio.h usability... no
+checking sys/filio.h presence... no
+checking for sys/filio.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking sys/ptrace.h usability... yes
+checking sys/ptrace.h presence... yes
+checking for sys/ptrace.h... yes
+checking sys/reg.h usability... no
+checking sys/reg.h presence... no
+checking for sys/reg.h... no
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/vfs.h usability... yes
+checking sys/vfs.h presence... yes
+checking for sys/vfs.h... yes
+checking for linux/icmp.h... yes
+checking for linux/in6.h... yes
+checking for linux/netlink.h... yes
+checking for linux/if_packet.h... yes
+checking for asm/sigcontext.h... no
+checking for struct sigcontext_struct... no
+checking for struct sigcontext... yes
+checking for netinet/tcp.h... yes
+checking for netinet/udp.h... yes
+checking for struct msghdr.msg_control... yes
+checking for struct T_conn_res.QUEUE_ptr... no
+checking for struct T_conn_res.ACCEPTOR_id... no
+checking for struct __old_kernel_stat... no
+checking for struct pt_all_user_regs... no
+checking for struct ia64_fpreg... no
+checking for struct user_desc... no
+checking for struct dqblk.dqb_curblocks... yes
+checking for struct sigcontext.sc_hi2... yes
+checking for struct utsname.domainname... yes
+checking whether sys_errlist is declared... no
+checking whether sys_siglist is declared... (cached) no
+checking whether _sys_siglist is declared... no
+checking whether PTRACE_EVENT_CLONE is declared... yes
+checking whether PTRACE_EVENT_EXEC is declared... yes
+checking whether PTRACE_EVENT_EXIT is declared... yes
+checking whether PTRACE_EVENT_FORK is declared... yes
+checking whether PTRACE_EVENT_VFORK is declared... yes
+checking whether PTRACE_EVENT_VFORK_DONE is declared... yes
+checking whether PTRACE_GETEVENTMSG is declared... yes
+checking whether PTRACE_GETSIGINFO is declared... yes
+checking whether PTRACE_O_TRACECLONE is declared... yes
+checking whether PTRACE_O_TRACEEXEC is declared... yes
+checking whether PTRACE_O_TRACEEXIT is declared... yes
+checking whether PTRACE_O_TRACEFORK is declared... yes
+checking whether PTRACE_O_TRACESYSGOOD is declared... yes
+checking whether PTRACE_O_TRACEVFORK is declared... yes
+checking whether PTRACE_SETOPTIONS is declared... yes
+checking whether LO_FLAGS_AUTOCLEAR is declared... yes
+checking whether LO_FLAGS_PARTSCAN is declared... yes
+checking for BLKGETSIZE64... yes
+checking size of long... (cached) 4
+checking size of long long... (cached) 8
+checking size of rlim_t... 4
+checking libaio.h usability... no
+checking libaio.h presence... no
+checking for libaio.h... no
+checking for perl... /usr/bin/perl
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+/bin/mkdir -p ./linux
+cat ./linux/ioctlent.h.in ./linux/mips/ioctlent.h.in | \
+		mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -E -P - | \
+		LC_ALL=C sort -u -k3,3 -k2,2 | \
+		awk -f ./linux/ioctlent-filter.awk > linux/ioctlent.h
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+Making all in tests
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT bjm.o -MD -MP -MF .deps/bjm.Tpo -c -o bjm.o bjm.c
+mv -f .deps/bjm.Tpo .deps/bjm.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT block.o -MD -MP -MF .deps/block.Tpo -c -o block.o block.c
+mv -f .deps/block.Tpo .deps/block.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT count.o -MD -MP -MF .deps/count.Tpo -c -o count.o count.c
+mv -f .deps/count.Tpo .deps/count.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT desc.o -MD -MP -MF .deps/desc.Tpo -c -o desc.o desc.c
+desc.c: In function 'sys_io_submit':
+desc.c:955:2: warning: #warning "libaio.h is not available => no io_submit decoding" [-Wcpp]
+ #warning "libaio.h is not available => no io_submit decoding"
+  ^
+mv -f .deps/desc.Tpo .deps/desc.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+mv -f .deps/file.Tpo .deps/file.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT io.o -MD -MP -MF .deps/io.Tpo -c -o io.o io.c
+mv -f .deps/io.Tpo .deps/io.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT ioctl.o -MD -MP -MF .deps/ioctl.Tpo -c -o ioctl.o ioctl.c
+mv -f .deps/ioctl.Tpo .deps/ioctl.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT ipc.o -MD -MP -MF .deps/ipc.Tpo -c -o ipc.o ipc.c
+mv -f .deps/ipc.Tpo .deps/ipc.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT loop.o -MD -MP -MF .deps/loop.Tpo -c -o loop.o loop.c
+mv -f .deps/loop.Tpo .deps/loop.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT mem.o -MD -MP -MF .deps/mem.Tpo -c -o mem.o mem.c
+mv -f .deps/mem.Tpo .deps/mem.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT mtd.o -MD -MP -MF .deps/mtd.Tpo -c -o mtd.o mtd.c
+mv -f .deps/mtd.Tpo .deps/mtd.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT net.o -MD -MP -MF .deps/net.Tpo -c -o net.o net.c
+mv -f .deps/net.Tpo .deps/net.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT pathtrace.o -MD -MP -MF .deps/pathtrace.Tpo -c -o pathtrace.o pathtrace.c
+mv -f .deps/pathtrace.Tpo .deps/pathtrace.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT process.o -MD -MP -MF .deps/process.Tpo -c -o process.o process.c
+mv -f .deps/process.Tpo .deps/process.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT quota.o -MD -MP -MF .deps/quota.Tpo -c -o quota.o quota.c
+mv -f .deps/quota.Tpo .deps/quota.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT resource.o -MD -MP -MF .deps/resource.Tpo -c -o resource.o resource.c
+mv -f .deps/resource.Tpo .deps/resource.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT scsi.o -MD -MP -MF .deps/scsi.Tpo -c -o scsi.o scsi.c
+mv -f .deps/scsi.Tpo .deps/scsi.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT signal.o -MD -MP -MF .deps/signal.Tpo -c -o signal.o signal.c
+mv -f .deps/signal.Tpo .deps/signal.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT sock.o -MD -MP -MF .deps/sock.Tpo -c -o sock.o sock.c
+mv -f .deps/sock.Tpo .deps/sock.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT strace.o -MD -MP -MF .deps/strace.Tpo -c -o strace.o strace.c
+mv -f .deps/strace.Tpo .deps/strace.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT stream.o -MD -MP -MF .deps/stream.Tpo -c -o stream.o stream.c
+mv -f .deps/stream.Tpo .deps/stream.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT syscall.o -MD -MP -MF .deps/syscall.Tpo -c -o syscall.o syscall.c
+mv -f .deps/syscall.Tpo .deps/syscall.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT system.o -MD -MP -MF .deps/system.Tpo -c -o system.o system.c
+mv -f .deps/system.Tpo .deps/system.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT term.o -MD -MP -MF .deps/term.Tpo -c -o term.o term.c
+mv -f .deps/term.Tpo .deps/term.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT time.o -MD -MP -MF .deps/time.Tpo -c -o time.o time.c
+mv -f .deps/time.Tpo .deps/time.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT util.o -MD -MP -MF .deps/util.Tpo -c -o util.o util.c
+mv -f .deps/util.Tpo .deps/util.Po
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I.  -I./linux/mips -I./linux -I./linux -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT vsprintf.o -MD -MP -MF .deps/vsprintf.Tpo -c -o vsprintf.o vsprintf.c
+mv -f .deps/vsprintf.Tpo .deps/vsprintf.Po
+mips-openwrt-linux-uclibc-gcc -Wall -Wwrite-strings -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o strace bjm.o block.o count.o desc.o file.o io.o ioctl.o ipc.o loop.o mem.o mtd.o net.o pathtrace.o process.o quota.o resource.o scsi.o signal.o sock.o strace.o stream.o syscall.o system.o term.o time.o util.o vsprintf.o  
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make  install-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+Making install in tests
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/tests'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/bin'
+  /usr/bin/install -c strace '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/bin'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/bin'
+ /usr/bin/install -c strace-graph strace-log-merge '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/bin'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/man/man1'
+ /usr/bin/install -c -m 644 strace.1 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-install/usr/man/man1'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-ar71xx/strace/usr/bin/strace:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/strace-4.8/ipkg-ar71xx/strace into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/strace_4.8-1_ar71xx.ipk

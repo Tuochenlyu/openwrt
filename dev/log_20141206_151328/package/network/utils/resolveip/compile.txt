@@ -1,0 +1,2 @@
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/resolveip/ipkg-ar71xx/resolveip/usr/bin/resolveip:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/resolveip/ipkg-ar71xx/resolveip into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/resolveip_2_ar71xx.ipk

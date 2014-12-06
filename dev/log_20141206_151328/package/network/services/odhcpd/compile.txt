@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+Scanning dependencies of target odhcpd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+[ 12%] Building C object CMakeFiles/odhcpd.dir/src/odhcpd.c.o
+[ 25%] Building C object CMakeFiles/odhcpd.dir/src/config.c.o
+[ 37%] Building C object CMakeFiles/odhcpd.dir/src/router.c.o
+[ 50%] Building C object CMakeFiles/odhcpd.dir/src/dhcpv6.c.o
+[ 62%] Building C object CMakeFiles/odhcpd.dir/src/ndp.c.o
+[ 75%] Building C object CMakeFiles/odhcpd.dir/src/dhcpv6-ia.c.o
+[ 87%] Building C object CMakeFiles/odhcpd.dir/src/dhcpv4.c.o
+[100%] Building C object CMakeFiles/odhcpd.dir/src/ubus.c.o
+Linking C executable odhcpd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+[100%] Built target odhcpd
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+[100%] Built target odhcpd
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25/ipkg-install/usr/sbin/odhcpd
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25/ipkg-ar71xx/odhcpd/usr/sbin/odhcpd:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/odhcpd-2014-09-25/ipkg-ar71xx/odhcpd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/odhcpd_2014-09-25-a6e2953843eaf6c93764f9feef10466e7a84ec85_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/odhcpd'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.odhcpd_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/odhcpd'

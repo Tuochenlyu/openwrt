@@ -1,0 +1,9 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/w1-gpio-custom/w1-gpio-custom.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/w1-gpio-custom/w1-gpio-custom.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/w1-gpio-custom/w1-gpio-custom.ko
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/w1-gpio-custom/ipkg-ar71xx/kmod-w1-gpio-custom/lib/modules/3.10.49/w1-gpio-custom.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/w1-gpio-custom/ipkg-ar71xx/kmod-w1-gpio-custom into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-w1-gpio-custom_3.10.49-3_ar71xx.ipk

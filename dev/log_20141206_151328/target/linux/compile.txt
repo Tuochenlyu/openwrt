@@ -1,0 +1,1536 @@
+Applying patch generic/003-11-001-MIPS-Declare-emulate_load_store_microMIPS-as-a-stati.patch
+patching file arch/mips/kernel/unaligned.c
+
+Applying patch generic/003-11-002-MIPS-Only-set-cpu_has_mmips-if-SYS_SUPPORTS_MICROMIP.patch
+patching file arch/mips/include/asm/cpu-features.h
+
+Applying patch generic/003-11-003-of-pci-Add-of_pci_get_devfn-function.patch
+patching file drivers/of/of_pci.c
+patching file include/linux/of_pci.h
+
+Applying patch generic/003-11-004-hso-Earlier-catch-of-error-condition.patch
+patching file drivers/net/usb/hso.c
+
+Applying patch generic/003-11-008-hso-Fix-stack-corruption-on-some-architectures.patch
+patching file drivers/net/usb/hso.c
+
+Applying patch generic/003-12-001-mtd-chips-Add-support-for-PMC-SPI-Flash-chips-in-m25.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch generic/009-mtd_m25p80_add_support_for_esmt_f25l32pa.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch generic/020-ssb_update.patch
+patching file drivers/ssb/Kconfig
+patching file drivers/ssb/b43_pci_bridge.c
+patching file drivers/ssb/driver_chipcommon_sflash.c
+patching file drivers/ssb/driver_gpio.c
+patching file drivers/ssb/main.c
+patching file drivers/ssb/pci.c
+patching file drivers/ssb/pcihost_wrapper.c
+patching file drivers/ssb/sprom.c
+patching file drivers/ssb/ssb_private.h
+patching file include/linux/ssb/ssb.h
+patching file include/linux/ssb/ssb_driver_gige.h
+patching file include/linux/ssb/ssb_driver_mips.h
+patching file include/linux/ssb/ssb_regs.h
+patching file arch/mips/bcm47xx/sprom.c
+
+Applying patch generic/025-bcma_backport.patch
+patching file drivers/bcma/Kconfig
+patching file drivers/bcma/Makefile
+patching file drivers/bcma/bcma_private.h
+patching file drivers/bcma/core.c
+patching file drivers/bcma/driver_chipcommon.c
+patching file drivers/bcma/driver_chipcommon_pmu.c
+patching file drivers/bcma/driver_chipcommon_sflash.c
+patching file drivers/bcma/driver_gpio.c
+patching file drivers/bcma/driver_pci.c
+patching file drivers/bcma/driver_pci_host.c
+patching file drivers/bcma/driver_pcie2.c
+patching file drivers/bcma/host_pci.c
+patching file drivers/bcma/main.c
+patching file drivers/bcma/scan.c
+patching file drivers/bcma/sprom.c
+patching file include/linux/bcma/bcma.h
+patching file include/linux/bcma/bcma_driver_chipcommon.h
+patching file include/linux/bcma/bcma_driver_pci.h
+patching file include/linux/bcma/bcma_driver_pcie2.h
+patching file drivers/net/wireless/brcm80211/brcmsmac/aiutils.c
+patching file drivers/net/wireless/brcm80211/brcmsmac/aiutils.h
+patching file drivers/net/wireless/brcm80211/brcmsmac/main.c
+
+Applying patch generic/040-UBI-R-O-block-driver-on-top-of-UBI-volumes.patch
+patching file drivers/mtd/ubi/Kconfig
+patching file drivers/mtd/ubi/Makefile
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/build.c
+patching file drivers/mtd/ubi/cdev.c
+patching file drivers/mtd/ubi/ubi.h
+patching file include/uapi/mtd/ubi-user.h
+
+Applying patch generic/041-UBI-block-do-not-use-term-attach.patch
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/cdev.c
+patching file drivers/mtd/ubi/ubi.h
+
+Applying patch generic/042-UBI-block-Mark-init-only-symbol-as-__initdata.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/043-UBI-block-Use-u64-for-the-64-bit-dividend.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/044-UBI-rename-block-device-ioctls.patch
+patching file drivers/mtd/ubi/block.c
+patching file drivers/mtd/ubi/cdev.c
+patching file include/uapi/mtd/ubi-user.h
+
+Applying patch generic/045-UBI-block-Remove-__initdata-from-ubiblock_param_ops.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/046-UBI-avoid-workqueue-format-string-leak.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/047-UBI-make-UBI_IOCVOLCRBLK-take-a-parameter-for-future.patch
+patching file include/uapi/mtd/ubi-user.h
+
+Applying patch generic/060-hso_devices.patch
+patching file drivers/net/usb/hso.c
+patching file drivers/usb/storage/unusual_devs.h
+
+Applying patch generic/061-arm_xz_decompressor_build_fix.patch
+patching file arch/arm/boot/compressed/decompress.c
+
+Applying patch generic/062-mips_decompressor_build_fix.patch
+patching file arch/mips/boot/compressed/decompress.c
+
+Applying patch generic/063-arm-fix-fiq-vivt.patch
+patching file arch/arm/kernel/fiq.c
+
+Applying patch generic/065-iio_ad799x_backport_fixes.patch
+patching file drivers/staging/iio/adc/ad799x_core.c
+patching file drivers/staging/iio/adc/ad799x.h
+
+Applying patch generic/070-net_bridge_backports.patch
+patching file net/bridge/br_device.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_sysfs_br.c
+patching file net/bridge/br_mdb.c
+
+Applying patch generic/100-overlayfs.patch
+patching file Documentation/filesystems/Locking
+patching file Documentation/filesystems/overlayfs.txt
+patching file Documentation/filesystems/vfs.txt
+patching file MAINTAINERS
+patching file fs/Kconfig
+patching file fs/Makefile
+patching file fs/ecryptfs/main.c
+patching file fs/internal.h
+patching file fs/namei.c
+patching file fs/namespace.c
+patching file fs/open.c
+patching file fs/overlayfs/Kconfig
+patching file fs/overlayfs/Makefile
+patching file fs/overlayfs/copy_up.c
+patching file fs/overlayfs/dir.c
+patching file fs/overlayfs/inode.c
+patching file fs/overlayfs/overlayfs.h
+patching file fs/overlayfs/readdir.c
+patching file fs/overlayfs/super.c
+patching file fs/splice.c
+patching file include/linux/fs.h
+patching file include/linux/mount.h
+
+Applying patch generic/102-ehci_hcd_ignore_oc.patch
+patching file drivers/usb/host/ehci-hcd.c
+patching file drivers/usb/host/ehci-hub.c
+patching file drivers/usb/host/ehci-platform.c
+patching file drivers/usb/host/ehci.h
+patching file include/linux/usb/ehci_pdriver.h
+
+Applying patch generic/120-bridge_allow_receiption_on_disabled_port.patch
+patching file net/bridge/br_input.c
+
+Applying patch generic/130-mips_remove_plat_dma_functions.patch
+patching file arch/mips/include/asm/mach-cavium-octeon/dma-coherence.h
+patching file arch/mips/include/asm/mach-generic/dma-coherence.h
+patching file arch/mips/include/asm/mach-ip27/dma-coherence.h
+patching file arch/mips/include/asm/mach-ip32/dma-coherence.h
+patching file arch/mips/include/asm/mach-jazz/dma-coherence.h
+patching file arch/mips/include/asm/mach-loongson/dma-coherence.h
+patching file arch/mips/include/asm/mach-powertv/dma-coherence.h
+patching file arch/mips/mm/dma-default.c
+
+Applying patch generic/131-improve_noncoherent_dma_checks.patch
+patching file arch/mips/Kconfig
+patching file arch/mips/include/asm/dma-coherence.h
+patching file arch/mips/include/asm/mach-generic/dma-coherence.h
+patching file arch/mips/mm/dma-default.c
+
+Applying patch generic/132-mips_inline_dma_ops.patch
+patching file arch/mips/Kconfig
+patching file arch/mips/include/asm/dma-mapping.h
+patching file arch/mips/mm/dma-default.c
+
+Applying patch generic/140-revert_usb_unbind_interfaces.patch
+patching file drivers/usb/core/driver.c
+patching file drivers/usb/core/hub.c
+patching file drivers/usb/core/usb.h
+
+Applying patch generic/200-fix_localversion.patch
+patching file scripts/setlocalversion
+
+Applying patch generic/201-extra_optimization.patch
+patching file Makefile
+
+Applying patch generic/202-reduce_module_size.patch
+patching file Makefile
+
+Applying patch generic/203-kallsyms_uncompressed.patch
+patching file scripts/kallsyms.c
+patching file init/Kconfig
+patching file scripts/link-vmlinux.sh
+patching file kernel/kallsyms.c
+
+Applying patch generic/204-module_strip.patch
+patching file include/linux/module.h
+patching file include/linux/moduleparam.h
+patching file init/Kconfig
+patching file kernel/module.c
+patching file scripts/mod/modpost.c
+
+Applying patch generic/210-darwin_scripts_include.patch
+patching file scripts/kallsyms.c
+patching file scripts/kconfig/Makefile
+patching file scripts/mod/mk_elfconfig.c
+patching file scripts/mod/modpost.h
+patching file scripts/mod/elf.h
+
+Applying patch generic/212-byteshift_portability.patch
+patching file tools/include/tools/be_byteshift.h
+patching file tools/include/tools/le_byteshift.h
+patching file tools/include/tools/linux_types.h
+
+Applying patch generic/220-gc_sections.patch
+patching file arch/mips/Makefile
+patching file arch/mips/kernel/vmlinux.lds.S
+patching file include/asm-generic/vmlinux.lds.h
+patching file arch/arm/Makefile
+patching file arch/arm/kernel/vmlinux.lds.S
+patching file arch/arm/boot/compressed/Makefile
+
+Applying patch generic/221-module_exports.patch
+patching file include/asm-generic/vmlinux.lds.h
+patching file scripts/Makefile.build
+patching file include/linux/export.h
+
+Applying patch generic/230-openwrt_lzma_options.patch
+patching file scripts/Makefile.lib
+patching file scripts/gen_initramfs_list.sh
+patching file lib/decompress.c
+
+Applying patch generic/250-netfilter_depends.patch
+patching file net/netfilter/Kconfig
+
+Applying patch generic/251-sound_kconfig.patch
+patching file sound/core/Kconfig
+
+Applying patch generic/252-mv_cesa_depends.patch
+patching file drivers/crypto/Kconfig
+
+Applying patch generic/253-ssb_b43_default_on.patch
+patching file drivers/ssb/Kconfig
+patching file drivers/bcma/Kconfig
+
+Applying patch generic/254-textsearch_kconfig_hacks.patch
+patching file lib/Kconfig
+
+Applying patch generic/255-lib80211_kconfig_hacks.patch
+patching file net/wireless/Kconfig
+
+Applying patch generic/256-crypto_add_kconfig_prompts.patch
+patching file crypto/Kconfig
+
+Applying patch generic/257-wireless_ext_kconfig_hack.patch
+patching file net/wireless/Kconfig
+
+Applying patch generic/258-netfilter_netlink_kconfig_hack.patch
+patching file net/netfilter/Kconfig
+
+Applying patch generic/259-regmap_dynamic.patch
+patching file drivers/base/regmap/Kconfig
+patching file include/linux/regmap.h
+patching file drivers/base/regmap/Makefile
+patching file drivers/base/regmap/regmap.c
+
+Applying patch generic/260-crypto_test_dependencies.patch
+patching file crypto/Kconfig
+patching file crypto/algboss.c
+
+Applying patch generic/261-move_bcm963xx_tag.patch
+patching file arch/mips/include/asm/mach-bcm63xx/bcm963xx_tag.h
+patching file drivers/mtd/bcm63xxpart.c
+patching file include/uapi/linux/Kbuild
+patching file include/uapi/linux/bcm963xx_tag.h
+
+Applying patch generic/262-compressor_kconfig_hack.patch
+patching file lib/Kconfig
+
+Applying patch generic/300-mips_expose_boot_raw.patch
+patching file arch/mips/Kconfig
+
+Applying patch generic/301-mips_image_cmdline_hack.patch
+patching file arch/mips/Kconfig
+patching file arch/mips/kernel/head.S
+
+Applying patch generic/302-mips_no_branch_likely.patch
+patching file arch/mips/Makefile
+
+Applying patch generic/304-mips_disable_fpu.patch
+patching file arch/mips/Kconfig
+patching file arch/mips/math-emu/Makefile
+patching file arch/mips/math-emu/kernel_linkage.c
+patching file arch/mips/include/asm/fpu_emulator.h
+patching file arch/mips/kernel/traps.c
+
+Applying patch generic/305-mips_module_reloc.patch
+patching file arch/mips/Makefile
+patching file arch/mips/include/asm/module.h
+patching file arch/mips/kernel/module.c
+
+Applying patch generic/306-mips_mem_functions_performance.patch
+patching file arch/mips/include/asm/string.h
+patching file arch/mips/lib/Makefile
+patching file arch/mips/lib/memcmp.c
+
+Applying patch generic/307-mips-Reimplement-get_cycles.patch
+patching file arch/mips/include/asm/timex.h
+
+Applying patch generic/309-mips_fuse_workaround.patch
+patching file arch/mips/mm/cache.c
+patching file fs/fuse/dev.c
+
+Applying patch generic/310-arm_module_unresolved_weak_sym.patch
+patching file arch/arm/kernel/module.c
+
+Applying patch generic/320-ppc4xx_optimization.patch
+patching file arch/powerpc/Makefile
+patching file arch/powerpc/boot/Makefile
+
+Applying patch generic/321-powerpc_crtsavres_prereq.patch
+patching file arch/powerpc/Makefile
+
+Applying patch generic/322-ppc4xx-crypto-compile-fix.patch
+patching file drivers/crypto/amcc/crypto4xx_core.c
+
+Applying patch generic/400-mtd-add-rootfs-split-support.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying patch generic/401-mtd-add-support-for-different-partition-parser-types.patch
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying patch generic/402-mtd-use-typed-mtd-parsers-for-rootfs-and-firmware-split.patch
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+
+Applying patch generic/403-mtd-hook-mtdsplit-to-Kbuild.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/404-mtd-use-mtd_get_squashfs_len-in-split_squasfh.patch
+patching file drivers/mtd/mtdpart.c
+patching file drivers/mtd/Kconfig
+
+Applying patch generic/405-mtd-add-more-helper-functions.patch
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/partitions.h
+patching file include/linux/mtd/mtd.h
+
+Applying patch generic/406-mtd-add-squashfs-parser.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/407-mtd-hook-mtdsplit_uimage-into-Kbuild.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/408-mtd-hook-mtdsplit_seama-into-Kbuild.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/409-mtd-hook-mtdsplit_lzma-into-Kbuild.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/410-mtd-move-forward-declaration-of-struct-mtd_info.patch
+patching file include/linux/mtd/partitions.h
+
+Applying patch generic/411-mtd-partial_eraseblock_write.patch
+patching file drivers/mtd/mtdpart.c
+patching file include/linux/mtd/mtd.h
+
+Applying patch generic/412-mtd-partial_eraseblock_unlock.patch
+patching file drivers/mtd/mtdpart.c
+
+Applying patch generic/420-mtd-redboot_space.patch
+patching file drivers/mtd/redboot.c
+
+Applying patch generic/430-mtd-add-myloader-partition-parser.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch generic/440-block2mtd_init.patch
+patching file drivers/mtd/devices/block2mtd.c
+
+Applying patch generic/441-block2mtd_probe.patch
+patching file drivers/mtd/devices/block2mtd.c
+
+Applying patch generic/450-mtd-nand-allow-to-use-platform-specific-chip-fixup.patch
+patching file include/linux/mtd/nand.h
+patching file drivers/mtd/nand/plat_nand.c
+
+Applying patch generic/451-mtd-nand-fix-return-code-of-nand_correct_data-function.patch
+patching file drivers/mtd/nand/nand_ecc.c
+
+Applying patch generic/460-mtd-cfi_cmdset_0002-no-erase_suspend.patch
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying patch generic/461-mtd-cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying patch generic/471-mtd-m25p80-allow-to-disable-small-sector-erase.patch
+patching file drivers/mtd/devices/Kconfig
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch generic/472-mtd-m25p80-add-support-for-Winbond-W25X05-flash.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch generic/473-mtd-m25p80-add-support-for-EON-EN25QH128-flash.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch generic/480-mtd-set-rootfs-to-be-root-dev.patch
+patching file drivers/mtd/mtdcore.c
+
+Applying patch generic/490-mtd-ubi-add-EOF-marker-support.patch
+patching file drivers/mtd/ubi/attach.c
+patching file drivers/mtd/ubi/ubi.h
+
+Applying patch generic/490-ubi-auto-attach-mtd-device-named-ubi-or-data-on-boot.patch
+patching file drivers/mtd/ubi/build.c
+
+Applying patch generic/491-ubi-auto-create-ubiblock-device-for-rootfs.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/492-try-auto-mounting-ubi0-rootfs-in-init-do_mounts.c.patch
+patching file init/do_mounts.c
+
+Applying patch generic/493-ubi-set-ROOT_DEV-to-ubiblock-rootfs-if-unset.patch
+patching file drivers/mtd/ubi/block.c
+
+Applying patch generic/500-yaffs-Kbuild-integration.patch
+patching file fs/Kconfig
+patching file fs/Makefile
+
+Applying patch generic/501-yaffs-3.5-convert-to-use-kuid_t-kgid_t.patch
+patching file fs/yaffs2/yaffs_vfs.c
+patching file fs/yaffs2/yaffs_attribs.c
+
+Applying patch generic/502-yaffs-3.10-disable-proc-entry.patch
+patching file fs/yaffs2/yaffs_vfs.c
+
+Applying patch generic/503-yaffs-add-tags-9bytes-mount-option.patch
+patching file fs/yaffs2/yaffs_vfs.c
+patching file fs/yaffs2/yaffs_mtdif.c
+patching file fs/yaffs2/yaffs_mtdif.h
+
+Applying patch generic/504-yaffs-fix-compat-tags-handling.patch
+patching file fs/yaffs2/yaffs_tagscompat.c
+
+Applying patch generic/520-squashfs_update_xz_comp_opts.patch
+patching file fs/squashfs/xz_wrapper.c
+
+Applying patch generic/530-jffs2_make_lzma_available.patch
+patching file fs/jffs2/Kconfig
+patching file fs/jffs2/Makefile
+patching file fs/jffs2/compr.c
+patching file fs/jffs2/compr.h
+patching file fs/jffs2/compr_lzma.c
+patching file fs/jffs2/super.c
+patching file include/uapi/linux/jffs2.h
+patching file include/linux/lzma.h
+patching file include/linux/lzma/LzFind.h
+patching file include/linux/lzma/LzHash.h
+patching file include/linux/lzma/LzmaDec.h
+patching file include/linux/lzma/LzmaEnc.h
+patching file include/linux/lzma/Types.h
+patching file lib/Kconfig
+patching file lib/Makefile
+patching file lib/lzma/LzFind.c
+patching file lib/lzma/LzmaDec.c
+patching file lib/lzma/LzmaEnc.c
+patching file lib/lzma/Makefile
+
+Applying patch generic/531-debloat_lzma.patch
+patching file include/linux/lzma/LzmaDec.h
+patching file lib/lzma/LzmaDec.c
+patching file include/linux/lzma/LzmaEnc.h
+patching file lib/lzma/LzmaEnc.c
+patching file include/linux/lzma/LzFind.h
+patching file lib/lzma/LzFind.c
+
+Applying patch generic/532-jffs2_eofdetect.patch
+patching file fs/jffs2/build.c
+patching file fs/jffs2/scan.c
+
+Applying patch generic/540-crypto-xz-decompression-support.patch
+patching file crypto/Kconfig
+patching file crypto/Makefile
+patching file crypto/xz.c
+
+Applying patch generic/541-ubifs-xz-decompression-support.patch
+patching file fs/ubifs/Kconfig
+patching file fs/ubifs/compress.c
+patching file fs/ubifs/ubifs-media.h
+
+Applying patch generic/550-ubifs-symlink-xattr-support.patch
+patching file fs/ubifs/file.c
+patching file fs/ubifs/journal.c
+patching file fs/ubifs/xattr.c
+
+Applying patch generic/551-ubifs-fix-default-compression-selection.patch
+patching file fs/ubifs/sb.c
+
+Applying patch generic/552-ubifs-respect-silent-mount-flag.patch
+patching file fs/ubifs/io.c
+patching file fs/ubifs/super.c
+patching file fs/ubifs/ubifs.h
+
+Applying patch generic/600-netfilter_layer7_2.22.patch
+patching file net/netfilter/Kconfig
+patching file net/netfilter/Makefile
+patching file net/netfilter/xt_layer7.c
+patching file net/netfilter/regexp/regexp.c
+patching file net/netfilter/regexp/regexp.h
+patching file net/netfilter/regexp/regmagic.h
+patching file net/netfilter/regexp/regsub.c
+patching file net/netfilter/nf_conntrack_core.c
+patching file net/netfilter/nf_conntrack_standalone.c
+patching file include/net/netfilter/nf_conntrack.h
+patching file include/linux/netfilter/xt_layer7.h
+patching file include/uapi/linux/netfilter/Kbuild
+
+Applying patch generic/601-netfilter_layer7_pktmatch.patch
+patching file include/linux/netfilter/xt_layer7.h
+patching file net/netfilter/xt_layer7.c
+
+Applying patch generic/602-netfilter_layer7_match.patch
+patching file net/netfilter/xt_layer7.c
+
+Applying patch generic/603-netfilter_layer7_2.6.36_fix.patch
+patching file net/netfilter/Kconfig
+
+Applying patch generic/604-netfilter_conntrack_flush.patch
+patching file net/netfilter/nf_conntrack_standalone.c
+
+Applying patch generic/610-netfilter_match_bypass_default_checks.patch
+patching file include/uapi/linux/netfilter_ipv4/ip_tables.h
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying patch generic/611-netfilter_match_bypass_default_table.patch
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying patch generic/612-netfilter_match_reduce_memory_access.patch
+patching file net/ipv4/netfilter/ip_tables.c
+
+Applying patch generic/613-netfilter_optional_tcp_window_check.patch
+patching file net/netfilter/nf_conntrack_proto_tcp.c
+
+Applying patch generic/614-netfilter_arpt_arp_padding_fix.patch
+patching file include/uapi/linux/netfilter_arp/arp_tables.h
+
+Applying patch generic/615-netfilter_add_xt_id_match.patch
+patching file include/uapi/linux/netfilter/Kbuild
+patching file include/uapi/linux/netfilter/xt_id.h
+patching file net/netfilter/Kconfig
+patching file net/netfilter/Makefile
+patching file net/netfilter/xt_id.c
+
+Applying patch generic/616-net_optimize_xfrm_calls.patch
+patching file net/netfilter/nf_nat_core.c
+
+Applying patch generic/617-netfilter_skip_filter_sysctl.patch
+patching file include/net/netns/conntrack.h
+patching file net/ipv4/netfilter/iptable_filter.c
+patching file net/ipv6/netfilter/ip6table_filter.c
+patching file net/netfilter/nf_conntrack_standalone.c
+Hunk #1 succeeded at 510 (offset 33 lines).
+Hunk #2 succeeded at 552 (offset 33 lines).
+
+Applying patch generic/620-sched_esfq.patch
+patching file include/uapi/linux/pkt_sched.h
+patching file net/sched/Kconfig
+patching file net/sched/Makefile
+patching file net/sched/sch_esfq.c
+
+Applying patch generic/621-sched_act_connmark.patch
+patching file net/sched/act_connmark.c
+patching file net/sched/Kconfig
+patching file net/sched/Makefile
+
+Applying patch generic/630-packet_socket_type.patch
+patching file include/uapi/linux/if_packet.h
+patching file net/packet/af_packet.c
+patching file net/packet/internal.h
+
+Applying patch generic/640-bridge_no_eap_forward.patch
+patching file net/bridge/br_input.c
+
+Applying patch generic/641-bridge_always_accept_eap.patch
+patching file net/bridge/br_input.c
+
+Applying patch generic/642-bridge_port_isolate.patch
+patching file net/bridge/br_private.h
+patching file net/bridge/br_sysfs_if.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_forward.c
+
+Applying patch generic/643-bridge_remove_ipv6_dependency.patch
+patching file include/net/addrconf.h
+patching file net/bridge/Kconfig
+patching file net/ipv6/Makefile
+patching file net/ipv6/addrconf.c
+patching file net/ipv6/inet6_stubs.c
+
+Applying patch generic/644-bridge_optimize_netfilter_hooks.patch
+patching file net/bridge/br_forward.c
+patching file net/bridge/br_input.c
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_netfilter.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_stp_bpdu.c
+patching file net/bridge/netfilter/ebtables.c
+
+Applying patch generic/645-bridge_multicast_to_unicast.patch
+patching file net/bridge/br_multicast.c
+patching file net/bridge/br_private.h
+patching file net/bridge/br_mdb.c
+patching file net/bridge/br_forward.c
+patching file net/bridge/br_sysfs_if.c
+
+Applying patch generic/650-pppoe_header_pad.patch
+patching file drivers/net/ppp/pppoe.c
+
+Applying patch generic/651-wireless_mesh_header.patch
+patching file include/linux/netdevice.h
+
+Applying patch generic/652-atm_header_changes.patch
+patching file include/uapi/linux/atm.h
+
+Applying patch generic/653-disable_netlink_trim.patch
+patching file net/netlink/af_netlink.c
+
+Applying patch generic/655-increase_skb_pad.patch
+patching file include/linux/skbuff.h
+
+Applying patch generic/656-skb_reduce_truesize-helper.patch
+patching file include/linux/skbuff.h
+
+Applying patch generic/657-qdisc_reduce_truesize.patch
+patching file net/sched/sch_codel.c
+patching file net/sched/sch_fifo.c
+patching file net/sched/sch_fq_codel.c
+
+Applying patch generic/660-fq_codel_defaults.patch
+patching file net/sched/sch_fq_codel.c
+
+Applying patch generic/661-fq_codel_keep_dropped_stats.patch
+patching file net/sched/sch_fq_codel.c
+
+Applying patch generic/662-use_fq_codel_by_default.patch
+patching file net/sched/Kconfig
+patching file net/sched/sch_fq_codel.c
+patching file include/net/sch_generic.h
+patching file net/sched/sch_generic.c
+patching file net/sched/sch_mq.c
+patching file net/sched/sch_mqprio.c
+
+Applying patch generic/663-remove_pfifo_fast.patch
+patching file net/sched/sch_generic.c
+
+Applying patch generic/666-Add-support-for-MAP-E-FMRs-mesh-mode.patch
+patching file include/net/ip6_tunnel.h
+patching file include/uapi/linux/if_tunnel.h
+patching file net/ipv6/ip6_tunnel.c
+
+Applying patch generic/670-ipv6-allow-rejecting-with-source-address-failed-policy.patch
+patching file include/net/netns/ipv6.h
+patching file include/uapi/linux/fib_rules.h
+patching file include/uapi/linux/rtnetlink.h
+patching file net/ipv4/fib_rules.c
+patching file net/ipv4/fib_semantics.c
+patching file net/ipv4/fib_trie.c
+patching file net/ipv4/ipmr.c
+patching file net/ipv6/fib6_rules.c
+patching file net/ipv6/ip6mr.c
+patching file net/ipv6/route.c
+
+Applying patch generic/686-flow_dissector-clean-up-IPIP-case.patch
+patching file net/core/flow_dissector.c
+
+Applying patch generic/687-flow_dissector-add-support-for-IPPROTO_IPV6.patch
+patching file net/core/flow_dissector.c
+
+Applying patch generic/688-net-flow_dissector-add-802.1ad-support.patch
+patching file net/core/flow_dissector.c
+
+Applying patch generic/700-swconfig.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+patching file include/uapi/linux/Kbuild
+
+Applying patch generic/701-phy_extension.patch
+patching file drivers/net/phy/phy.c
+patching file include/linux/phy.h
+
+Applying patch generic/702-phy_add_aneg_done_function.patch
+patching file include/linux/phy.h
+patching file drivers/net/phy/phy_device.c
+patching file drivers/net/phy/phy.c
+
+Applying patch generic/703-phy-add-detach-callback-to-struct-phy_driver.patch
+patching file drivers/net/phy/phy_device.c
+patching file include/linux/phy.h
+
+Applying patch generic/710-phy-add-mdio_register_board_info.patch
+patching file drivers/net/phy/mdio_bus.c
+patching file include/linux/phy.h
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+patching file drivers/net/phy/mdio-boardinfo.c
+patching file drivers/net/phy/mdio-boardinfo.h
+patching file drivers/net/Makefile
+
+Applying patch generic/720-phy_adm6996.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/721-phy_packets.patch
+patching file include/linux/netdevice.h
+patching file include/uapi/linux/if.h
+patching file include/linux/skbuff.h
+patching file net/Kconfig
+patching file net/core/dev.c
+patching file net/core/skbuff.c
+patching file net/ethernet/eth.c
+
+Applying patch generic/722-phy_mvswitch.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/723-phy_ip175c.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/724-phy_ar8216.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/725-phy_rtl8306.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/726-phy_rtl8366.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/727-phy-rtl8367.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/728-phy-micrel.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/729-phy-rtl8367b.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/729-phy-tantos.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/730-phy_b53.patch
+patching file drivers/net/phy/Kconfig
+patching file drivers/net/phy/Makefile
+
+Applying patch generic/731-phy_mvswitch_3.10_compilation.patch
+patching file drivers/net/phy/mvswitch.c
+
+Applying patch generic/732-phy-ar8216-led-support.patch
+patching file drivers/net/phy/Kconfig
+
+Applying patch generic/750-hostap_txpower.patch
+patching file drivers/net/wireless/hostap/hostap_ap.c
+patching file drivers/net/wireless/hostap/hostap_config.h
+patching file drivers/net/wireless/hostap/hostap.h
+patching file drivers/net/wireless/hostap/hostap_hw.c
+patching file drivers/net/wireless/hostap/hostap_info.c
+patching file drivers/net/wireless/hostap/hostap_ioctl.c
+
+Applying patch generic/770-bgmac-backport.patch
+patching file drivers/net/ethernet/broadcom/Kconfig
+patching file drivers/net/ethernet/broadcom/bgmac.c
+patching file drivers/net/ethernet/broadcom/bgmac.h
+
+Applying patch generic/773-bgmac-add-srab-switch.patch
+patching file drivers/net/ethernet/broadcom/bgmac.c
+patching file drivers/net/ethernet/broadcom/bgmac.h
+
+Applying patch generic/775-bgmac-check-length-of-received-frame.patch
+patching file drivers/net/ethernet/broadcom/bgmac.c
+
+Applying patch generic/810-pci_disable_common_quirks.patch
+patching file drivers/pci/Kconfig
+patching file drivers/pci/quirks.c
+
+Applying patch generic/811-pci_disable_usb_common_quirks.patch
+patching file drivers/usb/host/pci-quirks.c
+patching file drivers/usb/host/pci-quirks.h
+
+Applying patch generic/820-usb_add_usb_find_device_by_name.patch
+patching file drivers/usb/core/usb.c
+patching file include/linux/usb.h
+
+Applying patch generic/830-ledtrig_morse.patch
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-morse.c
+
+Applying patch generic/831-ledtrig_netdev.patch
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-netdev.c
+
+Applying patch generic/832-ledtrig_usbdev.patch
+patching file drivers/leds/trigger/Kconfig
+patching file drivers/leds/Makefile
+patching file drivers/leds/ledtrig-usbdev.c
+
+Applying patch generic/840-rtc7301.patch
+patching file drivers/rtc/Kconfig
+patching file drivers/rtc/Makefile
+patching file drivers/rtc/rtc-rtc7301.c
+
+Applying patch generic/841-rtc_pt7c4338.patch
+patching file drivers/rtc/Kconfig
+patching file drivers/rtc/Makefile
+patching file drivers/rtc/rtc-pt7c4338.c
+
+Applying patch generic/861-04_spi_gpio_implement_spi_delay.patch
+patching file drivers/spi/spi-gpio.c
+
+Applying patch generic/862-gpio_spi_driver.patch
+patching file include/linux/spi/spi_gpio_old.h
+patching file drivers/spi/spi_gpio_old.c
+patching file drivers/spi/Kconfig
+patching file drivers/spi/Makefile
+
+Applying patch generic/863-gpiommc.patch
+patching file drivers/mmc/host/gpiommc.c
+patching file drivers/mmc/host/Kconfig
+patching file drivers/mmc/host/Makefile
+patching file include/linux/mmc/gpiommc.h
+patching file Documentation/gpiommc.txt
+patching file MAINTAINERS
+
+Applying patch generic/864-gpiommc_configfs_locking.patch
+patching file drivers/mmc/host/gpiommc.c
+
+Applying patch generic/870-hifn795x_byteswap.patch
+patching file drivers/crypto/hifn_795x.c
+
+Applying patch generic/880-gateworks_system_controller.patch
+patching file drivers/hwmon/Kconfig
+patching file drivers/hwmon/Makefile
+patching file drivers/hwmon/gsc.c
+
+Applying patch generic/890-8250_optional_sysrq.patch
+patching file drivers/tty/serial/8250/8250_core.c
+patching file drivers/tty/serial/8250/Kconfig
+
+Applying patch generic/900-slab_maxsize.patch
+patching file include/linux/slab.h
+
+Applying patch generic/901-debloat_sock_diag.patch
+patching file net/Kconfig
+patching file net/core/Makefile
+patching file net/ipv4/Kconfig
+patching file net/unix/Kconfig
+
+Applying patch generic/902-debloat_proc.patch
+patching file fs/locks.c
+patching file fs/proc/Kconfig
+patching file fs/proc/consoles.c
+patching file fs/proc/proc_tty.c
+patching file kernel/exec_domain.c
+patching file kernel/irq/proc.c
+patching file kernel/time/timer_list.c
+patching file mm/vmalloc.c
+patching file mm/vmstat.c
+patching file net/8021q/vlanproc.c
+patching file net/core/sock.c
+patching file net/ipv4/fib_trie.c
+patching file net/ipv4/proc.c
+patching file net/ipv4/route.c
+patching file ipc/msg.c
+patching file ipc/sem.c
+patching file ipc/shm.c
+patching file ipc/util.c
+patching file net/core/net-procfs.c
+
+Applying patch generic/903-debloat_direct_io.patch
+patching file fs/Kconfig
+patching file fs/Makefile
+patching file include/linux/fs.h
+patching file fs/fcntl.c
+patching file fs/open.c
+
+Applying patch generic/910-kobject_uevent.patch
+patching file lib/kobject_uevent.c
+
+Applying patch generic/911-kobject_add_broadcast_uevent.patch
+patching file include/linux/kobject.h
+patching file lib/kobject_uevent.c
+
+Applying patch generic/921-use_preinit_as_init.patch
+patching file init/main.c
+
+Applying patch generic/922-always-create-console-node-in-initramfs.patch
+patching file scripts/gen_initramfs_list.sh
+
+Applying patch generic/930-crashlog.patch
+patching file include/linux/crashlog.h
+patching file init/Kconfig
+patching file kernel/Makefile
+patching file kernel/crashlog.c
+patching file mm/bootmem.c
+patching file kernel/module.c
+patching file mm/memblock.c
+
+Applying patch generic/940-ocf_kbuild_integration.patch
+patching file crypto/Kconfig
+patching file crypto/Makefile
+
+Applying patch generic/941-ocf_20120127.patch
+patching file drivers/char/random.c
+patching file fs/fcntl.c
+patching file include/linux/miscdevice.h
+patching file include/uapi/linux/random.h
+patching file include/linux/random.h
+patching file kernel/pid.c
+
+Applying patch generic/950-vm_exports.patch
+patching file mm/shmem.c
+patching file fs/file.c
+patching file kernel/exit.c
+patching file kernel/sched/core.c
+patching file mm/memory.c
+patching file mm/vmalloc.c
+patching file include/linux/shmem_fs.h
+
+Applying patch generic/960-decompress_unlzo_fix.patch
+patching file include/linux/decompress/unlzo_mm.h
+patching file lib/decompress_unlzo.c
+
+Applying patch generic/970-remove-unsane-filenames-from-deps_initramfs-list.patch
+patching file usr/Makefile
+
+Applying patch generic/980-arm_openwrt_machtypes.patch
+patching file arch/arm/tools/mach-types
+
+Applying patch generic/990-gpio_wdt.patch
+patching file drivers/watchdog/Kconfig
+patching file drivers/watchdog/Makefile
+patching file drivers/watchdog/gpio_wdt.c
+patching file include/linux/gpio_wdt.h
+
+Applying patch generic/992-mpcore_wdt_fix_watchdog_counter_loading.patch
+patching file arch/arm/include/asm/smp_twd.h
+patching file arch/arm/kernel/smp_twd.c
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying patch generic/993-mpcore_wdt_fix_wdioc_setoptions_handling.patch
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying patch generic/994-mpcore_wdt_fix_timer_mode_setup.patch
+patching file arch/arm/include/asm/smp_twd.h
+patching file drivers/watchdog/mpcore_wdt.c
+
+Applying patch generic/995-mpcore_twd_calibrate_single_core.patch
+patching file arch/arm/kernel/smp_twd.c
+
+Applying patch generic/996-zsmalloc_allow_module_build.patch
+patching file drivers/staging/zsmalloc/Kconfig
+
+Applying patch generic/997-device_tree_cmdline.patch
+patching file drivers/of/fdt.c
+
+Applying patch platform/100-MIPS-ath79-don-t-hardwire-cpu_has_dsp-2-to-0.patch
+patching file arch/mips/include/asm/mach-ath79/cpu-feature-overrides.h
+
+Applying patch platform/101-MIPS-ath79-simplify-platform_get_resource_byname-dev.patch
+patching file arch/mips/pci/pci-ar71xx.c
+patching file arch/mips/pci/pci-ar724x.c
+
+Applying patch platform/102-MIPS-ath79-Avoid-using-unitialized-reg-variable.patch
+patching file arch/mips/ath79/common.c
+
+Applying patch platform/103-tty-ar933x_uart-convert-to-use-devm_-functions.patch
+patching file drivers/tty/serial/ar933x_uart.c
+
+Applying patch platform/206-spi-ath79-make-chipselect-logic-more-flexible.patch
+patching file arch/mips/ath79/mach-ap121.c
+patching file arch/mips/ath79/mach-ap136.c
+patching file arch/mips/ath79/mach-ap81.c
+patching file arch/mips/ath79/mach-db120.c
+patching file arch/mips/ath79/mach-pb44.c
+patching file arch/mips/ath79/mach-ubnt-xm.c
+patching file arch/mips/include/asm/mach-ath79/ath79_spi_platform.h
+patching file drivers/spi/spi-ath79.c
+
+Applying patch platform/213-MIPS-ath79-fix-ar933x-wmac-reset.patch
+patching file arch/mips/ath79/dev-wmac.c
+
+Applying patch platform/220-add_cpu_feature_overrides.patch
+patching file arch/mips/include/asm/mach-ath79/cpu-feature-overrides.h
+
+Applying patch platform/300-MIPS-add-MIPS_MACHINE_NONAME-macro.patch
+patching file arch/mips/include/asm/mips_machine.h
+
+Applying patch platform/310-lib-add-rle-decompression.patch
+patching file lib/Kconfig
+patching file lib/Makefile
+patching file include/linux/rle.h
+patching file lib/rle.c
+
+Applying patch platform/401-mtd-physmap-add-lock-unlock.patch
+patching file drivers/mtd/maps/physmap.c
+patching file include/linux/mtd/physmap.h
+
+Applying patch platform/402-mtd-SST39VF6401B-support.patch
+patching file drivers/mtd/chips/jedec_probe.c
+
+Applying patch platform/403-mtd_fix_cfi_cmdset_0002_status_check.patch
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying patch platform/404-mtd-wrt160nl-trx-parser.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch platform/405-mtd-tp-link-partition-parser.patch
+patching file drivers/mtd/Kconfig
+patching file drivers/mtd/Makefile
+
+Applying patch platform/406-mtd-m25p80-allow-to-specify-max-read-size.patch
+patching file drivers/mtd/devices/m25p80.c
+patching file include/linux/spi/flash.h
+
+Applying patch platform/407-mtd-m25p80-allow-to-pass-probe-types-via-platform-data.patch
+patching file drivers/mtd/devices/m25p80.c
+patching file include/linux/spi/flash.h
+
+Applying patch platform/408-mtd-redboot_partition_scan.patch
+patching file drivers/mtd/redboot.c
+
+Applying patch platform/409-mtd-rb4xx_nand_driver.patch
+patching file drivers/mtd/nand/Kconfig
+patching file drivers/mtd/nand/Makefile
+
+Applying patch platform/410-mtd-rb750-nand-driver.patch
+patching file drivers/mtd/nand/Kconfig
+patching file drivers/mtd/nand/Makefile
+
+Applying patch platform/411-mtd-cfi_cmdset_0002-force-word-write.patch
+patching file drivers/mtd/chips/cfi_cmdset_0002.c
+
+Applying patch platform/412-mtd-m25p80-zero-partition-parser-data.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch platform/413-mtd-ar934x-nand-driver.patch
+patching file drivers/mtd/nand/Kconfig
+patching file drivers/mtd/nand/Makefile
+
+Applying patch platform/414-mtd-rb91x-nand-driver.patch
+patching file drivers/mtd/nand/Kconfig
+patching file drivers/mtd/nand/Makefile
+
+Applying patch platform/420-net-ar71xx_mac_driver.patch
+patching file drivers/net/ethernet/atheros/Kconfig
+patching file drivers/net/ethernet/atheros/Makefile
+
+Applying patch platform/422-dsa-trailer-tag-validation-fix.patch
+patching file net/dsa/tag_trailer.c
+
+Applying patch platform/423-dsa-add-88e6063-driver.patch
+patching file drivers/net/dsa/Kconfig
+patching file drivers/net/dsa/Makefile
+
+Applying patch platform/424-net-phy-add-phy_mmd_read_write-functions.patch
+patching file drivers/net/phy/phy.c
+patching file include/linux/phy.h
+
+Applying patch platform/425-net-phy-at803x-allow-to-configure-via-pdata.patch
+patching file drivers/net/phy/at803x.c
+patching file include/linux/platform_data/phy-at803x.h
+
+Applying patch platform/430-drivers-link-spi-before-mtd.patch
+patching file drivers/Makefile
+
+Applying patch platform/431-spi-add-various-flags.patch
+patching file include/linux/spi/spi.h
+
+Applying patch platform/432-spi-rb4xx-spi-driver.patch
+patching file drivers/spi/Kconfig
+patching file drivers/spi/Makefile
+
+Applying patch platform/433-spi-rb4xx-cpld-driver.patch
+patching file drivers/spi/Kconfig
+patching file drivers/spi/Makefile
+
+Applying patch platform/434-spi-ap83_spi_controller.patch
+patching file drivers/spi/Makefile
+patching file drivers/spi/Kconfig
+
+Applying patch platform/435-spi-vsc7385_driver.patch
+patching file drivers/spi/Kconfig
+patching file drivers/spi/Makefile
+
+Applying patch platform/440-leds-wndr3700-usb-led-driver.patch
+patching file drivers/leds/Kconfig
+patching file drivers/leds/Makefile
+
+Applying patch platform/441-leds-rb750-led-driver.patch
+patching file drivers/leds/Kconfig
+patching file drivers/leds/Makefile
+
+Applying patch platform/450-gpio-nxp-74hc153-gpio-chip-driver.patch
+patching file drivers/gpio/Kconfig
+patching file drivers/gpio/Makefile
+
+Applying patch platform/451-gpio-74x164-improve-platform-device-support.patch
+patching file drivers/gpio/gpio-74x164.c
+patching file include/linux/spi/74x164.h
+
+Applying patch platform/452-gpio-add-gpio-latch-driver.patch
+patching file drivers/gpio/Kconfig
+patching file drivers/gpio/Makefile
+
+Applying patch platform/460-spi-bitbang-export-spi_bitbang_bufs.patch
+patching file drivers/spi/spi-bitbang.c
+patching file include/linux/spi/spi_bitbang.h
+
+Applying patch platform/461-spi-add-type-field-to-spi_transfer.patch
+patching file include/linux/spi/spi.h
+
+Applying patch platform/462-mtd-m25p80-set-spi-transfer-type.patch
+patching file drivers/mtd/devices/m25p80.c
+
+Applying patch platform/463-spi-ath79-add-fast-flash-read.patch
+patching file drivers/spi/spi-ath79.c
+patching file arch/mips/include/asm/mach-ath79/ath79_spi_platform.h
+
+Applying patch platform/470-MIPS-ath79-swizzle-pci-address-for-ar71xx.patch
+patching file arch/mips/include/asm/mach-ath79/mangle-port.h
+patching file arch/mips/ath79/pci.c
+
+Applying patch platform/480-ar913x_wmac_external_reset.patch
+patching file arch/mips/ath79/dev-wmac.c
+
+Applying patch platform/490-usb-ehci-add-quirks-for-qca-socs.patch
+patching file drivers/usb/host/ehci-hcd.c
+patching file drivers/usb/host/ehci.h
+patching file include/linux/usb/ehci_pdriver.h
+patching file drivers/usb/host/ehci-platform.c
+
+Applying patch platform/500-MIPS-fw-myloader.patch
+patching file arch/mips/Makefile
+patching file arch/mips/Kconfig
+
+Applying patch platform/501-MIPS-ath79-add-mac-argument-to-ath79_register_wmac.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+patching file arch/mips/ath79/mach-ap81.c
+patching file arch/mips/ath79/mach-db120.c
+patching file arch/mips/ath79/mach-ap121.c
+
+Applying patch platform/502-MIPS-ath79-export-ath79_gpio_base.patch
+patching file arch/mips/ath79/gpio.c
+patching file arch/mips/include/asm/mach-ath79/ath79.h
+
+Applying patch platform/503-MIPS-ath79-add-flash-acquire-release.patch
+patching file arch/mips/ath79/common.c
+patching file arch/mips/include/asm/mach-ath79/ath79.h
+
+Applying patch platform/504-MIPS-ath79-add-ath79_device_reset_get.patch
+patching file arch/mips/include/asm/mach-ath79/ath79.h
+patching file arch/mips/ath79/common.c
+
+Applying patch platform/505-MIPS-ath79-add-ath79_gpio_function_select.patch
+patching file arch/mips/ath79/common.h
+patching file arch/mips/ath79/gpio.c
+
+Applying patch platform/506-MIPS-ath79-prom-parse-redboot-args.patch
+patching file arch/mips/ath79/prom.c
+
+Applying patch platform/507-MIPS-ath79-prom-add-myloader-support.patch
+patching file arch/mips/ath79/prom.c
+
+Applying patch platform/508-MIPS-ath79-prom-image-command-line-hack.patch
+patching file arch/mips/ath79/prom.c
+
+Applying patch platform/509-MIPS-ath79-process-board-kernel-option.patch
+patching file arch/mips/ath79/setup.c
+
+Applying patch platform/510-MIPS-ath79-init-gpio-pin-of-wmac-device.patch
+patching file arch/mips/ath79/dev-wmac.c
+
+Applying patch platform/520-MIPS-ath79-enable-UART-function.patch
+patching file arch/mips/ath79/dev-common.c
+
+Applying patch platform/521-MIPS-ath79-enable-UART-for-early_serial.patch
+patching file arch/mips/ath79/early_printk.c
+
+Applying patch platform/522-MIPS-ath79-add-ath79_wmac_register_simple-helper.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+
+Applying patch platform/523-MIPS-ath79-OTP-support.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+patching file arch/mips/include/asm/mach-ath79/ar71xx_regs.h
+
+Applying patch platform/524-MIPS-ath79-add-ath79_wmac_disable_25ghz-helpers.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+
+Applying patch platform/525-MIPS-ath79-enable-qca-usb-quirks.patch
+patching file arch/mips/ath79/dev-usb.c
+
+Applying patch platform/601-MIPS-ath79-add-more-register-defines.patch
+patching file arch/mips/include/asm/mach-ath79/ar71xx_regs.h
+
+Applying patch platform/602-MIPS-ath79-add-openwrt-stuff.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/603-MIPS-ath79-ap121-fixes.patch
+patching file arch/mips/ath79/mach-ap121.c
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/604-MIPS-ath79-ap81-fixes.patch
+patching file arch/mips/ath79/mach-ap81.c
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/605-MIPS-ath79-db120-fixes.patch
+patching file arch/mips/ath79/mach-db120.c
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/606-MIPS-ath79-pb44-fixes.patch
+patching file arch/mips/ath79/mach-pb44.c
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/607-MIPS-ath79-ubnt-xm-fixes.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/mach-ubnt-xm.c
+
+Applying patch platform/608-MIPS-ath79-ubnt-xm-add-more-boards.patch
+patching file arch/mips/ath79/mach-ubnt-xm.c
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/609-MIPS-ath79-ap136-fixes.patch
+patching file arch/mips/ath79/mach-ap136.c
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/610-MIPS-ath79-openwrt-machines.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/prom.c
+
+Applying patch platform/611-MIPS-ath79-wdt-timeout.patch
+patching file drivers/watchdog/ath79_wdt.c
+
+Applying patch platform/612-MIPS-ath79-set-buffalo-txgain.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+
+Applying patch platform/613-MIPS-ath79-add-ath79_wmac_setup_ext_lna_gpio-helper.patch
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/dev-wmac.h
+
+Applying patch platform/614-MIPS-ath79-ap81-remove-mtd-partitions.patch
+patching file arch/mips/ath79/mach-ap81.c
+
+Applying patch platform/615-MIPS-ath79-ap83-remove-mtd-partitions.patch
+patching file arch/mips/ath79/mach-ap83.c
+
+Applying patch platform/616-MIPS-ath79-ubnt-xw.patch
+patching file arch/mips/ath79/mach-ubnt-xm.c
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/700-MIPS-ath79-add-TL-WA801NDv2-suport.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/701-MIPS-ath79-add-TL-WA901ND-v3-support.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/702-MIPS-ath79-add-MyNet-N750-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/703-MIPS-ath79-add-RB91x-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/704-MIPS-ath79-TL-WDR4900v2-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/705-MIPS-ath79-add-RB951Ui-2HnD-support.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/706-MIPS-ath79-oolite-v1-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/707-MIPS-ath79-add-support-for-QCA953x-SoC.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/clock.c
+patching file arch/mips/ath79/common.c
+patching file arch/mips/ath79/dev-common.c
+patching file arch/mips/ath79/dev-wmac.c
+patching file arch/mips/ath79/early_printk.c
+patching file arch/mips/ath79/gpio.c
+patching file arch/mips/ath79/irq.c
+patching file arch/mips/ath79/setup.c
+patching file arch/mips/include/asm/mach-ath79/ar71xx_regs.h
+patching file arch/mips/include/asm/mach-ath79/ath79.h
+
+Applying patch platform/708-MIPS-ath79-TL-WR841v9-support.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/709-MIPS-ath79-HiWiFi-HC6361-support.patch
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/709-MIPS-ath79-add-NBG6716.patch
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/710-MIPS-ath79-add-OM2Pv2.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/711-MIPS-ath79-add-OM2P-HSv2.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/712-MIPS-ath79-add-EasyLink-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/713-MIPS-ath79-add-RBSXTLite-support.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/714-MIPS-ath79-add-TL-WA830REv2-support.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/715-MIPS-ath79-add-TL-WA860RE-support.patch
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/716-MIPS-ath79-add_mikrotik_rb2011uias.patch
+patching file arch/mips/ath79/mach-rb2011.c
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/717-MIPS-ath79-add-gl-inet-v1-support.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/718-MIPS-ath79-add-ESR1750-support.patch
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/719-MIPS-ath79-add-ESR900-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/720-MIPS-ath79-add-Tube2H-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/721-MIPS-ath79-add-EAP300v2-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/722-MIPS-ath79-add-airGateway-support.patch
+patching file arch/mips/ath79/mach-ubnt-xm.c
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/723-MIPS-ath79-add-om5p-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/724-MIPS-ath79-archer_c5-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+
+Applying patch platform/725-MIPS-ath79-add-smart-300-support.patch
+patching file arch/mips/ath79/machtypes.h
+patching file arch/mips/ath79/Kconfig
+patching file arch/mips/ath79/Makefile
+
+Applying patch platform/725-MIPS-ath79-add_mikrotik_rb2011uias-2hnd.patch
+patching file arch/mips/ath79/mach-rb2011.c
+patching file arch/mips/ath79/machtypes.h
+
+Applying patch platform/728-MIPS-ath79-fix-restart.patch
+patching file arch/mips/ath79/setup.c
+
+Applying patch platform/901-mdio_bitbang_ignore_ta_value.patch
+patching file drivers/net/phy/mdio-bitbang.c
+
+Applying patch platform/902-unaligned_access_hacks.patch
+patching file arch/mips/include/asm/checksum.h
+patching file include/uapi/linux/ip.h
+patching file include/uapi/linux/ipv6.h
+patching file include/uapi/linux/tcp.h
+patching file include/uapi/linux/udp.h
+patching file net/ipv4/netfilter/nf_conntrack_l3proto_ipv4.c
+patching file include/uapi/linux/icmp.h
+patching file include/uapi/linux/in6.h
+patching file net/ipv6/af_inet6.c
+patching file net/ipv6/tcp_ipv6.c
+patching file include/linux/ipv6.h
+patching file net/ipv6/datagram.c
+patching file net/ipv6/ip6_gre.c
+patching file net/ipv6/ip6_tunnel.c
+patching file net/ipv6/exthdrs.c
+patching file include/linux/types.h
+patching file net/ipv4/af_inet.c
+patching file net/ipv4/route.c
+patching file net/ipv4/tcp_output.c
+patching file net/ipv4/igmp.c
+patching file include/uapi/linux/igmp.h
+patching file net/core/flow_dissector.c
+patching file include/uapi/linux/icmpv6.h
+patching file include/net/ndisc.h
+patching file net/sched/cls_u32.c
+patching file net/ipv6/ip6_offload.c
+patching file include/net/addrconf.h
+patching file include/net/inet_ecn.h
+patching file include/net/ipv6.h
+patching file include/net/secure_seq.h
+patching file include/uapi/linux/in.h
+patching file net/core/secure_seq.c
+patching file net/ipv6/ip6_fib.c
+patching file net/netfilter/nf_conntrack_proto_tcp.c
+patching file net/netfilter/xt_LOG.c
+patching file net/xfrm/xfrm_input.c
+patching file net/ipv4/ip_gre.c
+patching file net/ipv4/tcp_input.c
+patching file include/uapi/linux/if_pppox.h
+
+Now at patch platform/902-unaligned_access_hacks.patch
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+  CHK     include/generated/uapi/linux/version.h
+  UPD     include/generated/uapi/linux/version.h
+  HOSTCC  scripts/basic/fixdep
+  WRAP    arch/mips/include/generated/asm/trace_clock.h
+  HOSTCC  scripts/unifdef
+  INSTALL include/asm-generic (35 files)
+  INSTALL include/drm (17 files)
+  INSTALL include/linux/byteorder (2 files)
+  INSTALL include/linux/caif (2 files)
+  INSTALL include/linux/can (5 files)
+  INSTALL include/linux/dvb (8 files)
+  INSTALL include/linux/hdlc (1 file)
+  INSTALL include/linux/hsi (1 file)
+  INSTALL include/linux/isdn (1 file)
+  INSTALL include/linux/mmc (1 file)
+  INSTALL include/linux/netfilter/ipset (4 files)
+  INSTALL include/linux/netfilter (80 files)
+  INSTALL include/linux/netfilter_arp (2 files)
+  INSTALL include/linux/netfilter_bridge (18 files)
+  INSTALL include/linux/netfilter_ipv4 (10 files)
+  INSTALL include/linux/netfilter_ipv6 (12 files)
+  INSTALL include/linux/nfsd (5 files)
+  INSTALL include/linux/raid (2 files)
+  INSTALL include/linux/spi (1 file)
+  INSTALL include/linux/sunrpc (1 file)
+  INSTALL include/linux/tc_act (7 files)
+  INSTALL include/linux/tc_ematch (4 files)
+  INSTALL include/linux/usb (11 files)
+  INSTALL include/linux/wimax (1 file)
+  INSTALL include/linux (386 files)
+  INSTALL include/mtd (5 files)
+  INSTALL include/rdma (6 files)
+  INSTALL include/scsi/fc (4 files)
+  INSTALL include/scsi (3 files)
+  INSTALL include/sound (10 files)
+  INSTALL include/video (3 files)
+  INSTALL include/xen (2 files)
+  INSTALL include/uapi (0 file)
+  INSTALL include/asm (37 files)
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+net/sched/Kconfig:43: warning: menuconfig statement without prompt
+#
+# configuration written to .config
+#
+drivers/media/usb/pwc/pwc-if.c: In function 'usb_pwc_probe':
+drivers/media/usb/pwc/pwc-if.c:1106:1: warning: label 'err_video_unreg' defined but not used [-Wunused-label]
+ err_video_unreg:
+ ^
+drivers/mtd/devices/block2mtd.c: In function 'add_device':
+drivers/mtd/devices/block2mtd.c:222:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+drivers/net/ethernet/dec/tulip/winbond-840.c: In function 'init_registers':
+drivers/net/ethernet/dec/tulip/winbond-840.c:911:2: warning: #warning Processor architecture undefined [-Wcpp]
+ #warning Processor architecture undefined
+  ^
+drivers/usb/host/xhci.c: In function 'xhci_free_dev':
+drivers/usb/host/xhci.c:3506:17: warning: unused variable 'dev' [-Wunused-variable]
+  struct device *dev = hcd->self.controller;
+                 ^
+drivers/usb/host/xhci.c: In function 'xhci_alloc_dev':
+drivers/usb/host/xhci.c:3592:17: warning: unused variable 'dev' [-Wunused-variable]
+  struct device *dev = hcd->self.controller;
+                 ^
+drivers/usb/host/xhci.c: At top level:
+drivers/usb/host/xhci.c:335:13: warning: 'xhci_msix_sync_irqs' defined but not used [-Wunused-function]
+ static void xhci_msix_sync_irqs(struct xhci_hcd *xhci)
+             ^

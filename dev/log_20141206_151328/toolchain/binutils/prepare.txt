@@ -1,0 +1,23 @@
+
+Applying ./patches/2.22/200-musl.patch using plaintext: 
+patching file config.sub
+
+Applying ./patches/2.22/300-001_ld_makefile_patch.patch using plaintext: 
+patching file ld/Makefile.am
+patching file ld/Makefile.in
+
+Applying ./patches/2.22/300-012_check_ldrunpath_length.patch using plaintext: 
+patching file ld/emultempl/elf32.em
+
+Applying ./patches/2.22/400-fix_arm_gc_sections.patch using plaintext: 
+patching file bfd/elf32-arm.c
+
+Applying ./patches/2.22/500-arm_ld_assert_fix.patch using plaintext: 
+patching file bfd/elf32-arm.c
+
+Applying ./patches/2.22/600-mips_no_dynamic_linking_sym.patch using plaintext: 
+patching file bfd/elfxx-mips.c
+
+Applying ./patches/2.22/999-ppc-textrels.patch using plaintext: 
+patching file bfd/elf32-ppc.c
+patching file bfd/elf64-ppc.c

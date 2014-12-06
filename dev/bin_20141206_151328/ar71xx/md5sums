@@ -1,0 +1,13 @@
+48a3a0a9c7e043c5ca5cacd645ff25a4 *openwrt-ar71xx-nand-root.squashfs
+0a870e549e72518565040489ad1ac1dc *openwrt-ar71xx-nand-root.squashfs-64k
+0d4c28cfc6835a98b44a95906e5f5c8f *openwrt-ar71xx-nand-uImage-gzip.bin
+26c23fb63b45f1c2b15c0ba95ce894e5 *openwrt-ar71xx-nand-uImage-lzma.bin
+96124452cf6538804f93cfc169f6859a *openwrt-ar71xx-nand-vmlinux-lzma.elf
+188262c576a2f93506f4ff2cabdd1c86 *openwrt-ar71xx-nand-vmlinux.bin
+337c9ac0ae9c84ebf2a2e285ebde39a3 *openwrt-ar71xx-nand-vmlinux.elf
+b58e4a0348abe8f9b7dc53c94e0e5ad6 *openwrt-ar71xx-nand-vmlinux.gz
+d525c8d141656f2ca12fb095ccc1505e *openwrt-ar71xx-nand-vmlinux.lzma
+f145e571b6880456b2b5e55f6b0e59ba *openwrt-ar71xx-nand-wndr3700v4-squashfs-sysupgrade.tar
+e57fdc9b8f8033e71aff8f53837bd718 *openwrt-ar71xx-nand-wndr3700v4-ubi-factory.img
+f08b8bca59633204896d05159c7bb45d *openwrt-ar71xx-nand-wndr4300-squashfs-sysupgrade.tar
+57480f26bc926ce3d89437aed57c8c49 *openwrt-ar71xx-nand-wndr4300-ubi-factory.img

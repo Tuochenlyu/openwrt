@@ -1,0 +1,1336 @@
+
+Applying ./patches/000-compile.patch using plaintext: 
+patching file sha1.h
+
+Applying ./patches/100-cross_compile.patch using plaintext: 
+patching file Makefile
+
+Applying ./patches/200-reduce_size.patch using plaintext: 
+patching file Incremental.c
+patching file util.c
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mdadm-3.2.5'
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o mdadm.o mdadm.c
+In file included from mdadm.c:28:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdadm.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from mdadm.c:28:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdadm.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from mdadm.c:28:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdadm.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o config.o config.c
+In file included from config.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from config.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from config.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from config.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from config.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from config.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o policy.o policy.c
+In file included from policy.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from policy.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from policy.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from policy.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from policy.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from policy.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o mdstat.o mdstat.c
+In file included from mdstat.c:81:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdstat.c:81:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from mdstat.c:81:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdstat.c:81:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from mdstat.c:81:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdstat.c:81:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o ReadMe.o ReadMe.c
+In file included from ReadMe.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from ReadMe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from ReadMe.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from ReadMe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from ReadMe.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from ReadMe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o util.o util.c
+In file included from util.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from util.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from util.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from util.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from util.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from util.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o maps.o maps.c
+In file included from maps.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from maps.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from maps.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from maps.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from maps.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from maps.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o lib.o lib.c
+In file included from lib.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from lib.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from lib.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from lib.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from lib.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from lib.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Manage.o Manage.c
+In file included from Manage.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Manage.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Manage.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Manage.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Manage.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Manage.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Assemble.o Assemble.c
+In file included from Assemble.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Assemble.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Assemble.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Assemble.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Assemble.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Assemble.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Build.o Build.c
+In file included from Build.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Build.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Build.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Build.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Build.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Build.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Create.o Create.c
+In file included from Create.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Create.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Create.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Create.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Create.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Create.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Detail.o Detail.c
+In file included from Detail.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Detail.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Detail.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Detail.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Detail.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Detail.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Examine.o Examine.c
+In file included from Examine.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Examine.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Examine.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Examine.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Examine.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Examine.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Grow.o Grow.c
+In file included from Grow.c:24:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Grow.c:24:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Grow.c:24:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Grow.c:24:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Grow.c:24:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Grow.c:24:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Monitor.o Monitor.c
+In file included from Monitor.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Monitor.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Monitor.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Monitor.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Monitor.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Monitor.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o dlink.o dlink.c
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Kill.o Kill.c
+In file included from Kill.c:28:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Kill.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Kill.c:28:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Kill.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Kill.c:28:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Kill.c:28:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Query.o Query.c
+In file included from Query.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Query.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Query.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Query.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Query.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Query.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o Incremental.o Incremental.c
+In file included from Incremental.c:31:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Incremental.c:31:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from Incremental.c:31:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Incremental.c:31:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from Incremental.c:31:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from Incremental.c:31:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o mdopen.o mdopen.c
+In file included from mdopen.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdopen.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from mdopen.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdopen.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from mdopen.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mdopen.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super0.o super0.c
+In file included from super0.c:26:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super0.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super0.c:26:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super0.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super0.c:26:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super0.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super1.o super1.c
+In file included from super1.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super1.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super1.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super1.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super1.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super1.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super-ddf.o super-ddf.c
+In file included from super-ddf.c:29:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-ddf.c:29:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super-ddf.c:29:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-ddf.c:29:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super-ddf.c:29:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-ddf.c:29:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super-intel.o super-intel.c
+In file included from super-intel.c:21:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-intel.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super-intel.c:21:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-intel.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super-intel.c:21:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-intel.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o bitmap.o bitmap.c
+In file included from bitmap.c:21:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from bitmap.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from bitmap.c:21:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from bitmap.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from bitmap.c:21:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from bitmap.c:21:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super-mbr.o super-mbr.c
+In file included from super-mbr.c:42:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-mbr.c:42:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super-mbr.c:42:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-mbr.c:42:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super-mbr.c:42:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-mbr.c:42:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o super-gpt.o super-gpt.c
+In file included from super-gpt.c:41:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-gpt.c:41:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from super-gpt.c:41:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-gpt.c:41:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from super-gpt.c:41:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from super-gpt.c:41:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o restripe.o restripe.c
+In file included from restripe.c:25:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from restripe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from restripe.c:25:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from restripe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from restripe.c:25:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from restripe.c:25:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o sysfs.o sysfs.c
+In file included from sysfs.c:26:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from sysfs.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from sysfs.c:26:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from sysfs.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from sysfs.c:26:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from sysfs.c:26:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H -DHAVE_STDINT_H -o sha1.o -c sha1.c
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o mapfile.o mapfile.c
+In file included from mapfile.c:45:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mapfile.c:45:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from mapfile.c:45:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mapfile.c:45:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from mapfile.c:45:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from mapfile.c:45:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o crc32.o crc32.c
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o sg_io.o sg_io.c
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o msg.o msg.c
+In file included from msg.c:31:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from msg.c:22:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from msg.c:31:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from msg.c:22:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from msg.c:31:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from msg.c:22:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o platform-intel.o platform-intel.c
+In file included from platform-intel.c:19:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from platform-intel.c:19:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from platform-intel.c:19:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from platform-intel.c:19:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from platform-intel.c:19:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from platform-intel.c:19:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H   -c -o probe_roms.o probe_roms.c
+In file included from probe_roms.c:23:0:
+mdadm.h:116:0: warning: "bswap_16" redefined [enabled by default]
+ #define bswap_16(x) (((x) & 0x00ffU) << 8 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from probe_roms.c:23:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:30:0: note: this is the location of the previous definition
+ #define bswap_16(x) __bswap_16 (x)
+ ^
+In file included from probe_roms.c:23:0:
+mdadm.h:118:0: warning: "bswap_32" redefined [enabled by default]
+ #define bswap_32(x) (((x) & 0x000000ffU) << 24 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from probe_roms.c:23:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:33:0: note: this is the location of the previous definition
+ #define bswap_32(x) __bswap_32 (x)
+ ^
+In file included from probe_roms.c:23:0:
+mdadm.h:122:0: warning: "bswap_64" redefined [enabled by default]
+ #define bswap_64(x) (((x) & 0x00000000000000ffULL) << 56 | \
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/endian.h:61:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/pthreadtypes.h:23,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/bits/types.h:202,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/unistd.h:188,
+                 from mdadm.h:27,
+                 from probe_roms.c:23:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/byteswap.h:37:0: note: this is the location of the previous definition
+ # define bswap_64(x) __bswap_64 (x)
+ ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fdata-sections -DHAVE_STDINT_H -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -Wl,--gc-sections -o mdadm mdadm.o config.o policy.o mdstat.o  ReadMe.o util.o maps.o lib.o Manage.o Assemble.o Build.o Create.o Detail.o Examine.o Grow.o Monitor.o dlink.o Kill.o Query.o Incremental.o mdopen.o super0.o super1.o super-ddf.o super-intel.o bitmap.o super-mbr.o super-gpt.o restripe.o sysfs.o sha1.o mapfile.o crc32.o sg_io.o msg.o platform-intel.o probe_roms.o 
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mdadm-3.2.5'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mdadm-3.2.5/ipkg-ar71xx/mdadm/sbin/mdadm:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mdadm-3.2.5/ipkg-ar71xx/mdadm into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/mdadm_3.2.5-1_ar71xx.ipk

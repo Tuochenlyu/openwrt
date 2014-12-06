@@ -1,0 +1,123 @@
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Found PkgConfig: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/pkg-config (found version "0.28") 
+-- 
+-- Configuring Host System and compiler flags ...
+-- 
+-- Configuring libcrypto ...
+-- checking for module 'libcrypto'
+--   found libcrypto, version 1.0.1j
+-- 
+-- Configuring libconfig ...
+-- checking for module 'libconfig>=1.3'
+--   found libconfig, version 1.4.9
+-- 
+-- Configuring libsae ...
+-- 
+-- Configuring libnl ...
+-- checking for one of the modules 'libnl-tiny'
+-- 
+-- Configuring mon ...
+-- 
+-- Configuring meshd ...
+-- 
+-- Configuring meshd-nl80211 ...
+-- 
+-- Configuring authsae.cfg ...
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+Scanning dependencies of target sae
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[  6%] Building C object CMakeFiles/sae.dir/common.c.o
+[ 13%] Building C object CMakeFiles/sae.dir/sae.c.o
+[ 20%] Building C object CMakeFiles/sae.dir/service.c.o
+[ 26%] Building C object CMakeFiles/sae.dir/ampe.c.o
+[ 33%] Building C object CMakeFiles/sae.dir/crypto/aes_siv.c.o
+Linking C static library libsae.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 33%] Built target sae
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+Scanning dependencies of target meshd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 40%] Building C object linux/CMakeFiles/meshd.dir/meshd.c.o
+[ 46%] Building C object linux/CMakeFiles/meshd.dir/__/common.c.o
+[ 53%] Building C object linux/CMakeFiles/meshd.dir/__/service.c.o
+[ 60%] Building C object linux/CMakeFiles/meshd.dir/__/ampe.c.o
+[ 66%] Building C object linux/CMakeFiles/meshd.dir/__/crypto/aes_siv.c.o
+Linking C executable meshd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 66%] Built target meshd
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+Scanning dependencies of target meshd-nl80211
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 73%] Building C object linux/CMakeFiles/meshd-nl80211.dir/meshd-nl80211.c.o
+[ 80%] Building C object linux/CMakeFiles/meshd-nl80211.dir/nlutils.c.o
+Linking C executable meshd-nl80211
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 80%] Built target meshd-nl80211
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+Scanning dependencies of target mon
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 86%] Building C object linux/CMakeFiles/mon.dir/mon.c.o
+[ 93%] Building C object linux/CMakeFiles/mon.dir/__/service.c.o
+[100%] Building C object linux/CMakeFiles/mon.dir/__/common.c.o
+Linking C executable mon
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[100%] Built target mon
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 33%] Built target sae
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 66%] Built target meshd
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[ 80%] Built target meshd-nl80211
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+[100%] Built target mon
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/etc/authsae.cfg
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/usr/bin/mon
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/usr/bin/meshd
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/usr/bin/meshd"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/usr/bin/meshd-nl80211
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-install/usr/bin/meshd-nl80211"
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-ar71xx/authsae/usr/bin/meshd-nl80211:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-ar71xx/authsae/usr/bin/mon:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-ar71xx/authsae/usr/bin/meshd:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/authsae-2014-04-19/ipkg-ar71xx/authsae into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/authsae_2014-04-19-295164a83717ce59ca280468fc2f7edcea6b3cbf_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/authsae'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.authsae_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/authsae'

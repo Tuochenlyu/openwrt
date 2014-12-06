@@ -1,0 +1,81 @@
+
+Applying ../patches/4.8-linaro/001-revert_register_mode_search.patch using plaintext: 
+patching file gcc/reginfo.c
+
+Applying ../patches/4.8-linaro/002-weak_data_fix.patch using plaintext: 
+patching file gcc/testsuite/gcc.dg/visibility-21.c
+patching file gcc/varasm.c
+
+Applying ../patches/4.8-linaro/010-documentation.patch using plaintext: 
+patching file gcc/Makefile.in
+
+Applying ../patches/4.8-linaro/100-uclibc-conf.patch using plaintext: 
+patching file contrib/regression/objs-gcc.sh
+patching file libjava/classpath/ltconfig
+
+Applying ../patches/4.8-linaro/200-musl.patch using plaintext: 
+patching file gcc/config.gcc
+patching file gcc/config/arm/linux-eabi.h
+patching file gcc/config/i386/linux.h
+patching file gcc/config/i386/linux64.h
+patching file gcc/config/linux.h
+patching file gcc/config/linux.opt
+patching file gcc/config/mips/linux.h
+patching file gcc/config/rs6000/linux64.h
+patching file gcc/config/rs6000/sysv4.h
+patching file gcc/ginclude/stddef.h
+patching file libgomp/config/posix/time.c
+patching file libitm/config/arm/hwcap.cc
+patching file libitm/config/linux/x86/tls.h
+patching file libstdc++-v3/configure.host
+patching file gcc/config/mips/linux64.h
+patching file gcc/config/sparc/linux64.h
+
+Applying ../patches/4.8-linaro/210-disable_libsanitizer_off_t_check.patch using plaintext: 
+patching file libsanitizer/interception/interception_type_test.cc
+
+Applying ../patches/4.8-linaro/800-arm_v5te_no_ldrd_strd.patch using plaintext: 
+patching file gcc/config/arm/arm.h
+
+Applying ../patches/4.8-linaro/810-arm-softfloat-libgcc.patch using plaintext: 
+patching file libgcc/config/arm/t-linux
+patching file gcc/config/arm/linux-elf.h
+
+Applying ../patches/4.8-linaro/820-libgcc_pic.patch using plaintext: 
+patching file libgcc/Makefile.in
+
+Applying ../patches/4.8-linaro/830-arm_unbreak_armv4t.patch using plaintext: 
+patching file gcc/config/arm/linux-eabi.h
+
+Applying ../patches/4.8-linaro/840-armv4_pass_fix-v4bx_to_ld.patch using plaintext: 
+patching file gcc/config/arm/linux-eabi.h
+
+Applying ../patches/4.8-linaro/850-use_shared_libgcc.patch using plaintext: 
+patching file gcc/config/arm/linux-eabi.h
+patching file gcc/config/linux.h
+patching file libgcc/mkmap-symver.awk
+patching file gcc/config/rs6000/linux.h
+
+Applying ../patches/4.8-linaro/860-uclibc_use_eh_frame.patch using plaintext: 
+patching file libgcc/crtstuff.c
+
+Applying ../patches/4.8-linaro/870-ppc_no_crtsavres.patch using plaintext: 
+patching file gcc/config/rs6000/rs6000.c
+
+Applying ../patches/4.8-linaro/880-no_java_section.patch using plaintext: 
+patching file gcc/defaults.h
+
+Applying ../patches/4.8-linaro/900-bad-mips16-crt.patch using plaintext: 
+patching file libgcc/config/mips/t-mips16
+
+Applying ../patches/4.8-linaro/910-mbsd_multi.patch using plaintext: 
+patching file gcc/c-family/c-opts.c
+patching file gcc/c-family/c.opt
+patching file gcc/common.opt
+patching file gcc/opts.c
+patching file gcc/doc/cppopts.texi
+patching file gcc/doc/invoke.texi
+patching file gcc/java/jvspec.c
+
+Applying ../patches/4.8-linaro/920-specs_nonfatal_getenv.patch using plaintext: 
+patching file gcc/gcc.c

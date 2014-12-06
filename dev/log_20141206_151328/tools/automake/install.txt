@@ -1,0 +1,86 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+Making install in lib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/am'
+ /usr/bin/install -c -m 644 am/ansi2knr.am am/check.am am/check-html.am am/check2.am am/clean-hdr.am am/clean.am am/compile.am am/configure.am am/data.am am/dejagnu.am am/depend.am am/depend2.am am/distdir.am am/footer.am am/header-vars.am am/header.am am/install.am am/inst-vars.am am/java.am am/lang-compile.am am/lex.am am/library.am am/libs.am am/libtool.am am/lisp.am am/ltlib.am am/ltlibrary.am am/mans-vars.am am/mans.am am/multilib.am am/program.am am/progs.am am/python.am am/remake-hdr.am am/scripts.am am/subdirs.am am/tags.am am/texi-vers.am am/texibuild.am am/texinfos.am '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/am'
+ /usr/bin/install -c -m 644 am/vala.am am/yacc.am '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/am'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/Automake'
+ /usr/bin/install -c -m 644 Automake/ChannelDefs.pm Automake/Channels.pm Automake/Condition.pm Automake/Configure_ac.pm Automake/DisjConditions.pm Automake/FileUtils.pm Automake/General.pm Automake/Getopt.pm Automake/Item.pm Automake/ItemDef.pm Automake/Location.pm Automake/Options.pm Automake/Rule.pm Automake/RuleDef.pm Automake/Struct.pm Automake/Variable.pm Automake/VarDef.pm Automake/Version.pm Automake/XFile.pm Automake/Wrap.pm '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/Automake'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11'
+ /usr/bin/install -c -m 644 COPYING INSTALL texinfo.tex ansi2knr.c ansi2knr.1 config-ml.in '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11'
+ /usr/bin/install -c -m 644 config.guess config.sub install-sh mdate-sh missing mkinstalldirs elisp-comp ylwrap acinstall depcomp compile py-compile symlink-tree ar-lib '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/Automake'
+ /usr/bin/install -c -m 644 Automake/Config.pm '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/Automake'
+make  install-data-hook
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/config.guess
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/config.sub
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/install-sh
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/mdate-sh
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/missing
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/mkinstalldirs
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/elisp-comp
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/ylwrap
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/acinstall
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/depcomp
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/compile
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/py-compile
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/symlink-tree
+ chmod +x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/automake-1.11/ar-lib
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/lib'
+Making install in .
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin'
+ /usr/bin/install -c automake aclocal '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin'
+make  install-exec-hook
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+ ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/automake /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/automake-1.11
+ ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal-1.11
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'
+Making install in contrib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/contrib'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/contrib'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/contrib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/contrib'
+Making install in doc
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/doc'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/doc'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/doc/automake'
+ /usr/bin/install -c -m 644 ./amhello-1.0.tar.gz '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/doc/automake'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info'
+ /usr/bin/install -c -m 644 ./automake.info ./automake.info-1 ./automake.info-2 ./automake.info-3 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info/automake.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1'
+ /usr/bin/install -c -m 644 ./aclocal.1 ./automake.1 ./aclocal-1.11.1 ./automake-1.11.1 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/doc'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/doc'
+Making install in m4
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/m4'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/m4'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal-1.11'
+ /usr/bin/install -c -m 644 ../m4/amversion.m4 ar-lib.m4 as.m4 auxdir.m4 ccstdc.m4 cond.m4 cond-if.m4 depend.m4 depout.m4 dmalloc.m4 gcj.m4 header.m4 init.m4 install-sh.m4 lead-dot.m4 lex.m4 lispdir.m4 maintainer.m4 make.m4 minuso.m4 missing.m4 mkdirp.m4 multi.m4 obsol-gt.m4 obsol-lt.m4 obsolete.m4 options.m4 protos.m4 python.m4 regex.m4 runlog.m4 sanity.m4 silent.m4 strip.m4 substnot.m4 tar.m4 upc.m4 vala.m4 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal-1.11'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/m4'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/m4'
+Making install in tests
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/tests'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/tests'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/tests'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6/tests'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/automake-1.11.6'

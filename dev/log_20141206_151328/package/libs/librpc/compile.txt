@@ -1,0 +1,160 @@
+
+Applying ./patches/100-compat_fix.patch using plaintext: 
+patching file compat.h
+patching file rcmd.c
+patching file create_xid.c
+patching file getrpcent.c
+patching file CMakeLists.txt
+patching file rpc/types.h
+patching file clnt_perror.c
+patching file rpc_thread.c
+patching file rpc/compat.h
+patching file rpc/netdb.h
+
+Applying ./patches/110-musl_fixes.patch using plaintext: 
+patching file rpc/types.h
+patching file bindresvport.c
+patching file rpc/netdb.h
+patching file create_xid.c
+patching file clnt_tcp.c
+patching file clnt_udp.c
+patching file clnt_unix.c
+patching file pmap_rmt.c
+patching file rcmd.c
+patching file rpc/compat.h
+patching file rpc_commondata.c
+patching file rtime.c
+patching file svc.c
+patching file svc_run.c
+patching file svc_tcp.c
+patching file svc_unix.c
+patching file sa_len.c
+patching file xdr_float.c
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_EXE_LINKER_FLAGS
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+Scanning dependencies of target rpc
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+[  2%] Building C object CMakeFiles/rpc.dir/svc_authux.c.o
+[  4%] Building C object CMakeFiles/rpc.dir/xdr_intXX_t.c.o
+[  6%] Building C object CMakeFiles/rpc.dir/rpc_prot.c.o
+[  8%] Building C object CMakeFiles/rpc.dir/clnt_perror.c.o
+[ 10%] Building C object CMakeFiles/rpc.dir/svc.c.o
+[ 12%] Building C object CMakeFiles/rpc.dir/create_xid.c.o
+[ 14%] Building C object CMakeFiles/rpc.dir/clnt_simple.c.o
+[ 16%] Building C object CMakeFiles/rpc.dir/pmap_clnt.c.o
+[ 18%] Building C object CMakeFiles/rpc.dir/rpc_thread.c.o
+[ 20%] Building C object CMakeFiles/rpc.dir/svc_raw.c.o
+[ 22%] Building C object CMakeFiles/rpc.dir/svc_run.c.o
+[ 25%] Building C object CMakeFiles/rpc.dir/clnt_raw.c.o
+[ 27%] Building C object CMakeFiles/rpc.dir/xdr_mem.c.o
+[ 29%] Building C object CMakeFiles/rpc.dir/rpc_cmsg.c.o
+[ 31%] Building C object CMakeFiles/rpc.dir/rcmd.c.o
+[ 33%] Building C object CMakeFiles/rpc.dir/getrpcent.c.o
+[ 35%] Building C object CMakeFiles/rpc.dir/xdr_reference.c.o
+[ 37%] Building C object CMakeFiles/rpc.dir/rpc_dtablesize.c.o
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/rpc_dtablesize.c:35:0: warning: "__USE_BSD" redefined [enabled by default]
+ #define __USE_BSD
+ ^
+In file included from ./rpc/compat.h:7:0,
+                 from <command-line>:0:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/features.h:336:0: note: this is the location of the previous definition
+ # define __USE_BSD 1
+ ^
+[ 39%] Building C object CMakeFiles/rpc.dir/pm_getport.c.o
+[ 41%] Building C object CMakeFiles/rpc.dir/svc_udp.c.o
+[ 43%] Building C object CMakeFiles/rpc.dir/xdr.c.o
+[ 45%] Building C object CMakeFiles/rpc.dir/clnt_unix.c.o
+[ 47%] Building C object CMakeFiles/rpc.dir/pm_getmaps.c.o
+[ 50%] Building C object CMakeFiles/rpc.dir/rexec.c.o
+[ 52%] Building C object CMakeFiles/rpc.dir/rpc_commondata.c.o
+[ 54%] Building C object CMakeFiles/rpc.dir/pmap_prot.c.o
+[ 56%] Building C object CMakeFiles/rpc.dir/svc_tcp.c.o
+[ 58%] Building C object CMakeFiles/rpc.dir/pmap_rmt.c.o
+[ 60%] Building C object CMakeFiles/rpc.dir/bindresvport.c.o
+[ 62%] Building C object CMakeFiles/rpc.dir/get_myaddress.c.o
+[ 64%] Building C object CMakeFiles/rpc.dir/clnt_tcp.c.o
+[ 66%] Building C object CMakeFiles/rpc.dir/clnt_udp.c.o
+[ 68%] Building C object CMakeFiles/rpc.dir/clnt_generic.c.o
+[ 70%] Building C object CMakeFiles/rpc.dir/ruserpass.c.o
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ruserpass.c:46:0: warning: "_" redefined [enabled by default]
+ #define _(X)  (X)
+ ^
+In file included from <command-line>:0:0:
+./rpc/compat.h:30:0: note: this is the location of the previous definition
+ #define _(...) __VA_ARGS__
+ ^
+[ 72%] Building C object CMakeFiles/rpc.dir/xdr_array.c.o
+[ 75%] Building C object CMakeFiles/rpc.dir/xdr_float.c.o
+[ 77%] Building C object CMakeFiles/rpc.dir/xdr_rec.c.o
+[ 79%] Building C object CMakeFiles/rpc.dir/auth_none.c.o
+[ 81%] Building C object CMakeFiles/rpc.dir/xdr_stdio.c.o
+[ 83%] Building C object CMakeFiles/rpc.dir/auth_unix.c.o
+[ 85%] Building C object CMakeFiles/rpc.dir/svc_auth.c.o
+[ 87%] Building C object CMakeFiles/rpc.dir/svc_unix.c.o
+[ 89%] Building C object CMakeFiles/rpc.dir/authunix_prot.c.o
+[ 91%] Building C object CMakeFiles/rpc.dir/rtime.c.o
+[ 93%] Building C object CMakeFiles/rpc.dir/pmap_prot2.c.o
+[ 95%] Building C object CMakeFiles/rpc.dir/sa_len.c.o
+[ 97%] Building C object CMakeFiles/rpc.dir/getrpcport.c.o
+[100%] Building C object CMakeFiles/rpc.dir/svc_simple.c.o
+Linking C shared library librpc.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+[100%] Built target rpc
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+[100%] Built target rpc
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/compat.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/svc.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/types.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/pmap_rmt.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/auth.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/clnt.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/auth_unix.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/auth_des.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/rpc_msg.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/rpc.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/key_prot.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/rpc_des.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/pmap_clnt.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/des_crypt.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/pmap_prot.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/svc_auth.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/netdb.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/include/rpc/xdr.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-install/usr/lib/librpc.so
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-ar71xx/librpc/lib/librpc.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/librpc-0.9.32-rc2/ipkg-ar71xx/librpc into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/librpc_0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/librpc'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.librpc_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/librpc'

@@ -1,0 +1,7 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rbcfg'
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -Wall -c -o main.o main.c
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -Wall -c -o cyg_crc32.o cyg_crc32.c
+mips-openwrt-linux-uclibc-gcc -o rbcfg main.o cyg_crc32.o
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rbcfg'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rbcfg/ipkg-ar71xx/rbcfg/usr/sbin/rbcfg:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rbcfg/ipkg-ar71xx/rbcfg into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/rbcfg_1_ar71xx.ipk

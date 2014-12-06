@@ -1,0 +1,907 @@
+
+Applying ./patches/001-exit_0_on_corrected_errors.patch using plaintext: 
+patching file e2fsck/e2fsck.h
+
+Applying ./patches/002-dont-build-e4defrag.patch using plaintext: 
+patching file misc/Makefile.in
+
+Applying ./patches/003-openbsd-compat.patch using plaintext: 
+patching file lib/blkid/getsize.c
+patching file lib/quota/mkquota.c
+
+Applying ./patches/004-freebsd-compat.patch using plaintext: 
+patching file lib/ext2fs/tdb.c
+configure: WARNING: unrecognized options: --disable-shared, --enable-static, --enable-dynamic-e2fsck
+Generating configuration file for e2fsprogs version 1.42.8
+Release date is June, 2013
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for x86_64-linux-gnu-gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for dlopen in -ldl... yes
+checking for x86_64-linux-gnu-gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking how to run the C preprocessor... gcc -E
+checking for additional special compiler flags... (none)
+Disabling maintainer mode by default
+Disabling symlinks for install by default
+Disabling relative symlinks for install by default
+Disabling symlinks for build by default
+Disabling verbose make commands
+Disabling compression support by default
+Enabling htree directory support by default
+Disabling ELF shared libraries
+Disabling BSD shared libraries by default
+Disabling profiling libraries by default
+Disabling checker libraries by default
+Disabling journal debugging by default
+Disabling blkid debugging by default
+Enabling testio debugging by default
+checking pkg-config is at least version 0.9.0... yes
+Enabling private uuid library by default
+checking pkg-config is at least version 0.9.0... yes
+Enabling private blkid library by default
+checking pkg-config is at least version 0.9.0... yes
+Disabling quota support by default
+Enabling use of backtrace by default
+Enabling debugfs support by default
+Enabling e2image support by default
+Enabling e2resize support by default
+Enabling e4defrag support by default
+Building fsck wrapper by default
+Building e2initrd helper by default
+Disabling thread local support
+Building uuidd by default
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether NLS is requested... no
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for x86_64-linux-gnu-ranlib... x86_64-linux-gnu-ranlib
+checking for strerror in -lcposix... no
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for ANSI C header files... yes
+checking for an ANSI C-conforming const... yes
+checking for signed... yes
+checking for inline... inline
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for long long... yes
+checking for long double... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking whether printf() supports POSIX/XSI format strings... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for unsigned long long... yes
+checking for inttypes.h... yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for stdint.h... (cached) yes
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for ptrdiff_t... yes
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for asprintf... yes
+checking for fwprintf... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for snprintf... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for wcslen... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for __fsetlocking... yes
+checking whether _snprintf is declared... no
+checking whether _snwprintf is declared... no
+checking whether feof_unlocked is declared... yes
+checking whether fgets_unlocked is declared... no
+checking whether getc_unlocked is declared... yes
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for bison... bison
+checking version of bison... 3.0.2, ok
+checking whether NLS is requested... no
+checking whether to use NLS... no
+checking whether make sets $(MAKE)... (cached) yes
+checking for GNU make... make
+checking for ln... /bin/ln
+checking whether ln -s works... yes
+checking for mv... /bin/mv
+checking for cp... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/cp
+checking for rm... /bin/rm
+checking for chmod... /bin/chmod
+checking for gawk... gawk
+checking for egrep... (cached) /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for sed... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for perl... /usr/bin/perl
+checking for ldconfig... /sbin/ldconfig
+checking for x86_64-linux-gnu-ar... x86_64-linux-gnu-ar
+checking for x86_64-linux-gnu-ranlib... (cached) x86_64-linux-gnu-ranlib
+checking for x86_64-linux-gnu-strip... x86_64-linux-gnu-strip
+checking for makeinfo... no
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for malloc.h... (cached) yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking semaphore.h usability... yes
+checking semaphore.h presence... yes
+checking for semaphore.h... yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking linux/falloc.h usability... yes
+checking linux/falloc.h presence... yes
+checking for linux/falloc.h... yes
+checking linux/fd.h usability... yes
+checking linux/fd.h presence... yes
+checking for linux/fd.h... yes
+checking linux/major.h usability... yes
+checking linux/major.h presence... yes
+checking for linux/major.h... yes
+checking net/if_dl.h usability... no
+checking net/if_dl.h presence... no
+checking for net/if_dl.h... no
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking sys/disklabel.h usability... no
+checking sys/disklabel.h presence... no
+checking for sys/disklabel.h... no
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/queue.h usability... yes
+checking sys/queue.h presence... yes
+checking for sys/queue.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/sysmacros.h usability... yes
+checking sys/sysmacros.h presence... yes
+checking for sys/sysmacros.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for sys/disk.h... no
+checking for sys/mount.h... yes
+checking for net/if.h... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for struct dirent.d_reclen... yes
+checking for ssize_t... yes
+checking whether llseek is declared... no
+checking whether lseek64 is declared... yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of off_t... 8
+checking whether byte ordering is bigendian... no
+checking for inttypes.h... (cached) yes
+checking for intptr_t... yes
+checking whether struct stat has a st_flags field... no
+checking for struct sockaddr.sa_len... no
+checking for __secure_getenv... no
+checking for backtrace... yes
+checking for blkid_probe_get_topology... no
+checking for chflags... no
+checking for fallocate... yes
+checking for fallocate64... yes
+checking for fchown... yes
+checking for fdatasync... yes
+checking for fstat64... yes
+checking for ftruncate64... yes
+checking for getdtablesize... yes
+checking for getmntinfo... no
+checking for getpwuid_r... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for jrand48... yes
+checking for llseek... yes
+checking for lseek64... yes
+checking for mallinfo... yes
+checking for mbstowcs... yes
+checking for memalign... yes
+checking for mmap... yes
+checking for msync... yes
+checking for nanosleep... yes
+checking for open64... yes
+checking for pathconf... yes
+checking for posix_fadvise... yes
+checking for posix_memalign... yes
+checking for prctl... yes
+checking for secure_getenv... yes
+checking for setmntent... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for srandom... yes
+checking for strcasecmp... (cached) yes
+checking for strdup... (cached) yes
+checking for strnlen... yes
+checking for strptime... yes
+checking for strtoull... yes
+checking for sync_file_range... yes
+checking for sysconf... yes
+checking for usleep... yes
+checking for utime... yes
+checking for valloc... yes
+checking for socket in -lsocket... no
+checking for optreset... no
+checking for sem_init... no
+checking for sem_init in -lpthread... yes
+checking for unified diff option... -u
+Setting root_sbindir to /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin
+Setting root_sysconfdir to /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/etc
+checking whether we can link with -static... yes
+configure: creating ./config.status
+config.status: creating MCONFIG
+config.status: creating Makefile
+config.status: creating e2fsprogs.spec
+config.status: creating util/Makefile
+config.status: creating util/subst.conf
+config.status: creating util/gen-tarball
+config.status: creating util/install-symlink
+config.status: creating lib/et/Makefile
+config.status: creating lib/ss/Makefile
+config.status: creating lib/e2p/Makefile
+config.status: creating lib/ext2fs/Makefile
+config.status: creating lib/ext2fs/ext2_types.h
+config.status: creating lib/uuid/Makefile
+config.status: creating lib/uuid/uuid_types.h
+config.status: creating lib/blkid/Makefile
+config.status: creating lib/blkid/blkid_types.h
+config.status: creating lib/quota/Makefile
+config.status: creating lib/ss/ss.pc
+config.status: creating lib/uuid/uuid.pc
+config.status: creating lib/et/com_err.pc
+config.status: creating lib/e2p/e2p.pc
+config.status: creating lib/blkid/blkid.pc
+config.status: creating lib/ext2fs/ext2fs.pc
+config.status: creating misc/Makefile
+config.status: creating ext2ed/Makefile
+config.status: creating e2fsck/Makefile
+config.status: creating debugfs/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/progs/Makefile
+config.status: creating resize/Makefile
+config.status: creating intl/Makefile
+config.status: creating intl/libgnuintl.h
+config.status: creating po/Makefile.in
+config.status: creating lib/config.h
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+configure: WARNING: unrecognized options: --disable-shared, --enable-static, --enable-dynamic-e2fsck
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+cd ./util ; make subst
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/util'
+	CC subst.c
+	LD subst
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/util'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: `util/subst.conf' is up to date.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: `lib/config.h' is up to date.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+	SUBST lib/dirpaths.h
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+cd .; CONFIG_FILES=./lib/ext2fs/ext2_types.h ./config.status
+config.status: creating ./lib/ext2fs/ext2_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing default-1 commands
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+cd .; CONFIG_FILES=./lib/blkid/blkid_types.h ./config.status
+config.status: creating ./lib/blkid/blkid_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing default-1 commands
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+cd .; CONFIG_FILES=./lib/uuid/uuid_types.h ./config.status
+config.status: creating ./lib/uuid/uuid_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing default-1 commands
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+	SUBST compile_et
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+	SUBST ext2_err.et
+	COMPILE_ET ext2_err.et
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+make libs
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `util/subst.conf' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/config.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/dirpaths.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/ext2fs/ext2_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/blkid/blkid_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/uuid/uuid_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[6]: `compile_et' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+make[6]: `ext2_err.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+making all in lib/et
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+	CC error_message.c
+	CC et_name.c
+	CC init_et.c
+	CC com_err.c
+	CC com_right.c
+	GEN_LIB libcom_err.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+making all in lib/ss
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ss'
+	SUBST mk_cmds
+	COMPILE_ET ss_err.et
+	CC ss_err.c
+	MK_CMDS std_rqs.c
+	CC std_rqs.c
+	CC invocation.c
+	CC help.c
+	CC execute_cmd.c
+	CC listen.c
+	CC parse.c
+	CC error.c
+	CC prompt.c
+	CC request_tbl.c
+	CC list_rqs.c
+	CC pager.c
+	CC requests.c
+	CC data.c
+	CC get_readline.c
+	GEN_LIB libss.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ss'
+making all in lib/e2p
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/e2p'
+	CC feature.c
+	CC fgetflags.c
+	CC fsetflags.c
+	CC fgetversion.c
+	CC fsetversion.c
+	CC getflags.c
+	CC getversion.c
+	CC hashstr.c
+	CC iod.c
+	CC ls.c
+	CC mntopts.c
+	CC parse_num.c
+	CC pe.c
+	CC pf.c
+	CC ps.c
+	CC setflags.c
+	CC setversion.c
+	CC uuid.c
+	CC ostype.c
+	CC percent.c
+	GEN_LIB libe2p.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/e2p'
+making all in lib/uuid
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/uuid'
+	CP uuid.h
+	CC clear.c
+	CC compare.c
+	CC copy.c
+	CC gen_uuid.c
+	CC isnull.c
+	CC pack.c
+	CC parse.c
+	CC unpack.c
+	CC unparse.c
+	CC uuid_time.c
+	GEN_LIB libuuid.a
+	CC tst_uuid.o
+	LD tst_uuid
+	LD uuid_time
+	SUBST uuid.3
+	SUBST uuid_clear.3
+	SUBST uuid_compare.3
+	SUBST uuid_copy.3
+	SUBST uuid_generate.3
+	SUBST uuid_is_null.3
+	SUBST uuid_parse.3
+	SUBST uuid_time.3
+	SUBST uuid_unparse.3
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/uuid'
+making all in lib/ext2fs
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+	CC bb_compat.c
+	CC inode_io.c
+	CC write_bb_file.c
+	CC dupfs.c
+	CC imager.c
+	CC test_io.c
+	CC ext2_err.c
+	CC alloc.c
+	CC alloc_sb.c
+	CC alloc_stats.c
+	CC alloc_tables.c
+	CC badblocks.c
+	CC bb_inode.c
+	CC bitmaps.c
+	CC bitops.c
+	CC blkmap64_ba.c
+	CC blkmap64_rb.c
+	CC blknum.c
+	CC block.c
+	CC bmap.c
+	CC check_desc.c
+	CC closefs.c
+	CC crc16.c
+	CC gen_crc32ctable
+	GEN32CTABLE crc32c_table.h
+	CC crc32c.c
+	CC csum.c
+	CC dblist.c
+	CC dblist_dir.c
+	CC dirblock.c
+	CC dirhash.c
+	CC dir_iterate.c
+	CC expanddir.c
+	CC ext_attr.c
+	CC extent.c
+	CC fileio.c
+	CC finddev.c
+	CC flushb.c
+	CC freefs.c
+	CC gen_bitmap.c
+	CC gen_bitmap64.c
+	CC get_pathname.c
+	CC getsize.c
+	CC getsectsize.c
+	CC i_block.c
+	CC icount.c
+	CC ind_block.c
+	CC initialize.c
+	CC inline.c
+	CC inode.c
+	CC io_manager.c
+	CC ismounted.c
+	CC link.c
+	CC llseek.c
+	CC lookup.c
+	CC mkdir.c
+	CC mkjournal.c
+	CC mmp.c
+	CC namei.c
+	CC native.c
+	CC newdir.c
+	CC openfs.c
+	CC progress.c
+	CC punch.c
+	CC qcow2.c
+	CC read_bb.c
+	CC read_bb_file.c
+	CC res_gdt.c
+	CC rw_bitmaps.c
+	CC swapfs.c
+	CC symlink.c
+	CC tdb.c
+	CC undo_io.c
+	CC unix_io.c
+	CC unlink.c
+	CC valid_blk.c
+	CC version.c
+	CC rbtree.c
+	GEN_LIB libext2fs.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+making all in lib/blkid
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/blkid'
+	CP blkid.h
+	CC cache.c
+	CC dev.c
+	CC devname.c
+	CC devno.c
+	CC getsize.c
+	CC llseek.c
+	CC probe.c
+	CC read.c
+	CC resolve.c
+	CC save.c
+save.c: In function 'blkid_flush_cache':
+save.c:147:9: warning: ignoring return value of 'link', declared with attribute warn_unused_result [-Wunused-result]
+     link(filename, backup);
+         ^
+	CC tag.c
+	CC version.c
+	GEN_LIB libblkid.a
+	SUBST libblkid.3
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/blkid'
+making all in lib/quota
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/quota'
+	CC mkquota.c
+	CC quotaio.c
+	CC quotaio_v2.c
+	CC quotaio_tree.c
+	CC ../../e2fsck/dict.c
+	GEN_LIB libquota.a
+	CONFIG.STATUS quota.pc
+config.status: creating lib/quota/quota.pc
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing default-1 commands
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/quota'
+making all in intl
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/intl'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/intl'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make progs
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `util/subst.conf' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/config.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/dirpaths.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/ext2fs/ext2_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/blkid/blkid_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: `lib/uuid/uuid_types.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[6]: `compile_et' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+make[6]: `ext2_err.h' is up to date.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+making all in lib/et
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/et'
+making all in lib/ss
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ss'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ss'
+making all in lib/e2p
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/e2p'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/e2p'
+making all in lib/uuid
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/uuid'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/uuid'
+making all in lib/ext2fs
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/ext2fs'
+making all in lib/blkid
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/blkid'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/blkid'
+making all in lib/quota
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/quota'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/lib/quota'
+making all in intl
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/intl'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/intl'
+making all in e2fsck
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/e2fsck'
+	COMPILE_ET prof_err.et
+	CC gen_crc32table
+	GEN32TABLE crc32table.h
+	CC crc32.c
+	CC dict.c
+	CC unix.c
+	CC e2fsck.c
+	CC super.c
+	CC pass1.c
+	CC pass1b.c
+	CC pass2.c
+	CC pass3.c
+	CC pass4.c
+	CC pass5.c
+	CC journal.c
+	CC badblocks.c
+	CC util.c
+	CC dirinfo.c
+	CC dx_dirinfo.c
+	CC ehandler.c
+	CC problem.c
+	CC message.c
+	CC quota.c
+	CC recovery.c
+	CC region.c
+	CC revoke.c
+	CC ea_refcount.c
+	CC rehash.c
+	CC profile.c
+	CC prof_err.c
+	CC logfile.c
+	CC sigcatcher.c
+	LD e2fsck
+	SUBST e2fsck.8
+	SUBST e2fsck.conf.5
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/e2fsck'
+making all in debugfs
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/debugfs'
+	MK_CMDS debug_cmds.c
+	CC debug_cmds.c
+	CC debugfs.c
+	CC util.c
+	CC ncheck.c
+	CC icheck.c
+	CC ls.c
+	CC lsdel.c
+	CC dump.c
+	CC set_fields.c
+	CC logdump.c
+	CC htree.c
+	CC unused.c
+	CC e2freefrag.o
+	CC filefrag.c
+	MK_CMDS extent_cmds.c
+	CC extent_cmds.c
+	CC extent_inode.c
+	CC zap.c
+	LD debugfs
+	SUBST debugfs.8
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/debugfs'
+making all in misc
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/misc'
+	CP ../e2fsck/profile.h
+	COMPILE_ET prof_err.et
+	CC mke2fs.c
+	CC util.c
+	CC ../e2fsck/profile.c
+	CC prof_err.c
+if test -f ./mke2fs.conf.custom.in ; then \
+		cp ./mke2fs.conf.custom.in mke2fs.conf; \
+	else \
+		cp ./mke2fs.conf.in mke2fs.conf; \
+	fi
+	PROFILE_TO_C mke2fs.conf
+	CC default_profile.c
+	LD mke2fs
+	CC badblocks.c
+	LD badblocks
+	CC tune2fs.c
+	LD tune2fs
+	CC dumpe2fs.c
+	LD dumpe2fs
+	CC blkid.c
+	LD blkid
+	CC logsave.c
+	LD logsave
+	CC e2image.c
+	LD e2image
+	CC fsck.c
+	CC base_device.c
+	CC ismounted.c
+	LD fsck
+	CC e2undo.c
+	LD e2undo
+	CC chattr.c
+	LD chattr
+	CC lsattr.c
+	LD lsattr
+	CC uuidgen.c
+	LD uuidgen
+	CC mklost+found.c
+	LD mklost+found
+	CC filefrag.c
+	LD filefrag
+	CC e2freefrag.c
+	LD e2freefrag
+	CC uuidd.c
+	LD uuidd
+	SUBST tune2fs.8
+	SUBST mklost+found.8
+	SUBST mke2fs.8
+	SUBST dumpe2fs.8
+	SUBST badblocks.8
+	SUBST e2label.8
+	SUBST findfs.8
+	SUBST blkid.8
+	SUBST e2image.8
+	SUBST logsave.8
+	SUBST filefrag.8
+	SUBST e2freefrag.8
+	SUBST e2undo.8
+	SUBST uuidd.8
+	SUBST e4defrag.8
+	SUBST fsck.8
+	SUBST chattr.1
+	SUBST lsattr.1
+	SUBST uuidgen.1
+	SUBST mke2fs.conf.5
+	CC e2initrd_helper.c
+	LD e2initrd_helper
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/misc'
+making all in resize
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/resize'
+	CC extent.c
+	CC resize2fs.c
+	CC main.c
+	CC online.c
+	CC resource_track.c
+	CC sim_progress.c
+	LD resize2fs
+	CC test_extent.c
+	LD test_extent
+	SUBST resize2fs.8
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/resize'
+making all in tests/progs
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/tests/progs'
+	CC test_icount.c
+	MK_CMDS test_icount_cmds.c
+	CC test_icount_cmds.c
+	LD test_icount
+	CC crcsum.c
+	LD crcsum
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/tests/progs'
+making all in po
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/po'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8/po'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make docs
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[5]: [docs] Error 1 (ignored)
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/e2fsprogs-1.42.8'

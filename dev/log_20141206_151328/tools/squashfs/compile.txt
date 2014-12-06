@@ -1,0 +1,40 @@
+
+Applying ./patches/100-lzma.patch using plaintext: 
+patching file squashfs-tools/Makefile
+
+Applying ./patches/110-no_nonstatic_inline.patch using plaintext: 
+patching file squashfs-tools/mksquashfs.c
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/squashfs3.0/squashfs-tools'
+gcc -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -O2   -c -o mksquashfs.o mksquashfs.c
+mksquashfs.c: In function 'write_file':
+mksquashfs.c:1201:5: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'int' [-Wformat=]
+     BAD_ERROR("Out of memory allocating write_file buffer, could not allocate %ld blocks (%d Kbytes)\n", allocated_blocks, allocated_blocks << (block_log - 10));
+     ^
+mksquashfs.c: In function 'dir_scan2':
+mksquashfs.c:1629:6: warning: format '%lld' expects argument of type 'long long int', but argument 3 has type '__off_t' [-Wformat=]
+      INFO("file %s, uncompressed size %lld bytes %s\n", filename, buf->st_size, duplicate_file ? "DUPLICATE" : "");
+      ^
+mksquashfs.c:1685:7: warning: format '%lld' expects argument of type 'long long int', but argument 3 has type '__off_t' [-Wformat=]
+       INFO("file %s, uncompressed size %lld bytes LINK\n", filename, buf->st_size);
+       ^
+mksquashfs.c: In function 'write_file':
+mksquashfs.c:1239:14: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
+     ftruncate(fd, bytes);
+              ^
+gcc -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -O2   -c -o read_fs.o read_fs.c
+gcc -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -O2   -c -o sort.o sort.c
+sort.c: In function 'sort_files_and_write':
+sort.c:246:6: warning: format '%lld' expects argument of type 'long long int', but argument 3 has type '__off_t' [-Wformat=]
+      INFO("file %s, uncompressed size %lld bytes %s\n",
+      ^
+sort.c:254:5: warning: format '%lld' expects argument of type 'long long int', but argument 3 has type '__off_t' [-Wformat=]
+     INFO("file %s, uncompressed size %lld bytes LINK\n",
+     ^
+g++  mksquashfs.o read_fs.o sort.o -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib -llzma-old -o mksquashfs-lzma
+gcc -I. -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -O2   -c -o unsquashfs.o unsquashfs.c
+unsquashfs.c: In function 'create_inode':
+unsquashfs.c:553:5: warning: too many arguments for format [-Wformat-extra-args]
+     ERROR("create_inode: could not create %s device %s, because you're not superuser!\n",
+     ^
+g++  unsquashfs.o -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib -llzma-old -o unsquashfs-lzma
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/squashfs3.0/squashfs-tools'

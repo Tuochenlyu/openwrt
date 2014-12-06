@@ -1,0 +1,264 @@
+
+Applying ./patches/002-path_to_bash.patch using plaintext: 
+patching file bin/Makefile
+
+Applying ./patches/006-eabi_fix.patch using plaintext: 
+patching file include/typeinfo
+patching file include/unwind-cxx.h
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/extra/config'
+cp zconf.tab.h_shipped zconf.tab.h
+gcc -O2 -Wall -I. -c conf.c -o conf.o
+conf.c: In function 'conf_string':
+conf.c:163:20: warning: variable 'help' set but not used [-Wunused-but-set-variable]
+  const char *def, *help;
+                    ^
+conf.c: In function 'conf_sym':
+conf.c:197:6: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+  int type;
+      ^
+conf.c: In function 'conf_choice':
+conf.c:272:6: warning: variable 'type' set but not used [-Wunused-but-set-variable]
+  int type;
+      ^
+conf.c: In function 'conf_askvalue':
+conf.c:93:8: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+   fgets(line, 128, stdin);
+        ^
+conf.c: In function 'conf_choice':
+conf.c:349:9: warning: ignoring return value of 'fgets', declared with attribute warn_unused_result [-Wunused-result]
+    fgets(line, 128, stdin);
+         ^
+cp zconf.tab.c_shipped zconf.tab.c
+cp lex.zconf.c_shipped lex.zconf.c
+gcc -O2 -Wall -I. -c zconf.tab.c -o zconf.tab.o
+In file included from zconf.tab.c:2121:0:
+lex.zconf.c:2969:16: warning: 'input' defined but not used [-Wunused-function]
+     static int input  (void)
+                ^
+gcc  conf.o zconf.tab.o -o conf
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/extra/config'
+#
+# using defaults found in .config
+#
+*
+* uClibc++ Configuration
+*
+*
+* Target Features and Options
+*
+Enable floating point number support (UCLIBCXX_HAS_FLOATS) [Y/n/?] y
+  Math operations with long double (UCLIBCXX_HAS_LONG_DOUBLE) [N/y/?] n
+Toolchain supports Thread-Local Storage (UCLIBCXX_HAS_TLS) [N/y/?] n
+Compiler Warnings (WARNINGS) [-Wall] -Wall
+Extra Library Link Flags (BUILD_EXTRA_LIBRARIES) [] 
+*
+* String and I/O Stream Support
+*
+Wide Character Support (Not Currently Supported) (UCLIBCXX_HAS_WCHAR) [Y/n/?] y
+I/O stream buffer size (UCLIBCXX_IOSTREAM_BUFSIZE) [32] 32
+Large File Support (UCLIBCXX_HAS_LFS) [Y/n/?] y
+Enable support for standard streams like cin and cout (UCLIBCXX_SUPPORT_CDIR) [Y/n/?] y
+  Enable cin (UCLIBCXX_SUPPORT_CIN) [Y/n/?] y
+  Enable cout (UCLIBCXX_SUPPORT_COUT) [Y/n/?] y
+  Enable cerr (UCLIBCXX_SUPPORT_CERR) [Y/n/?] y
+  Enable clog (UCLIBCXX_SUPPORT_CLOG) [Y/n/?] y
+  Enable wcin (UCLIBCXX_SUPPORT_WCIN) [Y/n/?] y
+  Enable wcout (UCLIBCXX_SUPPORT_WCOUT) [Y/n/?] y
+  Enable wcerr (UCLIBCXX_SUPPORT_WCERR) [Y/n/?] y
+  Enable wclog (UCLIBCXX_SUPPORT_WCLOG) [Y/n/?] y
+*
+* STL and Code Expansion
+*
+STL buffer size (UCLIBCXX_STL_BUFFER_SIZE) [32] 32
+Template code expansion (UCLIBCXX_CODE_EXPANSION) [Y/n/?] y
+  Expand constructors and destructors (UCLIBCXX_EXPAND_CONSTRUCTORS_DESTRUCTORS) [Y/n/?] y
+  Expand std::basic_string for <char> (UCLIBCXX_EXPAND_STRING_CHAR) [Y/n/?] y
+  Expand std::vector for basic data types (UCLIBCXX_EXPAND_VECTOR_BASIC) [Y/n/?] y
+  Expand ios core code for char (UCLIBCXX_EXPAND_IOS_CHAR) [Y/n/?] y
+  Expand std::streambuf for char (UCLIBCXX_EXPAND_STREAMBUF_CHAR) [Y/n/?] y
+  Expand std::istream for <char> (UCLIBCXX_EXPAND_ISTREAM_CHAR) [Y/n/?] y
+  Expand std::ostream for <char> (UCLIBCXX_EXPAND_OSTREAM_CHAR) [Y/n/?] y
+  Expand std::fstream for <char> (UCLIBCXX_EXPAND_FSTREAM_CHAR) [Y/n/?] y
+  Expand std::sstream for <char> (UCLIBCXX_EXPAND_SSTREAM_CHAR) [Y/n/?] y
+*
+* Library Installation Options
+*
+uClibc++ runtime prefix directory (UCLIBCXX_RUNTIME_PREFIX) [] 
+uClibc++ header file subdirectory (UCLIBCXX_RUNTIME_INCLUDE_SUBDIR) [/include] /include
+uClibc++ library subdirectory (UCLIBCXX_RUNTIME_LIB_SUBDIR) [/lib] /lib
+uClibc++ application file subdirectory (UCLIBCXX_RUNTIME_BIN_SUBDIR) [/bin] /bin
+Exception and RTTI support (UCLIBCXX_EXCEPTION_SUPPORT) [Y/n/?] y
+  Import libsupc++.a (IMPORT_LIBSUP) [Y/n/?] y
+  Import libgcc_eh.a (IMPORT_LIBGCC_EH) [N/y/?] n
+Build static library (BUILD_STATIC_LIB) [Y/n/?] y
+  Build only static library (BUILD_ONLY_STATIC_LIB) [N/y/?] n
+Build uClibc++ with debugging symbols (DODEBUG) [N/y/?] n
+for dir in bin include src ; do \
+		make -C $dir all; \
+	done
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin'
+echo '#!/usr/bin/env bash' > g++-uc
+echo '' >> g++-uc
+echo 'WRAPPER_INCLUDEDIR="${WRAPPER_INCLUDEDIR:=-I/include/}"' >> g++-uc
+echo 'WRAPPER_LIBDIR="${WRAPPER_LIBDIR:=-L/lib/}"' >> g++-uc
+echo '' >> g++-uc
+echo 'WRAPPER_OPTIONS=""' >> g++-uc
+echo 'WRAPPER_LIBS="-lc -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -lgcc_s "' >> g++-uc
+echo '' >> g++-uc
+echo 'WRAPPER_INCLIB="Y"' >> g++-uc
+echo 'while [ -n "$1" ]' >> g++-uc
+echo 'do' >> g++-uc
+echo '	WRAPPER_OPTIONS="$WRAPPER_OPTIONS $1"' >> g++-uc
+echo '	if [ "$1" = "-c" -o "$1" = "-E" -o "$1" = "-S" -o "$1" = "-MF" ]' >> g++-uc
+echo '	then' >> g++-uc
+echo '		WRAPPER_INCLIB="N"' >> g++-uc
+echo '	fi' >> g++-uc
+echo '	if [ "$1" = "-static" ]' >> g++-uc
+echo '	then' >> g++-uc
+echo '		WRAPPER_LIBS="-lc -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -lgcc_s -lgcc_eh"' >> g++-uc
+echo '	fi' >> g++-uc
+echo '	shift' >> g++-uc
+echo 'done' >> g++-uc
+echo 'if [ "$WRAPPER_INCLIB" = "Y" ]' >> g++-uc
+echo 'then' >> g++-uc
+echo '	WRAPPER_OPTIONS="$WRAPPER_OPTIONS -nodefaultlibs $WRAPPER_LIBDIR -luClibc++ $WRAPPER_LIBS"' >> g++-uc
+echo 'fi' >> g++-uc
+echo '' >> g++-uc
+echo 'exec mips-openwrt-linux-uclibc-g++ -fno-builtin -nostdinc++ -DGCC_HASCLASSVISIBILITY  $WRAPPER_INCLUDEDIR $WRAPPER_OPTIONS' >> g++-uc
+chmod 755 g++-uc
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src'
+make -C abi/libsupc all
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src/abi/libsupc'
+mips-openwrt-linux-uclibc-ar x /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mips-openwrt-linux-uclibc/4.8.3/../../../../mips-openwrt-linux-uclibc/lib/libsupc++.a
+rm -f -f new_op*.o del_op*.o pure.o new_handler.o eh_alloc.o eh_globals.o
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src/abi/libsupc'
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o algorithm.o -c algorithm.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment algorithm.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o associative_base.o -c associative_base.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment associative_base.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o bitset.o -c bitset.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment bitset.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o char_traits.o -c char_traits.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment char_traits.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o complex.o -c complex.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment complex.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o del_op.o -c del_op.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment del_op.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o del_opnt.o -c del_opnt.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment del_opnt.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o del_opv.o -c del_opv.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment del_opv.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o del_opvnt.o -c del_opvnt.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment del_opvnt.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o deque.o -c deque.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment deque.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o eh_alloc.o -c eh_alloc.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment eh_alloc.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o eh_globals.o -c eh_globals.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment eh_globals.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o exception.o -c exception.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment exception.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o fstream.o -c fstream.cpp
+fstream.cpp: In member function 'std::basic_filebuf<charT, traits>::int_type std::basic_filebuf<charT, traits>::underflow() [with charT = wchar_t; traits = std::char_traits<wchar_t>; std::basic_filebuf<charT, traits>::int_type = unsigned int]':
+fstream.cpp:142:16: warning: variable 'in_size' set but not used [-Wunused-but-set-variable]
+         size_t in_size;
+                ^
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment fstream.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o func_exception.o -c func_exception.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment func_exception.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o iomanip.o -c iomanip.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment iomanip.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o ios.o -c ios.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment ios.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o iostream.o -c iostream.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment iostream.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o istream.o -c istream.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment istream.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o iterator.o -c iterator.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment iterator.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o limits.o -c limits.cpp
+In file included from limits.cpp:20:0:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include/limits:24:2: warning: #warning is a GCC extension [enabled by default]
+ #warning limits header is nowhere complete or accurate
+  ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include/limits:24:2: warning: #warning limits header is nowhere complete or accurate [-Wcpp]
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment limits.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o list.o -c list.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment list.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o locale.o -c locale.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment locale.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o map.o -c map.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment map.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o new_handler.o -c new_handler.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment new_handler.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o new_op.o -c new_op.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment new_op.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o new_opnt.o -c new_opnt.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment new_opnt.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o new_opv.o -c new_opv.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment new_opv.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o new_opvnt.o -c new_opvnt.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment new_opvnt.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o numeric.o -c numeric.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment numeric.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o ostream.o -c ostream.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment ostream.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o queue.o -c queue.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment queue.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o set.o -c set.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment set.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o sstream.o -c sstream.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment sstream.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o stack.o -c stack.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment stack.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o stdexcept.o -c stdexcept.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment stdexcept.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o streambuf.o -c streambuf.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment streambuf.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o string.o -c string.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment string.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o utility.o -c utility.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment utility.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o valarray.o -c valarray.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment valarray.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o vector.o -c vector.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment vector.o
+WRAPPER_INCLUDEDIR=-I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin/g++-uc -Wall -Wno-trigraphs -pedantic -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -fpic -ansi  -Os -fPIC -o abi/abi.o -c abi/abi.cpp
+mips-openwrt-linux-uclibc-strip -x -R .note -R .comment abi/abi.o
+mips-openwrt-linux-uclibc-ar rcs libuClibc++.a algorithm.o associative_base.o bitset.o char_traits.o complex.o del_op.o del_opnt.o del_opv.o del_opvnt.o deque.o eh_alloc.o eh_globals.o exception.o fstream.o func_exception.o iomanip.o ios.o iostream.o istream.o iterator.o limits.o list.o locale.o map.o new_handler.o new_op.o new_opnt.o new_opv.o new_opvnt.o numeric.o ostream.o queue.o set.o sstream.o stack.o stdexcept.o streambuf.o string.o utility.o valarray.o vector.o abi/abi.o  abi/libsupc/array_type_info.o abi/libsupc/atexit_arm.o abi/libsupc/atexit_thread.o abi/libsupc/bad_alloc.o abi/libsupc/bad_cast.o abi/libsupc/bad_typeid.o abi/libsupc/class_type_info.o abi/libsupc/cp-demangle.o abi/libsupc/dyncast.o abi/libsupc/eh_arm.o abi/libsupc/eh_aux_runtime.o abi/libsupc/eh_call.o abi/libsupc/eh_catch.o abi/libsupc/eh_exception.o abi/libsupc/eh_personality.o abi/libsupc/eh_ptr.o abi/libsupc/eh_term_handler.o abi/libsupc/eh_terminate.o abi/libsupc/eh_throw.o abi/libsupc/eh_tm.o abi/libsupc/eh_type.o abi/libsupc/eh_unex_handler.o abi/libsupc/enum_type_info.o abi/libsupc/function_type_info.o abi/libsupc/fundamental_type_info.o abi/libsupc/guard.o abi/libsupc/guard_error.o abi/libsupc/hash_bytes.o abi/libsupc/nested_exception.o abi/libsupc/pbase_type_info.o abi/libsupc/pmem_type_info.o abi/libsupc/pointer_type_info.o abi/libsupc/si_class_type_info.o abi/libsupc/tinfo.o abi/libsupc/tinfo2.o abi/libsupc/vec.o abi/libsupc/vmi_class_type_info.o abi/libsupc/vterminate.o
+mips-openwrt-linux-uclibc-ranlib libuClibc++.a
+mips-openwrt-linux-uclibc-gcc -Wl,--warn-common -Wl,--warn-once -Wl,-z,combreloc -Wl,-z,defs -nodefaultlibs -shared -Wl,-soname,libuClibc++.so.0  -Wl,-s -o libuClibc++-0.2.4.so algorithm.o associative_base.o bitset.o char_traits.o complex.o del_op.o del_opnt.o del_opv.o del_opvnt.o deque.o eh_alloc.o eh_globals.o exception.o fstream.o func_exception.o iomanip.o ios.o iostream.o istream.o iterator.o limits.o list.o locale.o map.o new_handler.o new_op.o new_opnt.o new_opv.o new_opvnt.o numeric.o ostream.o queue.o set.o sstream.o stack.o stdexcept.o streambuf.o string.o utility.o valarray.o vector.o abi/abi.o abi/libsupc/array_type_info.o abi/libsupc/atexit_arm.o abi/libsupc/atexit_thread.o abi/libsupc/bad_alloc.o abi/libsupc/bad_cast.o abi/libsupc/bad_typeid.o abi/libsupc/class_type_info.o abi/libsupc/cp-demangle.o abi/libsupc/dyncast.o abi/libsupc/eh_arm.o abi/libsupc/eh_aux_runtime.o abi/libsupc/eh_call.o abi/libsupc/eh_catch.o abi/libsupc/eh_exception.o abi/libsupc/eh_personality.o abi/libsupc/eh_ptr.o abi/libsupc/eh_term_handler.o abi/libsupc/eh_terminate.o abi/libsupc/eh_throw.o abi/libsupc/eh_tm.o abi/libsupc/eh_type.o abi/libsupc/eh_unex_handler.o abi/libsupc/enum_type_info.o abi/libsupc/function_type_info.o abi/libsupc/fundamental_type_info.o abi/libsupc/guard.o abi/libsupc/guard_error.o abi/libsupc/hash_bytes.o abi/libsupc/nested_exception.o abi/libsupc/pbase_type_info.o abi/libsupc/pmem_type_info.o abi/libsupc/pointer_type_info.o abi/libsupc/si_class_type_info.o abi/libsupc/tinfo.o abi/libsupc/tinfo2.o abi/libsupc/vec.o abi/libsupc/vmi_class_type_info.o abi/libsupc/vterminate.o  -lc -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -lgcc_s 
+ln -s -f libuClibc++-0.2.4.so libuClibc++.so.0
+ln -s -f libuClibc++.so.0 libuClibc++.so
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4'
+for dir in bin include src ; do \
+		make -C $dir install; \
+	done
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin'
+install -d /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/bin/
+install -m 755 g++-uc /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/bin/
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/bin'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include'
+install -d /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/include/
+install -m 644 algorithm associative_base basic_definitions bitset cassert cctype cerrno cfloat char_traits climits clocale cmath complex csetjmp csignal cstdarg cstddef cstdio cstdlib cstring ctime cwchar cwctype deque exception fstream func_exception functional iomanip ios iosfwd iostream istream istream_helpers iterator iterator_base limits list locale map memory new numeric ostream ostream_helpers queue set sstream stack stdexcept streambuf string string_iostream support system_configuration.h type_traits typeinfo unwind-cxx.h utility valarray vector /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/include/
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/include'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src'
+install -d /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/lib/
+(tar -cf - \
+	 libuClibc++.a \
+	  libuClibc++-0.2.4.so libuClibc++.so.0 libuClibc++.so  \
+	) | tar -xf - -C /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-install/lib/
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/src'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-ar71xx/uclibcxx/usr/lib/libuClibc++-0.2.4.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uClibc++-0.2.4/ipkg-ar71xx/uclibcxx into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uclibcxx_0.2.4-1_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/uclibc++'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.uclibc++_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/uclibc++'

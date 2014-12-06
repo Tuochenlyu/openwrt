@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+Scanning dependencies of target ustream-ssl
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 25%] Building C object CMakeFiles/ustream-ssl.dir/ustream-ssl.c.o
+[ 50%] Building C object CMakeFiles/ustream-ssl.dir/ustream-polarssl.c.o
+Linking C shared library libustream-ssl.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 50%] Built target ustream-ssl
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+Scanning dependencies of target ustream-example-client
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 75%] Building C object CMakeFiles/ustream-example-client.dir/ustream-example-client.c.o
+Linking C executable ustream-example-client
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 75%] Built target ustream-example-client
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+Scanning dependencies of target ustream-example-server
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[100%] Building C object CMakeFiles/ustream-example-server.dir/ustream-example-server.c.o
+Linking C executable ustream-example-server
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[100%] Built target ustream-example-server
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 50%] Built target ustream-ssl
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[ 75%] Built target ustream-example-client
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+[100%] Built target ustream-example-server
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25/ipkg-install/usr/include/libubox/ustream-ssl.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25/ipkg-install/usr/lib/libustream-ssl.so
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25/ipkg-ar71xx/libustream-polarssl/lib/libustream-ssl.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ustream-ssl-polarssl/ustream-ssl-2014-03-25/ipkg-ar71xx/libustream-polarssl into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libustream-polarssl_2014-03-25-fc0b5ec804ee43c532978dd04ab0509c34baefb0_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/ustream-ssl'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.ustream-ssl_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/ustream-ssl'

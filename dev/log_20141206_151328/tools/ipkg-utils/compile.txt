@@ -1,0 +1,63 @@
+
+Applying ./patches/100-build_clean.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/110-buildpackage.patch using plaintext: 
+patching file ipkg-buildpackage
+
+Applying ./patches/111-buildpackage_conffiles.patch using plaintext: 
+patching file ipkg-buildpackage
+
+Applying ./patches/120-build_tar.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/130-tar_wildcards.patch using plaintext: 
+patching file ipkg.py
+
+Applying ./patches/140-portability.patch using plaintext: 
+patching file ipkg-build
+patching file ipkg-make-index
+
+Applying ./patches/150-uppercase_letters.patch using plaintext: 
+patching file ipkg-build
+patching file ipkg-buildpackage
+
+Applying ./patches/160-find.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/170-resolve_conffiles.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/180-add_installed_size.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/190-preserve_permissions.patch using plaintext: 
+patching file ipkg-build
+Hunk #1 succeeded at 249 with fuzz 2.
+
+Applying ./patches/200-force_gnu_format.patch using plaintext: 
+patching file ipkg-build
+
+Applying ./patches/210-remove_field_checks.patch using plaintext: 
+patching file ipkg-build
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/ipkg-utils-1.7'
+cc  -o ipkg-compare-versions ipkg-compare-versions.c
+python setup.py build
+/usr/lib/python2.7/distutils/dist.py:251: UserWarning: 'licence' distribution option is deprecated; use 'license'
+  warnings.warn(msg)
+running build
+running build_py
+file ipkg-make-index.py (for module ipkg-make-index) not found
+creating build
+creating build/lib.linux-x86_64-2.7
+copying ipkg.py -> build/lib.linux-x86_64-2.7
+file ipkg-make-index.py (for module ipkg-make-index) not found
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting ipkg-compare-indexes -> build/scripts-2.7
+copying and adjusting ipkg-make-index -> build/scripts-2.7
+copying and adjusting ipkg-update-index -> build/scripts-2.7
+changing mode of build/scripts-2.7/ipkg-compare-indexes from 644 to 755
+changing mode of build/scripts-2.7/ipkg-make-index from 644 to 755
+changing mode of build/scripts-2.7/ipkg-update-index from 644 to 755
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/ipkg-utils-1.7'

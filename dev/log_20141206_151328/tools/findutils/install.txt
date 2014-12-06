@@ -1,0 +1,224 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'
+Making install in gnulib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+Making install in lib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+make  install-am
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+test yes != no || /bin/bash ../../build-aux/mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib
+if test -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.alias; then \
+	  sed -f ref-add.sed /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.alias > /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp ; \
+	  /usr/bin/install -c -m 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.alias ; \
+	  rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp ; \
+	else \
+	  if test yes = no; then \
+	    sed -f ref-add.sed charset.alias > /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp ; \
+	    /usr/bin/install -c -m 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.alias ; \
+	    rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib/charset.tmp ; \
+	  fi ; \
+	fi
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib/lib'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/gnulib'
+Making install in tests
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make  install-recursive
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[8]: Nothing to be done for `install-exec-am'.
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/tests'
+Making install in build-aux
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/build-aux'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/build-aux'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/build-aux'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/build-aux'
+Making install in lib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+make  install-am
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/lib'
+Making install in find
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+Making install in .
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin"
+  /usr/bin/install -c 'find' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find'
+  /usr/bin/install -c 'oldfind' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/oldfind'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1"
+ /usr/bin/install -c -m 644 './find.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1/find.1'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+Making install in testsuite
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find/testsuite'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find/testsuite'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find/testsuite'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find/testsuite'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/find'
+Making install in xargs
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+Making install in .
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin"
+  /usr/bin/install -c 'xargs' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/xargs'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1"
+ /usr/bin/install -c -m 644 './xargs.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1/xargs.1'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+Making install in testsuite
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs/testsuite'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs/testsuite'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs/testsuite'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs/testsuite'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/xargs'
+Making install in locate
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+make  install-recursive
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+Making install in .
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin"
+  /usr/bin/install -c 'locate' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/locate'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin"
+ /usr/bin/install -c 'updatedb' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/updatedb'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/libexec" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/libexec"
+  /usr/bin/install -c 'frcode' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/libexec/frcode'
+  /usr/bin/install -c 'code' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/libexec/code'
+  /usr/bin/install -c 'bigram' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/libexec/bigram'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1"
+ /usr/bin/install -c -m 644 './locate.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1/locate.1'
+ /usr/bin/install -c -m 644 './updatedb.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man1/updatedb.1'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man5" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man5"
+ /usr/bin/install -c -m 644 './locatedb.5' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/man/man5/locatedb.5'
+make  install-data-hook
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+../build-aux/mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/var
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/var
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+Making install in testsuite
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate/testsuite'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate/testsuite'
+make[8]: Nothing to be done for `install-exec-am'.
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate/testsuite'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate/testsuite'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/locate'
+Making install in doc
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/doc'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/doc'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info"
+ /usr/bin/install -c -m 644 './find.info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info/find.info'
+ /usr/bin/install -c -m 644 './find-maint.info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info/find-maint.info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info/find.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/info/find-maint.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/doc'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/doc'
+Making install in po
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/po'
+/bin/sh ../build-aux/mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/be/LC_MESSAGES
+installing be.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/be/LC_MESSAGES/findutils.mo
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/bg/LC_MESSAGES
+installing bg.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/bg/LC_MESSAGES/findutils.mo
+installing ca.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ca/LC_MESSAGES/findutils.mo
+installing cs.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/cs/LC_MESSAGES/findutils.mo
+installing da.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/da/LC_MESSAGES/findutils.mo
+installing de.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/de/LC_MESSAGES/findutils.mo
+installing el.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/el/LC_MESSAGES/findutils.mo
+installing eo.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/eo/LC_MESSAGES/findutils.mo
+installing es.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/es/LC_MESSAGES/findutils.mo
+installing et.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/et/LC_MESSAGES/findutils.mo
+installing fi.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/fi/LC_MESSAGES/findutils.mo
+installing fr.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/fr/LC_MESSAGES/findutils.mo
+installing ga.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ga/LC_MESSAGES/findutils.mo
+installing gl.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/gl/LC_MESSAGES/findutils.mo
+installing hr.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/hr/LC_MESSAGES/findutils.mo
+installing hu.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/hu/LC_MESSAGES/findutils.mo
+installing id.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/id/LC_MESSAGES/findutils.mo
+installing it.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/it/LC_MESSAGES/findutils.mo
+installing ja.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ja/LC_MESSAGES/findutils.mo
+installing ko.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ko/LC_MESSAGES/findutils.mo
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/lg/LC_MESSAGES
+installing lg.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/lg/LC_MESSAGES/findutils.mo
+installing lt.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/lt/LC_MESSAGES/findutils.mo
+installing ms.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ms/LC_MESSAGES/findutils.mo
+installing nl.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/nl/LC_MESSAGES/findutils.mo
+installing pl.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/pl/LC_MESSAGES/findutils.mo
+installing pt.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/pt/LC_MESSAGES/findutils.mo
+installing pt_BR.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/pt_BR/LC_MESSAGES/findutils.mo
+installing ro.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ro/LC_MESSAGES/findutils.mo
+installing ru.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/ru/LC_MESSAGES/findutils.mo
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/rw/LC_MESSAGES/findutils.mo
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/sk/LC_MESSAGES/findutils.mo
+installing sl.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/sl/LC_MESSAGES/findutils.mo
+installing sr.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/sr/LC_MESSAGES/findutils.mo
+installing sv.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/sv/LC_MESSAGES/findutils.mo
+installing tr.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/tr/LC_MESSAGES/findutils.mo
+installing uk.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/uk/LC_MESSAGES/findutils.mo
+installing vi.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/vi/LC_MESSAGES/findutils.mo
+installing zh_CN.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/zh_CN/LC_MESSAGES/findutils.mo
+installing zh_TW.gmo as /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale/zh_TW/LC_MESSAGES/findutils.mo
+if test "findutils" = "gettext-tools"; then \
+	  /bin/sh ../build-aux/mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/gettext/po; \
+	  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+	    /usr/bin/install -c -m 644 ./$file \
+			    /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/gettext/po/$file; \
+	  done; \
+	  for file in Makevars; do \
+	    rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/gettext/po/$file; \
+	  done; \
+	else \
+	  : ; \
+	fi
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/po'
+Making install in m4
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/m4'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/m4'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/m4'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2/m4'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/findutils-4.4.2'

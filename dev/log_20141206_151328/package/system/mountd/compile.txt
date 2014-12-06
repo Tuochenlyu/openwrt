@@ -1,0 +1,60 @@
+
+Applying ./patches/010-uci_rename_history_to_delta.patch using plaintext: 
+patching file lib/uci.c
+patching file lib/ucix.c
+
+Applying ./patches/020-handle_timeout.patch using plaintext: 
+patching file lib/autofs.c
+
+Applying ./patches/030-ext4_support.patch using plaintext: 
+patching file include/fs.h
+patching file lib/fs.c
+patching file lib/mount.c
+
+Applying ./patches/040-optional-daemonize.patch using plaintext: 
+patching file main.c
+
+Applying ./patches/050-no_error_h.patch using plaintext: 
+patching file lib/fs.c
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1'
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  main.c -o main.o
+main.c: In function 'main':
+main.c:16:2: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  if ((argc < 2) || strcmp(argv[1], "-f"))
+  ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/log.c -o lib/log.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/sys.c -o lib/sys.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/autofs.c -o lib/autofs.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/mount.c -o lib/mount.o
+lib/mount.c: In function 'mount_get_serial':
+lib/mount.c:327:3: warning: passing argument 4 of 'scandir' from incompatible pointer type [enabled by default]
+   int n = scandir("/sys/bus/scsi/devices/", &namelist, dir_filter, dir_sort);
+   ^
+In file included from lib/mount.c:11:0:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/dirent.h:252:12: note: expected 'int (*)(const struct dirent **, const struct dirent **)' but argument is of type 'int (*)(const void *, const void *)'
+ extern int scandir (__const char *__restrict __dir,
+            ^
+lib/mount.c: In function 'mount_enum_drives':
+lib/mount.c:635:2: warning: passing argument 4 of 'scandir' from incompatible pointer type [enabled by default]
+  int i, n = scandir("/sys/block/", &namelist, dir_filter2, dir_sort);
+  ^
+In file included from lib/mount.c:11:0:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/dirent.h:252:12: note: expected 'int (*)(const struct dirent **, const struct dirent **)' but argument is of type 'int (*)(const void *, const void *)'
+ extern int scandir (__const char *__restrict __dir,
+            ^
+lib/mount.c:647:5: warning: passing argument 4 of 'scandir' from incompatible pointer type [enabled by default]
+     m = scandir(tmp, &namelist2, dir_filter2, dir_sort);
+     ^
+In file included from lib/mount.c:11:0:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include/dirent.h:252:12: note: expected 'int (*)(const struct dirent **, const struct dirent **)' but argument is of type 'int (*)(const void *, const void *)'
+ extern int scandir (__const char *__restrict __dir,
+            ^
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/timer.c -o lib/timer.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/signal.c -o lib/signal.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/ucix.c -o lib/ucix.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/led.c -o lib/led.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -c  lib/fs.c -o lib/fs.o
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1 -Wall -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -ldl -luci main.o lib/log.o lib/sys.o lib/autofs.o lib/mount.o lib/timer.o lib/signal.o lib/ucix.o lib/led.o lib/fs.o -o mountd
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1/ipkg-ar71xx/mountd/sbin/mountd:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/mountd-0.1/ipkg-ar71xx/mountd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/mountd_0.1-6_ar71xx.ipk

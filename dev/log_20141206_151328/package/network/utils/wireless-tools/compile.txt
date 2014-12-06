@@ -1,0 +1,48 @@
+
+Applying ./patches/001-debian.patch using plaintext: 
+patching file iwlib.c
+patching file Makefile
+
+Applying ./patches/002-fix-iwconfig-power-argument-parsing.patch using plaintext: 
+patching file iwconfig.c
+
+Applying ./patches/003-we_essential_def.patch using plaintext: 
+patching file iwlist.c
+patching file iwconfig.c
+patching file iwmulticall.c
+patching file iwlib.c
+patching file Makefile
+
+Applying ./patches/004-increase_iwlist_buffer.patch using plaintext: 
+patching file iwlist.c
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29'
+cp wireless.21.h wireless.h
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I. -MMD    -DWE_ESSENTIAL=y -fPIC -c -o iwlib.so iwlib.c
+mips-openwrt-linux-uclibc-gcc -shared -o libiw.so.29 -Wl,-soname,libiw.so.29  -lm -Wl,--gc-sections -lc iwlib.so
+mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I. -MMD    -DWE_ESSENTIAL=y -c iwmulticall.c
+In file included from iwmulticall.c:74:0:
+iwlist.c: In function 'print_scanning_info':
+iwlist.c:566:34: warning: iteration 10u invokes undefined behavior [-Waggressive-loop-optimizations]
+      if((modul & iw_modul_list[i].mask) == iw_modul_list[i].mask)
+                                  ^
+iwlist.c:564:2: note: containing loop
+  for(i = 0; i < IW_SIZE_MODUL_LIST; i++)
+  ^
+mips-openwrt-linux-uclibc-gcc  -Wl,-s -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -I. -MMD    -DWE_ESSENTIAL=y -o iwmulticall iwmulticall.o -lm -Wl,--gc-sections
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29'
+install -m 755 -d /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-install/usr/sbin
+install -m 755 iwmulticall /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-install/usr/sbin/iwconfig
+( cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-install/usr/sbin ; \
+	  ln -f -s iwconfig iwlist ; \
+	  ln -f -s iwconfig iwspy ; \
+	  ln -f -s iwconfig iwpriv ; \
+	  ln -f -s iwconfig iwgetid  )
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-ar71xx/wireless-tools/usr/sbin/iwconfig:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-ar71xx/wireless-tools into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/wireless-tools_29-5_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/utils/wireless-tools'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.wireless-tools_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/utils/wireless-tools'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-ar71xx/libiw/usr/lib/libiw.so.29:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/wireless_tools.29/ipkg-ar71xx/libiw into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libiw_29-5_ar71xx.ipk

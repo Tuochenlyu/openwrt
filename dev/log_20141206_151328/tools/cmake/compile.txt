@@ -1,0 +1,1911 @@
+
+Applying ./patches/100-disable_qt_tests.patch using plaintext: 
+patching file Tests/RunCMake/CMakeLists.txt
+patching file Tests/CMakeLists.txt
+---------------------------------------------
+CMake 2.8.12.2, Copyright 2000-2012 Kitware, Inc.
+Found GNU toolchain
+C compiler on this system is: gcc 
+C++ compiler on this system is: g++ 
+Makefile processor on this system is: make
+g++ is GNU compiler
+g++ has setenv
+g++ has unsetenv
+g++ does not have environ in stdlib.h
+g++ has STL in std:: namespace
+g++ has ANSI streams
+g++ has streams in std:: namespace
+g++ has sstream
+g++ has operator!=(string, char*)
+g++ has stl iterator_traits
+g++ has standard template allocator
+g++ has allocator<>::rebind<>
+g++ does not have non-standard allocator<>::max_size argument
+g++ has stl containers supporting allocator objects
+g++ has header cstddef
+g++ requires template friends to use <>
+g++ supports member templates
+g++ has standard template specialization syntax
+g++ has argument dependent lookup
+g++ has struct stat with st_mtim member
+g++ has ios::binary openmode
+g++ has ANSI for scoping
+---------------------------------------------
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk'
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmStandardIncludes.cxx -o cmStandardIncludes.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmake.cxx -o cmake.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmakemain.cxx -o cmakemain.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmakewizard.cxx -o cmakewizard.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCommandArgumentLexer.cxx -o cmCommandArgumentLexer.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCommandArgumentParser.cxx -o cmCommandArgumentParser.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCommandArgumentParserHelper.cxx -o cmCommandArgumentParserHelper.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDefinitions.cxx -o cmDefinitions.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDepends.cxx -o cmDepends.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDependsC.cxx -o cmDependsC.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDocumentationFormatter.cxx -o cmDocumentationFormatter.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDocumentationFormatterText.cxx -o cmDocumentationFormatterText.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmPolicies.cxx -o cmPolicies.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmProperty.cxx -o cmProperty.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmPropertyMap.cxx -o cmPropertyMap.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmPropertyDefinition.cxx -o cmPropertyDefinition.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmPropertyDefinitionMap.cxx -o cmPropertyDefinitionMap.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakeDepend.cxx -o cmMakeDepend.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakefile.cxx -o cmMakefile.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExportFileGenerator.cxx -o cmExportFileGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExportInstallFileGenerator.cxx -o cmExportInstallFileGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExportTryCompileFileGenerator.cxx -o cmExportTryCompileFileGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExportSet.cxx -o cmExportSet.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExportSetMap.cxx -o cmExportSetMap.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallDirectoryGenerator.cxx -o cmInstallDirectoryGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratedFileStream.cxx -o cmGeneratedFileStream.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorTarget.cxx -o cmGeneratorTarget.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorExpressionDAGChecker.cxx -o cmGeneratorExpressionDAGChecker.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorExpressionEvaluator.cxx -o cmGeneratorExpressionEvaluator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorExpressionLexer.cxx -o cmGeneratorExpressionLexer.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorExpressionParser.cxx -o cmGeneratorExpressionParser.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGeneratorExpression.cxx -o cmGeneratorExpression.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGlobalGenerator.cxx -o cmGlobalGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmLocalGenerator.cxx -o cmLocalGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallGenerator.cxx -o cmInstallGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallExportGenerator.cxx -o cmInstallExportGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallFilesGenerator.cxx -o cmInstallFilesGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallScriptGenerator.cxx -o cmInstallScriptGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmInstallTargetGenerator.cxx -o cmInstallTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmScriptGenerator.cxx -o cmScriptGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmSourceFile.cxx -o cmSourceFile.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmSourceFileLocation.cxx -o cmSourceFileLocation.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmSystemTools.cxx -o cmSystemTools.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmTestGenerator.cxx -o cmTestGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmVersion.cxx -o cmVersion.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmFileTimeComparison.cxx -o cmFileTimeComparison.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGlobalUnixMakefileGenerator3.cxx -o cmGlobalUnixMakefileGenerator3.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmLocalUnixMakefileGenerator3.cxx -o cmLocalUnixMakefileGenerator3.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakefileExecutableTargetGenerator.cxx -o cmMakefileExecutableTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakefileLibraryTargetGenerator.cxx -o cmMakefileLibraryTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakefileTargetGenerator.cxx -o cmMakefileTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmMakefileUtilityTargetGenerator.cxx -o cmMakefileUtilityTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmOSXBundleGenerator.cxx -o cmOSXBundleGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmNewLineStyle.cxx -o cmNewLineStyle.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmBootstrapCommands1.cxx -o cmBootstrapCommands1.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmBootstrapCommands2.cxx -o cmBootstrapCommands2.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCommands.cxx -o cmCommands.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmTarget.cxx -o cmTarget.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmTest.cxx -o cmTest.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCustomCommand.cxx -o cmCustomCommand.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCustomCommandGenerator.cxx -o cmCustomCommandGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmDocumentVariables.cxx -o cmDocumentVariables.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmCacheManager.cxx -o cmCacheManager.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmListFileCache.cxx -o cmListFileCache.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmComputeLinkDepends.cxx -o cmComputeLinkDepends.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmComputeLinkInformation.cxx -o cmComputeLinkInformation.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmOrderDirectories.cxx -o cmOrderDirectories.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmComputeTargetDepends.cxx -o cmComputeTargetDepends.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmComputeComponentGraph.cxx -o cmComputeComponentGraph.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExprLexer.cxx -o cmExprLexer.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExprParser.cxx -o cmExprParser.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmExprParserHelper.cxx -o cmExprParserHelper.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmGlobalNinjaGenerator.cxx -o cmGlobalNinjaGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmLocalNinjaGenerator.cxx -o cmLocalNinjaGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmNinjaTargetGenerator.cxx -o cmNinjaTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmNinjaNormalTargetGenerator.cxx -o cmNinjaNormalTargetGenerator.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmNinjaUtilityTargetGenerator.cxx -o cmNinjaUtilityTargetGenerator.o
+gcc -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/cmListFileLexer.c -o cmListFileLexer.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/Directory.cxx -o Directory.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/Glob.cxx -o Glob.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/RegularExpression.cxx -o RegularExpression.o
+g++  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -DKWSYS_CXX_HAS_SETENV=1 -DKWSYS_CXX_HAS_UNSETENV=1 -DKWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H=0 -DKWSYS_CXX_HAS_UTIMENSAT=0 -DKWSYS_CXX_HAS_UTIMES=0 -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/SystemTools.cxx -o SystemTools.o
+gcc -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/ProcessUNIX.c -o ProcessUNIX.o
+gcc -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -DKWSYS_STRING_C -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/String.c -o String.o
+gcc -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source/kwsys/System.c -o System.o
+g++   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Source   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk  cmStandardIncludes.o cmake.o cmakemain.o cmakewizard.o cmCommandArgumentLexer.o cmCommandArgumentParser.o cmCommandArgumentParserHelper.o cmDefinitions.o cmDepends.o cmDependsC.o cmDocumentationFormatter.o cmDocumentationFormatterText.o cmPolicies.o cmProperty.o cmPropertyMap.o cmPropertyDefinition.o cmPropertyDefinitionMap.o cmMakeDepend.o cmMakefile.o cmExportFileGenerator.o cmExportInstallFileGenerator.o cmExportTryCompileFileGenerator.o cmExportSet.o cmExportSetMap.o cmInstallDirectoryGenerator.o cmGeneratedFileStream.o cmGeneratorTarget.o cmGeneratorExpressionDAGChecker.o cmGeneratorExpressionEvaluator.o cmGeneratorExpressionLexer.o cmGeneratorExpressionParser.o cmGeneratorExpression.o cmGlobalGenerator.o cmLocalGenerator.o cmInstallGenerator.o cmInstallExportGenerator.o cmInstallFilesGenerator.o cmInstallScriptGenerator.o cmInstallTargetGenerator.o cmScriptGenerator.o cmSourceFile.o cmSourceFileLocation.o cmSystemTools.o cmTestGenerator.o cmVersion.o cmFileTimeComparison.o cmGlobalUnixMakefileGenerator3.o cmLocalUnixMakefileGenerator3.o cmMakefileExecutableTargetGenerator.o cmMakefileLibraryTargetGenerator.o cmMakefileTargetGenerator.o cmMakefileUtilityTargetGenerator.o cmOSXBundleGenerator.o cmNewLineStyle.o cmBootstrapCommands1.o cmBootstrapCommands2.o cmCommands.o cmTarget.o cmTest.o cmCustomCommand.o cmCustomCommandGenerator.o cmDocumentVariables.o cmCacheManager.o cmListFileCache.o cmComputeLinkDepends.o cmComputeLinkInformation.o cmOrderDirectories.o cmComputeTargetDepends.o cmComputeComponentGraph.o cmExprLexer.o cmExprParser.o cmExprParserHelper.o cmGlobalNinjaGenerator.o cmLocalNinjaGenerator.o cmNinjaTargetGenerator.o cmNinjaNormalTargetGenerator.o cmNinjaUtilityTargetGenerator.o cmListFileLexer.o Directory.o Glob.o RegularExpression.o SystemTools.o ProcessUNIX.o String.o System.o -o cmake
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk'
+loading initial cache file /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2/Bootstrap.cmk/InitialCacheFlags.cmake
+-- The C compiler identification is GNU 4.8.2
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++
+-- Check for working CXX compiler: /usr/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Looking for C++ include iostream
+-- Looking for C++ include iostream - found
+-- Check for STD namespace
+-- Check for STD namespace - found
+-- Check for ANSI scope
+-- Check for ANSI scope - found
+-- Check for sstream
+-- Check for sstream - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for environ
+-- Looking for environ - not found
+-- Checking whether header cstdio is available
+-- Checking whether header cstdio is available - yes
+-- Checking for Large File Support
+-- Checking for Large File Support - yes
+-- Checking whether STL classes are in std namespace
+-- Checking whether STL classes are in std namespace - yes
+-- Checking whether ANSI stream headers are available
+-- Checking whether ANSI stream headers are available - yes
+-- Checking whether ANSI streams are in std namespace
+-- Checking whether ANSI streams are in std namespace - yes
+-- Checking whether ANSI string stream is available
+-- Checking whether ANSI string stream is available - yes
+-- Checking whether header cstddef is available
+-- Checking whether header cstddef is available - yes
+-- Checking whether stl string has operator!= for char*
+-- Checking whether stl string has operator!= for char* - yes
+-- Checking whether stl has iterator_traits
+-- Checking whether stl has iterator_traits - yes
+-- Checking whether stl has standard template allocator
+-- Checking whether stl has standard template allocator - yes
+-- Checking for rebind member of stl allocator
+-- Checking for rebind member of stl allocator - yes
+-- Checking for non-standard argument to stl allocator<>::max_size
+-- Checking for non-standard argument to stl allocator<>::max_size - no
+-- Checking whether stl containers support allocator objects.
+-- Checking whether stl containers support allocator objects. - yes
+-- Checking whether ios has binary openmode
+-- Checking whether ios has binary openmode - yes
+-- Checking whether "<>" is needed for template friends
+-- Checking whether "<>" is needed for template friends - yes
+-- Checking for member template support
+-- Checking for member template support - yes
+-- Checking for standard template specialization syntax
+-- Checking for standard template specialization syntax - yes
+-- Checking whether argument dependent lookup is supported
+-- Checking whether argument dependent lookup is supported - yes
+-- Checking whether struct stat has st_mtim member
+-- Checking whether struct stat has st_mtim member - yes
+-- Checking whether C++ compiler has 'long long'
+-- Checking whether C++ compiler has 'long long' - yes
+-- Checking whether C++ compiler has '__int64'
+-- Checking whether C++ compiler has '__int64' - no
+-- Checking for C type size macros
+-- Checking for C type size macros - compiled
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Checking whether char is signed
+-- Checking whether char is signed - yes
+-- Checking if istream supports long long
+-- Checking if istream supports long long - yes
+-- Checking if ostream supports long long
+-- Checking if ostream supports long long - yes
+-- Checking whether C compiler has ptrdiff_t in stddef.h
+-- Checking whether C compiler has ptrdiff_t in stddef.h - yes
+-- Checking whether C compiler has ssize_t in unistd.h
+-- Checking whether C compiler has ssize_t in unistd.h - yes
+-- Checking whether CXX compiler has setenv
+-- Checking whether CXX compiler has setenv - yes
+-- Checking whether CXX compiler has unsetenv
+-- Checking whether CXX compiler has unsetenv - yes
+-- Checking whether CXX compiler has environ in stdlib.h
+-- Checking whether CXX compiler has environ in stdlib.h - no
+-- Checking whether CXX compiler has utimes
+-- Checking whether CXX compiler has utimes - yes
+-- Checking whether CXX compiler has utimensat
+-- Checking whether CXX compiler has utimensat - yes
+-- Looking for include files sys/types.h, ifaddrs.h
+-- Looking for include files sys/types.h, ifaddrs.h - found
+-- Checking whether CXX compiler has rlimit64
+-- Checking whether CXX compiler has rlimit64 - yes
+-- Checking whether CXX compiler has atol
+-- Checking whether CXX compiler has atol - yes
+-- Checking whether CXX compiler has atoll
+-- Checking whether CXX compiler has atoll - yes
+-- Checking whether CXX compiler has _atoi64
+-- Checking whether CXX compiler has _atoi64 - no
+-- Looking for C++ include execinfo.h
+-- Looking for C++ include execinfo.h - found
+-- Checking whether backtrace works with this C++ compiler
+-- Checking whether backtrace works with this C++ compiler - yes
+-- Looking for C++ include dlfcn.h
+-- Looking for C++ include dlfcn.h - found
+-- Checking whether dladdr works with this C++ compiler
+-- Checking whether dladdr works with this C++ compiler - yes
+-- Looking for C++ include cxxabi.h
+-- Looking for C++ include cxxabi.h - found
+-- Checking whether cxxabi works with this C++ compiler
+-- Checking whether cxxabi works with this C++ compiler - yes
+-- Looking for connect in socket;dl
+-- Looking for connect in socket;dl - not found
+-- Looking for gethostbyname in c
+-- Looking for gethostbyname in c - found
+-- Looking for recv in network;dl
+-- Looking for recv in network;dl - not found
+-- Looking for getch in ws2_32;dl
+-- Looking for getch in ws2_32;dl - not found
+-- Looking for getch in winmm;dl
+-- Looking for getch in winmm;dl - not found
+-- Looking for idna_to_ascii_lz in idn;dl
+-- Looking for idna_to_ascii_lz in idn;dl - not found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for process.h
+-- Looking for process.h - not found
+-- Looking for features.h
+-- Looking for features.h - found
+-- Looking for include file stdio.h
+-- Looking for include file stdio.h - found
+-- Looking for 4 include files stdio.h, ..., inttypes.h
+-- Looking for 4 include files stdio.h, ..., inttypes.h - found
+-- Looking for 5 include files stdio.h, ..., alloca.h
+-- Looking for 5 include files stdio.h, ..., alloca.h - found
+-- Looking for 6 include files stdio.h, ..., arpa/inet.h
+-- Looking for 6 include files stdio.h, ..., arpa/inet.h - found
+-- Looking for 7 include files stdio.h, ..., dlfcn.h
+-- Looking for 7 include files stdio.h, ..., dlfcn.h - found
+-- Looking for 8 include files stdio.h, ..., fcntl.h
+-- Looking for 8 include files stdio.h, ..., fcntl.h - found
+-- Looking for 9 include files stdio.h, ..., malloc.h
+-- Looking for 9 include files stdio.h, ..., malloc.h - found
+-- Looking for 10 include files stdio.h, ..., memory.h
+-- Looking for 10 include files stdio.h, ..., memory.h - found
+-- Looking for 11 include files stdio.h, ..., netdb.h
+-- Looking for 11 include files stdio.h, ..., netdb.h - found
+-- Looking for 12 include files stdio.h, ..., sys/poll.h
+-- Looking for 12 include files stdio.h, ..., sys/poll.h - found
+-- Looking for 13 include files stdio.h, ..., assert.h
+-- Looking for 13 include files stdio.h, ..., assert.h - found
+-- Looking for 14 include files stdio.h, ..., limits.h
+-- Looking for 14 include files stdio.h, ..., limits.h - found
+-- Looking for 15 include files stdio.h, ..., sys/socket.h
+-- Looking for 15 include files stdio.h, ..., sys/socket.h - found
+-- Looking for 16 include files stdio.h, ..., netinet/in.h
+-- Looking for 16 include files stdio.h, ..., netinet/in.h - found
+-- Looking for 17 include files stdio.h, ..., net/if.h
+-- Looking for 17 include files stdio.h, ..., net/if.h - found
+-- Looking for 18 include files stdio.h, ..., netinet/if_ether.h
+-- Looking for 18 include files stdio.h, ..., netinet/if_ether.h - found
+-- Looking for 19 include files stdio.h, ..., netinet/tcp.h
+-- Looking for 19 include files stdio.h, ..., netinet/tcp.h - found
+-- Looking for 20 include files stdio.h, ..., sys/select.h
+-- Looking for 20 include files stdio.h, ..., sys/select.h - found
+-- Looking for 21 include files stdio.h, ..., utime.h
+-- Looking for 21 include files stdio.h, ..., utime.h - found
+-- Looking for 23 include files stdio.h, ..., pwd.h
+-- Looking for 23 include files stdio.h, ..., pwd.h - found
+-- Looking for 24 include files stdio.h, ..., sgtty.h
+-- Looking for 24 include files stdio.h, ..., sgtty.h - found
+-- Looking for 26 include files stdio.h, ..., stdlib.h
+-- Looking for 26 include files stdio.h, ..., stdlib.h - found
+-- Looking for 27 include files stdio.h, ..., string.h
+-- Looking for 27 include files stdio.h, ..., string.h - found
+-- Looking for 28 include files stdio.h, ..., strings.h
+-- Looking for 28 include files stdio.h, ..., strings.h - found
+-- Looking for 29 include files stdio.h, ..., sys/param.h
+-- Looking for 29 include files stdio.h, ..., sys/param.h - found
+-- Looking for 30 include files stdio.h, ..., sys/stat.h
+-- Looking for 30 include files stdio.h, ..., sys/stat.h - found
+-- Looking for 31 include files stdio.h, ..., sys/time.h
+-- Looking for 31 include files stdio.h, ..., sys/time.h - found
+-- Looking for 32 include files stdio.h, ..., sys/resource.h
+-- Looking for 32 include files stdio.h, ..., sys/resource.h - found
+-- Looking for 33 include files stdio.h, ..., termios.h
+-- Looking for 33 include files stdio.h, ..., termios.h - found
+-- Looking for 34 include files stdio.h, ..., termio.h
+-- Looking for 34 include files stdio.h, ..., termio.h - found
+-- Looking for 35 include files stdio.h, ..., io.h
+-- Looking for 35 include files stdio.h, ..., io.h - not found
+-- Looking for 35 include files stdio.h, ..., time.h
+-- Looking for 35 include files stdio.h, ..., time.h - found
+-- Looking for 36 include files stdio.h, ..., unistd.h
+-- Looking for 36 include files stdio.h, ..., unistd.h - found
+-- Looking for 37 include files stdio.h, ..., sys/utime.h
+-- Looking for 37 include files stdio.h, ..., sys/utime.h - not found
+-- Looking for 37 include files stdio.h, ..., sockio.h
+-- Looking for 37 include files stdio.h, ..., sockio.h - not found
+-- Looking for 37 include files stdio.h, ..., sys/sockio.h
+-- Looking for 37 include files stdio.h, ..., sys/sockio.h - not found
+-- Looking for 37 include files stdio.h, ..., x509.h
+-- Looking for 37 include files stdio.h, ..., x509.h - not found
+-- Looking for 37 include files stdio.h, ..., locale.h
+-- Looking for 37 include files stdio.h, ..., locale.h - found
+-- Looking for 38 include files stdio.h, ..., setjmp.h
+-- Looking for 38 include files stdio.h, ..., setjmp.h - found
+-- Looking for 39 include files stdio.h, ..., signal.h
+-- Looking for 39 include files stdio.h, ..., signal.h - found
+-- Looking for 40 include files stdio.h, ..., sys/ioctl.h
+-- Looking for 40 include files stdio.h, ..., sys/ioctl.h - found
+-- Looking for 41 include files stdio.h, ..., sys/utsname.h
+-- Looking for 41 include files stdio.h, ..., sys/utsname.h - found
+-- Looking for 42 include files stdio.h, ..., idn-free.h
+-- Looking for 42 include files stdio.h, ..., idn-free.h - not found
+-- Looking for 42 include files stdio.h, ..., idna.h
+-- Looking for 42 include files stdio.h, ..., idna.h - not found
+-- Looking for 42 include files stdio.h, ..., tld.h
+-- Looking for 42 include files stdio.h, ..., tld.h - not found
+-- Looking for 42 include files stdio.h, ..., arpa/tftp.h
+-- Looking for 42 include files stdio.h, ..., arpa/tftp.h - found
+-- Looking for 43 include files stdio.h, ..., errno.h
+-- Looking for 43 include files stdio.h, ..., errno.h - found
+-- Looking for 44 include files stdio.h, ..., libgen.h
+-- Looking for 44 include files stdio.h, ..., libgen.h - found
+-- Looking for 45 include files stdio.h, ..., sys/filio.h
+-- Looking for 45 include files stdio.h, ..., sys/filio.h - not found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of time_t
+-- Check size of time_t - done
+-- Looking for basename
+-- Looking for basename - found
+-- Looking for socket
+-- Looking for socket - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for select
+-- Looking for select - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Looking for uname
+-- Looking for uname - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for stricmp
+-- Looking for stricmp - not found
+-- Looking for strcmpi
+-- Looking for strcmpi - not found
+-- Looking for strncmpi
+-- Looking for strncmpi - not found
+-- Looking for gethostbyaddr
+-- Looking for gethostbyaddr - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for inet_addr
+-- Looking for inet_addr - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for inet_ntoa
+-- Looking for inet_ntoa - found
+-- Looking for inet_ntoa_r
+-- Looking for inet_ntoa_r - not found
+-- Looking for tcsetattr
+-- Looking for tcsetattr - found
+-- Looking for tcgetattr
+-- Looking for tcgetattr - found
+-- Looking for perror
+-- Looking for perror - found
+-- Looking for closesocket
+-- Looking for closesocket - not found
+-- Looking for setvbuf
+-- Looking for setvbuf - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for getpass_r
+-- Looking for getpass_r - not found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for utime
+-- Looking for utime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for SIGALRM
+-- Looking for SIGALRM - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for siginterrupt
+-- Looking for siginterrupt - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for getprotobyname
+-- Looking for getprotobyname - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for idn_free
+-- Looking for idn_free - not found
+-- Looking for idna_strerror
+-- Looking for idna_strerror - not found
+-- Looking for tld_strerror
+-- Looking for tld_strerror - not found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Performing Curl Test HAVE_FIONBIO
+-- Performing Curl Test HAVE_FIONBIO - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET
+-- Performing Curl Test HAVE_IOCTLSOCKET - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_CASE
+-- Performing Curl Test HAVE_IOCTLSOCKET_CASE - Failed
+-- Performing Curl Test HAVE_O_NONBLOCK
+-- Performing Curl Test HAVE_O_NONBLOCK - Success
+-- Performing Curl Test HAVE_SO_NONBLOCK
+-- Performing Curl Test HAVE_SO_NONBLOCK - Failed
+-- Performing Curl Test TIME_WITH_SYS_TIME
+-- Performing Curl Test TIME_WITH_SYS_TIME - Success
+-- Performing Curl Test HAVE_O_NONBLOCKHAVE_GETHOSTBYADDR_R_5
+-- Performing Curl Test HAVE_O_NONBLOCKHAVE_GETHOSTBYADDR_R_5 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8 - Success
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6 - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Success
+-- Performing Curl Test HAVE_SOCKLEN_T
+-- Performing Curl Test HAVE_SOCKLEN_T - Success
+-- Performing Curl Test HAVE_IN_ADDR_T
+-- Performing Curl Test HAVE_IN_ADDR_T - Success
+-- Performing Curl Test STDC_HEADERS
+-- Performing Curl Test STDC_HEADERS - Success
+-- Performing Curl Test RETSIGTYPE_TEST
+-- Performing Curl Test RETSIGTYPE_TEST - Success
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL - Failed
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETADDRINFO
+-- Performing Curl Test HAVE_GETADDRINFO - Success
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+-- Check size of curl_off_t
+-- Check size of curl_off_t - done
+-- Performing Test curl_cv_recv
+-- Performing Test curl_cv_recv - Success
+-- Performing Test int recv(int, void *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, void *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(int, char *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, char *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, void *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, void *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(ssize_t, char *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(ssize_t, char *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, void *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, void *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, size_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, size_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, size_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, socklen_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, socklen_t, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, socklen_t, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, socklen_t, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, unsigned int, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, unsigned int, int) (curl_cv_func_recv_test) - Failed
+-- Performing Test int recv(SOCKET, char *, unsigned int, unsigned int) (curl_cv_func_recv_test)
+-- Performing Test int recv(SOCKET, char *, unsigned int, unsigned int) (curl_cv_func_recv_test) - Failed
+-- Performing Test ssize_t recv(int, void *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test ssize_t recv(int, void *, size_t, int) (curl_cv_func_recv_test) - Success
+-- Performing Test curl_cv_send
+-- Performing Test curl_cv_send - Success
+-- Performing Test int send(int, const void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(int, const char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(ssize_t, const char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(ssize_t, const char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, void *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, void *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, size_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, size_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, size_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, socklen_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, socklen_t, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, socklen_t, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, socklen_t, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, unsigned int, int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, unsigned int, int) (curl_cv_func_send_test) - Failed
+-- Performing Test int send(SOCKET, const char *, unsigned int, unsigned int) (curl_cv_func_send_test)
+-- Performing Test int send(SOCKET, const char *, unsigned int, unsigned int) (curl_cv_func_send_test) - Failed
+-- Performing Test ssize_t send(int, const void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test ssize_t send(int, const void *, size_t, int) (curl_cv_func_send_test) - Success
+-- Performing Test HAVE_MSG_NOSIGNAL
+-- Performing Test HAVE_MSG_NOSIGNAL - Success
+-- Performing Test HAVE_STRUCT_TIMEVAL
+-- Performing Test HAVE_STRUCT_TIMEVAL - Success
+-- Check size of sig_atomic_t
+-- Check size of sig_atomic_t - done
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+-- Check size of struct sockaddr_storage
+-- Check size of struct sockaddr_storage - done
+-- Found ZLIB: cmzlib  
+-- Found BZip2: cmbzip2 (found version "1.0.5") 
+-- Looking for BZ2_bzCompressInit in cmbzip2
+-- Looking for BZ2_bzCompressInit in cmbzip2 - not found
+-- Performing Test HAVE_DIRENT_H
+-- Performing Test HAVE_DIRENT_H - Success
+-- Looking for include files sys/types.h, acl/libacl.h
+-- Looking for include files sys/types.h, acl/libacl.h - not found
+-- Looking for include files sys/types.h, ctype.h
+-- Looking for include files sys/types.h, ctype.h - found
+-- Looking for 3 include files sys/types.h, ..., copyfile.h
+-- Looking for 3 include files sys/types.h, ..., copyfile.h - not found
+-- Looking for 3 include files sys/types.h, ..., direct.h
+-- Looking for 3 include files sys/types.h, ..., direct.h - not found
+-- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h
+-- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h - not found
+-- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS
+-- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS - Failed
+-- Looking for 6 include files sys/types.h, ..., grp.h
+-- Looking for 6 include files sys/types.h, ..., grp.h - found
+-- Looking for 8 include files sys/types.h, ..., langinfo.h
+-- Looking for 8 include files sys/types.h, ..., langinfo.h - found
+-- Looking for 10 include files sys/types.h, ..., linux/types.h
+-- Looking for 10 include files sys/types.h, ..., linux/types.h - found
+-- Looking for 11 include files sys/types.h, ..., linux/fiemap.h
+-- Looking for 11 include files sys/types.h, ..., linux/fiemap.h - found
+-- Looking for 12 include files sys/types.h, ..., linux/fs.h
+-- Looking for 12 include files sys/types.h, ..., linux/fs.h - found
+-- Looking for 13 include files sys/types.h, ..., linux/magic.h
+-- Looking for 13 include files sys/types.h, ..., linux/magic.h - found
+-- Looking for 16 include files sys/types.h, ..., paths.h
+-- Looking for 16 include files sys/types.h, ..., paths.h - found
+-- Looking for 17 include files sys/types.h, ..., poll.h
+-- Looking for 17 include files sys/types.h, ..., poll.h - found
+-- Looking for 19 include files sys/types.h, ..., regex.h
+-- Looking for 19 include files sys/types.h, ..., regex.h - found
+-- Looking for 21 include files sys/types.h, ..., spawn.h
+-- Looking for 21 include files sys/types.h, ..., spawn.h - found
+-- Looking for 22 include files sys/types.h, ..., stdarg.h
+-- Looking for 22 include files sys/types.h, ..., stdarg.h - found
+-- Looking for 27 include files sys/types.h, ..., sys/acl.h
+-- Looking for 27 include files sys/types.h, ..., sys/acl.h - not found
+-- Looking for 27 include files sys/types.h, ..., sys/cdefs.h
+-- Looking for 27 include files sys/types.h, ..., sys/cdefs.h - found
+-- Looking for 29 include files sys/types.h, ..., sys/mkdev.h
+-- Looking for 29 include files sys/types.h, ..., sys/mkdev.h - not found
+-- Looking for 29 include files sys/types.h, ..., sys/mount.h
+-- Looking for 29 include files sys/types.h, ..., sys/mount.h - not found
+-- Looking for 33 include files sys/types.h, ..., sys/statfs.h
+-- Looking for 33 include files sys/types.h, ..., sys/statfs.h - found
+-- Looking for 34 include files sys/types.h, ..., sys/statvfs.h
+-- Looking for 34 include files sys/types.h, ..., sys/statvfs.h - found
+-- Looking for 37 include files sys/types.h, ..., sys/vfs.h
+-- Looking for 37 include files sys/types.h, ..., sys/vfs.h - found
+-- Looking for 38 include files sys/types.h, ..., sys/wait.h
+-- Looking for 38 include files sys/types.h, ..., sys/wait.h - found
+-- Looking for 42 include files sys/types.h, ..., wchar.h
+-- Looking for 42 include files sys/types.h, ..., wchar.h - found
+-- Looking for 43 include files sys/types.h, ..., wctype.h
+-- Looking for 43 include files sys/types.h, ..., wctype.h - found
+-- Looking for 44 include files sys/types.h, ..., windows.h
+-- Looking for 44 include files sys/types.h, ..., windows.h - not found
+-- Looking for 44 include files sys/types.h, ..., wincrypt.h
+-- Looking for 44 include files sys/types.h, ..., wincrypt.h - not found
+-- Looking for 44 include files sys/types.h, ..., winioctl.h
+-- Looking for 44 include files sys/types.h, ..., winioctl.h - not found
+-- Performing Test SAFE_TO_DEFINE_EXTENSIONS
+-- Performing Test SAFE_TO_DEFINE_EXTENSIONS - Success
+-- Looking for MD5Init in md
+-- Looking for MD5Init in md - not found
+-- Looking for _CrtSetReportMode
+-- Looking for _CrtSetReportMode - not found
+-- Looking for chown
+-- Looking for chown - found
+-- Looking for chroot
+-- Looking for chroot - found
+-- Looking for ctime_r
+-- Looking for ctime_r - found
+-- Looking for dirfd
+-- Looking for dirfd - found
+-- Looking for fchdir
+-- Looking for fchdir - found
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Looking for fchown
+-- Looking for fchown - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for fdopendir
+-- Looking for fdopendir - found
+-- Looking for fstat
+-- Looking for fstat - found
+-- Looking for fstatat
+-- Looking for fstatat - found
+-- Looking for fstatfs
+-- Looking for fstatfs - found
+-- Looking for fstatvfs
+-- Looking for fstatvfs - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for futimesat
+-- Looking for futimesat - found
+-- Looking for getgrgid_r
+-- Looking for getgrgid_r - found
+-- Looking for getgrnam_r
+-- Looking for getgrnam_r - found
+-- Looking for getpwnam_r
+-- Looking for getpwnam_r - found
+-- Looking for getpwuid_r
+-- Looking for getpwuid_r - found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for getvfsbyname
+-- Looking for getvfsbyname - not found
+-- Looking for lchflags
+-- Looking for lchflags - not found
+-- Looking for lchown
+-- Looking for lchown - found
+-- Looking for link
+-- Looking for link - found
+-- Looking for lstat
+-- Looking for lstat - found
+-- Looking for lutimes
+-- Looking for lutimes - found
+-- Looking for mbrtowc
+-- Looking for mbrtowc - found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for mkdir
+-- Looking for mkdir - found
+-- Looking for mkfifo
+-- Looking for mkfifo - found
+-- Looking for mknod
+-- Looking for mknod - found
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Looking for nl_langinfo
+-- Looking for nl_langinfo - found
+-- Looking for openat
+-- Looking for openat - found
+-- Looking for posix_spawnp
+-- Looking for posix_spawnp - found
+-- Looking for readlink
+-- Looking for readlink - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for statfs
+-- Looking for statfs - found
+-- Looking for statvfs
+-- Looking for statvfs - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strncpy_s
+-- Looking for strncpy_s - not found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for symlink
+-- Looking for symlink - found
+-- Looking for timegm
+-- Looking for timegm - found
+-- Looking for tzset
+-- Looking for tzset - found
+-- Looking for utimes
+-- Looking for utimes - found
+-- Looking for utimensat
+-- Looking for utimensat - found
+-- Looking for vfork
+-- Looking for vfork - found
+-- Looking for wcrtomb
+-- Looking for wcrtomb - found
+-- Looking for wcscmp
+-- Looking for wcscmp - found
+-- Looking for wcscpy
+-- Looking for wcscpy - found
+-- Looking for wcslen
+-- Looking for wcslen - found
+-- Looking for wctomb
+-- Looking for wctomb - found
+-- Looking for _ctime64_s
+-- Looking for _ctime64_s - not found
+-- Looking for _fseeki64
+-- Looking for _fseeki64 - not found
+-- Looking for _get_timezone
+-- Looking for _get_timezone - not found
+-- Looking for _localtime64_s
+-- Looking for _localtime64_s - not found
+-- Looking for _mkgmtime64
+-- Looking for _mkgmtime64 - not found
+-- Looking for cygwin_conv_path
+-- Looking for cygwin_conv_path - not found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for vprintf
+-- Looking for vprintf - found
+-- Looking for wmemcmp
+-- Looking for wmemcmp - found
+-- Looking for wmemcpy
+-- Looking for wmemcpy - found
+-- Performing Test HAVE_READDIR_R
+-- Performing Test HAVE_READDIR_R - Success
+-- Performing Test HAVE_READLINKAT
+-- Performing Test HAVE_READLINKAT - Success
+-- Performing Test MAJOR_IN_MKDEV
+-- Performing Test MAJOR_IN_MKDEV - Failed
+-- Performing Test MAJOR_IN_SYSMACROS
+-- Performing Test MAJOR_IN_SYSMACROS - Success
+-- Looking for EFTYPE
+-- Looking for EFTYPE - not found
+-- Looking for EILSEQ
+-- Looking for EILSEQ - found
+-- Looking for D_MD_ORDER
+-- Looking for D_MD_ORDER - not found
+-- Looking for INT64_MAX
+-- Looking for INT64_MAX - found
+-- Looking for INT64_MIN
+-- Looking for INT64_MIN - found
+-- Looking for UINT32_MAX
+-- Looking for UINT32_MAX - found
+-- Looking for UINT64_MAX
+-- Looking for UINT64_MAX - found
+-- Looking for SIZE_MAX
+-- Looking for SIZE_MAX - found
+-- Looking for SSIZE_MAX
+-- Looking for SSIZE_MAX - found
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF - Success
+-- Performing Test HAVE_STRUCT_TM___TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM___TM_GMTOFF - Failed
+-- Performing Test HAVE_STRUCT_STATFS_F_NAMEMAX
+-- Performing Test HAVE_STRUCT_STATFS_F_NAMEMAX - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS - Failed
+-- Performing Test HAVE_STRUCT_STATVFS_F_IOSIZE
+-- Performing Test HAVE_STRUCT_STATVFS_F_IOSIZE - Failed
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of unsigned __int64
+-- Check size of unsigned __int64 - failed
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of dev_t
+-- Check size of dev_t - done
+-- Check size of gid_t
+-- Check size of gid_t - done
+-- Check size of id_t
+-- Check size of id_t - done
+-- Check size of mode_t
+-- Check size of mode_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uid_t
+-- Check size of uid_t - done
+-- Check size of pid_t
+-- Check size of pid_t - done
+-- Check size of intptr_t
+-- Check size of intptr_t - done
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Check size of wchar_t
+-- Check size of wchar_t - done
+-- Checking _FILE_OFFSET_BITS for large files
+-- Checking _FILE_OFFSET_BITS for large files - not needed
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBC
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBMD -- not found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so
+-- Looking for wsyncup in /usr/lib/x86_64-linux-gnu/libcurses.so - found
+-- Looking for elf.h
+-- Looking for elf.h - found
+-- Looking for a Fortran compiler
+-- Looking for a Fortran compiler - NOTFOUND
+-- Performing Test run_pic_test
+-- Performing Test run_pic_test - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2
+---------------------------------------------
+CMake has bootstrapped.  Now run make.
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmIML_test
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  0%] Building C object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test.c.o
+[  1%] Building C object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_ABI_C.c.o
+[  1%] Building C object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_INT_C.c.o
+[  1%] Building C object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_include_C.c.o
+[  1%] Building CXX object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_ABI_CXX.cxx.o
+[  1%] Building CXX object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_INT_CXX.cxx.o
+[  2%] Building CXX object Utilities/KWIML/test/CMakeFiles/cmIML_test.dir/test_include_CXX.cxx.o
+Linking CXX executable cmIML_test
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  2%] Built target cmIML_test
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsys
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  2%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/ProcessUNIX.c.o
+[  3%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/Base64.c.o
+[  3%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/MD5.c.o
+[  3%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/Terminal.c.o
+[  3%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/System.c.o
+[  4%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/String.c.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/Directory.cxx.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/DynamicLoader.cxx.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/Glob.cxx.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/RegularExpression.cxx.o
+[  5%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/SystemTools.cxx.o
+[  5%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/CommandLineArguments.cxx.o
+[  5%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/IOStream.cxx.o
+[  5%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/SystemInformation.cxx.o
+Linking CXX static library libcmsys.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  5%] Built target cmsys
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsysTestDynload
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsysTestDynload.dir/testDynload.c.o
+Linking C shared module libcmsysTestDynload.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  5%] Built target cmsysTestDynload
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsys_c
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o
+[  6%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o
+[  6%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o
+Linking C static library libcmsys_c.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  6%] Built target cmsys_c
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsysTestProcess
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestProcess.dir/testProcess.c.o
+Linking C executable cmsysTestProcess
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  7%] Built target cmsysTestProcess
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsysTestSharedForward
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestSharedForward.dir/testSharedForward.c.o
+Linking C executable cmsysTestSharedForward
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  7%] Built target cmsysTestSharedForward
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsysTestsC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/testEncode.c.o
+[  8%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/testTerminal.c.o
+Linking C executable cmsysTestsC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  8%] Built target cmsysTestsC
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmsysTestsCxx
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/cmsysTestsCxx.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testAutoPtr.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testHashSTL.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testIOS.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testSystemTools.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testCommandLineArguments.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testCommandLineArguments1.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testSystemInformation.cxx.o
+[ 10%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testDynamicLoader.cxx.o
+Linking CXX executable cmsysTestsCxx
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 10%] Built target cmsysTestsCxx
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmzlib
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/adler32.c.o
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/compress.c.o
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/crc32.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/deflate.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/gzio.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inffast.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inflate.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inftrees.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/trees.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/uncompr.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/zutil.c.o
+Linking C static library libcmzlib.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 12%] Built target cmzlib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmcurl
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 12%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/base64.c.o
+[ 12%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/connect.c.o
+[ 12%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/content_encoding.c.o
+[ 12%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/cookie.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/dict.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/easy.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/escape.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/file.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/formdata.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ftp.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/getenv.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/getinfo.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/gtls.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hash.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostares.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostasyn.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip4.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip6.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostsyn.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostthre.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_chunks.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_digest.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_negotiate.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_ntlm.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/if2ip.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/inet_ntop.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/inet_pton.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/krb4.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ldap.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/llist.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/md5.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/mprintf.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/multi.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/netrc.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/parsedate.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/progress.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/security.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/select.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/sendf.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/share.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/socks.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/speedcheck.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/splay.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ssh.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/sslgen.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ssluse.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strdup.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strequal.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strerror.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/telnet.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/tftp.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/timeval.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/transfer.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/url.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/version.c.o
+Linking C static library libcmcurl.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 24%] Built target cmcurl
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target LIBCURL
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/LIBCURL.dir/Testing/curltest.c.o
+Linking C executable LIBCURL
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 24%] Built target LIBCURL
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmcompress
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 25%] Building C object Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o
+Linking C static library libcmcompress.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 25%] Built target cmcompress
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmbzip2
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 25%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.o
+[ 25%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.o
+[ 25%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.o
+[ 26%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.o
+[ 26%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.o
+[ 26%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.o
+[ 26%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.o
+Linking C static library libcmbzip2.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 26%] Built target cmbzip2
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmlibarchive
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 26%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_acl.c.o
+[ 26%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_check_magic.c.o
+[ 26%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_cmdline.c.o
+[ 27%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_crypto.c.o
+[ 27%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry.c.o
+[ 27%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_copy_stat.c.o
+[ 27%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_link_resolver.c.o
+[ 27%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_sparse.c.o
+[ 28%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_stat.c.o
+[ 28%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_strmode.c.o
+[ 28%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_xattr.c.o
+[ 28%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_getdate.c.o
+[ 28%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_match.c.o
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_options.c.o
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_pathmatch.c.o
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_ppmd7.c.o
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_rb.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_append_filter.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_data_into_fd.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk_entry_from_file.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk_posix.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk_set_standard_lookup.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_extract.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_fd.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_file.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_filename.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_memory.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_set_format.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_set_options.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_all.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_bzip2.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_compress.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_gzip.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_grzip.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_lrzip.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_lzop.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_none.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_program.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_rpm.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_uu.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_filter_xz.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_7zip.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_all.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_ar.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_by_code.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_cab.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_cpio.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_empty.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_iso9660.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_lha.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_mtree.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_rar.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_raw.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_tar.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_xar.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_zip.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string_sprintf.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_util.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_virtual.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_acl.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_posix.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_set_standard_lookup.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_fd.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_file.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_filename.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_memory.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_b64encode.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_by_name.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_bzip2.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_compress.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_grzip.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_gzip.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_lrzip.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_lzop.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_none.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_program.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_uuencode.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_add_filter_xz.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_7zip.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ar.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_by_name.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio_newc.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_gnutar.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_iso9660.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_mtree.c.o
+[ 46%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_pax.c.o
+[ 46%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_shar.c.o
+[ 46%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ustar.c.o
+[ 46%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_v7tar.c.o
+[ 47%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_xar.c.o
+[ 47%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_zip.c.o
+[ 47%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_options.c.o
+[ 47%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/filter_fork_posix.c.o
+Linking C static library libcmlibarchive.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 47%] Built target cmlibarchive
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmexpat
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 47%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmlparse.c.o
+[ 47%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmltok.c.o
+[ 48%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmlrole.c.o
+Linking C static library libcmexpat.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 48%] Built target cmexpat
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmForm
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_arg.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_attr.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_current.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_def.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_dup.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_ftchoice.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_ftlink.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_info.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_just.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_link.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_max.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_move.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_newftyp.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_opts.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_pad.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_page.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_stat.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_type.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_user.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_cursor.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_data.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_def.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_driver.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_hook.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_opts.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_page.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_post.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_req_name.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_scale.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_sub.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_user.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_win.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_alnum.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_alpha.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_enum.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_int.c.o
+[ 56%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_ipv4.c.o
+[ 56%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_num.c.o
+[ 56%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_regex.c.o
+Linking C static library libcmForm.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 56%] Built target cmForm
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target CMakeLib
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmStandardIncludes.cxx.o
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmArchiveWrite.cxx.o
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBootstrapCommands1.cxx.o
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBootstrapCommands2.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCacheManager.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommands.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentLexer.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentParser.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentParserHelper.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeComponentGraph.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeLinkDepends.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeLinkInformation.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeTargetDepends.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCryptoHash.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCustomCommand.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCustomCommandGenerator.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDefinitions.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDepends.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsC.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortran.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortranLexer.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortranParser.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJava.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaLexer.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaParser.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaParserHelper.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentation.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatter.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterHTML.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterDocbook.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterMan.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterText.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterUsage.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationSection.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentVariables.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDynamicLoader.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmELF.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprLexer.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprParser.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprParserHelper.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportBuildFileGenerator.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportFileGenerator.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportInstallFileGenerator.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportTryCompileFileGenerator.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportSet.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportSetMap.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExtraCodeBlocksGenerator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExtraEclipseCDT4Generator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExtraSublimeTextGenerator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmFileTimeComparison.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratedFileStream.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpressionDAGChecker.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpressionEvaluator.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpressionLexer.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpressionParser.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpression.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorTarget.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalGenerator.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalUnixMakefileGenerator3.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGraphVizWriter.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallExportGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallFilesGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallScriptGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallTargetGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallDirectoryGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmListFileCache.cxx.o
+[ 70%] Building C object Source/CMakeFiles/CMakeLib.dir/cmListFileLexer.c.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmLocalGenerator.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmLocalUnixMakefileGenerator3.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakeDepend.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefile.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileExecutableTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileLibraryTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileUtilityTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmOSXBundleGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmNewLineStyle.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmOrderDirectories.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPolicies.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmProcessTools.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmProperty.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyDefinition.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyDefinitionMap.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyMap.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmQtAutomoc.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmScriptGenerator.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceFile.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceFileLocation.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceGroup.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSystemTools.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTarget.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTest.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTestGenerator.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmVariableWatch.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmVersion.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmXMLParser.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmXMLSafe.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmake.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmakewizard.cxx.o
+[ 78%] Building C object Source/CMakeFiles/CMakeLib.dir/cm_sha2.c.o
+[ 78%] Building C object Source/CMakeFiles/CMakeLib.dir/cm_utf8.c.o
+[ 78%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalKdevelopGenerator.cxx.o
+[ 78%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalNinjaGenerator.cxx.o
+[ 78%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmLocalNinjaGenerator.cxx.o
+[ 79%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmNinjaTargetGenerator.cxx.o
+[ 79%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmNinjaNormalTargetGenerator.cxx.o
+[ 79%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmNinjaUtilityTargetGenerator.cxx.o
+Linking CXX static library libCMakeLib.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 79%] Built target CMakeLib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target CPackLib
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackArchiveGenerator.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackComponentGroup.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackGeneratorFactory.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackGenerator.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackLog.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackNSISGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackSTGZGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTGZGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTarBZip2Generator.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTarCompressGenerator.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackZIPGenerator.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackDocumentVariables.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackDocumentMacros.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackDebGenerator.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackRPMGenerator.cxx.o
+Linking CXX static library libCPackLib.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 83%] Built target CPackLib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target CTestLib
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/cmCTest.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmProcess.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBatchTestHandler.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildAndTestHandler.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildCommand.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildHandler.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestConfigureCommand.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestConfigureHandler.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCoverageCommand.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCoverageHandler.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmParseMumpsCoverage.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmParseCacheCoverage.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmParseGTMCoverage.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmParsePHPCoverage.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestEmptyBinaryDirectoryCommand.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGenericHandler.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestHandlerCommand.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestLaunch.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMemCheckCommand.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMemCheckHandler.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMultiProcessHandler.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestReadCustomFilesCommand.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestRunScriptCommand.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestRunTest.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestScriptHandler.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSleepCommand.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestStartCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSubmitCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSubmitHandler.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestTestCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestTestHandler.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUpdateCommand.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUpdateHandler.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUploadCommand.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUploadHandler.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestVC.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGlobalVC.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCVS.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSVN.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBZR.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGIT.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestHG.cxx.o
+Linking CXX static library libCTestLib.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 92%] Built target CTestLib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target ccmake
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 92%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesBoolWidget.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesCacheEntryComposite.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesDummyWidget.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesFilePathWidget.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesForm.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesLabelWidget.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesLongMessageForm.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesMainForm.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesPathWidget.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesStringWidget.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesWidget.cxx.o
+[ 95%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/ccmake.cxx.o
+Linking CXX executable ../bin/ccmake
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 95%] Built target ccmake
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cmake
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 95%] Building CXX object Source/CMakeFiles/cmake.dir/cmakemain.cxx.o
+Linking CXX executable ../bin/cmake
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 95%] Built target cmake
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target cpack
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 95%] Building CXX object Source/CMakeFiles/cpack.dir/CPack/cpack.cxx.o
+Linking CXX executable ../bin/cpack
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 95%] Built target cpack
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target ctest
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 96%] Building CXX object Source/CMakeFiles/ctest.dir/ctest.cxx.o
+Linking CXX executable ../bin/ctest
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 96%] Built target ctest
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target documentation
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 96%] Generating ../Docs/ctest.txt
+[ 96%] Generating ../Docs/cpack.txt
+[ 96%] Generating ../Docs/ccmake.txt
+[ 97%] Generating ../Docs/cmake.txt
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 97%] Built target documentation
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target CMakeLibTests
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 97%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.o
+[ 97%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testGeneratedFileStream.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testSystemTools.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.o
+Linking CXX executable CMakeLibTests
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 98%] Built target CMakeLibTests
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target runcompilecommands
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Building CXX object Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.o
+Linking CXX executable runcompilecommands
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Built target runcompilecommands
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target foo
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Building CXX object Tests/FindPackageModeMakefileTest/CMakeFiles/foo.dir/foo.cpp.o
+Linking CXX static library libfoo.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Built target foo
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target memcheck_fail
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Building CXX object Tests/CTestTestMemcheck/CMakeFiles/memcheck_fail.dir/ret1.cxx.o
+Linking CXX executable memcheck_fail
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Built target memcheck_fail
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudo_BC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Building CXX object Tests/CTestTestMemcheck/CMakeFiles/pseudo_BC.dir/ret0.cxx.o
+Linking CXX executable BC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Built target pseudo_BC
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudo_purify
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Building CXX object Tests/CTestTestMemcheck/CMakeFiles/pseudo_purify.dir/ret0.cxx.o
+Linking CXX executable purify
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[ 99%] Built target pseudo_purify
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudo_valgrind
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Building CXX object Tests/CTestTestMemcheck/CMakeFiles/pseudo_valgrind.dir/ret0.cxx.o
+Linking CXX executable valgrind
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Built target pseudo_valgrind
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudonl_BC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Building C object Tests/CTestTestMemcheck/NoLogDummyChecker/CMakeFiles/pseudonl_BC.dir/ret0.c.o
+Linking C executable BC
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Built target pseudonl_BC
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudonl_purify
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Building C object Tests/CTestTestMemcheck/NoLogDummyChecker/CMakeFiles/pseudonl_purify.dir/ret0.c.o
+Linking C executable purify
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Built target pseudonl_purify
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+Scanning dependencies of target pseudonl_valgrind
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Building C object Tests/CTestTestMemcheck/NoLogDummyChecker/CMakeFiles/pseudonl_valgrind.dir/ret0.c.o
+Linking C executable valgrind
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+[100%] Built target pseudonl_valgrind
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/cmake-2.8.12.2'

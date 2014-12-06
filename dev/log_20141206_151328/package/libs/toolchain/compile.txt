@@ -1,0 +1,22 @@
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libgcc/lib/libgcc_s.so.1:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libgcc into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libgcc_4.8-linaro-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/libutil-0.9.33.2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/ld-uClibc-0.9.33.2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/libm-0.9.33.2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/libuClibc-0.9.33.2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/libdl-0.9.33.2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc/lib/libcrypt-0.9.33.2.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libc into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libc_0.9.33.2-1_ar71xx.ipk
+WARNING: skipping libssp -- package not selected
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libstdcpp/usr/lib/libstdc++.so.6.0.19:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libstdcpp into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libstdcpp_4.8-linaro-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libpthread/lib/libpthread-0.9.33.2.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libpthread into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libpthread_0.9.33.2-1_ar71xx.ipk
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/libthread-db into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libthread-db_0.9.33.2-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/librt/lib/librt-0.9.33.2.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/librt into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/librt_0.9.33.2-1_ar71xx.ipk
+WARNING: skipping libgfortran -- package not selected
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/ldd/usr/bin/ldd:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/ldd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/ldd_0.9.33.2-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/ldconfig/sbin/ldconfig:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/toolchain/ipkg-ar71xx/ldconfig into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/ldconfig_0.9.33.2-1_ar71xx.ipk

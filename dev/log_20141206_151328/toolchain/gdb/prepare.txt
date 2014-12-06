@@ -1,0 +1,11 @@
+
+Applying ./patches/100-ppc_compile_fix.patch using plaintext: 
+patching file sim/ppc/Makefile.in
+
+Applying ./patches/110-no_extern_inline.patch using plaintext: 
+patching file sim/common/sim-arange.c
+patching file sim/common/sim-arange.h
+
+Applying ./patches/600-fix-compile-flag-mismatch.patch using plaintext: 
+patching file gdb/configure
+patching file gdb/gdbserver/configure

@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Looking for getspnam
+-- Looking for getspnam - found
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+Scanning dependencies of target uhttpd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[  7%] Building C object CMakeFiles/uhttpd.dir/main.c.o
+[ 15%] Building C object CMakeFiles/uhttpd.dir/listen.c.o
+[ 23%] Building C object CMakeFiles/uhttpd.dir/client.c.o
+[ 30%] Building C object CMakeFiles/uhttpd.dir/utils.c.o
+[ 38%] Building C object CMakeFiles/uhttpd.dir/file.c.o
+[ 46%] Building C object CMakeFiles/uhttpd.dir/auth.c.o
+[ 53%] Building C object CMakeFiles/uhttpd.dir/cgi.c.o
+[ 61%] Building C object CMakeFiles/uhttpd.dir/relay.c.o
+[ 69%] Building C object CMakeFiles/uhttpd.dir/proc.c.o
+[ 76%] Building C object CMakeFiles/uhttpd.dir/plugin.c.o
+[ 84%] Building C object CMakeFiles/uhttpd.dir/tls.c.o
+Linking C executable uhttpd
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[ 84%] Built target uhttpd
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+Scanning dependencies of target uhttpd_lua
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[ 92%] Building C object CMakeFiles/uhttpd_lua.dir/lua.c.o
+Linking C shared module uhttpd_lua.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[ 92%] Built target uhttpd_lua
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+Scanning dependencies of target uhttpd_ubus
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[100%] Building C object CMakeFiles/uhttpd_ubus.dir/ubus.c.o
+Linking C shared module uhttpd_ubus.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[100%] Built target uhttpd_ubus
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[ 84%] Built target uhttpd
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[ 92%] Built target uhttpd_lua
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+[100%] Built target uhttpd_ubus
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-install/usr/bin/uhttpd
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-install/usr/bin/uhttpd"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-install/usr/lib/uhttpd_lua.so
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-install/usr/lib/uhttpd_ubus.so
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd/usr/sbin/uhttpd:executable
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd/etc/uhttpd.crt': No such file or directory
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd/etc/uhttpd.key': No such file or directory
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uhttpd_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/uhttpd'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.uhttpd_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/network/services/uhttpd'
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd-mod-tls into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uhttpd-mod-tls_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd-mod-lua/usr/lib/uhttpd_lua.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd-mod-lua into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uhttpd-mod-lua_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd-mod-ubus/usr/lib/uhttpd_ubus.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/uhttpd-2014-10-27/ipkg-ar71xx/uhttpd-mod-ubus into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uhttpd-mod-ubus_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_ar71xx.ipk

@@ -1,0 +1,75 @@
+
+Applying ./patches/110-mac80211_tracepoint.patch using plaintext: 
+patching file plugin_mac80211.c
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1'
+  UPDATE                 trace_plugin_dir
+  UPDATE                 trace_python_dir
+  UPDATE                 tc_version.h
+  COMPILE FPIC           event-parse.o
+  COMPILE FPIC           trace-seq.o
+  COMPILE FPIC           parse-filter.o
+  COMPILE FPIC           parse-utils.o
+  BUILD STATIC LIB       libparsevent.a
+  COMPILE FPIC           trace-util.o
+  COMPILE FPIC           trace-input.o
+  COMPILE FPIC           trace-ftrace.o
+  COMPILE FPIC           trace-output.o
+  COMPILE FPIC           trace-recorder.o
+  COMPILE FPIC           trace-restore.o
+  COMPILE FPIC           trace-usage.o
+  COMPILE FPIC           trace-blk-hack.o
+  COMPILE FPIC           kbuffer-parse.o
+  BUILD STATIC LIB       libtracecmd.a
+  COMPILE                trace-cmd.o
+  COMPILE                trace-record.o
+  COMPILE                trace-read.o
+  COMPILE                trace-split.o
+  COMPILE                trace-listen.o
+  COMPILE                trace-stack.o
+  COMPILE                trace-options.o
+  COMPILE                trace-hist.o
+  COMPILE                trace-mem.o
+  BUILD                  trace-cmd
+  COMPILE PLUGIN OBJ     plugin_hrtimer.o
+  BUILD PLUGIN           plugin_hrtimer.so
+  COMPILE PLUGIN OBJ     plugin_kmem.o
+  BUILD PLUGIN           plugin_kmem.so
+  COMPILE PLUGIN OBJ     plugin_sched_switch.o
+  BUILD PLUGIN           plugin_sched_switch.so
+  COMPILE PLUGIN OBJ     plugin_mac80211.o
+  BUILD PLUGIN           plugin_mac80211.so
+  COMPILE PLUGIN OBJ     plugin_jbd2.o
+  BUILD PLUGIN           plugin_jbd2.so
+  COMPILE PLUGIN OBJ     plugin_function.o
+  BUILD PLUGIN           plugin_function.so
+  COMPILE PLUGIN OBJ     plugin_kvm.o
+  BUILD PLUGIN           plugin_kvm.so
+  COMPILE PLUGIN OBJ     plugin_blk.o
+  BUILD PLUGIN           plugin_blk.so
+Note: to build the gui, type "make gui"
+      to build man pages, type "make doc"
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1'
+  INSTALL         plugin_hrtimer.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_kmem.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_sched_switch.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_mac80211.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_jbd2.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_function.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_kvm.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         plugin_blk.so	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/lib/trace-cmd/plugins
+  INSTALL         trace-cmd	to	/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-install/usr/bin
+Note: to install the gui, type "make install_gui"
+      to install man pages, type "make install_doc"
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd/usr/bin/trace-cmd:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd/usr/lib/trace-cmd/plugins/plugin_sched_switch.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd/usr/lib/trace-cmd/plugins/plugin_function.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd/usr/lib/trace-cmd/plugins/plugin_hrtimer.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd/usr/lib/trace-cmd/plugins/plugin_mac80211.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/trace-cmd_v2.2.1-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd-extra/usr/lib/trace-cmd/plugins/plugin_jbd2.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd-extra/usr/lib/trace-cmd/plugins/plugin_blk.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd-extra/usr/lib/trace-cmd/plugins/plugin_kvm.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd-extra/usr/lib/trace-cmd/plugins/plugin_kmem.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/trace-cmd-v2.2.1/ipkg-ar71xx/trace-cmd-extra into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/trace-cmd-extra_v2.2.1-1_ar71xx.ipk

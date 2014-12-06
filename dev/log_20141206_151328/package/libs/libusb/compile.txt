@@ -1,0 +1,162 @@
+
+Applying ./patches/001-timerfd.patch using plaintext: 
+patching file libusb/io.c
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by mips-openwrt-linux-uclibc-gcc... mips-openwrt-linux-uclibc-ld
+checking if the linker (mips-openwrt-linux-uclibc-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mips-openwrt-linux-uclibc-nm
+checking the name lister (mips-openwrt-linux-uclibc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for mips-openwrt-linux-uclibc-ld option to reload object files... -r
+checking for mips-openwrt-linux-objdump... mips-openwrt-linux-uclibc-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mips-openwrt-linux-ar... mips-openwrt-linux-uclibc-ar
+checking for mips-openwrt-linux-strip... (cached) mips-openwrt-linux-uclibc-strip
+checking for mips-openwrt-linux-ranlib... mips-openwrt-linux-uclibc-ranlib
+checking command to parse mips-openwrt-linux-uclibc-nm output from mips-openwrt-linux-uclibc-gcc object... ok
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if mips-openwrt-linux-uclibc-gcc supports -fno-rtti -fno-exceptions... no
+checking for mips-openwrt-linux-uclibc-gcc option to produce PIC... -fPIC -DPIC
+checking if mips-openwrt-linux-uclibc-gcc PIC flag -fPIC -DPIC works... yes
+checking if mips-openwrt-linux-uclibc-gcc static flag -static works... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... (cached) yes
+checking whether the mips-openwrt-linux-uclibc-gcc linker (mips-openwrt-linux-uclibc-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for mips-openwrt-linux-windres... no
+checking for windres... no
+checking for inline... inline
+checking whether mips-openwrt-linux-uclibc-gcc and cc understand -c and -o together... yes
+checking operating system... Linux
+checking for clock_gettime in -lrt... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/timerfd.h usability... yes
+checking sys/timerfd.h presence... yes
+checking for sys/timerfd.h... yes
+checking whether TFD_NONBLOCK is declared... yes
+checking whether to use timerfd for timing... yes
+checking for struct timespec... yes
+checking for sigaction... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for gettimeofday... (cached) yes
+configure: creating ./config.status
+config.status: creating libusb-1.0.pc
+config.status: creating Makefile
+config.status: creating libusb/Makefile
+config.status: creating examples/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/doxygen.cfg
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+Making all in libusb
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+  CC     libusb_1_0_la-core.lo
+  CC     libusb_1_0_la-descriptor.lo
+  CC     libusb_1_0_la-io.lo
+  CC     libusb_1_0_la-sync.lo
+  CC     libusb_1_0_la-linux_usbfs.lo
+  CC     libusb_1_0_la-threads_posix.lo
+  CCLD   libusb-1.0.la
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+Making all in doc
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+Making install in libusb
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+test -z "/usr/lib" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib"
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libusb-1.0.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libusb-1.0.so.0.1.0 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/libusb-1.0.so.0.1.0
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib && { ln -s -f libusb-1.0.so.0.1.0 libusb-1.0.so.0 || { rm -f libusb-1.0.so.0 && ln -s libusb-1.0.so.0.1.0 libusb-1.0.so.0; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib && { ln -s -f libusb-1.0.so.0.1.0 libusb-1.0.so || { rm -f libusb-1.0.so && ln -s libusb-1.0.so.0.1.0 libusb-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libusb-1.0.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/libusb-1.0.la
+libtool: install: /usr/bin/install -c .libs/libusb-1.0.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/libusb-1.0.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/libusb-1.0.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/libusb-1.0.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+test -z "/usr/include/libusb-1.0" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/include/libusb-1.0"
+ /usr/bin/install -c -m 644 libusb.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/include/libusb-1.0'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/libusb'
+Making install in doc
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/doc'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[6]: Nothing to be done for `install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libusb-1.0.pc '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-install/usr/lib/pkgconfig'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-ar71xx/libusb-1.0/usr/lib/libusb-1.0.so.0.1.0:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libusb-1.0.9/ipkg-ar71xx/libusb-1.0 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libusb-1.0_1.0.9-1_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libusb'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.libusb_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libusb'

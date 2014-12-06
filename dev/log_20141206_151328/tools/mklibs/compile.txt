@@ -1,0 +1,128 @@
+
+Applying ./patches/001-compile.patch using plaintext: 
+patching file configure.ac
+
+Applying ./patches/002-disable_symbol_checks.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/003-no_copy.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/004-libpthread_link.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/005-duplicate_syms.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/006-uclibc_init.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/007-gc_sections.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/008-uclibc_libgcc_link.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/009-uclibc_libpthread_symbols.patch using plaintext: 
+patching file src/mklibs
+
+Applying ./patches/010-remove_STT_GNU_IFUNC.patch using plaintext: 
+patching file src/mklibs-readelf/main.cpp
+
+Applying ./patches/011-remove_multiarch.patch using plaintext: 
+patching file src/mklibs
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal -I m4 -I . --force 
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+configure.ac:6: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1834: AC_CANONICAL_TARGET is expanded from...
+configure.ac:6: the top level
+autoreconf: configure.ac: tracing
+configure.ac:6: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1834: AC_CANONICAL_TARGET is expanded from...
+configure.ac:6: the top level
+autoreconf: configure.ac: not using Libtool
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoconf --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+configure.ac:6: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1834: AC_CANONICAL_TARGET is expanded from...
+configure.ac:6: the top level
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoheader --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+configure.ac:6: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1834: AC_CANONICAL_TARGET is expanded from...
+configure.ac:6: the top level
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/automake --add-missing --force-missing
+configure.ac:6: warning: AC_ARG_PROGRAM was called before AC_CANONICAL_TARGET
+../../lib/autoconf/general.m4:1834: AC_CANONICAL_TARGET is expanded from...
+configure.ac:6: the top level
+configure.ac:6: installing `./config.guess'
+configure.ac:6: installing `./config.sub'
+configure.ac:2: installing `./install-sh'
+configure.ac:2: installing `./missing'
+src/mklibs-readelf/Makefile.am: installing `./depcomp'
+autoreconf: Leaving directory `.'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for x86_64-linux-gnu-g++... x86_64-linux-gnu-g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether x86_64-linux-gnu-g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of x86_64-linux-gnu-g++... gcc3
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/mklibs/Makefile
+config.status: creating lib/mklibs/utils/Makefile
+config.status: creating src/Makefile
+config.status: creating src/mklibs-readelf/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'
+Making all in lib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib'
+Making all in mklibs
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs'
+Making all in utils
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs/utils'
+make[8]: Nothing to be done for `all'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs/utils'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs'
+make[8]: Nothing to be done for `all-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib/mklibs'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib'
+make[7]: Nothing to be done for `all-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/lib'
+Making all in src
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src'
+Making all in mklibs-readelf
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src/mklibs-readelf'
+x86_64-linux-gnu-g++ -DHAVE_CONFIG_H -I. -I../..   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -g -O2 -MT elf.o -MD -MP -MF .deps/elf.Tpo -c -o elf.o elf.cpp
+mv -f .deps/elf.Tpo .deps/elf.Po
+x86_64-linux-gnu-g++ -DHAVE_CONFIG_H -I. -I../..   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.cpp
+mv -f .deps/main.Tpo .deps/main.Po
+x86_64-linux-gnu-g++  -g -O2  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib  -o mklibs-readelf elf.o main.o  
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src/mklibs-readelf'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src'
+make[7]: Nothing to be done for `all-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35/src'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/mklibs-0.1.35'

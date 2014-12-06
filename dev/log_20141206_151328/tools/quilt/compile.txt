@@ -1,0 +1,149 @@
+
+Applying ./patches/000-relocatable.patch using plaintext: 
+patching file bin/quilt.in
+patching file quilt/scripts/edmail.in
+patching file quilt/scripts/inspect.in
+patching file quilt/scripts/patchfns.in
+patching file quilt/scripts/remove-trailing-ws.in
+
+Applying ./patches/001-fix_compile.patch using plaintext: 
+patching file Makefile.in
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether #! works in shell scripts... yes
+checking for bash... /bin/bash
+checking whether /bin/bash quoting works... yes
+checking for gcp... no
+checking for cp... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/cp
+checking for gdate... no
+checking for date... /bin/date
+checking whether /bin/date --rfc-822 works... yes
+checking for perl... /usr/bin/perl
+checking for grep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking whether /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -q works... yes
+checking whether /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep understands (foo|bar)... yes
+checking for tail... /usr/bin/tail
+checking whether /usr/bin/tail -n works... yes
+checking for tr... /usr/bin/tr
+checking whether /usr/bin/tr understands a-z ... yes
+checking for stat... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/stat
+checking whether /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/stat -c '%h' works... yes
+checking for sed... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking whether /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed understands (foo|bar)... yes
+checking for gawk... /usr/bin/gawk
+checking whether /usr/bin/gawk supports sub... yes
+checking for pod2man... /usr/bin/pod2man
+checking for column... /usr/bin/column
+checking for getopt... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/getopt
+checking for getopt --long syntax... yes
+checking for mktemp... /bin/mktemp
+checking whether /bin/mktemp -d works... yes
+checking for diff... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/diff
+checking for patch... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/patch
+checking the version of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/diff... 3.3
+checking the version of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/patch... 2.7.1
+checking for find... /usr/bin/find
+checking whether /usr/bin/find -path works... yes
+checking whether /usr/bin/find -print0 works... yes
+checking for xargs... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/xargs
+checking whether /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/xargs -0 works... yes
+checking for diffstat... /usr/bin/diffstat
+checking for diffstat version... 1.58
+checking for sendmail... no
+configure: WARNING: Using internal sendmail mechanism.  Use option '--with-sendmail' to override
+checking for cp... (cached) /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/cp
+checking for gmd5sum... no
+checking for md5sum... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/md5sum
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msguniq... /usr/bin/msguniq
+checking for msgcat... /usr/bin/msgcat
+checking for rpmbuild... no
+checking for rpm... no
+configure: WARNING: rpmbuild not found, some optional functionalities will be missing
+configure: creating ./config.status
+config.status: creating Makefile
+
+quilt version 0.63 configured.
+
+Using '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host' for installation prefix.
+
+Report bugs to quilt-dev@nongnu.org
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/quilt-0.63'
+bin/quilt.in -> bin/quilt
+bin/guards.in -> bin/guards
+quilt/add.in -> quilt/add
+quilt/annotate.in -> quilt/annotate
+quilt/applied.in -> quilt/applied
+quilt/delete.in -> quilt/delete
+quilt/diff.in -> quilt/diff
+quilt/edit.in -> quilt/edit
+quilt/files.in -> quilt/files
+quilt/fold.in -> quilt/fold
+quilt/fork.in -> quilt/fork
+quilt/graph.in -> quilt/graph
+quilt/grep.in -> quilt/grep
+quilt/header.in -> quilt/header
+quilt/import.in -> quilt/import
+quilt/mail.in -> quilt/mail
+quilt/new.in -> quilt/new
+quilt/next.in -> quilt/next
+quilt/patches.in -> quilt/patches
+quilt/pop.in -> quilt/pop
+quilt/previous.in -> quilt/previous
+quilt/push.in -> quilt/push
+quilt/refresh.in -> quilt/refresh
+quilt/remove.in -> quilt/remove
+quilt/rename.in -> quilt/rename
+quilt/revert.in -> quilt/revert
+quilt/series.in -> quilt/series
+quilt/setup.in -> quilt/setup
+quilt/snapshot.in -> quilt/snapshot
+quilt/top.in -> quilt/top
+quilt/unapplied.in -> quilt/unapplied
+quilt/upgrade.in -> quilt/upgrade
+quilt/scripts/patchfns.in -> quilt/scripts/patchfns
+quilt/scripts/inspect.in -> quilt/scripts/inspect
+quilt/scripts/dependency-graph.in -> quilt/scripts/dependency-graph
+quilt/scripts/edmail.in -> quilt/scripts/edmail
+quilt/scripts/remove-trailing-ws.in -> quilt/scripts/remove-trailing-ws
+quilt/scripts/backup-files.in -> quilt/scripts/backup-files
+bin/patch-wrapper.in -> bin/patch-wrapper
+compat/sendmail.in -> compat/sendmail
+Generating /usr/bin/gawk wrapper
+Generating /usr/bin/find wrapper
+README.in -> README
+quilt.1.in -> quilt.1
+/usr/bin/pod2man bin/guards > bin/guards.1
+rm -f po/quilt.pot; touch po/quilt.pot
+for file in bin/guards.in bin/patch-wrapper.in bin/quilt.in compat/column.in compat/date.in compat/getopt.in compat/mktemp.in compat/sendmail.in quilt/add.in quilt/annotate.in quilt/applied.in quilt/delete.in quilt/diff.in quilt/edit.in quilt/files.in quilt/fold.in quilt/fork.in quilt/graph.in quilt/grep.in quilt/header.in quilt/import.in quilt/mail.in quilt/new.in quilt/next.in quilt/patches.in quilt/pop.in quilt/previous.in quilt/push.in quilt/refresh.in quilt/remove.in quilt/rename.in quilt/revert.in quilt/series.in quilt/setup.in quilt/snapshot.in quilt/top.in quilt/unapplied.in quilt/upgrade.in quilt/scripts/backup-files.in quilt/scripts/dependency-graph.in quilt/scripts/edmail.in quilt/scripts/inspect.in quilt/scripts/patchfns.in quilt/scripts/remove-trailing-ws.in ; do						\
+	  if test -n "`/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed -ne '1{ /@BASH''@/p }' $file`"		\
+	       -o "$file" = quilt/scripts/patchfns.in; then		\
+	    /bin/bash --dump-po-strings $file ;				\
+	  elif test -n "`/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed -ne '1{ /@PERL''@/p }' $file`"; then	\
+	    /usr/bin/xgettext --from-code=UTF-8 --omit-header --language=Perl	\
+			--keyword=_ -o - $file;			\
+	  else								\
+	    echo "Don't know how to handle $file" >&2 ;		\
+	    exit 1;							\
+	  fi								\
+	done								\
+	|/usr/bin/msguniq							\
+	|/usr/bin/msgcat --force-po -F - po/quilt.pot -o po/quilt.pot
+/usr/bin/msgmerge -o po/fr.po po/fr.po po/quilt.pot
+.................... done.
+/usr/bin/msgfmt --statistics -o po/fr.mo po/fr.po
+178 translated messages.
+/usr/bin/msgmerge -o po/de.po po/de.po po/quilt.pot
+..................... done.
+/usr/bin/msgfmt --statistics -o po/de.mo po/de.po
+154 translated messages, 19 fuzzy translations, 5 untranslated messages.
+/usr/bin/msgmerge -o po/ja.po po/ja.po po/quilt.pot
+...................... done.
+/usr/bin/msgfmt --statistics -o po/ja.mo po/ja.po
+159 translated messages, 15 fuzzy translations, 4 untranslated messages.
+/usr/bin/msgmerge -o po/ru.po po/ru.po po/quilt.pot
+..................... done.
+/usr/bin/msgfmt --statistics -o po/ru.mo po/ru.po
+102 translated messages, 58 fuzzy translations, 18 untranslated messages.
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/quilt-0.63'

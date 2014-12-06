@@ -1,0 +1,2 @@
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/spidev-test/ipkg-ar71xx/spidev-test/sbin/spidev_test:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/spidev-test/ipkg-ar71xx/spidev-test into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/spidev-test_3.10.49-3.10.49_ar71xx.ipk

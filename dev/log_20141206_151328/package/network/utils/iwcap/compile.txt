@@ -1,0 +1,2 @@
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/iwcap/ipkg-ar71xx/iwcap/usr/sbin/iwcap:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/iwcap/ipkg-ar71xx/iwcap into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iwcap_1_ar71xx.ipk

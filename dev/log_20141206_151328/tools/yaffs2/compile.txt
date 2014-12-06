@@ -1,0 +1,103 @@
+
+Applying ./patches/100-compile.patch using plaintext: 
+patching file yaffs2/utils/Makefile
+patching file yaffs2/utils/mkyaffs2image.c
+patching file yaffs2/devextras.h
+
+Applying ./patches/110-openbsd-compat.patch using plaintext: 
+patching file yaffs2/yaffs_guts.h
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/yaffs2_android/yaffs2/utils'
+ln -s ../yaffs_ecc.c yaffs_ecc.c
+gcc  -c -I.. -DCONFIG_YAFFS_UTIL -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -include endian.h yaffs_ecc.c -o yaffs_ecc.o
+gcc  -c -I.. -DCONFIG_YAFFS_UTIL -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -include endian.h mkyaffs2image.c -o mkyaffs2image.o
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:210:0: warning: "DT_UNKNOWN" redefined [enabled by default]
+ #define DT_UNKNOWN 0
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:100:0: note: this is the location of the previous definition
+ # define DT_UNKNOWN DT_UNKNOWN
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:211:0: warning: "DT_FIFO" redefined [enabled by default]
+ #define DT_FIFO  1
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:102:0: note: this is the location of the previous definition
+ # define DT_FIFO DT_FIFO
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:212:0: warning: "DT_CHR" redefined [enabled by default]
+ #define DT_CHR  2
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:104:0: note: this is the location of the previous definition
+ # define DT_CHR  DT_CHR
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:213:0: warning: "DT_DIR" redefined [enabled by default]
+ #define DT_DIR  4
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:106:0: note: this is the location of the previous definition
+ # define DT_DIR  DT_DIR
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:214:0: warning: "DT_BLK" redefined [enabled by default]
+ #define DT_BLK  6
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:108:0: note: this is the location of the previous definition
+ # define DT_BLK  DT_BLK
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:215:0: warning: "DT_REG" redefined [enabled by default]
+ #define DT_REG  8
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:110:0: note: this is the location of the previous definition
+ # define DT_REG  DT_REG
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:216:0: warning: "DT_LNK" redefined [enabled by default]
+ #define DT_LNK  10
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:112:0: note: this is the location of the previous definition
+ # define DT_LNK  DT_LNK
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:217:0: warning: "DT_SOCK" redefined [enabled by default]
+ #define DT_SOCK  12
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:114:0: note: this is the location of the previous definition
+ # define DT_SOCK DT_SOCK
+ ^
+In file included from ../yaffs_guts.h:23:0,
+                 from mkyaffs2image.c:36:
+../devextras.h:218:0: warning: "DT_WHT" redefined [enabled by default]
+ #define DT_WHT  14
+ ^
+In file included from mkyaffs2image.c:31:0:
+/usr/include/dirent.h:116:0: note: this is the location of the previous definition
+ # define DT_WHT  DT_WHT
+ ^
+mkyaffs2image.c: In function 'process_directory':
+mkyaffs2image.c:369:16: warning: ignoring return value of 'readlink', declared with attribute warn_unused_result [-Wunused-result]
+        readlink(full_name,symname,sizeof(symname) -1);
+                ^
+ln -s ../yaffs_packedtags2.c yaffs_packedtags2.c
+gcc  -c -I.. -DCONFIG_YAFFS_UTIL -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -include endian.h yaffs_packedtags2.c -o yaffs_packedtags2.o
+ln -s ../yaffs_tagsvalidity.c yaffs_tagsvalidity.c
+gcc  -c -I.. -DCONFIG_YAFFS_UTIL -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -include endian.h yaffs_tagsvalidity.c -o yaffs_tagsvalidity.o
+gcc  -o mkyaffs2image yaffs_ecc.o mkyaffs2image.o yaffs_packedtags2.o yaffs_tagsvalidity.o
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/yaffs2_android/yaffs2/utils'

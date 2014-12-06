@@ -1,0 +1,751 @@
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking for mips-openwrt-linux-ar... mips-openwrt-linux-uclibc-ar
+checking the archiver (mips-openwrt-linux-uclibc-ar) interface... ar
+checking for mips-openwrt-linux-gcc... (cached) mips-openwrt-linux-uclibc-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... (cached) yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... (cached) none needed
+checking dependency style of mips-openwrt-linux-uclibc-gcc... (cached) gcc3
+checking whether mips-openwrt-linux-uclibc-gcc and cc understand -c and -o together... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by mips-openwrt-linux-uclibc-gcc... mips-openwrt-linux-uclibc-ld
+checking if the linker (mips-openwrt-linux-uclibc-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mips-openwrt-linux-uclibc-nm
+checking the name lister (mips-openwrt-linux-uclibc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mips-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mips-openwrt-linux-uclibc-ld option to reload object files... -r
+checking for mips-openwrt-linux-objdump... mips-openwrt-linux-uclibc-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mips-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mips-openwrt-linux-ar... (cached) mips-openwrt-linux-uclibc-ar
+checking for archiver @FILE support... @
+checking for mips-openwrt-linux-strip... (cached) mips-openwrt-linux-uclibc-strip
+checking for mips-openwrt-linux-ranlib... mips-openwrt-linux-uclibc-ranlib
+checking command to parse mips-openwrt-linux-uclibc-nm output from mips-openwrt-linux-uclibc-gcc object... ok
+checking for sysroot... no
+checking for mips-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if mips-openwrt-linux-uclibc-gcc supports -fno-rtti -fno-exceptions... no
+checking for mips-openwrt-linux-uclibc-gcc option to produce PIC... -fPIC -DPIC
+checking if mips-openwrt-linux-uclibc-gcc PIC flag -fPIC -DPIC works... yes
+checking if mips-openwrt-linux-uclibc-gcc static flag -static works... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... (cached) yes
+checking whether the mips-openwrt-linux-uclibc-gcc linker (mips-openwrt-linux-uclibc-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for flex... flex
+checking for bison... bison -y
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for pow in -lm... yes
+checking for pthread_mutex_lock in -lpthread... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libnl-3.0.pc
+config.status: creating libnl-route-3.0.pc
+config.status: creating libnl-genl-3.0.pc
+config.status: creating libnl-nf-3.0.pc
+config.status: creating libnl-cli-3.0.pc
+config.status: creating lib/Makefile
+config.status: creating include/Makefile
+config.status: creating src/Makefile
+config.status: creating src/lib/Makefile
+config.status: creating tests/Makefile
+config.status: creating man/Makefile
+config.status: creating python/Makefile
+config.status: creating python/setup.py
+config.status: creating python/netlink/Makefile
+config.status: creating python/netlink/route/Makefile
+config.status: creating include/netlink/version.h
+config.status: creating lib/defs.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+-------------------------------------------------------------------------------
+                                  NOTE
+
+ There have been some changes starting with 3.2 regarding where and how libnl
+ is being installed on the system in order to allow multiple libnl versions
+ to be installed in parallel:
+
+    - Headers will be installed in ${prefix}/include/libnl3, therefore
+      you will need to add "-I/usr/include/libnl3" to CFLAGS
+
+    - The library basename was renamed to libnl-3, i.e. the SO names become
+      libnl-3.so., libnl-route-3.so, etc.
+
+    - libtool versioning was assumed, to ease detection of compatible library
+      versions.
+
+ If you are using pkg-config for detecting and linking against the library 
+ things will continue magically as if nothing every happened. If you are 
+ linking manually you need to adapt your Makefiles or switch to using 
+ pkg-config files.
+
+-------------------------------------------------------------------------------
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+Making all in include
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+Making all in lib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+  GEN    route/cls/ematch_grammar.c
+  GEN    route/cls/ematch_syntax.c
+  GEN    route/pktloc_grammar.c
+  GEN    route/pktloc_syntax.c
+make  all-am
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+  CC     addr.lo
+  CC     attr.lo
+  CC     cache.lo
+  CC     cache_mngr.lo
+  CC     cache_mngt.lo
+  CC     data.lo
+  CC     error.lo
+  CC     handlers.lo
+  CC     msg.lo
+  CC     nl.lo
+  CC     object.lo
+  CC     socket.lo
+  CC     utils.lo
+  CC     version.lo
+  CC     hash.lo
+  CC     hashtable.lo
+  CCLD   libnl-3.la
+  CC     genl/ctrl.lo
+  CC     genl/family.lo
+  CC     genl/genl.lo
+  CC     genl/mngt.lo
+  CCLD   libnl-genl-3.la
+  CC     route/addr.lo
+  CC     route/class.lo
+  CC     route/cls.lo
+  CC     route/link.lo
+  CC     route/neigh.lo
+  CC     route/neightbl.lo
+  CC     route/nexthop.lo
+  CC     route/qdisc.lo
+  CC     route/route.lo
+  CC     route/route_obj.lo
+  CC     route/route_utils.lo
+  CC     route/rtnl.lo
+  CC     route/rule.lo
+  CC     route/tc.lo
+  CC     route/classid.lo
+  CC     route/cls/fw.lo
+  CC     route/cls/police.lo
+  CC     route/cls/u32.lo
+  CC     route/cls/basic.lo
+  CC     route/cls/cgroup.lo
+  CC     route/cls/ematch.lo
+  CC     route/cls/ematch/container.lo
+  CC     route/cls/ematch/cmp.lo
+  CC     route/cls/ematch/nbyte.lo
+  CC     route/cls/ematch/text.lo
+  CC     route/cls/ematch/meta.lo
+  CC     route/link/api.lo
+  CC     route/link/vlan.lo
+  CC     route/link/dummy.lo
+  CC     route/link/bridge.lo
+  CC     route/link/inet6.lo
+  CC     route/link/inet.lo
+  CC     route/link/bonding.lo
+  CC     route/link/can.lo
+  CC     route/qdisc/blackhole.lo
+  CC     route/qdisc/cbq.lo
+  CC     route/qdisc/dsmark.lo
+  CC     route/qdisc/fifo.lo
+  CC     route/qdisc/htb.lo
+  CC     route/qdisc/netem.lo
+  CC     route/qdisc/prio.lo
+  CC     route/qdisc/red.lo
+  CC     route/qdisc/sfq.lo
+  CC     route/qdisc/tbf.lo
+  CC     route/qdisc/plug.lo
+  CC     fib_lookup/lookup.lo
+  CC     fib_lookup/request.lo
+  CC     route/pktloc.lo
+  CC     route/pktloc_syntax.lo
+  CC     route/pktloc_grammar.lo
+  CC     route/cls/ematch_syntax.lo
+  CC     route/cls/ematch_grammar.lo
+  CCLD   libnl-route-3.la
+  CC     netfilter/ct.lo
+  CC     netfilter/ct_obj.lo
+  CC     netfilter/log.lo
+  CC     netfilter/log_msg.lo
+  CC     netfilter/log_msg_obj.lo
+  CC     netfilter/log_obj.lo
+  CC     netfilter/netfilter.lo
+  CC     netfilter/nfnl.lo
+  CC     netfilter/queue.lo
+  CC     netfilter/queue_msg.lo
+  CC     netfilter/queue_msg_obj.lo
+  CC     netfilter/queue_obj.lo
+  CC     netfilter/exp.lo
+  CC     netfilter/exp_obj.lo
+  CCLD   libnl-nf-3.la
+  CC     cli/qdisc/htb.lo
+  CCLD   cli/qdisc/htb.la
+  CC     cli/qdisc/blackhole.lo
+  CCLD   cli/qdisc/blackhole.la
+  CC     cli/qdisc/pfifo.lo
+  CCLD   cli/qdisc/pfifo.la
+  CC     cli/qdisc/plug.lo
+  CCLD   cli/qdisc/plug.la
+  CC     cli/qdisc/bfifo.lo
+  CCLD   cli/qdisc/bfifo.la
+  CC     cli/cls/basic.lo
+  CCLD   cli/cls/basic.la
+  CC     cli/cls/cgroup.lo
+  CCLD   cli/cls/cgroup.la
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+Making all in man
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+Making all in python
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+Making all in netlink
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+Making all in route
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[7]: Nothing to be done for `all-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[6]: Nothing to be done for `all-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+Making all in tests
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+Making all in src
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+Making all in lib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+  CC     utils.lo
+  CC     addr.lo
+  CC     ct.lo
+  CC     link.lo
+  CC     neigh.lo
+  CC     rule.lo
+  CC     route.lo
+  CC     tc.lo
+  CC     qdisc.lo
+  CC     class.lo
+  CC     cls.lo
+  CC     exp.lo
+  CCLD   libnl-cli-3.la
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+  CC     nf-ct-list.o
+  CCLD   nf-ct-list
+  CC     nf-log.o
+nf-log.c: In function 'main':
+nf-log.c:55:26: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+         struct nl_cache *link_cache;
+                          ^
+  CCLD   nf-log
+  CC     nf-queue.o
+nf-queue.c: In function 'main':
+nf-queue.c:63:19: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache;
+                   ^
+  CCLD   nf-queue
+  CC     nf-monitor.o
+  CCLD   nf-monitor
+  CC     nf-exp-list.o
+  CCLD   nf-exp-list
+  CC     nf-exp-add.o
+  CCLD   nf-exp-add
+  CC     nf-exp-delete.o
+  CCLD   nf-exp-delete
+  CC     nl-addr-add.o
+  CCLD   nl-addr-add
+  CC     nl-addr-delete.o
+  CCLD   nl-addr-delete
+  CC     nl-addr-list.o
+  CCLD   nl-addr-list
+  CC     nl-link-set.o
+  CCLD   nl-link-set
+  CC     nl-link-stats.o
+  CCLD   nl-link-stats
+  CC     nl-link-ifindex2name.o
+  CCLD   nl-link-ifindex2name
+  CC     nl-link-name2ifindex.o
+  CCLD   nl-link-name2ifindex
+  CC     nl-neigh-add.o
+  CCLD   nl-neigh-add
+  CC     nl-neigh-delete.o
+  CCLD   nl-neigh-delete
+  CC     nl-neigh-list.o
+  CCLD   nl-neigh-list
+  CC     nl-rule-list.o
+nl-rule-list.c: In function 'main':
+nl-rule-list.c:37:19: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache, *rule_cache;
+                   ^
+  CCLD   nl-rule-list
+  CC     nl-neightbl-list.o
+nl-neightbl-list.c: In function 'main':
+nl-neightbl-list.c:31:19: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache, *neightbl_cache;
+                   ^
+  CCLD   nl-neightbl-list
+  CC     nl-monitor.o
+nl-monitor.c: In function 'main':
+nl-monitor.c:38:19: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache;
+                   ^
+  CCLD   nl-monitor
+  CC     nl-tctree-list.o
+  CCLD   nl-tctree-list
+  CC     nl-route-add.o
+  CCLD   nl-route-add
+  CC     nl-route-delete.o
+  CCLD   nl-route-delete
+  CC     nl-route-get.o
+nl-route-get.c: In function 'main':
+nl-route-get.c:46:32: warning: variable 'route_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache, *route_cache;
+                                ^
+nl-route-get.c:46:19: warning: variable 'link_cache' set but not used [-Wunused-but-set-variable]
+  struct nl_cache *link_cache, *route_cache;
+                   ^
+  CCLD   nl-route-get
+  CC     nl-route-list.o
+  CCLD   nl-route-list
+  CC     nl-fib-lookup.o
+  CCLD   nl-fib-lookup
+  CC     nl-list-caches.o
+  CCLD   nl-list-caches
+  CC     nl-list-sockets.o
+  CCLD   nl-list-sockets
+  CC     nl-util-addr.o
+  CCLD   nl-util-addr
+  CC     nl-link-enslave.o
+  CCLD   nl-link-enslave
+  CC     nl-link-release.o
+  CCLD   nl-link-release
+  CC     genl-ctrl-list.o
+  CCLD   genl-ctrl-list
+  CC     nl-qdisc-add.o
+  CCLD   nl-qdisc-add
+  CC     nl-qdisc-list.o
+  CCLD   nl-qdisc-list
+  CC     nl-qdisc-delete.o
+  CCLD   nl-qdisc-delete
+  CC     nl-class-add.o
+  CCLD   nl-class-add
+  CC     nl-class-list.o
+  CCLD   nl-class-list
+  CC     nl-class-delete.o
+  CCLD   nl-class-delete
+  CC     nl-cls-add.o
+  CCLD   nl-cls-add
+  CC     nl-cls-list.o
+  CCLD   nl-cls-list
+  CC     nl-cls-delete.o
+  CCLD   nl-cls-delete
+  CC     nl-classid-lookup.o
+  CCLD   nl-classid-lookup
+  CC     nl-pktloc-lookup.o
+  CCLD   nl-pktloc-lookup
+  CC     nl-link-list.o
+  CCLD   nl-link-list
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+Making install in include
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route'
+ /usr/bin/install -c -m 644  netlink/route/addr.h netlink/route/class.h netlink/route/classifier.h netlink/route/link.h netlink/route/neighbour.h netlink/route/neightbl.h netlink/route/nexthop.h netlink/route/pktloc.h netlink/route/qdisc.h netlink/route/route.h netlink/route/rtnl.h netlink/route/rule.h netlink/route/tc.h netlink/route/tc-api.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink'
+ /usr/bin/install -c -m 644  netlink/addr.h netlink/attr.h netlink/cache.h netlink/data.h netlink/errno.h netlink/handlers.h netlink/hash.h netlink/hashtable.h netlink/list.h netlink/msg.h netlink/netlink-compat.h netlink/netlink-kernel.h netlink/netlink.h netlink/object.h netlink/socket.h netlink/types.h netlink/utils.h netlink/version.h netlink/cache-api.h netlink/object-api.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/cls'
+ /usr/bin/install -c -m 644  netlink/route/cls/basic.h netlink/route/cls/cgroup.h netlink/route/cls/ematch.h netlink/route/cls/fw.h netlink/route/cls/police.h netlink/route/cls/u32.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/cls'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/cls/ematch'
+ /usr/bin/install -c -m 644  netlink/route/cls/ematch/cmp.h netlink/route/cls/ematch/meta.h netlink/route/cls/ematch/nbyte.h netlink/route/cls/ematch/text.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/cls/ematch'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/qdisc'
+ /usr/bin/install -c -m 644  netlink/route/qdisc/cbq.h netlink/route/qdisc/dsmark.h netlink/route/qdisc/fifo.h netlink/route/qdisc/htb.h netlink/route/qdisc/netem.h netlink/route/qdisc/prio.h netlink/route/qdisc/red.h netlink/route/qdisc/sfq.h netlink/route/qdisc/tbf.h netlink/route/qdisc/plug.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/qdisc'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/fib_lookup'
+ /usr/bin/install -c -m 644  netlink/fib_lookup/lookup.h netlink/fib_lookup/request.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/fib_lookup'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/cli'
+ /usr/bin/install -c -m 644  netlink/cli/addr.h netlink/cli/class.h netlink/cli/cls.h netlink/cli/ct.h netlink/cli/exp.h netlink/cli/link.h netlink/cli/neigh.h netlink/cli/qdisc.h netlink/cli/route.h netlink/cli/rule.h netlink/cli/tc.h netlink/cli/utils.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/cli'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/link'
+ /usr/bin/install -c -m 644  netlink/route/link/bonding.h netlink/route/link/can.h netlink/route/link/inet.h netlink/route/link/vlan.h netlink/route/link/api.h netlink/route/link/info-api.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/route/link'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/genl'
+ /usr/bin/install -c -m 644  netlink/genl/ctrl.h netlink/genl/family.h netlink/genl/genl.h netlink/genl/mngt.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/genl'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/netfilter'
+ /usr/bin/install -c -m 644  netlink/netfilter/ct.h netlink/netfilter/exp.h netlink/netfilter/log.h netlink/netfilter/log_msg.h netlink/netfilter/netfilter.h netlink/netfilter/nfnl.h netlink/netfilter/queue.h netlink/netfilter/queue_msg.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/include/libnl3/netlink/netfilter'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/include'
+Making install in lib
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+make  install-am
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libnl-3.la libnl-genl-3.la libnl-route-3.la libnl-nf-3.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libnl-3.so.200.16.1 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-3.so.200.16.1
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-3.so.200.16.1 libnl-3.so.200 || { rm -f libnl-3.so.200 && ln -s libnl-3.so.200.16.1 libnl-3.so.200; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-3.so.200.16.1 libnl-3.so || { rm -f libnl-3.so && ln -s libnl-3.so.200.16.1 libnl-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-3.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-3.la
+libtool: install: warning: relinking `libnl-genl-3.la'
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib; /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/libtool  --silent --tag CC --mode=relink mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fpic -version-info 216:1:16 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -o libnl-genl-3.la -rpath /usr/lib genl/ctrl.lo genl/family.lo genl/genl.lo genl/mngt.lo libnl-3.la -lpthread -lm -inst-prefix-dir /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install)
+libtool: install: /usr/bin/install -c .libs/libnl-genl-3.so.200.16.1T /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-genl-3.so.200.16.1
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-genl-3.so.200.16.1 libnl-genl-3.so.200 || { rm -f libnl-genl-3.so.200 && ln -s libnl-genl-3.so.200.16.1 libnl-genl-3.so.200; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-genl-3.so.200.16.1 libnl-genl-3.so || { rm -f libnl-genl-3.so && ln -s libnl-genl-3.so.200.16.1 libnl-genl-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-genl-3.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-genl-3.la
+libtool: install: warning: relinking `libnl-route-3.la'
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib; /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/libtool  --silent --tag CC --mode=relink mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fpic -version-info 216:1:16 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -o libnl-route-3.la -rpath /usr/lib route/addr.lo route/class.lo route/cls.lo route/link.lo route/neigh.lo route/neightbl.lo route/nexthop.lo route/qdisc.lo route/route.lo route/route_obj.lo route/route_utils.lo route/rtnl.lo route/rule.lo route/tc.lo route/classid.lo route/cls/fw.lo route/cls/police.lo route/cls/u32.lo route/cls/basic.lo route/cls/cgroup.lo route/cls/ematch.lo route/cls/ematch/container.lo route/cls/ematch/cmp.lo route/cls/ematch/nbyte.lo route/cls/ematch/text.lo route/cls/ematch/meta.lo route/link/api.lo route/link/vlan.lo route/link/dummy.lo route/link/bridge.lo route/link/inet6.lo route/link/inet.lo route/link/bonding.lo route/link/can.lo route/qdisc/blackhole.lo route/qdisc/cbq.lo route/qdisc/dsmark.lo route/qdisc/fifo.lo route/qdisc/htb.lo route/qdisc/netem.lo route/qdisc/prio.lo route/qdisc/red.lo route/qdisc/sfq.lo route/qdisc/tbf.lo route/qdisc/plug.lo fib_lookup/lookup.lo fib_lookup/request.lo route/pktloc.lo route/pktloc_syntax.lo route/pktloc_grammar.lo route/cls/ematch_syntax.lo route/cls/ematch_grammar.lo libnl-3.la -lpthread -lm -inst-prefix-dir /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install)
+libtool: install: /usr/bin/install -c .libs/libnl-route-3.so.200.16.1T /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-route-3.so.200.16.1
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-route-3.so.200.16.1 libnl-route-3.so.200 || { rm -f libnl-route-3.so.200 && ln -s libnl-route-3.so.200.16.1 libnl-route-3.so.200; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-route-3.so.200.16.1 libnl-route-3.so || { rm -f libnl-route-3.so && ln -s libnl-route-3.so.200.16.1 libnl-route-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-route-3.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-route-3.la
+libtool: install: warning: relinking `libnl-nf-3.la'
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib; /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/libtool  --silent --tag CC --mode=relink mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fpic -version-info 216:1:16 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -o libnl-nf-3.la -rpath /usr/lib netfilter/ct.lo netfilter/ct_obj.lo netfilter/log.lo netfilter/log_msg.lo netfilter/log_msg_obj.lo netfilter/log_obj.lo netfilter/netfilter.lo netfilter/nfnl.lo netfilter/queue.lo netfilter/queue_msg.lo netfilter/queue_msg_obj.lo netfilter/queue_obj.lo netfilter/exp.lo netfilter/exp_obj.lo libnl-route-3.la -lpthread -lm -inst-prefix-dir /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install)
+libtool: install: /usr/bin/install -c .libs/libnl-nf-3.so.200.16.1T /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-nf-3.so.200.16.1
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-nf-3.so.200.16.1 libnl-nf-3.so.200 || { rm -f libnl-nf-3.so.200 && ln -s libnl-nf-3.so.200.16.1 libnl-nf-3.so.200; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-nf-3.so.200.16.1 libnl-nf-3.so || { rm -f libnl-nf-3.so && ln -s libnl-nf-3.so.200.16.1 libnl-nf-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-nf-3.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-nf-3.la
+libtool: install: /usr/bin/install -c .libs/libnl-3.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-3.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-3.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-3.a
+libtool: install: /usr/bin/install -c .libs/libnl-genl-3.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-genl-3.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-genl-3.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-genl-3.a
+libtool: install: /usr/bin/install -c .libs/libnl-route-3.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-route-3.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-route-3.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-route-3.a
+libtool: install: /usr/bin/install -c .libs/libnl-nf-3.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-nf-3.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-nf-3.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-nf-3.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c  cli/qdisc/htb.la cli/qdisc/blackhole.la cli/qdisc/pfifo.la cli/qdisc/plug.la cli/qdisc/bfifo.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc'
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/htb.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/htb.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/htb.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/htb.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/blackhole.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/blackhole.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/blackhole.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/blackhole.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/pfifo.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/pfifo.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/pfifo.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/pfifo.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/plug.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/plug.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/plug.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/plug.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/bfifo.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/bfifo.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/bfifo.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/bfifo.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/htb.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/htb.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/htb.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/htb.a
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/blackhole.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/blackhole.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/blackhole.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/blackhole.a
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/pfifo.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/pfifo.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/pfifo.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/pfifo.a
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/plug.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/plug.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/plug.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/plug.a
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/bfifo.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/bfifo.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/bfifo.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/qdisc/bfifo.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib/libnl/cli/qdisc'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c  cli/cls/basic.la cli/cls/cgroup.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls'
+libtool: install: /usr/bin/install -c cli/cls/.libs/basic.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/basic.so
+libtool: install: /usr/bin/install -c cli/cls/.libs/basic.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/basic.la
+libtool: install: /usr/bin/install -c cli/cls/.libs/cgroup.so /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/cgroup.so
+libtool: install: /usr/bin/install -c cli/cls/.libs/cgroup.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/cgroup.la
+libtool: install: /usr/bin/install -c cli/cls/.libs/basic.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/basic.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/basic.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/basic.a
+libtool: install: /usr/bin/install -c cli/cls/.libs/cgroup.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/cgroup.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/cgroup.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl/cli/cls/cgroup.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib/libnl/cli/cls'
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib'
+Making install in man
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/man/man8'
+ /usr/bin/install -c -m 644 nl-classid-lookup.8 nl-pktloc-lookup.8 nl-qdisc-add.8 nl-qdisc-delete.8 nl-qdisc-list.8 genl-ctrl-list.8 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/man/man8'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/man'
+Making install in python
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+Making install in netlink
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+Making install in route
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[8]: Nothing to be done for `install-exec-am'.
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink/route'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[8]: Nothing to be done for `install-exec-am'.
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python/netlink'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[7]: Nothing to be done for `install-exec-am'.
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/python'
+Making install in tests
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+make[6]: Nothing to be done for `install-exec-am'.
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/tests'
+Making install in src
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+Making install in lib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libnl-cli-3.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib'
+libtool: install: warning: relinking `libnl-cli-3.la'
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib; /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/libtool  --silent --tag CC --mode=relink mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -ffunction-sections -fpic -L../../lib -ldl -version-info 216:1:16 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib -o libnl-cli-3.la -rpath /usr/lib utils.lo addr.lo ct.lo link.lo neigh.lo rule.lo route.lo tc.lo qdisc.lo class.lo cls.lo exp.lo ../../lib/libnl-3.la ../../lib/libnl-route-3.la ../../lib/libnl-nf-3.la ../../lib/libnl-genl-3.la -lpthread -lm -inst-prefix-dir /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install)
+libtool: install: /usr/bin/install -c .libs/libnl-cli-3.so.200.16.1T /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-cli-3.so.200.16.1
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-cli-3.so.200.16.1 libnl-cli-3.so.200 || { rm -f libnl-cli-3.so.200 && ln -s libnl-cli-3.so.200.16.1 libnl-cli-3.so.200; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib && { ln -s -f libnl-cli-3.so.200.16.1 libnl-cli-3.so || { rm -f libnl-cli-3.so && ln -s libnl-cli-3.so.200.16.1 libnl-cli-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-cli-3.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-cli-3.la
+libtool: install: /usr/bin/install -c .libs/libnl-cli-3.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-cli-3.a
+libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-cli-3.a
+libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/libnl-cli-3.a
+libtool: install: warning: remember to run `libtool --finish /usr/lib'
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src/lib'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c genl-ctrl-list nl-qdisc-add nl-qdisc-list nl-qdisc-delete nl-class-add nl-class-list nl-class-delete nl-cls-add nl-cls-list nl-cls-delete nl-classid-lookup nl-pktloc-lookup nl-link-list '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin'
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/genl-ctrl-list /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/genl-ctrl-list
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-add /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-qdisc-add
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-list /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-qdisc-list
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-delete /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-qdisc-delete
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-class-add /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-class-add
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-class-list /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-class-list
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-class-delete /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-class-delete
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-cls-add /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-cls-add
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-cls-list /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-cls-list
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-cls-delete /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-cls-delete
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-classid-lookup /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-classid-lookup
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-pktloc-lookup /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-pktloc-lookup
+libtool: install: warning: `../src/lib/libnl-cli-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-nf-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-genl-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `../lib/libnl-route-3.la' has not been installed in `/usr/lib'
+libtool: install: warning: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/lib/libnl-3.la' has not been installed in `/usr/lib'
+libtool: install: /usr/bin/install -c .libs/nl-link-list /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/sbin/nl-link-list
+make[7]: Nothing to be done for `install-data-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/src'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[6]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnl-3.0.pc libnl-route-3.0.pc libnl-genl-3.0.pc libnl-nf-3.0.pc libnl-cli-3.0.pc '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/usr/lib/pkgconfig'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/etc/libnl'
+ /usr/bin/install -c -m 644 etc/pktloc etc/classid '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-install/etc/libnl'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-ar71xx/libnl/usr/lib/libnl-3.so.200.16.1:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-ar71xx/libnl/usr/lib/libnl-route-3.so.200.16.1:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-ar71xx/libnl/usr/lib/libnl-genl-3.so.200.16.1:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-ar71xx/libnl/usr/lib/libnl-nf-3.so.200.16.1:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-3.2.21/ipkg-ar71xx/libnl into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libnl_3.2.21-1_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libnl'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.libnl_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libnl'

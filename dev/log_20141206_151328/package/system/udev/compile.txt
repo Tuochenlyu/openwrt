@@ -1,0 +1,335 @@
+
+Applying ./patches/0001-build-don-t-use-gc-sections.patch using plaintext: 
+patching file Makefile.am
+
+Applying ./patches/0002-udevd-add-lrt-for-message-queue-symbols.patch using plaintext: 
+patching file Makefile.am
+
+Applying ./patches/0003-add_btn_trigger_happy_define.patch using plaintext: 
+patching file extras/input_id/input_id.c
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking how to create a pax tar archive... gnutar
+checking for style of include used by make... GNU
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by mips-openwrt-linux-uclibc-gcc... mips-openwrt-linux-uclibc-ld
+checking if the linker (mips-openwrt-linux-uclibc-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mips-openwrt-linux-uclibc-nm
+checking the name lister (mips-openwrt-linux-uclibc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mips-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mips-openwrt-linux-uclibc-ld option to reload object files... -r
+checking for mips-openwrt-linux-objdump... mips-openwrt-linux-uclibc-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mips-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mips-openwrt-linux-ar... mips-openwrt-linux-uclibc-ar
+checking for archiver @FILE support... @
+checking for mips-openwrt-linux-strip... (cached) mips-openwrt-linux-uclibc-strip
+checking for mips-openwrt-linux-ranlib... mips-openwrt-linux-uclibc-ranlib
+checking command to parse mips-openwrt-linux-uclibc-nm output from mips-openwrt-linux-uclibc-gcc object... ok
+checking for sysroot... no
+checking for mips-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if mips-openwrt-linux-uclibc-gcc supports -fno-rtti -fno-exceptions... no
+checking for mips-openwrt-linux-uclibc-gcc option to produce PIC... -fPIC -DPIC
+checking if mips-openwrt-linux-uclibc-gcc PIC flag -fPIC -DPIC works... yes
+checking if mips-openwrt-linux-uclibc-gcc static flag -static works... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... (cached) yes
+checking whether the mips-openwrt-linux-uclibc-gcc linker (mips-openwrt-linux-uclibc-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gawk... (cached) gawk
+checking pkg-config is at least version 0.9.0... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for xsltproc... /usr/bin/xsltproc
+checking for library containing clock_gettime... none required
+Package systemd was not found in the pkg-config search path.
+Perhaps you should add the directory containing `systemd.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'systemd' found
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating udev/udev.pc
+config.status: creating init/udev.service
+config.status: creating init/udev-trigger.service
+config.status: creating init/udev-settle.service
+config.status: creating libudev/libudev.pc
+config.status: creating libudev/docs/Makefile
+config.status: creating libudev/docs/version.xml
+config.status: creating extras/gudev/gudev-1.0.pc
+config.status: creating extras/gudev/docs/Makefile
+config.status: creating extras/gudev/docs/version.xml
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+
+	udev 173
+	========
+
+	prefix:			/usr
+	sysconfdir:		/etc
+	sbindir:		/sbin
+	libdir:			${exec_prefix}/lib
+	rootlibdir:		${exec_prefix}/lib
+	libexecdir:		/lib/udev
+	datarootdir:		${prefix}/share
+	mandir:			/usr/man
+	includedir:		${prefix}/include
+	include_prefix:		
+	systemdsystemunitdir:	
+	firmware path:		\"/lib/firmware/updates/\", \"/lib/firmware/\"
+
+	compiler:		mips-openwrt-linux-uclibc-gcc
+	cflags:			-Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 
+	ldflags:		-L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib 
+	xsltproc:		/usr/bin/xsltproc
+	gperf:			
+
+	logging:		yes
+	debug:			no
+	selinux:		no
+
+	gudev:			no
+	gintrospection:		no
+	keymap:			no
+	hwdb:			no
+	  usb.ids:		
+	  pci.ids:		
+	mtd_probe:		yes
+	rule_generator:		yes
+	udev_acl:		no
+	floppy:			no
+	edd:			no
+
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+ cd . && /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/build-aux/missing --run automake-1.11 --foreign Makefile
+configure.ac:9: version mismatch.  This is Automake 1.11.6,
+configure.ac:9: but the definition used by this AM_INIT_AUTOMAKE
+configure.ac:9: comes from Automake 1.11.1.  You should recreate
+configure.ac:9: aclocal.m4 with aclocal and run automake again.
+WARNING: `automake-1.11' is probably too old.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.ac'.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+ cd . && /bin/bash ./config.status Makefile depfiles
+config.status: creating Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+make --no-print-directory all-recursive
+Making all in .
+  CC     libudev/libudev.lo
+  CC     libudev/libudev-list.lo
+  CC     libudev/libudev-util.lo
+  CC     libudev/libudev-device.lo
+  CC     libudev/libudev-enumerate.lo
+  CC     libudev/libudev-monitor.lo
+  CC     libudev/libudev-queue.lo
+  CCLD   libudev/libudev.la
+  CC     libudev/libudev-util-private.lo
+  CC     libudev/libudev-device-private.lo
+  CC     libudev/libudev-queue-private.lo
+  CCLD   libudev/libudev-private.la
+  CC     extras/firmware/extras_firmware_firmware-firmware.o
+  CCLD   extras/firmware/firmware
+  CC     extras/ata_id/ata_id.o
+  CCLD   extras/ata_id/ata_id
+  CC     extras/cdrom_id/cdrom_id.o
+  CCLD   extras/cdrom_id/cdrom_id
+  CC     extras/collect/collect.o
+  CCLD   extras/collect/collect
+  CC     extras/input_id/input_id.o
+  CCLD   extras/input_id/input_id
+  CC     extras/path_id/path_id.o
+  CCLD   extras/path_id/path_id
+  CC     extras/scsi_id/scsi_id.o
+  CC     extras/scsi_id/scsi_serial.o
+  CCLD   extras/scsi_id/scsi_id
+  CC     extras/usb_id/usb_id.o
+  CCLD   extras/usb_id/usb_id
+  CC     extras/v4l_id/v4l_id.o
+  CCLD   extras/v4l_id/v4l_id
+  CC     extras/accelerometer/accelerometer.o
+  CCLD   extras/accelerometer/accelerometer
+  CC     extras/mtd_probe/extras_mtd_probe_mtd_probe-mtd_probe.o
+  CC     extras/mtd_probe/extras_mtd_probe_mtd_probe-probe_smartmedia.o
+  CCLD   extras/mtd_probe/mtd_probe
+  CC     udev/udev-event.o
+  CC     udev/udev-watch.o
+  CC     udev/udev-node.o
+  CC     udev/udev-rules.o
+  CC     udev/udev-ctrl.o
+  CC     udev/udevd.o
+  CC     udev/sd-daemon.o
+  CCLD   udev/udevd
+  CC     udev/udevadm.o
+  CC     udev/udevadm-info.o
+  CC     udev/udevadm-control.o
+  CC     udev/udevadm-test.o
+  CC     udev/udevadm-monitor.o
+  CC     udev/udevadm-settle.o
+  CC     udev/udevadm-trigger.o
+  CCLD   udev/udevadm
+Making all in libudev/docs
+ cd ../.. && /bin/bash ./config.status libudev/docs/Makefile 
+config.status: creating libudev/docs/Makefile
+make[6]: Nothing to be done for `all'.
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+make --no-print-directory install-recursive
+Making install in .
+test -z "/lib/udev" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev"
+ /usr/bin/install -c extras/rule_generator/write_cd_rules extras/rule_generator/write_net_rules '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev'
+test -z "/lib" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib"
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libudev/libudev.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib'
+libtool: install: /usr/bin/install -c libudev/.libs/libudev.so.0.12.0 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/libudev.so.0.12.0
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib && { ln -s -f libudev.so.0.12.0 libudev.so.0 || { rm -f libudev.so.0 && ln -s libudev.so.0.12.0 libudev.so.0; }; })
+libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib && { ln -s -f libudev.so.0.12.0 libudev.so || { rm -f libudev.so && ln -s libudev.so.0.12.0 libudev.so; }; })
+libtool: install: /usr/bin/install -c libudev/.libs/libudev.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/libudev.la
+libtool: install: warning: remember to run `libtool --finish /lib'
+test -z "/lib/udev" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev"
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c extras/firmware/firmware extras/ata_id/ata_id extras/cdrom_id/cdrom_id extras/collect/collect extras/input_id/input_id extras/path_id/path_id extras/scsi_id/scsi_id extras/usb_id/usb_id extras/v4l_id/v4l_id extras/accelerometer/accelerometer extras/mtd_probe/mtd_probe '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev'
+libtool: install: /usr/bin/install -c extras/firmware/firmware /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/firmware
+libtool: install: /usr/bin/install -c extras/ata_id/ata_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/ata_id
+libtool: install: /usr/bin/install -c extras/cdrom_id/cdrom_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/cdrom_id
+libtool: install: /usr/bin/install -c extras/collect/collect /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/collect
+libtool: install: /usr/bin/install -c extras/input_id/input_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/input_id
+libtool: install: /usr/bin/install -c extras/path_id/path_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/path_id
+libtool: install: /usr/bin/install -c extras/scsi_id/scsi_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/scsi_id
+libtool: install: /usr/bin/install -c extras/usb_id/usb_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/usb_id
+libtool: install: /usr/bin/install -c extras/v4l_id/v4l_id /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/v4l_id
+libtool: install: /usr/bin/install -c extras/accelerometer/accelerometer /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/accelerometer
+libtool: install: /usr/bin/install -c extras/mtd_probe/mtd_probe /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/mtd_probe
+test -z "/sbin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/sbin"
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c udev/udevd udev/udevadm '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/sbin'
+libtool: install: /usr/bin/install -c udev/udevd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/sbin/udevd
+libtool: install: /usr/bin/install -c udev/udevadm /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/sbin/udevadm
+make --no-print-directory install-exec-hook
+if test "/lib" != "/lib"; then \
+		mkdir -p /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib && \
+		so_img_name=$(readlink /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/libudev.so) && \
+		so_img_rel_target_prefix=$(echo /lib | sed 's,\(^/\|\)[^/][^/]*,..,g') && \
+		ln -sf $so_img_rel_target_prefix/lib/$so_img_name /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/libudev.so && \
+		mv /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/libudev.so.* /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib; \
+	fi
+test -z "/usr/share/doc/udev" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/share/doc/udev"
+test -z "/etc/udev" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/etc/udev"
+ /usr/bin/install -c -m 644 udev.conf '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/etc/udev'
+test -z "/lib/udev" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev"
+ /usr/bin/install -c -m 644 extras/rule_generator/rule_generator.functions '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev'
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+test -z "/lib/udev/rules.d" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/rules.d"
+ /usr/bin/install -c -m 644 rules/rules.d/50-udev-default.rules rules/rules.d/60-persistent-storage.rules rules/rules.d/60-persistent-storage-tape.rules rules/rules.d/60-persistent-serial.rules rules/rules.d/60-persistent-input.rules rules/rules.d/60-persistent-alsa.rules rules/rules.d/80-drivers.rules rules/rules.d/95-udev-late.rules extras/firmware/50-firmware.rules extras/cdrom_id/60-cdrom_id.rules extras/v4l_id/60-persistent-v4l.rules extras/accelerometer/61-accelerometer.rules extras/qemu/42-qemu-usb.rules extras/mtd_probe/75-probe_mtd.rules extras/rule_generator/75-cd-aliases-generator.rules extras/rule_generator/75-persistent-net-generator.rules '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/rules.d'
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+test -z "/usr/include" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/include"
+ /usr/bin/install -c -m 644 libudev/libudev.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/include'
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+test -z "/usr/man/man7" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/man/man7"
+ /usr/bin/install -c -m 644 udev/udev.7 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/man/man7'
+test -z "/usr/man/man8" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/man/man8"
+ /usr/bin/install -c -m 644 udev/udevadm.8 udev/udevd.8 extras/scsi_id/scsi_id.8 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/man/man8'
+test -z "/lib/pkgconfig" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libudev/libudev.pc '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/pkgconfig'
+test -z "/usr/share/pkgconfig" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/share/pkgconfig"
+ /usr/bin/install -c -m 644 udev/udev.pc '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/usr/share/pkgconfig'
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+test -z "" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install"
+make --no-print-directory install-data-hook
+mkdir -p /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/etc/udev/rules.d
+mkdir -p /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-install/lib/udev/devices
+Making install in libudev/docs
+make[7]: Nothing to be done for `install-exec-am'.
+-- Installing ./html/api-index-full.html
+-- Installing ./html/ch01.html
+-- Installing ./html/home.png
+-- Installing ./html/index.html
+-- Installing ./html/index.sgml
+-- Installing ./html/left.png
+-- Installing ./html/libudev-udev-device.html
+-- Installing ./html/libudev-udev-enumerate.html
+-- Installing ./html/libudev-udev-list.html
+-- Installing ./html/libudev-udev-monitor.html
+-- Installing ./html/libudev-udev-queue.html
+-- Installing ./html/libudev-udev.html
+-- Installing ./html/libudev.devhelp
+-- Installing ./html/libudev.devhelp2
+-- Installing ./html/right.png
+-- Installing ./html/style.css
+-- Installing ./html/up.png
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/libudev.so.0.12.0:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/v4l_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/accelerometer:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/path_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/ata_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/cdrom_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/mtd_probe:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/input_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/scsi_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/lib/udev/usb_id:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/sbin/udevd:executable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev/sbin/udevadm:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/udev-173/ipkg-ar71xx/udev into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/udev_173-1_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/system/udev'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.udev_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/system/udev'

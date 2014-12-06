@@ -1,0 +1,26 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-tiny-0.1'
+mips-openwrt-linux-uclibc-gcc -Wall -c -o nl.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic nl.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o handlers.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic handlers.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o msg.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic msg.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o attr.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic attr.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o cache.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic cache.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o cache_mngt.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic cache_mngt.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o object.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic object.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o socket.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic socket.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o error.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic error.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o genl.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic genl.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o genl_family.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic genl_family.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o genl_ctrl.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic genl_ctrl.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o genl_mngt.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic genl_mngt.c
+mips-openwrt-linux-uclibc-gcc -Wall -c -o unl.o -Iinclude -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic unl.c
+unl.c: In function 'unl_genl_request':
+unl.c:112:19: warning: variable 'nlh' set but not used [-Wunused-but-set-variable]
+  struct nlmsghdr *nlh;
+                   ^
+mips-openwrt-linux-uclibc-gcc -shared -o libnl-tiny.so nl.o handlers.o msg.o attr.o cache.o cache_mngt.o object.o socket.o error.o genl.o genl_family.o genl_ctrl.o genl_mngt.o unl.o
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-tiny-0.1'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-tiny-0.1/ipkg-ar71xx/libnl-tiny/usr/lib/libnl-tiny.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libnl-tiny-0.1/ipkg-ar71xx/libnl-tiny into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libnl-tiny_0.1-3_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libnl-tiny'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.libnl-tiny_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libnl-tiny'

@@ -1,0 +1,3 @@
+
+Applying ./patches/001-platform_env.patch using plaintext: 
+patching file engine/SCons/Platform/__init__.py

@@ -1,0 +1,216 @@
+
+Applying ./patches/002-no-intl.patch using plaintext: 
+patching file configure.in
+patching file Makefile.am
+patching file Makefile.in
+autoreconf: Entering directory `.'
+autoreconf: configure.in: not using Gettext
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal -I m4 -I . --force 
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+autoreconf: configure.in: tracing
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/libtoolize --force
+OpenWrt-libtoolize: putting auxiliary files in `.'.
+OpenWrt-libtoolize: linking file `./ltmain.sh'
+OpenWrt-libtoolize: Consider adding `AC_CONFIG_MACRO_DIR([m4])' to configure.in and
+OpenWrt-libtoolize: rerunning libtoolize, to keep the correct libtool macros in-tree.
+OpenWrt-libtoolize: Consider adding `-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoconf --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoheader --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/automake --add-missing --force-missing
+configure.in:4: not enough arguments for AC_CONFIG_HEADERS
+autoreconf: Leaving directory `.'
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking target system type... mips-openwrt-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking for library containing strerror... none required
+checking for mips-openwrt-linux-gcc... (cached) mips-openwrt-linux-uclibc-gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... (cached) yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... (cached) none needed
+checking dependency style of mips-openwrt-linux-uclibc-gcc... (cached) gcc3
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking whether mips-openwrt-linux-uclibc-gcc needs -traditional... no
+checking for function prototypes... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by mips-openwrt-linux-uclibc-gcc... mips-openwrt-linux-uclibc-ld
+checking if the linker (mips-openwrt-linux-uclibc-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mips-openwrt-linux-uclibc-nm
+checking the name lister (mips-openwrt-linux-uclibc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mips-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mips-openwrt-linux-uclibc-ld option to reload object files... -r
+checking for mips-openwrt-linux-objdump... mips-openwrt-linux-uclibc-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mips-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mips-openwrt-linux-ar... mips-openwrt-linux-uclibc-ar
+checking for archiver @FILE support... @
+checking for mips-openwrt-linux-strip... (cached) mips-openwrt-linux-uclibc-strip
+checking for mips-openwrt-linux-ranlib... mips-openwrt-linux-uclibc-ranlib
+checking command to parse mips-openwrt-linux-uclibc-nm output from mips-openwrt-linux-uclibc-gcc object... ok
+checking for sysroot... no
+checking for mips-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if mips-openwrt-linux-uclibc-gcc supports -fno-rtti -fno-exceptions... no
+checking for mips-openwrt-linux-uclibc-gcc option to produce PIC... -fPIC -DPIC
+checking if mips-openwrt-linux-uclibc-gcc PIC flag -fPIC -DPIC works... yes
+checking if mips-openwrt-linux-uclibc-gcc static flag -static works... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... (cached) yes
+checking whether the mips-openwrt-linux-uclibc-gcc linker (mips-openwrt-linux-uclibc-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking libintl.h usability... no
+checking libintl.h presence... no
+checking for libintl.h... no
+checking mcheck.h usability... no
+checking mcheck.h presence... no
+checking for mcheck.h... no
+checking for unistd.h... (cached) yes
+checking for /usr/ucblib in LIBS... no
+checking for strerror... (cached) yes
+checking for mtrace... no
+checking for getuid... yes
+checking for geteuid... yes
+checking for setreuid... yes
+configure: creating ./config.status
+config.status: creating Doxyfile
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+/bin/bash ./libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c -o popt.lo popt.c
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c popt.c  -fPIC -DPIC -o .libs/popt.o
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT popt.lo -MD -MP -MF .deps/popt.Tpo -c popt.c -o popt.o >/dev/null 2>&1
+mv -f .deps/popt.Tpo .deps/popt.Plo
+/bin/bash ./libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT findme.lo -MD -MP -MF .deps/findme.Tpo -c -o findme.lo findme.c
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT findme.lo -MD -MP -MF .deps/findme.Tpo -c findme.c  -fPIC -DPIC -o .libs/findme.o
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT findme.lo -MD -MP -MF .deps/findme.Tpo -c findme.c -o findme.o >/dev/null 2>&1
+mv -f .deps/findme.Tpo .deps/findme.Plo
+/bin/bash ./libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c -o poptparse.lo poptparse.c
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c poptparse.c  -fPIC -DPIC -o .libs/poptparse.o
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT poptparse.lo -MD -MP -MF .deps/poptparse.Tpo -c poptparse.c -o poptparse.o >/dev/null 2>&1
+mv -f .deps/poptparse.Tpo .deps/poptparse.Plo
+/bin/bash ./libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c -o poptconfig.lo poptconfig.c
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c poptconfig.c  -fPIC -DPIC -o .libs/poptconfig.o
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT poptconfig.lo -MD -MP -MF .deps/poptconfig.Tpo -c poptconfig.c -o poptconfig.o >/dev/null 2>&1
+mv -f .deps/poptconfig.Tpo .deps/poptconfig.Plo
+/bin/bash ./libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c -o popthelp.lo popthelp.c
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c popthelp.c  -fPIC -DPIC -o .libs/popthelp.o
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -MT popthelp.lo -MD -MP -MF .deps/popthelp.Tpo -c popthelp.c -o popthelp.o >/dev/null 2>&1
+mv -f .deps/popthelp.Tpo .deps/popthelp.Plo
+/bin/bash ./libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o libpopt.la -rpath /usr/lib popt.lo findme.lo poptparse.lo poptconfig.lo popthelp.lo  
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -shared  -fPIC -DPIC  .libs/popt.o .libs/findme.o .libs/poptparse.o .libs/poptconfig.o .libs/popthelp.o   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -Os -mno-branch-likely -mips32r2 -mtune=34kc -msoft-float -mips16 -minterlink-mips16   -Wl,-soname -Wl,libpopt.so.0 -o .libs/libpopt.so.0.0.0
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libpopt.so.0" && ln -s "libpopt.so.0.0.0" "libpopt.so.0")
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libpopt.so" && ln -s "libpopt.so.0.0.0" "libpopt.so")
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-ar cru .libs/libpopt.a  popt.o findme.o poptparse.o poptconfig.o popthelp.o
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-ranlib .libs/libpopt.a
+OpenWrt-libtool: link: ( cd ".libs" && rm -f "libpopt.la" && ln -s "../libpopt.la" "libpopt.la" )
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT test1.o -MD -MP -MF .deps/test1.Tpo -c -o test1.o test1.c
+mv -f .deps/test1.Tpo .deps/test1.Po
+/bin/bash ./libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -all-static -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o test1 test1.o libpopt.la 
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -static -o test1 test1.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib ./.libs/libpopt.a
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT test2.o -MD -MP -MF .deps/test2.Tpo -c -o test2.o test2.c
+mv -f .deps/test2.Tpo .deps/test2.Po
+/bin/bash ./libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -all-static -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o test2 test2.o libpopt.la 
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -static -o test2 test2.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib ./.libs/libpopt.a
+mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I. -I.  -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -MT test3.o -MD -MP -MF .deps/test3.Tpo -c -o test3.o test3.c
+test3.c: In function 'main':
+test3.c:37:2: warning: passing argument 3 of 'poptParseArgvString' from incompatible pointer type [enabled by default]
+  poptParseArgvString (out, &newargc, &newargv);
+  ^
+In file included from test3.c:7:0:
+./popt.h:381:5: note: expected 'const char ***' but argument is of type 'char ***'
+ int poptParseArgvString(const char * s,
+     ^
+mv -f .deps/test3.Tpo .deps/test3.Po
+/bin/bash ./libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic  -all-static -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o test3 test3.o libpopt.la 
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -fpic -static -o test3 test3.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib ./.libs/libpopt.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libpopt.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib'
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libpopt.so.0.0.0 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib/libpopt.so.0.0.0
+OpenWrt-libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib && { ln -s -f libpopt.so.0.0.0 libpopt.so.0 || { rm -f libpopt.so.0 && ln -s libpopt.so.0.0.0 libpopt.so.0; }; })
+OpenWrt-libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib && { ln -s -f libpopt.so.0.0.0 libpopt.so || { rm -f libpopt.so && ln -s libpopt.so.0.0.0 libpopt.so; }; })
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libpopt.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib/libpopt.la
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libpopt.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib/libpopt.a
+OpenWrt-libtool: install: chmod 644 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib/libpopt.a
+OpenWrt-libtool: install: mips-openwrt-linux-uclibc-ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/lib/libpopt.a
+OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/include'
+ /usr/bin/install -c -m 644 popt.h '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/include'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/man/man3'
+ /usr/bin/install -c -m 644 popt.3 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-install/usr/man/man3'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-ar71xx/libpopt/usr/lib/libpopt.so.0.0.0:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/popt-1.7/ipkg-ar71xx/libpopt into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libpopt_1.7-5_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/popt'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.popt_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/popt'

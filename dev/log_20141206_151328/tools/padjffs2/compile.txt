@@ -1,0 +1,4 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/padjffs2-1'
+gcc  -Wall -Werror -c -o padjffs2.o padjffs2.c
+gcc  -o padjffs2 padjffs2.o
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/padjffs2-1'

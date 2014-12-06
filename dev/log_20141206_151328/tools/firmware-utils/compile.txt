@@ -1,0 +1,437 @@
+src/airlink.c: In function 'main':
+src/airlink.c:296:2: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+  printf("CRC32 sum0 - (%x, %x, %x)\n", sum, sum0, 0x400);
+  ^
+src/airlink.c:308:2: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+  printf("CRC32 sum1 - (%x, %x, %x)\n", sum, sum1, l0);
+  ^
+src/airlink.c:323:10: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'long unsigned int' [-Wformat=]
+          len - 0x4);
+          ^
+src/airlink.c:323:10: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'long int' [-Wformat=]
+src/airlink.c: In function 'generate_image':
+src/airlink.c:134:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(ffd, header, 0x28);
+        ^
+src/airlink.c:136:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(ffd, header + 2, 0x20);
+        ^
+src/airlink.c:137:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(ffd, bk, lenk);
+       ^
+src/airlink.c:144:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(ffd, header, 1);
+        ^
+src/airlink.c:146:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(ffd, bs, lens);
+        ^
+src/airlink.c: In function 'main':
+src/airlink.c:244:6: warning: ignoring return value of 'read', declared with attribute warn_unused_result [-Wunused-result]
+  read(fd, buf, len);
+      ^
+src/airlink.c:256:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(fd, buf + 0x10, 0x4);
+        ^
+src/airlink.c:268:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(fd, buf + 0x18, 0x4);
+        ^
+src/airlink.c:305:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, &buf[0x18], 0x4);
+       ^
+src/airlink.c:317:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, &buf[0x4], 0x4);
+       ^
+src/airlink.c:326:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(fd, &buf[-0x8], 0x4);
+        ^
+src/mkmylofw.c: In function 'get_file_crc':
+src/mkmylofw.c:399:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buf, readlen, 1, f);
+        ^
+src/mkmylofw.c: In function 'write_out_file':
+src/mkmylofw.c:569:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buff, buflen, 1, f);
+        ^
+src/mkcsysimg.c: In function 'write_out_data':
+src/mkcsysimg.c:513:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write output file");
+   ^
+src/mkcsysimg.c: In function 'block_stat_file':
+src/mkcsysimg.c:560:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", block->file_name);
+   ^
+src/mkcsysimg.c: In function 'block_writeout_file':
+src/mkcsysimg.c:608:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to open file: %s", block->file_name);
+   ^
+src/mkcsysimg.c:621:4: warning: too many arguments for format [-Wformat-extra-args]
+    ERRS("unable to read from file: %s", block->file_name);
+    ^
+src/mkcsysimg.c: In function 'block_writeout_data':
+src/mkcsysimg.c:650:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat=]
+  DBG(1,"padding block, length=%d", padlen);
+  ^
+src/mkcsysimg.c: In function 'main':
+src/mkcsysimg.c:1125:4: warning: too many arguments for format [-Wformat-extra-args]
+    WARN("generation of invalid images disabled", ofname);
+    ^
+src/mkcsysimg.c:1129:3: warning: too many arguments for format [-Wformat-extra-args]
+   WARN("generating invalid image", ofname);
+   ^
+src/mkcsysimg.c:1134:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mkcsysimg.c: In function 'block_writeout_file':
+src/mkcsysimg.c:619:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buf, buflen, 1, f);
+        ^
+src/mkzynfw.c: In function 'write_out_file':
+src/mkzynfw.c:690:2: warning: format '%d' expects argument of type 'int', but argument 5 has type 'size_t' [-Wformat=]
+  DBG(2, "writing out file, name=%s, len=%d",
+  ^
+src/mkzynfw.c: In function 'calc_block_offsets':
+src/mkzynfw.c:991:2: warning: format '%lu' expects argument of type 'long unsigned int', but argument 4 has type 'uint32_t' [-Wformat=]
+  DBG(1,"calculating block offsets, starting with %lu",
+  ^
+src/mkzynfw.c: In function 'read_magic':
+src/mkzynfw.c:667:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(magic, 2, 1, f);
+       ^
+src/mkzynfw.c: In function 'write_out_file':
+src/mkzynfw.c:706:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buf, buflen, 1, f);
+        ^
+src/mkcasfw.c: In function 'write_out_data':
+src/mkcasfw.c:574:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write output file");
+   ^
+src/mkcasfw.c: In function 'image_stat_file':
+src/mkcasfw.c:621:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", desc->file_name);
+   ^
+src/mkcasfw.c: In function 'image_writeout_file':
+src/mkcasfw.c:658:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to open file: %s", desc->file_name);
+   ^
+src/mkcasfw.c:671:4: warning: too many arguments for format [-Wformat-extra-args]
+    ERRS("unable to read from file: %s", desc->file_name);
+    ^
+src/mkcasfw.c: In function 'image_writeout':
+src/mkcasfw.c:711:2: warning: format '%d' expects argument of type 'int', but argument 4 has type 'size_t' [-Wformat=]
+  DBG(1,"padding desc, length=%d", padlen);
+  ^
+src/mkcasfw.c: In function 'write_out_header':
+src/mkcasfw.c:728:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("fseek failed on output file");
+   ^
+src/mkcasfw.c: In function 'main':
+src/mkcasfw.c:988:4: warning: too many arguments for format [-Wformat-extra-args]
+    WARN("generation of invalid images disabled", ofname);
+    ^
+src/mkcasfw.c:992:3: warning: too many arguments for format [-Wformat-extra-args]
+   WARN("generating invalid image", ofname);
+   ^
+src/mkcasfw.c:997:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mkcasfw.c: In function 'image_writeout_file':
+src/mkcasfw.c:669:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buf, buflen, 1, f);
+        ^
+src/imagetag.c: In function 'tagfile':
+src/imagetag.c:342:4: warning: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'uint32_t' [-Wformat=]
+    sprintf(tag.cfeAddress, "%lu", flash_start);
+    ^
+In file included from /usr/include/string.h:640:0,
+                 from src/imagetag.c:12:
+In function 'strncpy',
+    inlined from 'tagfile' at src/imagetag.c:383:11:
+/usr/include/x86_64-linux-gnu/bits/string3.h:120:3: warning: call to __builtin___strncpy_chk will always overflow destination buffer [enabled by default]
+   return __builtin___strncpy_chk (__dest, __src, __len, __bos (__dest));
+   ^
+src/nand_ecc.c: In function 'main':
+src/nand_ecc.c:191:8: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+   write(outfd, page_data, page_size + oob_size);
+        ^
+src/mkplanexfw.c: In function 'main':
+src/mkplanexfw.c:191:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", ifname);
+   ^
+src/mkplanexfw.c:219:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", ifname);
+   ^
+src/mkplanexfw.c:226:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file %s", ifname);
+   ^
+src/mkplanexfw.c:238:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mkplanexfw.c:245:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write to file %s", ofname);
+   ^
+src/mkplanexfw.c:224:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf +  sizeof(*hdr), st.st_size, 1, infile);
+       ^
+src/mktplinkfw.c: In function 'get_file_stat':
+src/mktplinkfw.c:524:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", fdata->file_name);
+   ^
+src/mktplinkfw.c: In function 'read_to_buf':
+src/mktplinkfw.c:539:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", fdata->file_name);
+   ^
+src/mktplinkfw.c:546:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file \"%s\"", fdata->file_name);
+   ^
+src/mktplinkfw.c: In function 'write_fw':
+src/mktplinkfw.c:765:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mktplinkfw.c:772:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write output file");
+   ^
+src/mktplinkfw.c: In function 'read_to_buf':
+src/mktplinkfw.c:544:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/mktplinkfw2.c: In function 'get_file_stat':
+src/mktplinkfw2.c:277:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", fdata->file_name);
+   ^
+src/mktplinkfw2.c: In function 'read_to_buf':
+src/mktplinkfw2.c:292:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", fdata->file_name);
+   ^
+src/mktplinkfw2.c:299:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file \"%s\"", fdata->file_name);
+   ^
+src/mktplinkfw2.c: In function 'write_fw':
+src/mktplinkfw2.c:540:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mktplinkfw2.c:547:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write output file");
+   ^
+src/mktplinkfw2.c: In function 'read_to_buf':
+src/mktplinkfw2.c:297:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/pc1crypt.c: In function 'main':
+src/pc1crypt.c:286:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", ifname);
+   ^
+src/pc1crypt.c:299:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", ifname);
+   ^
+src/pc1crypt.c:305:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/pc1crypt.c:321:4: warning: too many arguments for format [-Wformat-extra-args]
+    ERRS("unable to read from file %s", ifname);
+    ^
+src/pc1crypt.c:333:4: warning: too many arguments for format [-Wformat-extra-args]
+    ERRS("unable to write to file %s", ofname);
+    ^
+src/pc1crypt.c:319:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(buf, datalen, 1, infile);
+        ^
+src/osbridge-crc.c: In function 'main':
+src/osbridge-crc.c:124:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", ifname);
+   ^
+src/osbridge-crc.c:137:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", ifname);
+   ^
+src/osbridge-crc.c:144:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file %s", ifname);
+   ^
+src/osbridge-crc.c:154:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/osbridge-crc.c:161:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write to file %s", ofname);
+   ^
+src/osbridge-crc.c:142:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, buflen, 1, infile);
+       ^
+src/mkdniimg.c: In function 'main':
+src/mkdniimg.c:137:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", ifname);
+   ^
+src/mkdniimg.c:158:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", ifname);
+   ^
+src/mkdniimg.c:165:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file %s", ifname);
+   ^
+src/mkdniimg.c:178:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mkdniimg.c:185:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write to file %s", ofname);
+   ^
+src/mkdniimg.c:163:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf +  DNI_HDR_LEN, st.st_size, 1, infile);
+       ^
+src/mktitanimg.c: In function 'main':
+src/mktitanimg.c:408:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread((void*)&head, sizeof(struct nsp_img_hdr_head),
+        ^
+src/mktitanimg.c:416:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread((void*)hdr, head.hdr_size, 1, nsp_image);
+        ^
+src/mktitanimg.c:445:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   fread(img_buf, 1, len, nsp_image);
+        ^
+src/mktitanimg.c: In function 'cs_is_tagged':
+src/mktitanimg.c:525:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, 8, 1, fp);
+       ^
+src/mktitanimg.c: In function 'cs_read_sum':
+src/mktitanimg.c:536:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, 8, 1, fp);
+       ^
+src/mktitanimg.c: In function 'cs_get_sum':
+src/mktitanimg.c:639:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(&magic, 4, 1, fp);
+       ^
+src/mktitanimg.c:640:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(sum, 4, 1, fp);
+       ^
+src/mkzcfw.c: In function 'get_file_stat':
+src/mkzcfw.c:156:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("stat failed on %s", fdata->file_name);
+   ^
+src/mkzcfw.c: In function 'read_to_buf':
+src/mkzcfw.c:171:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for reading", fdata->file_name);
+   ^
+src/mkzcfw.c:178:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to read from file \"%s\"", fdata->file_name);
+   ^
+src/mkzcfw.c: In function 'write_fw':
+src/mkzcfw.c:248:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("could not open \"%s\" for writing", ofname);
+   ^
+src/mkzcfw.c:255:3: warning: too many arguments for format [-Wformat-extra-args]
+   ERRS("unable to write output file");
+   ^
+src/mkzcfw.c: In function 'read_to_buf':
+src/mkzcfw.c:176:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/buffalo-tftp.c: In function 'crypt_file':
+src/buffalo-tftp.c:73:10: warning: variable 'crypt_len' set but not used [-Wunused-but-set-variable]
+  ssize_t crypt_len;
+          ^
+src/mkwrgimg.c: In function 'main':
+src/mkwrgimg.c:195:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf + sizeof(struct wrg_header), st.st_size, 1, infile);
+       ^
+src/mkbrnimg.c: In function 'appendfile':
+src/mkbrnimg.c:139:2: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'size_t' [-Wformat=]
+  fprintf(stderr, "len=%08x padded_len=%08x\n", len, padded_len);
+  ^
+src/mkbrnimg.c:139:2: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'size_t' [-Wformat=]
+src/mkbrnimg.c: In function 'main':
+src/mkbrnimg.c:179:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(outfd, signature, strlen(signature)+1);
+       ^
+src/mkbrnimg.c: In function 'appendfile':
+src/mkbrnimg.c:135:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(outfd, input_file, len);
+       ^
+src/mkbrnimg.c:140:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(outfd, padding, padded_len - len);
+       ^
+src/mkbrnimg.c:155:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(outfd, footer, sizeof(footer));
+       ^
+src/mkdapimg.c: In function 'main':
+src/mkdapimg.c:162:12: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+   if (fread(&imghdr, sizeof(imghdr), 1, ifile) < 0)
+            ^
+src/mkcameofw.c: In function 'read_to_buf':
+src/mkcameofw.c:157:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/seama.c: In function 'verify_seama':
+src/seama.c:238:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+     printf("  meta size  : %d bytes\n", msize);
+     ^
+src/seama.c:241:5: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' [-Wformat=]
+     printf("  image size : %d bytes\n", isize);
+     ^
+src/seama.c: In function 'extract_file':
+src/seama.c:476:6: warning: format '%d' expects argument of type 'int', but argument 3 has type 'size_t' [-Wformat=]
+      printf("SEAMA: found image @ '%s', image size: %d\n", o_images[i], isize);
+      ^
+src/seama.c:453:9: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+    fread(&shdr, sizeof(shdr), 1, ifh);
+         ^
+src/seama.c:469:9: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+    fread(buf, sizeof(char), 16, ifh);
+         ^
+src/seama.c:473:10: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+     fread(buf, sizeof(char), msize, ifh);
+          ^
+src/fix-u-media-header.c: In function 'read_to_buf':
+src/fix-u-media-header.c:170:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/hcsmakeimage.c: In function 'main':
+src/hcsmakeimage.c:163:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread ( filebuffer, 1, buf.st_size,fd );
+        ^
+src/bcmalgo.c: In function 'get_file_crc':
+src/bcmalgo.c:86:8: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread ( filebuffer, 1, buf.st_size,fd );
+        ^
+src/mkporayfw.c: In function 'read_to_buf':
+src/mkporayfw.c:338:7: warning: ignoring return value of 'fread', declared with attribute warn_unused_result [-Wunused-result]
+  fread(buf, fdata->file_size, 1, f);
+       ^
+src/mkdcs932.c: In function 'main':
+src/mkdcs932.c:28:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, &t, 4);
+       ^
+src/mkdcs932.c:35:7: warning: ignoring return value of 'write', declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, &sum, 4);
+       ^
+src/mkrtn56uimg.c: In function 'calc_crc':
+src/mkrtn56uimg.c:98:2: warning: passing argument 2 of 'crc32' from incompatible pointer type [enabled by default]
+  hdr->ih_hcrc = htonl(crc32(0, hdr, sizeof(image_header_t)));
+  ^
+In file included from src/mkrtn56uimg.c:22:0:
+/usr/include/zlib.h:1600:23: note: expected 'const Bytef *' but argument is of type 'struct image_header_t *'
+ ZEXTERN uLong ZEXPORT crc32   OF((uLong crc, const Bytef *buf, uInt len));
+                       ^
+src/mkrtn56uimg.c: In function 'process_image':
+src/mkrtn56uimg.c:169:3: warning: passing argument 1 of 'strncpy' from incompatible pointer type [enabled by default]
+   strncpy(&namebuf, (char *)&hdr->tail.ih_name, IH_NMLEN);
+   ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/byteswap.h:21,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include/byteswap.h:2,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include/endian.h:5,
+                 from <command-line>:1:
+/usr/include/x86_64-linux-gnu/bits/string3.h:117:1: note: expected 'char * __restrict__' but argument is of type 'char (*)[32]'
+ __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+ ^
+src/mkrtn56uimg.c:234:3: warning: passing argument 2 of 'strncpy' from incompatible pointer type [enabled by default]
+   strncpy((char *)&hdr->tail.ih_name, &namebuf, IH_NMLEN);
+   ^
+In file included from /usr/include/features.h:374:0,
+                 from /usr/include/byteswap.h:21,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include/byteswap.h:2,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include/endian.h:5,
+                 from <command-line>:1:
+/usr/include/x86_64-linux-gnu/bits/string3.h:117:1: note: expected 'const char * __restrict__' but argument is of type 'char (*)[32]'
+ __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+ ^
+src/mkrtn56uimg.c:212:12: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
+   ftruncate(fd, offset_image_end);
+            ^
+src/mkrtn56uimg.c:246:11: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
+  ftruncate(fd, offset_image_end);
+           ^

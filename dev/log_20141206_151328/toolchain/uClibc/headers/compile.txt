@@ -1,0 +1,59 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2'
+  MKDIR include/config
+  HOSTCC-o extra/config/conf.o
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c: In function 'check_stdin':
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:71:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(_("aborted!\n\n"));
+   ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:72:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(_("Console input/output is redirected. "));
+   ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:73:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(_("Run 'make oldconfig' to update configuration.\n\n"));
+   ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c: In function 'conf_askvalue':
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:83:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   printf(_("(NEW) "));
+   ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c: In function 'conf_choice':
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:284:5: warning: format not a string literal and no format arguments [-Wformat-security]
+     printf(_(" (NEW)"));
+     ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c: In function 'check_conf':
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:422:5: warning: format not a string literal and no format arguments [-Wformat-security]
+     printf(_("*\n* Restart config...\n*\n"));
+     ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c: In function 'main':
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:486:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    printf(_("See README for usage info\n"));
+    ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:490:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(stderr, _("See README for usage info\n"));
+    ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:503:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(stderr, _("***\n"
+    ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:560:6: warning: format not a string literal and no format arguments [-Wformat-security]
+      _("\n*** configuration requires explicit update.\n\n"));
+      ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:603:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(stderr, _("\n*** Error during writing of the configuration.\n\n"));
+    ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:607:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(stderr, _("\n*** Error during update of the configuration.\n\n"));
+    ^
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config/conf.c:612:4: warning: format not a string literal and no format arguments [-Wformat-security]
+    fprintf(stderr, _("\n*** Error during writing of the configuration.\n\n"));
+    ^
+  GEN extra/config/zconf.tab.c
+  GEN extra/config/lex.zconf.c
+  GEN extra/config/zconf.hash.c
+  HOSTCC-o extra/config/zconf.tab.o
+  HOSTCC extra/config/conf
+#
+# configuration written to ./.config
+#
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config'
+make[4]: `conf' is up to date.
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/uClibc-0.9.33.2/extra/config'

@@ -1,0 +1,157 @@
+net/sched/Kconfig:43: warning: menuconfig statement without prompt
+#
+# configuration written to .config
+#
+kernel/module.c:1139:12: warning: 'try_to_force_load' defined but not used [-Wunused-function]
+ static int try_to_force_load(struct module *mod, const char *reason)
+            ^
+mm/page_alloc.c: In function 'free_area_init_nodes':
+mm/page_alloc.c:5061:34: warning: array subscript is below array bounds [-Warray-bounds]
+    arch_zone_highest_possible_pfn[i-1];
+                                  ^
+
+LZMA 4.65 : Igor Pavlov : Public domain : 2009-02-03
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/ar71xx/image/lzma-loader'
+mkdir /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader
+cp -fpR ./src/* /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader/
+touch /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader/.prepared
+make -C /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader CROSS_COMPILE="mips-openwrt-linux-uclibc-" \
+		LZMA_TEXT_START=0x80a00000 \
+		LOADER_DATA=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/vmlinux.bin.lzma \
+		FLASH_OFFS= \
+		FLASH_MAX= \
+		BOARD="generic" \
+		clean all
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader'
+rm -f loader *.elf *.bin *.o
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -D__ASSEMBLY__ -c -o head.o head.S
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -c -o loader.o loader.c
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -c -o cache.o cache.c
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -c -o board.o board.c
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -c -o printf.o printf.c
+mips-openwrt-linux-uclibc-gcc -D__KERNEL__ -Wall -Wstrict-prototypes -Wno-trigraphs -Os -fno-strict-aliasing -fno-common -fomit-frame-pointer -G 0 -mno-abicalls -fno-pic -ffunction-sections -pipe -mlong-calls -fno-common -ffreestanding -fhonour-copts -mabi=32 -march=mips32r2 -Wa,-32 -Wa,-march=mips32r2 -Wa,-mips32r2 -Wa,--trap -D_LZMA_PROB32 -DLZMA_WRAPPER=1 -DLOADADDR=0x80060000 -DCONFIG_BOARD_GENERIC -c -o LzmaDecode.o LzmaDecode.c
+mips-openwrt-linux-uclibc-ld -r -b binary --oformat elf32-tradbigmips -T lzma-data.lds -o data.o /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/vmlinux.bin.lzma
+mips-openwrt-linux-uclibc-ld -static --gc-sections -no-warn-mismatch -e startup -T loader.lds -Ttext 0x80a00000 -o loader head.o loader.o cache.o board.o printf.o LzmaDecode.o data.o
+mips-openwrt-linux-uclibc-objcopy -O binary -R .reginfo -R .note -R .comment -R .mdebug -S loader loader.bin
+mips-openwrt-linux-uclibc-ld -r -b binary --oformat elf32-tradbigmips -o loader2.o loader.bin
+mips-openwrt-linux-uclibc-ld -e startup -T loader2.lds -Ttext 0x80060000 -o loader.elf loader2.o
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader'
+cp -fpR /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/lzma-loader/loader.elf /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/loader-generic.elf
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/target/linux/ar71xx/image/lzma-loader'
+cp: '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/loader-generic.elf' and '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/loader-generic.elf' are the same file
+18+1 records in
+19+0 records out
+1245184 bytes (1.2 MB) copied, 0.00202594 s, 615 MB/s
+25+1 records in
+26+0 records out
+1703936 bytes (1.7 MB) copied, 0.00298044 s, 572 MB/s
+Image Name:   MIPS OpenWrt Linux-3.10.49
+Created:      Sat Dec  6 07:26:17 2014
+Image Type:   MIPS Linux Kernel Image (gzip compressed)
+Data Size:    1697734 Bytes = 1657.94 kB = 1.62 MB
+Load Address: 80060000
+Entry Point:  80060000
+Image Name:   MIPS OpenWrt Linux-3.10.49
+Created:      Sat Dec  6 07:26:17 2014
+Image Type:   MIPS Linux Kernel Image (lzma compressed)
+Data Size:    1208172 Bytes = 1179.86 kB = 1.15 MB
+Load Address: 80060000
+Entry Point:  80060000
+
+LZMA 4.65 : Igor Pavlov : Public domain : 2009-02-03
+0+1 records in
+1+0 records out
+1965951 bytes (2.0 MB) copied, 0.00373652 s, 526 MB/s
+Image Name:   MIPS OpenWrt Linux-3.10.49
+Created:      Sat Dec  6 07:26:20 2014
+Image Type:   MIPS Linux Kernel Image (lzma compressed)
+Data Size:    1965951 Bytes = 1919.87 kB = 1.87 MB
+Load Address: 80060000
+Entry Point:  80060000
+1+0 records in
+1+0 records out
+131072 bytes (131 kB) copied, 0.00044128 s, 297 MB/s
+Image Name:   MIPS OpenWrt fakeroot
+Created:      Sat Dec  6 07:26:20 2014
+Image Type:   MIPS Linux Filesystem Image (uncompressed)
+Data Size:    131072 Bytes = 128.00 kB = 0.12 MB
+Load Address: bf070000
+Entry Point:  bf070000
+
+LZMA 4.65 : Igor Pavlov : Public domain : 2009-02-03
+0+1 records in
+1+0 records out
+1965951 bytes (2.0 MB) copied, 0.00362682 s, 542 MB/s
+Image Name:   MIPS OpenWrt Linux-3.10.49
+Created:      Sat Dec  6 07:26:22 2014
+Image Type:   MIPS Linux Kernel Image (lzma compressed)
+Data Size:    1965951 Bytes = 1919.87 kB = 1.87 MB
+Load Address: 80060000
+Entry Point:  80060000
+1+0 records in
+1+0 records out
+131072 bytes (131 kB) copied, 0.000281998 s, 465 MB/s
+Image Name:   MIPS OpenWrt fakeroot
+Created:      Sat Dec  6 07:26:22 2014
+Image Type:   MIPS Linux Filesystem Image (uncompressed)
+Data Size:    131072 Bytes = 128.00 kB = 0.12 MB
+Load Address: bf070000
+Entry Point:  bf070000
+Pseudo file "/dev" exists in source filesystem "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/root-ar71xx/dev".
+Ignoring, exclude it (-e/-ef) to override.
+Parallel mksquashfs: Using 1 processor
+Creating 4.0 filesystem on /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/root.squashfs, block size 262144.
+[|                                                               ]   0/431   0%[==============|                                                 ] 100/431  23%[=============================\                                  ] 200/431  46%[===========================================|                    ] 300/431  69%[==========================================================|     ] 400/431  92%[===============================================================|] 431/431 100%
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments, no xattrs
+	duplicates are removed
+Filesystem size 1907.81 Kbytes (1.86 Mbytes)
+	35.39% of uncompressed filesystem size (5390.73 Kbytes)
+Inode table size 5346 bytes (5.22 Kbytes)
+	23.84% of uncompressed inode table size (22424 bytes)
+Directory table size 6604 bytes (6.45 Kbytes)
+	51.00% of uncompressed directory table size (12948 bytes)
+Number of duplicate files found 4
+Number of inodes 667
+Number of files 429
+Number of fragments 15
+Number of symbolic links  182
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 55
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+padding image to 001e0000
+padding image to 001dd000
+padding image to 001de000
+padding image to 001e0000
+padding image to 00200000
+16+1 records in
+17+0 records out
+2228224 bytes (2.2 MB) copied, 0.00294335 s, 757 MB/s
+ubinize: volume size was not specified in section "rootfs", assume minimum to fit image "root.squashfs"1953598 bytes (1.9 MiB)
+4096+0 records in
+4096+0 records out
+2097152 bytes (2.1 MB) copied, 0.0242688 s, 86.4 MB/s
+5888+0 records in
+5888+0 records out
+3014656 bytes (3.0 MB) copied, 0.0343832 s, 87.7 MB/s
+sysupgrade-wndr3700v4/
+sysupgrade-wndr3700v4/CONTROL
+sysupgrade-wndr3700v4/kernel
+sysupgrade-wndr3700v4/root
+ubinize: volume size was not specified in section "rootfs", assume minimum to fit image "root.squashfs"1953598 bytes (1.9 MiB)
+4096+0 records in
+4096+0 records out
+2097152 bytes (2.1 MB) copied, 0.0136446 s, 154 MB/s
+5888+0 records in
+5888+0 records out
+3014656 bytes (3.0 MB) copied, 0.0175259 s, 172 MB/s
+sysupgrade-wndr4300/
+sysupgrade-wndr4300/CONTROL
+sysupgrade-wndr4300/kernel
+sysupgrade-wndr4300/root

@@ -1,0 +1,166 @@
+-- The C compiler identification is GNU 4.8.3
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc
+-- Check for working C compiler: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mips-openwrt-linux-uclibc-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Found PkgConfig: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/pkg-config (found version "0.28") 
+-- checking for modules 'json-c;json'
+--   found json-c, version 0.11
+--   found json, version 0.11
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_INCLUDE
+    DL_LIBRARY
+
+
+-- Build files have been written to: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target ubox
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[  3%] Building C object CMakeFiles/ubox.dir/avl.c.o
+[  6%] Building C object CMakeFiles/ubox.dir/avl-cmp.c.o
+[  9%] Building C object CMakeFiles/ubox.dir/blob.c.o
+[ 12%] Building C object CMakeFiles/ubox.dir/blobmsg.c.o
+[ 15%] Building C object CMakeFiles/ubox.dir/uloop.c.o
+[ 18%] Building C object CMakeFiles/ubox.dir/usock.c.o
+[ 21%] Building C object CMakeFiles/ubox.dir/ustream.c.o
+[ 25%] Building C object CMakeFiles/ubox.dir/ustream-fd.c.o
+[ 28%] Building C object CMakeFiles/ubox.dir/vlist.c.o
+[ 31%] Building C object CMakeFiles/ubox.dir/utils.c.o
+[ 34%] Building C object CMakeFiles/ubox.dir/safe_list.c.o
+[ 37%] Building C object CMakeFiles/ubox.dir/runqueue.c.o
+[ 40%] Building C object CMakeFiles/ubox.dir/md5.c.o
+[ 43%] Building C object CMakeFiles/ubox.dir/kvlist.c.o
+Linking C shared library libubox.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 43%] Built target ubox
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target blobmsg_json
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 46%] Building C object CMakeFiles/blobmsg_json.dir/blobmsg_json.c.o
+Linking C shared library libblobmsg_json.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 46%] Built target blobmsg_json
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target jshn
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 50%] Building C object CMakeFiles/jshn.dir/jshn.c.o
+Linking C executable jshn
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 50%] Built target jshn
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target json_script
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 53%] Building C object CMakeFiles/json_script.dir/json_script.c.o
+Linking C shared library libjson_script.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 53%] Built target json_script
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target ubox-static
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 56%] Building C object CMakeFiles/ubox-static.dir/avl.c.o
+[ 59%] Building C object CMakeFiles/ubox-static.dir/avl-cmp.c.o
+[ 62%] Building C object CMakeFiles/ubox-static.dir/blob.c.o
+[ 65%] Building C object CMakeFiles/ubox-static.dir/blobmsg.c.o
+[ 68%] Building C object CMakeFiles/ubox-static.dir/uloop.c.o
+[ 71%] Building C object CMakeFiles/ubox-static.dir/usock.c.o
+[ 75%] Building C object CMakeFiles/ubox-static.dir/ustream.c.o
+[ 78%] Building C object CMakeFiles/ubox-static.dir/ustream-fd.c.o
+[ 81%] Building C object CMakeFiles/ubox-static.dir/vlist.c.o
+[ 84%] Building C object CMakeFiles/ubox-static.dir/utils.c.o
+[ 87%] Building C object CMakeFiles/ubox-static.dir/safe_list.c.o
+[ 90%] Building C object CMakeFiles/ubox-static.dir/runqueue.c.o
+[ 93%] Building C object CMakeFiles/ubox-static.dir/md5.c.o
+[ 96%] Building C object CMakeFiles/ubox-static.dir/kvlist.c.o
+Linking C static library libubox.a
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 96%] Built target ubox-static
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Scanning dependencies of target uloop_lua
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[100%] Building C object lua/CMakeFiles/uloop_lua.dir/uloop.c.o
+Linking C shared module uloop.so
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[100%] Built target uloop_lua
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 43%] Built target ubox
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 46%] Built target blobmsg_json
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 50%] Built target jshn
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 53%] Built target json_script
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[ 96%] Built target ubox-static
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+[100%] Built target uloop_lua
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/blobmsg_json.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/list.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/ustream.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/uloop.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/avl.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/utils.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/vlist.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/avl-cmp.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/md5.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/usock.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/blob.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/safe_list.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/kvlist.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/blobmsg.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/runqueue.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/include/libubox/json_script.h
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libubox.so
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libubox.a
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libblobmsg_json.so
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libblobmsg_json.so"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/bin/jshn
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/bin/jshn"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libjson_script.so
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/libjson_script.so"
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/share/libubox/jshn.sh
+-- Installing: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/lua/uloop.so
+-- Removed runtime path from "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-install/usr/lib/lua/uloop.so"
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libubox/lib/libubox.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libubox into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libubox_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ar71xx.ipk
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libubox'
+rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.libubox_installed
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libubox'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libblobmsg-json/lib/libblobmsg_json.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libblobmsg-json into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libblobmsg-json_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/jshn/usr/bin/jshn:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/jshn into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/jshn_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libjson-script/lib/libjson_script.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libjson-script into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libjson-script_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libubox-lua/usr/lib/lua/uloop.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libubox-2014-08-04/ipkg-ar71xx/libubox-lua into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libubox-lua_2014-08-04-dffbc09baf71b294185a36048166d00066d433b5_ar71xx.ipk

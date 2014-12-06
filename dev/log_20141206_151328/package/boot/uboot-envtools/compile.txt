@@ -1,0 +1,49 @@
+
+Applying ./patches/001-compile.patch using plaintext: 
+patching file tools/env/Makefile
+
+Applying ./patches/100-fw_env_gnu_source.patch using plaintext: 
+patching file tools/env/fw_env.c
+
+Applying ./patches/300-support-env-in-ubivol-chardev.patch using plaintext: 
+patching file tools/env/Makefile
+Hunk #1 succeeded at 24 (offset 4 lines).
+patching file tools/env/fw_env.c
+Hunk #1 succeeded at 30 with fuzz 1 (offset 1 line).
+Hunk #2 succeeded at 729 (offset -83 lines).
+Hunk #3 succeeded at 839 (offset -83 lines).
+Hunk #4 succeeded at 879 (offset -83 lines).
+Hunk #5 succeeded at 890 (offset -83 lines).
+Hunk #6 succeeded at 905 (offset -83 lines).
+Hunk #7 succeeded at 998 (offset -106 lines).
+Hunk #8 succeeded at 1007 (offset -106 lines).
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04'
+  GEN     include/autoconf.mk.dep
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/include/common.h:20:0:
+include/linux/bitops.h:4:23: fatal error: asm/types.h: No such file or directory
+ #include <asm/types.h>
+                       ^
+compilation terminated.
+  GEN     include/autoconf.mk
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/include/common.h:20:0:
+include/linux/bitops.h:4:23: fatal error: asm/types.h: No such file or directory
+ #include <asm/types.h>
+                       ^
+compilation terminated.
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  tools/env/crc32.o
+  HOSTCC  tools/env/ctype.o
+  HOSTCC  tools/env/env_attr.o
+  HOSTCC  tools/env/env_flags.o
+  HOSTCC  tools/env/fw_env.o
+  HOSTCC  tools/env/fw_env_main.o
+  HOSTCC  tools/env/linux_string.o
+  HOSTLD  tools/env/fw_printenv_unstripped
+  STRIP   tools/env/fw_printenv
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/ipkg-ar71xx/uboot-envtools/usr/sbin/fw_printenv:executable
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/ipkg-ar71xx/uboot-envtools/etc/config/ubootenv': No such file or directory
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/ipkg-ar71xx/uboot-envtools/etc/fw_env.config': No such file or directory
+mv: cannot stat 'CONTROL/conffiles.resolved': No such file or directory
+chmod: cannot access 'CONTROL/conffiles': No such file or directory
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/u-boot-2014.04/ipkg-ar71xx/uboot-envtools into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/uboot-envtools_2014.04-4_ar71xx.ipk

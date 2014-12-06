@@ -1,0 +1,286 @@
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22'
+/bin/bash ./mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make  install-recursive
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+Making install in doc
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd/doc'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info"
+ /usr/bin/install -c -m 644 ./bfd.info '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/bfd.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd/doc'
+Making install in po
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd/po'
+make[8]: Nothing to be done for `install'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd/po'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[9]: Nothing to be done for `install-exec-am'.
+test -z "" || /bin/mkdir -p ""
+test -z "" || /bin/mkdir -p ""
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/bfd'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+Making install in .
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+make[8]: Nothing to be done for `install-exec-am'.
+test -z "" || /bin/mkdir -p ""
+test -z "" || /bin/mkdir -p ""
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+Making install in po
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes/po'
+make[7]: Nothing to be done for `install'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes/po'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/opcodes'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make  install-recursive
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+Making install in doc
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/doc'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/doc'
+make[9]: Nothing to be done for `install-exec-am'.
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info"
+ /usr/bin/install -c -m 644 ./binutils.info '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/binutils.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1"
+ /usr/bin/install -c -m 644 'addr2line.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-addr2line.1'
+ /usr/bin/install -c -m 644 'ar.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-ar.1'
+ /usr/bin/install -c -m 644 'dlltool.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-dlltool.1'
+ /usr/bin/install -c -m 644 'nlmconv.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-nlmconv.1'
+ /usr/bin/install -c -m 644 'nm.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-nm.1'
+ /usr/bin/install -c -m 644 'objcopy.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-objcopy.1'
+ /usr/bin/install -c -m 644 'objdump.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-objdump.1'
+ /usr/bin/install -c -m 644 'ranlib.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-ranlib.1'
+ /usr/bin/install -c -m 644 'readelf.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-readelf.1'
+ /usr/bin/install -c -m 644 'size.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-size.1'
+ /usr/bin/install -c -m 644 'strings.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-strings.1'
+ /usr/bin/install -c -m 644 'strip.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-strip.1'
+ /usr/bin/install -c -m 644 'elfedit.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-elfedit.1'
+ /usr/bin/install -c -m 644 'windres.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-windres.1'
+ /usr/bin/install -c -m 644 'windmc.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-windmc.1'
+ /usr/bin/install -c -m 644 'c++filt.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-c++filt.1'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/doc'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/doc'
+Making install in po
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/po'
+make[8]: Nothing to be done for `install'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils/po'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin"
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c size '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-size'
+libtool: install: /usr/bin/install -c size /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-size
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c objdump '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-objdump'
+libtool: install: /usr/bin/install -c objdump /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-objdump
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c ar '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ar'
+libtool: install: /usr/bin/install -c ar /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ar
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c strings '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-strings'
+libtool: install: /usr/bin/install -c strings /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-strings
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c ranlib '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ranlib'
+libtool: install: /usr/bin/install -c ranlib /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ranlib
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c objcopy '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-objcopy'
+libtool: install: /usr/bin/install -c objcopy /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-objcopy
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c addr2line '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-addr2line'
+libtool: install: /usr/bin/install -c addr2line /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-addr2line
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c readelf '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-readelf'
+libtool: install: /usr/bin/install -c readelf /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-readelf
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c elfedit '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-elfedit'
+libtool: install: /usr/bin/install -c elfedit /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-elfedit
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin"
+ /bin/bash ./libtool  --mode=install /usr/bin/install -c nm-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-nm
+libtool: install: /usr/bin/install -c nm-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-nm
+ /bin/bash ./libtool  --mode=install /usr/bin/install -c strip-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-strip
+libtool: install: /usr/bin/install -c strip-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-strip
+ /bin/bash ./libtool  --mode=install /usr/bin/install -c cxxfilt /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-c++filt
+libtool: install: /usr/bin/install -c cxxfilt /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-c++filt
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin
+for i in nm-new strip-new ar ranlib dlltool objdump objcopy; do \
+	  if [ -f $i ]; then \
+	    j=`echo $i | sed -e 's/-new//'`; \
+	    k=`echo $j | sed 's&^&mips-openwrt-linux-uclibc-&'`; \
+	    if [ "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$k" != "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/$j" ]; then \
+	      rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/$j; \
+	      ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$k /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/$j >/dev/null 2>/dev/null \
+		|| /bin/bash ./libtool --mode=install /usr/bin/install -c $i /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/$j; \
+	    fi; \
+	  else true; \
+	  fi; \
+	done
+make[9]: Nothing to be done for `install-data-am'.
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/binutils'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+for f in standards.info configure.info; do \
+	  if test -f ./`echo $f | sed -e 's/.info$/.texi/'`; then \
+	    if make "MAKEINFO=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/missing makeinfo --split-size=5000000 --split-size=5000000" $f; then \
+	      true; \
+	    else \
+	      exit 1; \
+	    fi; \
+	  fi; \
+	done
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+make[7]: `standards.info' is up to date.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+make[7]: `configure.info' is up to date.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info
+if test ! -f standards.info; then cd .; fi; \
+	if test -f standards.info; then \
+	  for i in standards.info*; do \
+	    /usr/bin/install -c -m 644 $i /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/$i; \
+	  done; \
+	fi
+if test ! -f configure.info; then cd .; fi; \
+	if test -f configure.info; then \
+	  for i in configure.info*; do \
+	    /usr/bin/install -c -m 644 $i /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/$i; \
+	  done; \
+	fi
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/etc'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+Making install in doc
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/doc'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/doc'
+make[8]: Nothing to be done for `install-exec-am'.
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info"
+ /usr/bin/install -c -m 644 ./as.info '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/as.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1"
+ /usr/bin/install -c -m 644 'as.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-as.1'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/doc'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/doc'
+Making install in po
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/po'
+make[7]: Nothing to be done for `install'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas/po'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin
+ /bin/bash ./libtool  --mode=install /usr/bin/install -c as-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-as
+libtool: install: /usr/bin/install -c as-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/mips-openwrt-linux-uclibc-as
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin
+n=`echo as | sed 's&^&mips-openwrt-linux-uclibc-&'`; \
+	if [ "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$n" != "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/as" ]; then \
+	  rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/as; \
+	  ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$n /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/as >/dev/null 2>/dev/null \
+	    || /bin/bash ./libtool --mode=install /usr/bin/install -c as-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/as; \
+	else \
+	  true ; \
+	fi
+make[8]: Nothing to be done for `install-data-am'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gas'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make  install-recursive
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+Making install in po
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof/po'
+make[8]: Nothing to be done for `install'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof/po'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin"
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c gprof '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-gprof'
+libtool: install: /usr/bin/install -c gprof /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-gprof
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info"
+ /usr/bin/install -c -m 644 ./gprof.info '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/gprof.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1"
+ /usr/bin/install -c -m 644 'gprof.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-gprof.1'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/gprof'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/intl'
+make[6]: Nothing to be done for `install'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/intl'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make  install-recursive
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+Making install in po
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld/po'
+make[8]: Nothing to be done for `install'.
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld/po'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin"
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c ld-new '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ld.bfd'
+libtool: install: /usr/bin/install -c ld-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/./mips-openwrt-linux-uclibc-ld.bfd
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin
+n=`echo ld.bfd | sed 's/^ld-new$/ld.bfd/;s&^&mips-openwrt-linux-uclibc-&'`; \
+	if test "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" != "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin"; then \
+	  rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld.bfd; \
+	  ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$n /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld.bfd >/dev/null 2>/dev/null \
+	  || /bin/bash ./libtool --mode=install /usr/bin/install -c ld-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld.bfd; \
+	fi; \
+	if test "xyes" = "xyes"; then \
+	  ld=`echo ld | sed 's/^ld-new$/ld.bfd/;s&^&mips-openwrt-linux-uclibc-&'`; \
+	  rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$ld; \
+	  ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$n /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$ld >/dev/null 2>/dev/null \
+	  || /bin/bash ./libtool --mode=install /usr/bin/install -c ld-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$ld; \
+	  if test "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin" != "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin"; then \
+	    rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld; \
+	    ln /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/bin/$n /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld >/dev/null 2>/dev/null \
+	    || /bin/bash ./libtool --mode=install /usr/bin/install -c ld-new /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/mips-openwrt-linux-uclibc/bin/ld; \
+	  fi; \
+	fi
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/ldscripts
+mkdir -p -- /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/ldscripts
+for f in ldscripts/*; do \
+	  /usr/bin/install -c -m 644 $f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/$f ; \
+	done
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info"
+ /usr/bin/install -c -m 644 ./ld.info '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info'
+ install-info --info-dir='/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/info/ld.info'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+test -z "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1" || /bin/mkdir -p "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1"
+ /usr/bin/install -c -m 644 'ld.1' '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/share/man/man1/mips-openwrt-linux-uclibc-ld.1'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/ld'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty/testsuite'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty/testsuite'
+/bin/bash ./../mkinstalldirs /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/`x86_64-linux-gnu-gcc  -print-multi-os-directory`
+/usr/bin/install -c -m 644 ./libiberty.a /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/`x86_64-linux-gnu-gcc  -print-multi-os-directory`/./libiberty.an
+( cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/`x86_64-linux-gnu-gcc  -print-multi-os-directory` ; chmod 644 ./libiberty.an ;x86_64-linux-gnu-ranlib ./libiberty.an )
+mv -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/`x86_64-linux-gnu-gcc  -print-multi-os-directory`/./libiberty.an /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/lib/`x86_64-linux-gnu-gcc  -print-multi-os-directory`/./libiberty.a
+if test -n ""; then \
+	  case "" in \
+	    /*)    thd=;; \
+	    *)     thd=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/initial/include/;; \
+	  esac; \
+	  /bin/bash ./../mkinstalldirs ${thd}; \
+	  for h in ./../include/ansidecl.h ./../include/demangle.h ./../include/dyn-string.h ./../include/fibheap.h ./../include/floatformat.h ./../include/hashtab.h ./../include/libiberty.h ./../include/objalloc.h ./../include/partition.h ./../include/safe-ctype.h ./../include/sort.h ./../include/splay-tree.h; do \
+	    /usr/bin/install -c -m 644 $h ${thd}; \
+	  done; \
+	fi
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty/testsuite'
+make[7]: Nothing to be done for `install'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty/testsuite'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22/libiberty'
+make[5]: Nothing to be done for `install-target'.
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/binutils-2.22'

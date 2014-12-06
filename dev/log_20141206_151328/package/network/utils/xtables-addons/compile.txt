@@ -1,0 +1,756 @@
+
+Applying ./patches/001-no_depmod.patch using plaintext: 
+patching file Makefile.am
+
+Applying ./patches/002-fix-kernel-version-detection.patch using plaintext: 
+patching file configure
+patching file configure.ac
+
+Applying ./patches/003-fix-kernel-3.9.patch using plaintext: 
+patching file extensions/compat_xtables.h
+
+Applying ./patches/004-fix-kernel-3.14.patch using plaintext: 
+patching file extensions/compat_xtables.h
+
+Applying ./patches/100-add-rtsp-conntrack.patch using plaintext: 
+patching file extensions/rtsp/Kbuild
+patching file extensions/rtsp/netfilter_helpers.h
+patching file extensions/rtsp/netfilter_mime.h
+patching file extensions/rtsp/nf_conntrack_rtsp.c
+patching file extensions/rtsp/nf_conntrack_rtsp.h
+patching file extensions/rtsp/nf_nat_rtsp.c
+patching file extensions/Kbuild
+patching file mconfig
+
+Applying ./patches/101-rtsp-linux-3.6-compat.patch using plaintext: 
+patching file extensions/rtsp/nf_conntrack_rtsp.c
+
+Applying ./patches/102-rtsp-linux-3.7-compat.patch using plaintext: 
+patching file extensions/rtsp/nf_conntrack_rtsp.c
+patching file extensions/rtsp/nf_conntrack_rtsp.h
+patching file extensions/rtsp/nf_nat_rtsp.c
+
+Applying ./patches/200-add-lua-packetscript.patch using plaintext: 
+patching file extensions/LUA/byte_array.c
+patching file extensions/LUA/controller.c
+patching file extensions/LUA/controller.h
+patching file extensions/LUA/Kbuild
+patching file extensions/LUA/libxt_LUA.c
+patching file extensions/LUA/libxt_LUA.man
+patching file extensions/LUA/lua/include/ctype.h
+patching file extensions/LUA/lua/include/errno.h
+patching file extensions/LUA/lua/include/locale.h
+patching file extensions/LUA/lua/include/setjmp.h
+patching file extensions/LUA/lua/include/stdio.h
+patching file extensions/LUA/lua/include/stdlib.h
+patching file extensions/LUA/lua/include/string.h
+patching file extensions/LUA/lua/lapi.c
+patching file extensions/LUA/lua/lapi.h
+patching file extensions/LUA/lua/lauxlib.c
+patching file extensions/LUA/lua/lauxlib.h
+patching file extensions/LUA/lua/lbaselib.c
+patching file extensions/LUA/lua/lcode.c
+patching file extensions/LUA/lua/lcode.h
+patching file extensions/LUA/lua/ldebug.c
+patching file extensions/LUA/lua/ldebug.h
+patching file extensions/LUA/lua/ldo.c
+patching file extensions/LUA/lua/ldo.h
+patching file extensions/LUA/lua/ldump.c
+patching file extensions/LUA/lua/lfunc.c
+patching file extensions/LUA/lua/lfunc.h
+patching file extensions/LUA/lua/lgc.c
+patching file extensions/LUA/lua/lgc.h
+patching file extensions/LUA/lua/llex.c
+patching file extensions/LUA/lua/llex.h
+patching file extensions/LUA/lua/llimits.h
+patching file extensions/LUA/lua/lmem.c
+patching file extensions/LUA/lua/lmem.h
+patching file extensions/LUA/lua/lobject.c
+patching file extensions/LUA/lua/lobject.h
+patching file extensions/LUA/lua/lopcodes.c
+patching file extensions/LUA/lua/lopcodes.h
+patching file extensions/LUA/lua/lparser.c
+patching file extensions/LUA/lua/lparser.h
+patching file extensions/LUA/lua/lstate.c
+patching file extensions/LUA/lua/lstate.h
+patching file extensions/LUA/lua/lstring.c
+patching file extensions/LUA/lua/lstring.h
+patching file extensions/LUA/lua/lstrlib.c
+patching file extensions/LUA/lua/ltable.c
+patching file extensions/LUA/lua/ltable.h
+patching file extensions/LUA/lua/ltablib.c
+patching file extensions/LUA/lua/ltm.c
+patching file extensions/LUA/lua/ltm.h
+patching file extensions/LUA/lua/luaconf.h
+patching file extensions/LUA/lua/lua.h
+patching file extensions/LUA/lua/lualib.h
+patching file extensions/LUA/lua/lundump.c
+patching file extensions/LUA/lua/lundump.h
+patching file extensions/LUA/lua/lvm.c
+patching file extensions/LUA/lua/lvm.h
+patching file extensions/LUA/lua/lzio.c
+patching file extensions/LUA/lua/lzio.h
+patching file extensions/LUA/Makefile
+patching file extensions/LUA/Makefile.am
+patching file extensions/LUA/Makefile.in
+patching file extensions/LUA/Mbuild
+patching file extensions/LUA/nf_lua.c
+patching file extensions/LUA/prot_buf_dynamic.c
+patching file extensions/LUA/prot_buf_ethernet.c
+patching file extensions/LUA/prot_buf_helpers.c
+patching file extensions/LUA/prot_buf_icmp.c
+patching file extensions/LUA/prot_buf_ip.c
+patching file extensions/LUA/prot_buf_raw.c
+patching file extensions/LUA/prot_buf_tcp.c
+patching file extensions/LUA/prot_buf_tftp.c
+patching file extensions/LUA/prot_buf_udp.c
+patching file extensions/LUA/xt_LUA.h
+patching file extensions/LUA/xt_LUA.mod.c
+patching file extensions/LUA/xt_LUA_target.c
+patching file extensions/Kbuild
+patching file extensions/Mbuild
+patching file mconfig
+
+Applying ./patches/201-fix-lua-packetscript.patch using plaintext: 
+patching file extensions/LUA/xt_LUA_target.c
+patching file extensions/LUA/lua/llimits.h
+patching file extensions/LUA/lua/lapi.c
+patching file extensions/LUA/lua/ltable.c
+patching file extensions/LUA/lua/luaconf.h
+
+Applying ./patches/300-geoip-endian-detection.patch using plaintext: 
+patching file extensions/libxt_geoip.c
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal -I /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal -I m4 -I . --force -I m4
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+autoreconf: configure.ac: tracing
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/libtoolize --force
+OpenWrt-libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `build-aux'.
+OpenWrt-libtoolize: linking file `build-aux/ltmain.sh'
+OpenWrt-libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+OpenWrt-libtoolize: linking file `m4/libtool.m4'
+OpenWrt-libtoolize: linking file `m4/ltoptions.m4'
+OpenWrt-libtoolize: linking file `m4/ltsugar.m4'
+OpenWrt-libtoolize: linking file `m4/ltversion.m4'
+OpenWrt-libtoolize: linking file `m4/lt~obsolete.m4'
+main::scan_file() called too early to check prototype at /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/aclocal.real line 650.
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoconf --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/autoheader --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/host/share/aclocal --include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/share/aclocal --include=m4 --include=. --prepend-include=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/aclocal --force
+autoreconf: running: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/automake --add-missing --force-missing
+autoreconf: Leaving directory `.'
+configure: WARNING: unrecognized options: --disable-nls, --with-xtables
+configure: loading site script /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/include/site/mips-openwrt-linux-uclibc
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mips-openwrt-linux-strip... mips-openwrt-linux-uclibc-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for mips-openwrt-linux-gcc... mips-openwrt-linux-uclibc-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether mips-openwrt-linux-uclibc-gcc accepts -g... yes
+checking for mips-openwrt-linux-uclibc-gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of mips-openwrt-linux-uclibc-gcc... gcc3
+checking whether mips-openwrt-linux-uclibc-gcc and cc understand -c and -o together... yes
+checking for mips-openwrt-linux-ar... mips-openwrt-linux-uclibc-ar
+checking the archiver (mips-openwrt-linux-uclibc-ar) interface... ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mips-openwrt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by mips-openwrt-linux-uclibc-gcc... mips-openwrt-linux-uclibc-ld
+checking if the linker (mips-openwrt-linux-uclibc-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mips-openwrt-linux-uclibc-nm
+checking the name lister (mips-openwrt-linux-uclibc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mips-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mips-openwrt-linux-uclibc-ld option to reload object files... -r
+checking for mips-openwrt-linux-objdump... mips-openwrt-linux-uclibc-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mips-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mips-openwrt-linux-ar... (cached) mips-openwrt-linux-uclibc-ar
+checking for archiver @FILE support... @
+checking for mips-openwrt-linux-strip... (cached) mips-openwrt-linux-uclibc-strip
+checking for mips-openwrt-linux-ranlib... mips-openwrt-linux-uclibc-ranlib
+checking command to parse mips-openwrt-linux-uclibc-nm output from mips-openwrt-linux-uclibc-gcc object... ok
+checking for sysroot... no
+checking for mips-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... mips-openwrt-linux-uclibc-gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if mips-openwrt-linux-uclibc-gcc supports -fno-rtti -fno-exceptions... no
+checking for mips-openwrt-linux-uclibc-gcc option to produce PIC... -fPIC -DPIC
+checking if mips-openwrt-linux-uclibc-gcc PIC flag -fPIC -DPIC works... yes
+checking if mips-openwrt-linux-uclibc-gcc static flag -static works... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... yes
+checking if mips-openwrt-linux-uclibc-gcc supports -c -o file.o... (cached) yes
+checking whether the mips-openwrt-linux-uclibc-gcc linker (mips-openwrt-linux-uclibc-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking linux/netfilter/x_tables.h usability... yes
+checking linux/netfilter/x_tables.h presence... yes
+checking for linux/netfilter/x_tables.h... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for libxtables... yes
+checking Xtables module directory... /usr/lib/iptables
+checking kernel version that we will build against... 3.10.49.0 in /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile.iptrules
+config.status: creating Makefile.mans
+config.status: creating geoip/Makefile
+config.status: creating extensions/Makefile
+config.status: creating extensions/ACCOUNT/Makefile
+config.status: creating extensions/pknock/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls, --with-xtables
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+Making all in extensions
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+Xtables-addons 2.3 - Linux 3.10.49
+if [ -n "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49" ]; then make -C /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49 M=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions modules; fi;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/compat_xtables.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_CHAOS.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DELUDE.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DHCPMAC.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DNETMAP.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ECHO.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_IPMARK.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_LOGMARK.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_RAWNAT.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/iptable_rawpost.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ip6table_rawpost.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_SYSRQ.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_STEAL.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_TARPIT.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_condition.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_fuzzy.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_geoip.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_iface.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipp2p.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipv4options.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_length2.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_lscan.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_psd.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_quota2.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT/xt_ACCOUNT.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/xt_LUA_target.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/nf_lua.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_helpers.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/byte_array.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/controller.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_ethernet.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_icmp.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_ip.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_raw.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_tcp.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_udp.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_tftp.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/prot_buf_dynamic.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lapi.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lbaselib.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lcode.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ldebug.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ldo.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ldump.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lfunc.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lgc.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/llex.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lmem.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lobject.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lopcodes.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lparser.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lstate.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lstring.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lstrlib.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ltable.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ltablib.o
+In file included from include/asm-generic/bug.h:13:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49/arch/mips/include/asm/bug.h:41,
+                 from include/linux/bug.h:4,
+                 from include/linux/thread_info.h:11,
+                 from include/linux/preempt.h:9,
+                 from include/linux/spinlock.h:50,
+                 from include/linux/mmzone.h:7,
+                 from include/linux/gfp.h:4,
+                 from include/linux/slab.h:12,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lauxlib.h:13,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ltablib.c:15:
+include/linux/kernel.h:19:0: warning: "SHRT_MAX" redefined [enabled by default]
+ #define SHRT_MAX ((s16)(USHRT_MAX>>1))
+ ^
+In file included from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lua.h:15:0,
+                 from /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ltablib.c:13:
+/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/luaconf.h:21:0: note: this is the location of the previous definition
+ #define SHRT_MAX        32767
+ ^
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/ltm.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lundump.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lvm.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lzio.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/lua/lauxlib.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/xt_LUA.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock/xt_pknock.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_nat_rtsp.o
+  CC [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_conntrack_rtsp.o
+  Building modules, stage 2.
+  MODPOST 29 modules
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT/xt_ACCOUNT.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT/xt_ACCOUNT.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/xt_LUA.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/xt_LUA.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/compat_xtables.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/compat_xtables.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ip6table_rawpost.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ip6table_rawpost.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/iptable_rawpost.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/iptable_rawpost.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock/xt_pknock.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock/xt_pknock.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_conntrack_rtsp.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_conntrack_rtsp.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_nat_rtsp.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_nat_rtsp.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_CHAOS.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_CHAOS.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DELUDE.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DELUDE.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DHCPMAC.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DHCPMAC.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DNETMAP.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DNETMAP.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ECHO.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ECHO.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_IPMARK.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_IPMARK.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_LOGMARK.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_LOGMARK.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_RAWNAT.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_RAWNAT.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_STEAL.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_STEAL.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_SYSRQ.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_SYSRQ.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_TARPIT.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_TARPIT.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_condition.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_condition.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_fuzzy.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_fuzzy.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_geoip.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_geoip.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_iface.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_iface.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipp2p.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipp2p.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipv4options.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipv4options.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_length2.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_length2.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_lscan.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_lscan.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_psd.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_psd.ko
+  CC      /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_quota2.mod.o
+  LD [M]  /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_quota2.ko
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+make -f ../Makefile.iptrules all;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+  CC     libxt_CHAOS.oo
+  CCLD   libxt_CHAOS.so
+  CC     libxt_DELUDE.oo
+  CCLD   libxt_DELUDE.so
+  CC     libxt_DHCPMAC.oo
+  CCLD   libxt_DHCPMAC.so
+  CC     libxt_dhcpmac.oo
+  CCLD   libxt_dhcpmac.so
+  CC     libxt_DNETMAP.oo
+  CCLD   libxt_DNETMAP.so
+  CC     libxt_ECHO.oo
+  CCLD   libxt_ECHO.so
+  CC     libxt_IPMARK.oo
+  CCLD   libxt_IPMARK.so
+  CC     libxt_LOGMARK.oo
+  CCLD   libxt_LOGMARK.so
+  CC     libxt_RAWDNAT.oo
+  CCLD   libxt_RAWDNAT.so
+  CC     libxt_RAWSNAT.oo
+  CCLD   libxt_RAWSNAT.so
+  CC     libxt_STEAL.oo
+  CCLD   libxt_STEAL.so
+  CC     libxt_SYSRQ.oo
+  CCLD   libxt_SYSRQ.so
+  CC     libxt_TARPIT.oo
+  CCLD   libxt_TARPIT.so
+  CC     libxt_condition.oo
+  CCLD   libxt_condition.so
+  CC     libxt_fuzzy.oo
+  CCLD   libxt_fuzzy.so
+  CC     libxt_geoip.oo
+  CCLD   libxt_geoip.so
+  CC     libxt_iface.oo
+  CCLD   libxt_iface.so
+  CC     libxt_ipp2p.oo
+  CCLD   libxt_ipp2p.so
+  CC     libxt_ipv4options.oo
+  CCLD   libxt_ipv4options.so
+  CC     libxt_length2.oo
+  CCLD   libxt_length2.so
+  CC     libxt_lscan.oo
+  CCLD   libxt_lscan.so
+  CC     libxt_psd.oo
+  CCLD   libxt_psd.so
+  CC     libxt_quota2.oo
+  CCLD   libxt_quota2.so
+  CC     libxt_gradm.oo
+  CCLD   libxt_gradm.so
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+depbase=`echo libxt_ACCOUNT_cl.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../../libtool --tag=CC   --mode=compile mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I../..  -D_LARGEFILE_SOURCE=1 -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 	-D_REENTRANT -I../../include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT libxt_ACCOUNT_cl.lo -MD -MP -MF $depbase.Tpo -c -o libxt_ACCOUNT_cl.lo libxt_ACCOUNT_cl.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+OpenWrt-libtool: compile:  mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I../.. -D_LARGEFILE_SOURCE=1 -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 -D_REENTRANT -I../../include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include -Wall -Waggregate-return -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes -Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -MT libxt_ACCOUNT_cl.lo -MD -MP -MF .deps/libxt_ACCOUNT_cl.Tpo -c libxt_ACCOUNT_cl.c  -fPIC -DPIC -o .libs/libxt_ACCOUNT_cl.o
+/bin/bash ../../libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o libxt_ACCOUNT_cl.la -rpath /usr/lib libxt_ACCOUNT_cl.lo  
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -shared  -fPIC -DPIC  .libs/libxt_ACCOUNT_cl.o   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -Os -mno-branch-likely -mips32r2 -mtune=34kc -msoft-float -mips16 -minterlink-mips16   -Wl,-soname -Wl,libxt_ACCOUNT_cl.so.0 -o .libs/libxt_ACCOUNT_cl.so.0.0.0
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libxt_ACCOUNT_cl.so.0" && ln -s "libxt_ACCOUNT_cl.so.0.0.0" "libxt_ACCOUNT_cl.so.0")
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libxt_ACCOUNT_cl.so" && ln -s "libxt_ACCOUNT_cl.so.0.0.0" "libxt_ACCOUNT_cl.so")
+OpenWrt-libtool: link: ( cd ".libs" && rm -f "libxt_ACCOUNT_cl.la" && ln -s "../libxt_ACCOUNT_cl.la" "libxt_ACCOUNT_cl.la" )
+depbase=`echo iptaccount.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I../..  -D_LARGEFILE_SOURCE=1 -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 	-D_REENTRANT -I../../include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT iptaccount.o -MD -MP -MF $depbase.Tpo -c -o iptaccount.o iptaccount.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/bash ../../libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o iptaccount iptaccount.o libxt_ACCOUNT_cl.la 
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -Wall -Waggregate-return -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes -Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -o .libs/iptaccount iptaccount.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib ./.libs/libxt_ACCOUNT_cl.so
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+  CC     libxt_ACCOUNT.oo
+  CCLD   libxt_ACCOUNT.so
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+depbase=`echo pknlusr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+	mips-openwrt-linux-uclibc-gcc -DHAVE_CONFIG_H -I. -I../..  -D_LARGEFILE_SOURCE=1 -D_LARGE_FILES -D_FILE_OFFSET_BITS=64 	-D_REENTRANT -I../../include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/include -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/include  -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16  -MT pknlusr.o -MD -MP -MF $depbase.Tpo -c -o pknlusr.o pknlusr.c &&\
+	mv -f $depbase.Tpo $depbase.Po
+/bin/bash ../../libtool --tag=CC   --mode=link mips-openwrt-linux-uclibc-gcc -Wall -Waggregate-return -Wmissing-declarations 	-Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes 	-Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include  -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16   -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib  -o pknlusr pknlusr.o  
+OpenWrt-libtool: link: mips-openwrt-linux-uclibc-gcc -Wall -Waggregate-return -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wshadow -Wstrict-prototypes -Winline -pipe -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=34kc -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -msoft-float -mips16 -minterlink-mips16 -o pknlusr pknlusr.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/usr/lib -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/toolchain-mips_34kc_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+  CC     libxt_pknock.oo
+  CCLD   libxt_pknock.so
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+  CC     libxt_LUA.oo
+  CCLD   libxt_LUA.so
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+Making all in geoip
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f Makefile.mans all;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+for ext in ./extensions/libxt_condition.man ./extensions/libxt_dhcpmac.man ./extensions/libxt_fuzzy.man ./extensions/libxt_geoip.man ./extensions/libxt_gradm.man ./extensions/libxt_iface.man ./extensions/libxt_ipp2p.man ./extensions/libxt_ipv4options.man ./extensions/libxt_length2.man ./extensions/libxt_lscan.man ./extensions/libxt_psd.man ./extensions/libxt_quota2.man ./extensions/pknock/libxt_pknock.man; do name="${ext%.man}"; name="${name##*/libxt_}"; if [ -f "$ext" ]; then echo ".SS $name"; cat "$ext" || exit $?; continue; fi; done >matches.man;
+for ext in ./extensions/ACCOUNT/libxt_ACCOUNT.man ./extensions/LUA/libxt_LUA.man ./extensions/libxt_CHAOS.man ./extensions/libxt_DELUDE.man ./extensions/libxt_DHCPMAC.man ./extensions/libxt_DNETMAP.man ./extensions/libxt_ECHO.man ./extensions/libxt_IPMARK.man ./extensions/libxt_LOGMARK.man ./extensions/libxt_RAWDNAT.man ./extensions/libxt_RAWSNAT.man ./extensions/libxt_STEAL.man ./extensions/libxt_SYSRQ.man ./extensions/libxt_TARPIT.man; do name="${ext%.man}"; name="${name##*/libxt_}"; if [ -f "$ext" ]; then echo ".SS $name"; cat "$ext" || exit $?; continue; fi; done >targets.man;
+sed -e '/@MATCHES@/ r matches.man' -e '/@TARGET@/ r targets.man' xtables-addons.8.in >xtables-addons.8;
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+Making install in extensions
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+Xtables-addons 2.3 - Linux 3.10.49
+if [ -n "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49" ]; then make -C /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49 M=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions modules; fi;
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+  Building modules, stage 2.
+  MODPOST 29 modules
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+make -f ../Makefile.iptrules all;
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make -f ../../Makefile.iptrules all;
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make -f ../../Makefile.iptrules all;
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f ../../Makefile.iptrules all;
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+if [ -n "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49" ]; then make -C /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49 M=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions INSTALL_MOD_PATH=/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install ext-mod-dir='${INSTALL_MOD_DIR}' modules_install; fi;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT/xt_ACCOUNT.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA/xt_LUA.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/compat_xtables.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ip6table_rawpost.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/iptable_rawpost.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock/xt_pknock.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_conntrack_rtsp.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/rtsp/nf_nat_rtsp.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_CHAOS.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DELUDE.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DHCPMAC.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_DNETMAP.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ECHO.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_IPMARK.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_LOGMARK.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_RAWNAT.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_STEAL.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_SYSRQ.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_TARPIT.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_condition.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_fuzzy.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_geoip.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_iface.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipp2p.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_ipv4options.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_length2.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_lscan.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_psd.ko
+  INSTALL /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/xt_quota2.ko
+  DEPMOD  3.10.49
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/linux-3.10.49'
+make -f ../Makefile.iptrules install;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make -f ../../Makefile.iptrules install;
+make[10]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+install -dm0755 "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install//usr/lib/iptables";
+make[10]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libxt_ACCOUNT_cl.la '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib'
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libxt_ACCOUNT_cl.so.0.0.0 /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib/libxt_ACCOUNT_cl.so.0.0.0
+OpenWrt-libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib && { ln -s -f libxt_ACCOUNT_cl.so.0.0.0 libxt_ACCOUNT_cl.so.0 || { rm -f libxt_ACCOUNT_cl.so.0 && ln -s libxt_ACCOUNT_cl.so.0.0.0 libxt_ACCOUNT_cl.so.0; }; })
+OpenWrt-libtool: install: (cd /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib && { ln -s -f libxt_ACCOUNT_cl.so.0.0.0 libxt_ACCOUNT_cl.so || { rm -f libxt_ACCOUNT_cl.so && ln -s libxt_ACCOUNT_cl.so.0.0.0 libxt_ACCOUNT_cl.so; }; })
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libxt_ACCOUNT_cl.lai /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib/libxt_ACCOUNT_cl.la
+OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/sbin'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c iptaccount '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/sbin'
+OpenWrt-libtool: install: warning: `libxt_ACCOUNT_cl.la' has not been installed in `/usr/lib'
+OpenWrt-libtool: install: /usr/bin/install -c .libs/iptaccount /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/sbin/iptaccount
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man8'
+ /usr/bin/install -c -m 644 iptaccount.8 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man8'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/ACCOUNT'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make -f ../../Makefile.iptrules install;
+make[10]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+install -dm0755 "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install//usr/lib/iptables";
+make[10]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[9]: Nothing to be done for `install-data-am'.
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/pknock'
+make[8]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f ../../Makefile.iptrules all;
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[9]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[10]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[10]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[10]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[10]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f ../../Makefile.iptrules install;
+make[10]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+install -dm0755 "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install//usr/lib/iptables";
+make[10]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[9]: Nothing to be done for `install-data-am'.
+make[9]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+make[8]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions/LUA'
+install -dm0755 "/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install//usr/lib/iptables";
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[6]: Nothing to be done for `install-data-am'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/extensions'
+Making install in geoip
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib/xtables-addons'
+ /usr/bin/install -c xt_geoip_build xt_geoip_dl '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/lib/xtables-addons'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man1'
+ /usr/bin/install -c -m 644 xt_geoip_build.1 xt_geoip_dl.1 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man1'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/geoip'
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make -f Makefile.mans all;
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[6]: Nothing to be done for `install-exec-am'.
+make -f Makefile.mans all;
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+ /bin/mkdir -p '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man8'
+ /usr/bin/install -c -m 644 xtables-addons.8 '/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-install/usr/man/man8'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3'
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-compat-xtables/lib/modules/3.10.49/compat_xtables.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-compat-xtables into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-compat-xtables_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-rawpost/lib/modules/3.10.49/ip6table_rawpost.ko:relocatable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-rawpost/lib/modules/3.10.49/iptable_rawpost.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-rawpost into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-rawpost_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-nathelper-rtsp/lib/modules/3.10.49/nf_conntrack_rtsp.ko:relocatable
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-nathelper-rtsp/lib/modules/3.10.49/nf_nat_rtsp.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-nathelper-rtsp into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-nathelper-rtsp_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-account/lib/modules/3.10.49/xt_ACCOUNT.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-account into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-account_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-account/usr/lib/iptables/libxt_ACCOUNT.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-account into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-account_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-delude/lib/modules/3.10.49/xt_DELUDE.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-delude into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-delude_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-tarpit/lib/modules/3.10.49/xt_TARPIT.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-tarpit into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-tarpit_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-chaos/lib/modules/3.10.49/xt_CHAOS.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-chaos into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-chaos_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-chaos/usr/lib/iptables/libxt_CHAOS.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-chaos into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-chaos_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-condition/lib/modules/3.10.49/xt_condition.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-condition into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-condition_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-condition/usr/lib/iptables/libxt_condition.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-condition into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-condition_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-delude/usr/lib/iptables/libxt_DELUDE.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-delude into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-delude_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-dhcpmac/lib/modules/3.10.49/xt_DHCPMAC.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-dhcpmac into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-dhcpmac_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-dhcpmac/usr/lib/iptables/libxt_DHCPMAC.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-dhcpmac into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-dhcpmac_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-dnetmap/lib/modules/3.10.49/xt_DNETMAP.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-dnetmap into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-dnetmap_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-dnetmap/usr/lib/iptables/libxt_DNETMAP.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-dnetmap into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-dnetmap_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-fuzzy/lib/modules/3.10.49/xt_fuzzy.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-fuzzy into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-fuzzy_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-fuzzy/usr/lib/iptables/libxt_fuzzy.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-fuzzy into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-fuzzy_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-geoip/lib/modules/3.10.49/xt_geoip.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-geoip into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-geoip_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-geoip/usr/lib/iptables/libxt_geoip.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-geoip into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-geoip_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-iface/lib/modules/3.10.49/xt_iface.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-iface into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-iface_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-iface/usr/lib/iptables/libxt_iface.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-iface into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-iface_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipmark/lib/modules/3.10.49/xt_IPMARK.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipmark into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-ipmark_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipmark/usr/lib/iptables/libxt_IPMARK.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipmark into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-ipmark_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipp2p/lib/modules/3.10.49/xt_ipp2p.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipp2p into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-ipp2p_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipp2p/usr/lib/iptables/libxt_ipp2p.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipp2p into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-ipp2p_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipv4options/lib/modules/3.10.49/xt_ipv4options.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-ipv4options into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-ipv4options_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipv4options/usr/lib/iptables/libxt_ipv4options.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-ipv4options into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-ipv4options_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-length2/lib/modules/3.10.49/xt_length2.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-length2 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-length2_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-length2/usr/lib/iptables/libxt_length2.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-length2 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-length2_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-logmark/lib/modules/3.10.49/xt_LOGMARK.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-logmark into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-logmark_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-logmark/usr/lib/iptables/libxt_LOGMARK.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-logmark into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-logmark_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-lscan/lib/modules/3.10.49/xt_lscan.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-lscan into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-lscan_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-lscan/usr/lib/iptables/libxt_lscan.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-lscan into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-lscan_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-lua/lib/modules/3.10.49/xt_LUA.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-lua into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-lua_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-lua/usr/lib/iptables/libxt_LUA.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-lua into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-lua_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-psd/lib/modules/3.10.49/xt_psd.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-psd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-psd_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-psd/usr/lib/iptables/libxt_psd.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-psd into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-psd_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-quota2/lib/modules/3.10.49/xt_quota2.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-quota2 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-quota2_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-quota2/usr/lib/iptables/libxt_quota2.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-quota2 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-quota2_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-rawnat/lib/modules/3.10.49/xt_RAWNAT.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-rawnat into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-rawnat_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-rawnat/usr/lib/iptables/libxt_RAWSNAT.so:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-rawnat/usr/lib/iptables/libxt_RAWDNAT.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-rawnat into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-rawnat_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-steal/lib/modules/3.10.49/xt_STEAL.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-steal into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-steal_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-steal/usr/lib/iptables/libxt_STEAL.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-steal into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-steal_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-sysrq/lib/modules/3.10.49/xt_SYSRQ.ko:relocatable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/kmod-ipt-sysrq into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-ipt-sysrq_3.10.49+2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-sysrq/usr/lib/iptables/libxt_SYSRQ.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-sysrq into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-sysrq_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-tarpit/usr/lib/iptables/libxt_TARPIT.so:shared object
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptables-mod-tarpit into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptables-mod-tarpit_2.3-1_ar71xx.ipk
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptaccount/usr/lib/libxt_ACCOUNT_cl.so.0.0.0:shared object
+rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptaccount/usr/sbin/iptaccount:executable
+Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/xtables-addons-2.3/ipkg-ar71xx/iptaccount into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/iptaccount_2.3-1_ar71xx.ipk

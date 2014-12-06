@@ -1,0 +1,558 @@
+
+Applying ./patches/100-remove_no_undefined.patch using plaintext: 
+patching file Makefile.am
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for style of include used by make... GNU
+checking for x86_64-linux-gnu-gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep
+checking for egrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -E
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for x86_64-linux-gnu-gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking for x86_64-linux-gnu-g++... x86_64-linux-gnu-g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether x86_64-linux-gnu-g++ accepts -g... yes
+checking dependency style of x86_64-linux-gnu-g++... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/sed
+checking for fgrep... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for x86_64-linux-gnu-objdump... x86_64-linux-gnu-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-linux-gnu-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-linux-gnu-ar... x86_64-linux-gnu-ar
+checking for archiver @FILE support... @
+checking for x86_64-linux-gnu-strip... x86_64-linux-gnu-strip
+checking for x86_64-linux-gnu-ranlib... x86_64-linux-gnu-ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for x86_64-linux-gnu-mt... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... x86_64-linux-gnu-g++ -E
+checking for ld used by x86_64-linux-gnu-g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the x86_64-linux-gnu-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for x86_64-linux-gnu-g++ option to produce PIC... -fPIC -DPIC
+checking if x86_64-linux-gnu-g++ PIC flag -fPIC -DPIC works... yes
+checking if x86_64-linux-gnu-g++ static flag -static works... yes
+checking if x86_64-linux-gnu-g++ supports -c -o file.o... yes
+checking if x86_64-linux-gnu-g++ supports -c -o file.o... (cached) yes
+checking whether the x86_64-linux-gnu-g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gawk... (cached) gawk
+checking for bison... /usr/bin/bison
+checking for help2man... /usr/bin/help2man
+checking for m4 that supports -P... /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/m4
+checking for indent... indent
+configure: WARNING: no indent program found: make indent target will not function
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for log10 in -lm... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for dup2... yes
+checking for isascii... yes
+checking for memset... yes
+checking for pow... yes
+checking for regcomp... yes
+checking for setlocale... yes
+checking for strchr... yes
+checking for strtol... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/fastwc/Makefile
+config.status: creating examples/manual/Makefile
+config.status: creating lib/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tests/Makefile
+config.status: creating tests/TEMPLATE/Makefile
+config.status: creating tests/test-array-nr/Makefile
+config.status: creating tests/test-array-r/Makefile
+config.status: creating tests/test-basic-nr/Makefile
+config.status: creating tests/test-basic-r/Makefile
+config.status: creating tests/test-bison-yylloc/Makefile
+config.status: creating tests/test-bison-yylval/Makefile
+config.status: creating tests/test-c-cpp-nr/Makefile
+config.status: creating tests/test-c-cpp-r/Makefile
+config.status: creating tests/test-header-nr/Makefile
+config.status: creating tests/test-header-r/Makefile
+config.status: creating tests/test-include-by-buffer/Makefile
+config.status: creating tests/test-include-by-push/Makefile
+config.status: creating tests/test-include-by-reentrant/Makefile
+config.status: creating tests/test-multiple-scanners-nr/Makefile
+config.status: creating tests/test-multiple-scanners-r/Makefile
+config.status: creating tests/test-noansi-nr/Makefile
+config.status: creating tests/test-noansi-r/Makefile
+config.status: creating tests/test-prefix-nr/Makefile
+config.status: creating tests/test-prefix-r/Makefile
+config.status: creating tests/test-pthread/Makefile
+config.status: creating tests/test-string-nr/Makefile
+config.status: creating tests/test-string-r/Makefile
+config.status: creating tests/test-yyextra/Makefile
+config.status: creating tests/test-alloc-extra/Makefile
+config.status: creating tests/test-lineno-nr/Makefile
+config.status: creating tests/test-lineno-trailing/Makefile
+config.status: creating tests/test-lineno-r/Makefile
+config.status: creating tests/test-linedir-r/Makefile
+config.status: creating tests/test-debug-r/Makefile
+config.status: creating tests/test-debug-nr/Makefile
+config.status: creating tests/test-mem-nr/Makefile
+config.status: creating tests/test-mem-r/Makefile
+config.status: creating tests/test-posix/Makefile
+config.status: creating tests/test-posixly-correct/Makefile
+config.status: creating tests/test-table-opts/Makefile
+config.status: creating tests/test-c++-basic/Makefile
+config.status: creating tests/test-bison-nr/Makefile
+config.status: creating tests/test-reject/Makefile
+config.status: creating tests/test-c++-multiple-scanners/Makefile
+config.status: creating tests/test-top/Makefile
+config.status: creating tests/test-rescan-nr/Makefile
+config.status: creating tests/test-rescan-r/Makefile
+config.status: creating tests/test-quotes/Makefile
+config.status: creating tests/test-ccl/Makefile
+config.status: creating tests/test-extended/Makefile
+config.status: creating tests/test-c++-yywrap/Makefile
+config.status: creating tests/test-concatenated-options/Makefile
+config.status: creating config.h
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+ cd . && /bin/bash /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/missing --run automake-1.11 --gnu Makefile
+aclocal.m4:17: warning: this file was generated for autoconf 2.69.
+You have another version of autoconf.  It may work, but is not guaranteed to.
+If you have problems, you may need to regenerate the build system entirely.
+To do so, use the procedure documented by the package, typically `autoreconf'.
+ cd . && /bin/bash ./config.status Makefile depfiles
+config.status: creating Makefile
+config.status: executing depfiles commands
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+make  all-recursive
+make[5]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+Making all in lib
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/lib'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..   -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT lib.lo -MD -MP -MF .deps/lib.Tpo -c -o lib.lo lib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT lib.lo -MD -MP -MF .deps/lib.Tpo -c lib.c -o lib.o
+mv -f .deps/lib.Tpo .deps/lib.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib  -o libcompat.la  lib.lo  -lm 
+libtool: link: x86_64-linux-gnu-ar cru .libs/libcompat.a  lib.o
+libtool: link: x86_64-linux-gnu-ranlib .libs/libcompat.a
+libtool: link: ( cd ".libs" && rm -f "libcompat.la" && ln -s "../libcompat.la" "libcompat.la" )
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/lib'
+Making all in .
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+/bin/bash ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c -o libmain.lo libmain.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c libmain.c -o libmain.o
+mv -f .deps/libmain.Tpo .deps/libmain.Plo
+/bin/bash ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c -o libyywrap.lo libyywrap.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c libyywrap.c -o libyywrap.o
+mv -f .deps/libyywrap.Tpo .deps/libyywrap.Plo
+/bin/bash ./libtool --tag=CC   --mode=link gcc  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -version-info 2:0:0 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib  -o libfl.la -rpath /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib libmain.lo libyywrap.lo  -lm 
+libtool: link: x86_64-linux-gnu-ar cru .libs/libfl.a  libmain.o libyywrap.o
+libtool: link: x86_64-linux-gnu-ranlib .libs/libfl.a
+libtool: link: ( cd ".libs" && rm -f "libfl.la" && ln -s "../libfl.la" "libfl.la" )
+/bin/bash ./libtool --tag=CC   --mode=link gcc  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -version-info 2:0:0 -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib  -o libfl_pic.la -rpath /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib libmain.lo libyywrap.lo  -lm 
+libtool: link: x86_64-linux-gnu-ar cru .libs/libfl_pic.a  libmain.o libyywrap.o
+libtool: link: x86_64-linux-gnu-ranlib .libs/libfl_pic.a
+libtool: link: ( cd ".libs" && rm -f "libfl_pic.la" && ln -s "../libfl_pic.la" "libfl_pic.la" )
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT ccl.o -MD -MP -MF .deps/ccl.Tpo -c -o ccl.o ccl.c
+mv -f .deps/ccl.Tpo .deps/ccl.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o dfa.o dfa.c
+mv -f .deps/dfa.Tpo .deps/dfa.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT ecs.o -MD -MP -MF .deps/ecs.Tpo -c -o ecs.o ecs.c
+mv -f .deps/ecs.Tpo .deps/ecs.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT scanflags.o -MD -MP -MF .deps/scanflags.Tpo -c -o scanflags.o scanflags.c
+scanflags.c: In function 'sf_init':
+scanflags.c:65:13: warning: passing argument 2 of 'lerrsf_fatal' makes pointer from integer without a cast [enabled by default]
+             (long)sizeof(scanflags_t));
+             ^
+In file included from scanflags.c:34:0:
+flexdef.h:912:13: note: expected 'const char *' but argument is of type 'long int'
+ extern void lerrsf_fatal PROTO ((const char *, const char *));
+             ^
+mv -f .deps/scanflags.Tpo .deps/scanflags.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT gen.o -MD -MP -MF .deps/gen.Tpo -c -o gen.o gen.c
+mv -f .deps/gen.Tpo .deps/gen.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT nfa.o -MD -MP -MF .deps/nfa.Tpo -c -o nfa.o nfa.c
+mv -f .deps/nfa.Tpo .deps/nfa.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT parse.o -MD -MP -MF .deps/parse.Tpo -c -o parse.o parse.c
+mv -f .deps/parse.Tpo .deps/parse.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT scan.o -MD -MP -MF .deps/scan.Tpo -c -o scan.o scan.c
+mv -f .deps/scan.Tpo .deps/scan.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT skel.o -MD -MP -MF .deps/skel.Tpo -c -o skel.o skel.c
+mv -f .deps/skel.Tpo .deps/skel.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT sym.o -MD -MP -MF .deps/sym.Tpo -c -o sym.o sym.c
+mv -f .deps/sym.Tpo .deps/sym.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT tblcmp.o -MD -MP -MF .deps/tblcmp.Tpo -c -o tblcmp.o tblcmp.c
+mv -f .deps/tblcmp.Tpo .deps/tblcmp.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT yylex.o -MD -MP -MF .deps/yylex.Tpo -c -o yylex.o yylex.c
+mv -f .deps/yylex.Tpo .deps/yylex.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT options.o -MD -MP -MF .deps/options.Tpo -c -o options.o options.c
+mv -f .deps/options.Tpo .deps/options.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT scanopt.o -MD -MP -MF .deps/scanopt.Tpo -c -o scanopt.o scanopt.c
+mv -f .deps/scanopt.Tpo .deps/scanopt.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT buf.o -MD -MP -MF .deps/buf.Tpo -c -o buf.o buf.c
+buf.c: In function 'buf_linedir':
+buf.c:101:60: warning: assignment discards 'const' qualifier from pointer target type [enabled by default]
+     for (dst = t + sprintf (t, "#line %d \"", lineno), src = filename; *src; *dst++ = *src++)
+                                                            ^
+mv -f .deps/buf.Tpo .deps/buf.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT tables.o -MD -MP -MF .deps/tables.Tpo -c -o tables.o tables.c
+mv -f .deps/tables.Tpo .deps/tables.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT tables_shared.o -MD -MP -MF .deps/tables_shared.Tpo -c -o tables_shared.o tables_shared.c
+mv -f .deps/tables_shared.Tpo .deps/tables_shared.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT filter.o -MD -MP -MF .deps/filter.Tpo -c -o filter.o filter.c
+mv -f .deps/filter.Tpo .deps/filter.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/share/locale\" -I./intl -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -MT regex.o -MD -MP -MF .deps/regex.Tpo -c -o regex.o regex.c
+mv -f .deps/regex.Tpo .deps/regex.Po
+/bin/bash ./libtool --tag=CC   --mode=link gcc  -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib  -o flex ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o lib/libcompat.la -lm 
+libtool: link: gcc -O2 -I/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/include -o flex ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o  -L/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/lib lib/.libs/libcompat.a -lm
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+Making all in doc
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/doc'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/doc'
+Making all in examples
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples'
+Making all in manual
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples/manual'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples/manual'
+Making all in fastwc
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples/fastwc'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples/fastwc'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples'
+make[7]: Nothing to be done for `all-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/examples'
+Making all in po
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/po'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/po'
+Making all in tests
+make[6]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests'
+Making all in test-concatenated-options
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-concatenated-options'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-concatenated-options'
+Making all in test-c++-yywrap
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-yywrap'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-yywrap'
+Making all in test-extended
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-extended'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-extended'
+Making all in test-ccl
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-ccl'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-ccl'
+Making all in test-quotes
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-quotes'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-quotes'
+Making all in test-rescan-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-rescan-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-rescan-r'
+Making all in test-rescan-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-rescan-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-rescan-nr'
+Making all in test-basic-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-basic-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-basic-nr'
+Making all in test-basic-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-basic-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-basic-r'
+Making all in test-bison-yylloc
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-yylloc'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-yylloc'
+Making all in test-bison-yylval
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-yylval'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-yylval'
+Making all in test-bison-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-bison-nr'
+Making all in test-multiple-scanners-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-multiple-scanners-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-multiple-scanners-nr'
+Making all in test-multiple-scanners-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-multiple-scanners-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-multiple-scanners-r'
+Making all in test-header-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-header-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-header-nr'
+Making all in test-header-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-header-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-header-r'
+Making all in test-reject
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-reject'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-reject'
+Making all in test-c++-multiple-scanners
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-multiple-scanners'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-multiple-scanners'
+Making all in test-c++-basic
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-basic'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c++-basic'
+Making all in test-posixly-correct
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-posixly-correct'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-posixly-correct'
+Making all in test-posix
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-posix'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-posix'
+Making all in test-mem-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-mem-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-mem-r'
+Making all in test-mem-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-mem-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-mem-nr'
+Making all in test-debug-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-debug-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-debug-nr'
+Making all in test-debug-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-debug-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-debug-r'
+Making all in test-lineno-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-r'
+Making all in test-lineno-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-nr'
+Making all in test-lineno-trailing
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-trailing'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-lineno-trailing'
+Making all in test-linedir-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-linedir-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-linedir-r'
+Making all in test-array-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-array-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-array-nr'
+Making all in test-array-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-array-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-array-r'
+Making all in test-c-cpp-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c-cpp-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c-cpp-nr'
+Making all in test-c-cpp-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c-cpp-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-c-cpp-r'
+Making all in test-include-by-buffer
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-buffer'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-buffer'
+Making all in test-include-by-push
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-push'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-push'
+Making all in test-include-by-reentrant
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-reentrant'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-include-by-reentrant'
+Making all in test-prefix-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-prefix-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-prefix-nr'
+Making all in test-prefix-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-prefix-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-prefix-r'
+Making all in test-pthread
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-pthread'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-pthread'
+Making all in test-string-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-string-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-string-nr'
+Making all in test-string-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-string-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-string-r'
+Making all in test-yyextra
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-yyextra'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-yyextra'
+Making all in test-alloc-extra
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-alloc-extra'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-alloc-extra'
+Making all in test-noansi-nr
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-noansi-nr'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-noansi-nr'
+Making all in test-noansi-r
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-noansi-r'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-noansi-r'
+Making all in test-top
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-top'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-top'
+Making all in test-table-opts
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-table-opts'
+make[7]: Nothing to be done for `all'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests/test-table-opts'
+make[7]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests'
+make[7]: Nothing to be done for `all-am'.
+make[7]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests'
+make[6]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39/tests'
+make[5]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
+make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/host/flex-2.5.39'
