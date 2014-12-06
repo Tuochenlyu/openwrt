@@ -1,5 +1,12 @@
 #!/usr/bin/sh
 
+# 20141206
+compile_time=(`date +%Y%m%d_%H%M%S`)
+echo $compile_time
+mv ./bin ./dev/bin_$compile_time
+mv ./logs ./dev/log_$compile_time
+
+# old
 mkdir -p /media/$USER/ubuntu_ext/git/openwrt
 cd /media/$USER/ubuntu_ext/git/openwrt
 
@@ -36,6 +43,7 @@ echo $compile_time
 mv ./bin /mnt/hgfs/Shared/OpenWrt/compiled/bin_$compile_time
 mv ./logs /mnt/hgfs/Shared/OpenWrt/compiled/log_$compile_time
 rm dl
+
 
 
 #script ./bin/screen_$compile_time.log
