@@ -42,3 +42,6 @@ git fetch upstream master
   
 # untrack files to be submitted,edit the following
   .git/info/exclude
+
+# link current local branch to remote branch
+  git push --set-upstream <remote> <remote-branch>
