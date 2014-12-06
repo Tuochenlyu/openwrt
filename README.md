@@ -1,4 +1,5 @@
 openwrt
 =======
 
-Cloned from and updates with official release, with personal modifications.
+Git practise.
+Branches are for both development and repo.
