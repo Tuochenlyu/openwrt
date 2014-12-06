@@ -1,0 +1,66 @@
+#!/usr/bin/sh
+
+# 20141206
+compile_time=(`date +%Y%m%d_%H%M%S`)
+echo $compile_time
+mv ./bin ./dev/bin_$compile_time
+mv ./logs ./dev/log_$compile_time
+
+# old
+mkdir -p /media/$USER/ubuntu_ext/git/openwrt
+cd /media/$USER/ubuntu_ext/git/openwrt
+
+git clone git://git.openwrt.org/14.07/openwrt.git barrier_breaker
+git clone git://git.openwrt.org/openwrt.git trunk
+git clone git://git.openwrt.org/12.09/openwrt.git attitude_adjustment
+
+cd barrier_breaker
+./scripts/feeds update -a
+./scripts/feeds install packages luci routing
+
+
+make prereq
+make menuconfig
+
+if [ ! -d dl ]; then
+	ln -s /mnt/hgfs/Shared/OpenWrt/dl dl
+fi
+
+make -j 10 download
+unset SED
+make clean
+
+# make
+start=$(date +%s)
+make V=99
+end=$(date +%s)
+minutes=$(echo "scale=2; $((end - start))/60.0" | bc)
+hours=$(echo "scale=2; $((end - start))/3600.0" | bc)
+echo "Build time: $minutes minutes, $hours hours."
+
+compile_time=(`date +%Y%m%d_%H%M%S`)
+echo $compile_time
+mv ./bin /mnt/hgfs/Shared/OpenWrt/compiled/bin_$compile_time
+mv ./logs /mnt/hgfs/Shared/OpenWrt/compiled/log_$compile_time
+rm dl
+
+
+
+#script ./bin/screen_$compile_time.log
+	#libtool --finish /usr/lib
+	#make V=99 >>./bin/build_$compile_time.log
+#exit
+
+
+
+不能编译的组件debootstrap
+
+make -j8 download" and some not: ie. "make (-j1) target/linux compile
+
+A niceness value is an integer ranging from -20 to 19. -20 is the highest scheduling priority, while 0 is default and 19 is the lowest.
+Anyway split out the make in submake components, as some likes -j ie.: "make -j8 download" and some not: ie. "make (-j1) target/linux compile"
+
+
+select all packages
+1.  ./scripts/feeds uninstall -a
+2.  ./scripts/feeds install -a -d m
