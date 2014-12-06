@@ -30,3 +30,6 @@ git merge upstream/master
 
 #get changes from original
 git fetch upstream master
+
+#delete a remote branch
+  git push <remote> :<remote-branch>
