@@ -33,3 +33,12 @@ git fetch upstream master
 
 #delete a remote branch
   git push <remote> :<remote-branch>
+
+#creat global gitignore
+  git config --global core.excludesfile ~/.gitignore_global
+  
+# untrack files after updating gotignore
+  git rm --cached 
+  
+# untrack files to be submitted,edit the following
+  .git/info/exclude
