@@ -83,7 +83,7 @@
 	git push -f origin buildroot/master:buildroot-master
 	git push -f origin buildroot_12.09/master:buildroot_12.09-master
 	git push -f origin buildroot_14.07/master:buildroot_14.07-master
-	git push -f origin packages/master:packages-14.07
+	git push -f origin packages/for-14.07:packages-14.07
 	git push -f origin packages/master:packages-master
 	git push -f origin pkg_management/master:pkg_management-master
 	git push -f origin pkg_management/for-14.07:pkg_management-14.07
