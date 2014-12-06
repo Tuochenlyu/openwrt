@@ -7,8 +7,8 @@
 
 include $(TOPDIR)/rules.mk
 
-#PKG_NAME:=python-gevent
-PKG_NAME:=gevent
+PKG_NAME:=python-gevent
+#PKG_NAME:=gevent
 PKG_VERSION:=1.0.1
 PKG_RELEASE:=1
 
@@ -65,9 +65,10 @@ define Build/Compile
 						--without-libintl-prefix \
 						--disable-nls \
 	);
-	$(call Build/Compile/PyMod,,install --prefix="$(PKG_INSTALL_DIR)/usr", \
-		CYTHON="$(STAGING_DIR_HOST)/usr/bin/cython" \
-	)
+#	$(call Build/Compile/PyMod,,install --prefix="$(PKG_INSTALL_DIR)/usr", \
+#		CYTHON="$(STAGING_DIR_HOST)/usr/bin/cython" \
+#	)
+	$(call Build/Compile/PyMod,,install --prefix="$(PKG_INSTALL_DIR)/usr")	
 endef
 
 define Package/python-gevent/install
