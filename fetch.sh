@@ -21,6 +21,7 @@
 	git remote add pkg_routing git@github.com:openwrt-routing/packages.git
 	git remote add pkg_luci git@github.com:openwrt/luci.git
 	git remote add pkg_abandoned git@github.com:openwrt/packages-abandoned.git
+	git remote add pkg_telephony http://git.openwrt.org/feed/telephony.git
 
 # check remote repos
 	git remote -v
@@ -53,6 +54,9 @@
 	git branch pkg_luci-master
 	git branch pkg_luci-0.12
 	git branch pkg_abandoned-master
+	git branch pkg_telephony-master
+	git branch pkg_telephony-14.07
+	
 
 ## commit changes with a message
 #	git commit -a -m 'Initial branches'
@@ -71,7 +75,9 @@
   git push origin pkg_luci-master
   git push origin pkg_luci-0.12
   git push origin pkg_abandoned-master
-
+  git push origin pkg_telephony-master
+  git push origin pkg_telephony-14.07
+  
 # push remote repo to my own repo
 	git push -f origin buildroot/master:buildroot-master
 	git push -f origin buildroot_12.09/master:buildroot_12.09-master
@@ -86,4 +92,5 @@
 	git push -f origin pkg_luci/master:pkg_luci-master
 	git push -f origin pkg_luci/luci-0.12:pkg_luci-0.12
 	git push -f origin pkg_abandoned/master:pkg_abandoned-master
-	
+	git push -f origin pkg_telephony/master:pkg_telephony-master
+	git push -f origin pkg_telephony/for-14.07:pkg_telephony-14.07
