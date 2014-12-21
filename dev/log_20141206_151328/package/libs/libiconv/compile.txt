@@ -1,4 +1,0 @@
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/libiconv/ipkg-ar71xx/libiconv into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/libiconv_7_ar71xx.ipk
-make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libiconv'
-rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.libiconv_installed
-make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/libiconv'

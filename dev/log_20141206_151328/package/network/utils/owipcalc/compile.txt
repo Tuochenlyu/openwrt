@@ -1,2 +1,0 @@
-rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/owipcalc/ipkg-ar71xx/owipcalc/usr/bin/owipcalc:executable
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/owipcalc/ipkg-ar71xx/owipcalc into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/owipcalc_3_ar71xx.ipk

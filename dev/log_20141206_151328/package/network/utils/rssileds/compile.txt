@@ -1,2 +1,0 @@
-rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rssileds-0.2/ipkg-ar71xx/rssileds/usr/sbin/rssileds:executable
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/rssileds-0.2/ipkg-ar71xx/rssileds into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/rssileds_0.2-1_ar71xx.ipk

@@ -1,1 +1,0 @@
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/om-watchdog-1/ipkg-ar71xx/om-watchdog into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/om-watchdog_1-1_ar71xx.ipk

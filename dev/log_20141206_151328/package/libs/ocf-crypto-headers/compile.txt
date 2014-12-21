@@ -1,3 +1,0 @@
-make[4]: Entering directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/ocf-crypto-headers'
-rm -f /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/stamp/.ocf-crypto-headers_installed
-make[4]: Leaving directory `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/package/libs/ocf-crypto-headers'

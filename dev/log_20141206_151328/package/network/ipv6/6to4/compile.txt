@@ -1,1 +1,0 @@
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/6to4-12/ipkg-all/6to4 into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/6to4_12-1_all.ipk

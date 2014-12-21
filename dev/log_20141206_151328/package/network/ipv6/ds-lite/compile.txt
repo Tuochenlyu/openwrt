@@ -1,1 +1,0 @@
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/ds-lite-4/ipkg-all/ds-lite into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/ds-lite_4-1_all.ipk

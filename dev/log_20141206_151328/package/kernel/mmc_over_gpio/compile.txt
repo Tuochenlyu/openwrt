@@ -1,2 +1,0 @@
-rstrip.sh: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/mmc-over-gpio/ipkg-ar71xx/kmod-mmc-over-gpio/lib/modules/3.10.49/gpiommc.ko:relocatable
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/mmc-over-gpio/ipkg-ar71xx/kmod-mmc-over-gpio into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/kmod-mmc-over-gpio_3.10.49-4_ar71xx.ipk

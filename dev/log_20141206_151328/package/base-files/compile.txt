@@ -1,4 +1,0 @@
-grep: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/base-files/ipkg-ar71xx/base-files/CONTROL/conffiles: No such file or directory
-/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/host/bin/find: `/media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/base-files/ipkg-ar71xx/base-files/etc/dropbear/': No such file or directory
-Packaged contents of /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/build_dir/target-mips_34kc_uClibc-0.9.33.2/linux-ar71xx_nand/base-files/ipkg-ar71xx/base-files into /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/bin/ar71xx/packages/base/base-files_156-r43483_ar71xx.ipk
-grep: /media/tuochenvm/ubuntu_ext/git/tuochenlyu/openwrt/staging_dir/target-mips_34kc_uClibc-0.9.33.2/root-ar71xx/tmp-base-files/CONTROL/conffiles: No such file or directory
