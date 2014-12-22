@@ -21,7 +21,7 @@
 	git remote add pkg_routing git@github.com:openwrt-routing/packages.git
 	git remote add pkg_luci git@github.com:openwrt/luci.git
 	git remote add pkg_abandoned git@github.com:openwrt/packages-abandoned.git
-	git remote add pkg_telephony http://git.openwrt.org/feed/telephony.git
+	git remote add pkg_telephony git@github.com:openwrt/telephony.git
 	git remote add pkg_old_14.07 http://git.openwrt.org/14.07/packages.git
 
 # check remote repos
