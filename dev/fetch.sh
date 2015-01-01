@@ -43,8 +43,8 @@
 
 # creat branches
 	git branch buildroot-master
-	git branch buildroot-12.09-master
-	git branch buildroot-14.07-master
+	git branch buildroot-12.09
+	git branch buildroot-14.07
 	git branch packages-14.07
 	git branch packages-master
 	git branch pkg_management-master
@@ -64,8 +64,8 @@
 	
 # push branches
 	git push origin buildroot-master
-	git push origin buildroot-12.09-master
-	git push origin buildroot-14.07-master
+	git push origin buildroot-12.09
+	git push origin buildroot-14.07
 	git push origin packages-14.07
 	git push origin packages-master
 	git push origin pkg_management-master
@@ -82,8 +82,8 @@
 
 # push remote repo to my own repo
 	git push -f origin buildroot/master:buildroot-master
-	git push -f origin buildroot-12.09/master:buildroot-12.09-master
-	git push -f origin buildroot-14.07/master:buildroot-14.07-master
+	git push -f origin buildroot-12.09/master:buildroot-12.09
+	git push -f origin buildroot-14.07/master:buildroot-14.07
 	git push -f origin packages/for-14.07:packages-14.07
 	git push -f origin packages/master:packages-master
 	git push -f origin pkg_management/master:pkg_management-master
