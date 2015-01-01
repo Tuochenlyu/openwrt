@@ -14,15 +14,15 @@
 
 # add remote repos
 	git remote add buildroot git://git.openwrt.org/openwrt.git
-	git remote add buildroot_12.09 git://git.openwrt.org/12.09/openwrt.git
-	git remote add buildroot_14.07 git://git.openwrt.org/14.07/openwrt.git
+	git remote add buildroot-12.09 git://git.openwrt.org/12.09/openwrt.git
+	git remote add buildroot-14.07 git://git.openwrt.org/14.07/openwrt.git
 	git remote add packages git@github.com:openwrt/packages.git
 	git remote add pkg_management git@github.com:openwrt-management/packages.git
 	git remote add pkg_routing git@github.com:openwrt-routing/packages.git
 	git remote add pkg_luci git@github.com:openwrt/luci.git
 	git remote add pkg_abandoned git@github.com:openwrt/packages-abandoned.git
 	git remote add pkg_telephony git@github.com:openwrt/telephony.git
-	git remote add pkg_old_14.07 http://git.openwrt.org/14.07/packages.git
+	git remote add pkg_old-14.07 http://git.openwrt.org/14.07/packages.git
 
 # check remote repos
 	git remote -v
@@ -43,8 +43,8 @@
 
 # creat branches
 	git branch buildroot-master
-	git branch buildroot_12.09-master
-	git branch buildroot_14.07-master
+	git branch buildroot-12.09-master
+	git branch buildroot-14.07-master
 	git branch packages-14.07
 	git branch packages-master
 	git branch pkg_management-master
@@ -57,15 +57,15 @@
 	git branch pkg_abandoned-master
 	git branch pkg_telephony-master
 	git branch pkg_telephony-14.07
-	git branch pkg_old_14.07
+	git branch pkg_old-14.07
 
 ## commit changes with a message
 #	git commit -a -m 'Initial branches'
 	
 # push branches
 	git push origin buildroot-master
-	git push origin buildroot_12.09-master
-	git push origin buildroot_14.07-master
+	git push origin buildroot-12.09-master
+	git push origin buildroot-14.07-master
 	git push origin packages-14.07
 	git push origin packages-master
 	git push origin pkg_management-master
@@ -78,12 +78,12 @@
 	git push origin pkg_abandoned-master
 	git push origin pkg_telephony-master
 	git push origin pkg_telephony-14.07
-	git push origin pkg_old_14.07
+	git push origin pkg_old-14.07
 
 # push remote repo to my own repo
 	git push -f origin buildroot/master:buildroot-master
-	git push -f origin buildroot_12.09/master:buildroot_12.09-master
-	git push -f origin buildroot_14.07/master:buildroot_14.07-master
+	git push -f origin buildroot-12.09/master:buildroot-12.09-master
+	git push -f origin buildroot-14.07/master:buildroot-14.07-master
 	git push -f origin packages/for-14.07:packages-14.07
 	git push -f origin packages/master:packages-master
 	git push -f origin pkg_management/master:pkg_management-master
@@ -96,5 +96,5 @@
 	git push -f origin pkg_abandoned/master:pkg_abandoned-master
 	git push -f origin pkg_telephony/master:pkg_telephony-master
 	git push -f origin pkg_telephony/for-14.07:pkg_telephony-14.07
-	git push -f origin pkg_old_14.07/master:pkg_old_14.07
+	git push -f origin pkg_old-14.07/master:pkg_old-14.07
 
