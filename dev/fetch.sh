@@ -22,7 +22,7 @@
 	git remote add pkg_luci git@github.com:openwrt/luci.git
 	git remote add pkg_abandoned git@github.com:openwrt/packages-abandoned.git
 	git remote add pkg_telephony git@github.com:openwrt/telephony.git
-	git remote add pkg_old-14.07 http://git.openwrt.org/14.07/packages.git
+	git remote add pkg_old-14.07 git://git.openwrt.org/14.07/packages.git
 
 # check remote repos
 	git remote -v
